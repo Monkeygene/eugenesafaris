@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 1. Your homepage -->
+  <url>
+    <loc>https://www.eugenesafaris.com/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 2. Country landing -->
+  <url>
+    <loc>https://www.eugenesafaris.com/south-africa/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3. Park landing -->
+  <url>
+    <loc>https://www.eugenesafaris.com/south-africa/kruger/</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 4. Section landing -->
+  <url>
+    <loc>https://www.eugenesafaris.com/south-africa/kruger/rest-camps/</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <!-- 5. Detail page (Pretoriuskop) -->
+  <url>
+    <loc>https://www.eugenesafaris.com/south-africa/kruger/rest-camps/pretoriuskop/</loc>
+    <lastmod>2025-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <!-- …add more URLs here… -->
+
+</urlset>
