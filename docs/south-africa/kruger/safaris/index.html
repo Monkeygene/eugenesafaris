@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kruger Park Safaris, South Africa | Eugene's Safaris</title> 
+    <title>Safaris - Kruger National Park, South Africa | Eugene's Safaris</title> 
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://www.eugenesafaris.com/south-africa/kruger/"/>
+    <link rel="canonical" href="https://www.eugenesafaris.com/south-africa/kruger/safaris/"/>
 
     <!-- Stylesheet & Tailwindcss -->
     <link rel="stylesheet" href="/assets/css/build/tailwind.css">
@@ -34,11 +34,18 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Kruger National Park",
-            "item": "https://www.eugenesafaris.com/south-africa/kruger-national-park/"
+            "item": "https://www.eugenesafaris.com/kruger/"
           },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Safaris",
+            "item": "https://www.eugenesafaris.com/safaris/"
+          }
         ]
       }
       </script>
+      
 </head>
 <body class="bg-white">
   <nav class="bg-white w-full flex relative z-50">
@@ -104,32 +111,40 @@
       </nav>
       <!-- End of Nav -->
 
-        <!-- Breadcrumb – Kruger National Park Landing -->
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<nav
-class="w-full flex justify-start text-xs sm:text-sm md:text-sm text-gray-700 mb-2 lg:mb-8"
-aria-label="Breadcrumb"
->
-<ol class="inline-flex items-center space-x-1">
-  <!-- 1. Home (always visible) -->
-  <li class="inline-flex items-center">
-    <a href="/" class="hover:underline">Home</a>
-  </li>
-
-  <!-- 2. South Africa (hidden on xs, shown from sm) -->
-  <li class="inline-flex items-center">
-    <span class="mx-1 sm:mx-2">/</span>
-    <a href="/south-africa/" class="hover:underline">South Africa</a>
-  </li>
-
-  <!-- 3. Current page: Kruger National Park (always visible as last crumb) -->
-  <li class="inline-flex items-center">
-    <span class="mx-1 sm:mx-2">/</span>
-    <span class="font-medium text-gray-500">Kruger National Park</span>
-  </li>
-</ol>
-</nav>
-</div>
+       <!-- Breadcrumb – Safaris Landing -->
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav
+        class="w-full flex justify-start text-xs sm:text-sm md:text-sm text-gray-700 mb-2 lg:mb-8"
+        aria-label="Breadcrumb"
+        >
+        <ol class="inline-flex items-center space-x-1">
+          <!-- 1. Home -->
+          <li class="inline-flex items-center">
+            <a href="/" class="hover:underline">Home</a>
+          </li>
+        
+          <!-- 2. South Africa (hidden on xs, shown from sm) -->
+          <li class="inline-flex items-center hidden sm:inline-flex">
+            <span class="mx-1 sm:mx-2">/</span>
+            <a href="/south-africa/" class="hover:underline">South Africa</a>
+          </li>
+        
+          <!-- 3. Kruger NP (hidden on xs & sm, shown from md) -->
+          <li class="inline-flex items-center">
+            <span class="mx-1 md:mx-2">/</span>
+            <a href="/south-africa/kruger/" class="hover:underline">
+              Kruger National Park
+            </a>
+          </li>
+        
+          <!-- 4. Current page: Rest Camps -->
+          <li class="inline-flex items-center">
+            <span class="mx-1">/</span>
+            <span class="font-medium text-gray-500">Safaris</span>
+          </li>
+        </ol>
+        </nav>
+        </div>
 
 
          <!-- Hero Image Container -->
@@ -143,78 +158,6 @@ aria-label="Breadcrumb"
         >
       </div>
     </section>
-
-    <section class="bg-white">
-      <div class="max-w-4xl mx-auto px-4 py-8">
-        <h1 class="text-2xl sm:text-3xl lg:text-3xl font-bold text-gray-900 text-center">
-          Kruger National Park Guide
-        </h1>
-      </div>
-    </section>
-
-
-    <section id="kruger-guide" class="max-w-7xl mx-auto px-4 py-12">
-    <!-- Cards Grid -->
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-    <!-- Reusable Card Component -->
-<div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
-  <!-- Image slot -->
-  <div class="h-40 bg-gray-200 flex items-center justify-center text-gray-400">
-    <!-- Replace this with: <img src="..." alt="..."> -->
-    Image
-  </div>
-
-  <!-- Content -->
-  <div class="p-6 flex flex-col flex-1">
-    <h3 class="text-xl font-semibold mb-2">Safaris</h3>
-    <p class="text-gray-700 flex-1">
-      Card description goes here. This text will flex to fill available space, pushing any CTA or footer to the bottom if present.
-    </p>
-    <a href="/south-africa/kruger/safaris/" class="mt-auto mx-auto px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</a>
-  </div>
-</div>
-
-<!-- Rest Camps -->
-<div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
-  <!-- Image slot -->
-  <div class="h-40 bg-gray-200 flex items-center justify-center text-gray-400">
-    <!-- <img src="/images/safaris.jpg" alt="Game drive vehicle"> -->
-    Safaris Image
-  </div>
-
-  <!-- Content -->
-  <div class="p-6 flex flex-col flex-1">
-    <h3 class="text-xl font-semibold mb-2">Rest Camps</h3>
-    <p class="text-gray-700 flex-1">
-      Embark on guided game drives, walking safaris and evening excursions to witness lions, elephants, rhinos and more in their natural habitat.
-    </p>
-    <a href="/south-africa/kruger/rest-camps/" class="mt-auto mx-auto px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</a>
-  </div>
-</div>
-
-<!-- Bushveld Camps -->
-<div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
-  <!-- Image slot -->
-  <div class="h-40 bg-gray-200 flex items-center justify-center text-gray-400">
-    <!-- <img src="/images/safaris.jpg" alt="Game drive vehicle"> -->
-    Safaris Image
-  </div>
-
-  <!-- Content -->
-  <div class="p-6 flex flex-col flex-1">
-    <h3 class="text-xl font-semibold mb-2">Bushveld Camps</h3>
-    <p class="text-gray-700 flex-1">
-      Embark on guided game drives, walking safaris and evening excursions to witness lions, elephants, rhinos and more in their natural habitat.
-    </p>
-    <a href="/south-africa/kruger/bushveld-camps/" class="mt-auto mx-auto px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">Learn More</a>
-  </div>
-</div>
-
-     </div> 
-    </section>
-    
-
-    
         
 
          <!-- Footer -->
