@@ -1,34 +1,33 @@
-const toggleEl = (el, show) => {
-  el.classList.toggle('hidden', !show);
-  el.classList.toggle('translate-x-full', !show);
-  el.classList.toggle('translate-x-0', show);
-};
+// helper to show/hide an element
+const toggleHidden = el => el.classList.toggle('hidden');
 
-const mobileMenu = document.getElementById('mobile-menu');
-const btn = document.getElementById('nav-toggle');
-const iconOpen = document.getElementById('icon-open');
-const iconClose = document.getElementById('icon-close');
-const mobileClose = document.getElementById('mobile-close');
-const toursBtn = document.getElementById('mobile-tours-btn');
-const toursList = document.getElementById('mobile-tours');
+// mobile menu controls
+const mobileMenu       = document.getElementById('mobile-menu');
+const btn              = document.getElementById('nav-toggle');
+const iconOpen         = document.getElementById('icon-open');
+const iconClose        = document.getElementById('icon-close');
+const mobileClose      = document.getElementById('mobile-close');
 
-const openMenu = () => {
-  toggleEl(mobileMenu, true);
-  iconOpen.classList.add('hidden'); iconClose.classList.remove('hidden');
-  btn.setAttribute('aria-expanded', 'true');
-};
-const closeMenu = () => {
-  toggleEl(mobileMenu, false);
-  iconClose.classList.add('hidden'); iconOpen.classList.remove('hidden');
-  btn.setAttribute('aria-expanded', 'false');
-};
+// safari submenu controls
+const safariBtn        = document.getElementById('mobile-safaris-btn');
+const safariMenu       = document.getElementById('mobile-safaris-menu');
+const safariChevron     = safariBtn.querySelector('svg');
+
+// open/close main mobile menu
 btn.addEventListener('click', () => {
-  const isOpen = mobileMenu.classList.contains('translate-x-0');
-  isOpen ? closeMenu() : openMenu();
+  const isOpen = !mobileMenu.classList.contains('translate-x-full');
+  mobileMenu.classList.toggle('translate-x-full', isOpen);
+  mobileMenu.classList.toggle('translate-x-0', !isOpen);
+  iconOpen.classList.toggle('hidden', !isOpen);
+  iconClose.classList.toggle('hidden', isOpen);
+  btn.setAttribute('aria-expanded', String(!isOpen));
 });
-mobileClose.addEventListener('click', closeMenu);
-toursBtn.addEventListener('click', () => {
-  const visible = !toursList.classList.contains('hidden');
-  toursList.classList.toggle('hidden', visible);
-  toursBtn.setAttribute('aria-expanded', String(!visible));
+mobileClose.addEventListener('click', () => btn.click());
+
+// toggle the Safaris dropdown
+safariBtn.addEventListener('click', () => {
+  const open = safariMenu.classList.contains('hidden');
+  toggleHidden(safariMenu);
+  safariBtn.setAttribute('aria-expanded', String(open));
+  safariChevron.classList.toggle('rotate-180', open);
 });
