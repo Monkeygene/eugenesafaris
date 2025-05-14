@@ -14,37 +14,32 @@
     <link rel="stylesheet" href="/style.css">
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://www.eugenesafaris.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "South Africa",
-            "item": "https://www.eugenesafaris.com/south-africa/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Kruger National Park",
-            "item": "https://www.eugenesafaris.com/south-africa/kruger-national-park/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Rest Camps",
-            "item": "https://www.eugenesafaris.com/south-africa/kruger/rest-camps/"
-          },
-        ]
-      }
-      </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.eugenesafaris.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Kruger National Park",
+      "item": "https://www.eugenesafaris.com/kruger-national-park/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rest Camps",
+      "item": "https://www.eugenesafaris.com/kruger-national-park/rest-camps/"
+    }
+  ]
+}
+</script>
+
 </head>
 <body class="bg-white">
     <nav class="bg-white w-full flex relative z-50">
@@ -110,53 +105,74 @@
         </nav>
         <!-- End of Nav -->
 
-        <!-- Breadcrumb – Rest Camps Landing -->
-         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<nav
-class="w-full flex justify-start text-xs sm:text-sm md:text-sm text-gray-700 mb-2 lg:mb-8"
-aria-label="Breadcrumb"
->
-<ol class="inline-flex items-center space-x-1">
-  <!-- 1. Home -->
-  <li class="inline-flex items-center">
-    <a href="/" class="hover:underline">Home</a>
-  </li>
-
-  <!-- 2. South Africa (hidden on xs, shown from sm) -->
-  <li class="inline-flex items-center hidden sm:inline-flex">
-    <span class="mx-1 sm:mx-2">/</span>
-    <a href="/south-africa/" class="hover:underline">South Africa</a>
-  </li>
-
-  <!-- 3. Kruger NP (hidden on xs & sm, shown from md) -->
-  <li class="inline-flex items-center">
-    <span class="mx-1 md:mx-2">/</span>
-    <a href="/south-africa/kruger/" class="hover:underline">
-      Kruger National Park
-    </a>
-  </li>
-
-  <!-- 4. Current page: Rest Camps -->
-  <li class="inline-flex items-center">
-    <span class="mx-1">/</span>
-    <span class="font-medium text-gray-500">Rest Camps</span>
-  </li>
-</ol>
-</nav>
+        <div class="max-w-7xl mx-auto px-4">
+  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
+    <ol class="inline-flex items-center space-x-1">
+      <!-- 1. Home -->
+      <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Home</a>
+      </li>
+      <!-- 2. Kruger National Park -->
+      <li class="inline-flex items-center">
+        <span class="mx-2">/</span>
+        <a href="/kruger-national-park/" class="hover:underline">Kruger National Park</a>
+      </li>
+      <!-- 3. Rest Camps (current page) -->
+      <li class="inline-flex items-center">
+        <span class="mx-2">/</span>
+        <span class="font-medium text-gray-500">Rest Camps</span>
+      </li>
+    </ol>
+  </nav>
 </div>
-         <!-- Hero Image Container -->
-    <section class="max-w-7xl mx-auto px-4">
-      <div class="w-full overflow-hidden">
-        <img
-          id="headerImage"
-          src="/assets/images/kruger-national-park/little-lying-leopard.jpg"
-          alt="Birds on Africa Birding Tours posed in Header Photo for Index Page"
-          class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover"
-        >
-      </div>
-    </section>
 
-    <section class="bg-white">
+  
+<div class="max-w-7xl mx-auto px-4 md:px-6">
+  <!-- Mobile dropdown (only on small screens) -->
+  <div class="block md:hidden py-4">
+    <label for="mobile-menu" class="sr-only">Menu</label>
+    <select
+      id="mobile-menu"
+      onchange="if (this.value) window.location.href=this.value"
+      class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+    >
+      <option value="">Guide Sections…</option>
+      <option value="/kruger-national-park/rest-camps/">Rest Camps</option>
+      <option value="/kruger-national-park/bushveld-camps/">Bushveld Camps</option>
+      <option value="/kruger-national-park/picnic-sites/">Picnic Sites</option>
+      <option value="/kruger-national-park/mammals/">Mammals</option>
+      <option value="/kruger-national-park/birds/">Birds</option>
+      <option value="/kruger-national-park/reptiles/">Reptiles</option>
+      <option value="/kruger-national-park/trees/">Trees</option>
+      <option value="/kruger-national-park/flowers/">Flowers</option>
+      <option value="/kruger-national-park/grasses/">Grasses</option>
+    </select>
+  </div>
+
+  <!-- Layout Grid: sidebar + main -->
+  <div class="grid md:grid-cols-[200px,1fr] gap-8">
+    <!-- Sidebar (desktop only) -->
+    <aside class="hidden md:block bg-white text-black border rounded-lg p-6 overflow-y-auto">
+      <h2 class="text-2xl font-bold mb-6">Menu</h2>
+      <ul class="space-y-0">
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Berg-en-Dal</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Crocodile Bridge</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Letaba</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Lower Sabie</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Mopani</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Olifants</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Orpen</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Pretoriuskop</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Punda Maria</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Satara</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Shingwedzi</a></li>
+        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2">Skukuza</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="p-6 bg-white rounded-lg shadow">
+      <!-- Your top navbar goes here above/before this <main> if needed -->
       <div class="max-w-4xl mx-auto px-4 py-8">
         <h1 class="text-2xl sm:text-3xl lg:text-3xl font-bold text-gray-900 text-center">
           Kruger National Park Rest Camps
@@ -178,15 +194,15 @@ aria-label="Breadcrumb"
         <div class="p-6 flex flex-col flex-1">
           <!-- Heading & description -->
           <div>
-            <h3 class="text-xl font-semibold mb-2">Berg-en-Dal Rest Camp</h3>
+            <h3 class="text-xl font-semibold mb-2">Berg-en-Dal</h3>
             <p class="text-gray-700 mb-6">
-              Nestled in the southwestern corner of Kruger, Berg-en-Dal boasts a picturesque setting amidst rocky hills and dry riverbeds. Established in 1984, it's one of the park's newer camps and offers modern facilities, including a restaurant, shop, and swimming pool. The camp's location provides excellent opportunities to spot white rhinos, leopards, and a variety of bird species.
+              Nestled in the southwestern corner of Kruger.
             </p>
           </div>
       
           <!-- Button stuck to bottom -->
           <a
-            href="/south-africa/kruger/rest-camps/berg-en-dal/"
+            href="/kruger-national-park/rest-camps/berg-en-dal/"
             class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             View Rest Camp
@@ -205,15 +221,15 @@ aria-label="Breadcrumb"
         <div class="p-6 flex flex-col flex-1">
           <!-- Heading & description -->
           <div>
-            <h3 class="text-xl font-semibold mb-2">Crocodile Bridge Rest Camp</h3>
+            <h3 class="text-xl font-semibold mb-2">Crocodile Bridge</h3>
             <p class="text-gray-700  mb-6">
-              Situated near the southeastern border, Crocodile Bridge serves as both a rest camp and an entrance gate. Its proximity to the Crocodile River makes it a hotspot for birdwatching and game viewing. The camp offers basic amenities and is ideal for travelers seeking a quieter, more intimate experience.
+              Situated near the southeastern border
             </p>
           </div>
       
           <!-- Button stuck to bottom -->
           <a
-            href="/south-africa/kruger/rest-camps/crocodile-bridge/"
+            href="/kruger-national-park/rest-camps/crocodile-bridge/"
             class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             View Rest Camp
@@ -232,15 +248,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Letaba Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Letaba</h3>
               <p class="text-gray-700  mb-6">
-                Located on the banks of the Letaba River, this camp is renowned for its lush vegetation and abundant wildlife. Letaba is home to the Elephant Hall Museum, showcasing the park's elephant history. The camp offers a range of accommodations, from campsites to guest houses, and facilities like a restaurant, shop, and swimming pool.
+                Located on the banks of the Letaba River
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/letaba/"
+              href="/kruger-national-park/rest-camps/letaba/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -259,15 +275,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Lower Sabie Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Lower Sabie</h3>
               <p class="text-gray-700  mb-6">
-                Positioned along the Sabie River, Lower Sabie offers stunning river views and is known for its rich biodiversity. The camp provides various accommodations, including safari tents and bungalows, and amenities like a restaurant, shop, and swimming pool. It's a favorite among visitors for its excellent game viewing opportunities.
+                Positioned along the Sabie River
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/lower-sabie/"
+              href="/kruger-national-park/rest-camps/lower-sabie/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -286,15 +302,15 @@ aria-label="Breadcrumb"
         <div class="p-6 flex flex-col flex-1">
           <!-- Heading & description -->
           <div>
-            <h3 class="text-xl font-semibold mb-2">Mopani Rest Camp</h3>
+            <h3 class="text-xl font-semibold mb-2">Mopani Rest</h3>
             <p class="text-gray-700  mb-6">
-              Established in 1992, Mopani is one of the newer camps, situated near the Pioneer Dam in the northern region. The camp is characterized by its mopane tree surroundings and offers facilities such as a restaurant, shop, and swimming pool. It's an excellent base for exploring the northern parts of the park.
+              Established in 1992, Mopani is one of the newer camps
             </p>
           </div>
       
           <!-- Button stuck to bottom -->
           <a
-            href="/south-africa/kruger/rest-camps/mopani/"
+            href="/kruger-national-park/rest-camps/mopani/"
             class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             View Rest Camp
@@ -313,15 +329,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Olifants Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Olifants</h3>
               <p class="text-gray-700 mb-6">
-                Perched atop a hill, Olifants provides panoramic views of the Olifants River below. The camp's elevated position offers unique wildlife viewing opportunities, including sightings of elephants and hippos. Facilities include a restaurant, shop, and various accommodation options.
+                Perched atop a hill, Olifants provides panoramic views of the Olifants River below.
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/olifants/"
+              href="/kruger-national-park/rest-camps/olifants/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -340,15 +356,15 @@ aria-label="Breadcrumb"
         <div class="p-6 flex flex-col flex-1">
           <!-- Heading & description -->
           <div>
-            <h3 class="text-xl font-semibold mb-2">Orpen Rest Camp</h3>
+            <h3 class="text-xl font-semibold mb-2">Orpen</h3>
             <p class="text-gray-700  mb-6">
-              Located at the park's western entrance, Orpen is a smaller camp that offers a cozy atmosphere. It's known for its well-maintained gardens and frequent wildlife sightings right at the camp's perimeter. Amenities include a shop, fuel station, and swimming pool.
+              Located at the park's western entrance
             </p>
           </div>
       
           <!-- Button stuck to bottom -->
           <a
-            href="/south-africa/kruger/rest-camps/orpen/"
+            href="/kruger-national-park/rest-camps/orpen/"
             class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             View Rest Camp
@@ -367,15 +383,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Pretoriuskop Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Pretoriuskop</h3>
               <p class="text-gray-700  mb-6">
-                As the oldest rest camp in Kruger, Pretoriuskop is steeped in history and charm. Situated in the southwestern region, it's surrounded by granite outcrops and unique vegetation. The camp offers a range of accommodations, a restaurant, shop, and a natural rock swimming pool.
+                As the oldest rest camp in Kruger, Pretoriuskop is steeped in history and charm. 
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/pretoriuskop/"
+              href="/kruger-national-park/rest-camps/pretoriuskop/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -394,15 +410,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Punda Maria Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Punda Maria</h3>
               <p class="text-gray-700 mb-6">
-                Located in the far north, Punda Maria is known for its rich birdlife and proximity to the Pafuri region. The camp offers various accommodations, a shop, and a swimming pool. It's an excellent base for exploring the park's northernmost areas and experiencing its unique flora and fauna.
+                Located in the far north, Punda Maria is known for its rich birdlife and proximity to the Pafuri region.
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/punda-maria/"
+              href="/kruger-national-park/rest-camps/punda-maria/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -421,15 +437,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Satara Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Satara</h3>
               <p class="text-gray-700 mb-6">
-                Situated in the central region, Satara is renowned for its open plains and high concentrations of predators, especially lions. The camp offers a variety of accommodations, a restaurant, shop, and swimming pool. It's a favorite among wildlife enthusiasts seeking thrilling game viewing experiences.
+                Situated in the central region, Satara is renowned for its open plains and high concentrations of predators, especially lions.
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/satara/"
+              href="/kruger-national-park/rest-camps/satara/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -448,15 +464,15 @@ aria-label="Breadcrumb"
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Shingwedzi Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Shingwedzi</h3>
               <p class="text-gray-700 mb-6">
-                Located in the northern mopane woodlands, Shingwedzi offers a tranquil setting along the Shingwedzi River. The camp provides various accommodations, a restaurant, shop, and swimming pool. It's known for its elephant sightings and serene atmosphere.
+                Located in the northern mopane woodlands, Shingwedzi offers a tranquil setting along the Shingwedzi River.
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/shingwedzi/"
+              href="/kruger-national-park/rest-camps/shingwedzi/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -467,24 +483,21 @@ aria-label="Breadcrumb"
         <!-- Skukuza Rest Camp -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
           <!-- Image -->
-          <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400">
-            Image
-          </div>
+          <img class="h-48" src="/assets/images/kruger-national-park/rest-camps/skukuza/skukuza-rest-camp-deck-sketch.png" alt="">
         
           <!-- Content + button container -->
           <div class="p-6 flex flex-col flex-1">
             <!-- Heading & description -->
             <div>
-              <h3 class="text-xl font-semibold mb-2">Skukuza Rest Camp</h3>
+              <h3 class="text-xl font-semibold mb-2">Skukuza</h3>
               <p class="text-gray-700 mb-6">
-                As the largest and most developed camp, Skukuza serves as the administrative headquarters of Kruger National Park. Situated on the banks of the Sabie River, it offers a wide range of accommodations, multiple restaurants, shops, a golf course, and even a conference center. Skukuza is a bustling hub and a great starting point for exploring the park.
-
+                As the largest and most developed camp, Skukuza serves as the administrative headquarters of Kruger National Park. 
               </p>
             </div>
         
             <!-- Button stuck to bottom -->
             <a
-              href="/south-africa/kruger/rest-camps/skukuza/"
+              href="/kruger-national-park/rest-camps/skukuza/"
               class="mt-auto text-center inline-block px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               View Rest Camp
@@ -492,7 +505,9 @@ aria-label="Breadcrumb"
           </div>
         </div>
       </div>
-    </section>
+    </main>
+  </div>
+</div>
 
          <!-- Footer -->
 <footer class="bg-white text-gray-700">
