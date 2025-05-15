@@ -120,57 +120,6 @@
   </nav>
 </div>
 
-
-<div class="max-w-7xl mx-auto px-4 md:px-6">
-  <!-- Mobile dropdown (only on small screens) -->
-  <div class="block md:hidden py-4">
-    <label for="mobile-menu" class="sr-only">Menu</label>
-    <select
-      id="mobile-menu"
-      onchange="if (this.value) window.location.href=this.value"
-      class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-    >
-      <option value="">Guide Sections…</option>
-      <option value="/kruger-national-park/rest-camps/">Rest Camps</option>
-      <option value="/kruger-national-park/bushveld-camps/">Bushveld Camps</option>
-      <option value="/kruger-national-park/picnic-sites/">Picnic Sites</option>
-      <option value="/kruger-national-park/mammals/">Mammals</option>
-      <option value="/kruger-national-park/birds/">Birds</option>
-      <option value="/kruger-national-park/reptiles/">Reptiles</option>
-      <option value="/kruger-national-park/trees/">Trees</option>
-      <option value="/kruger-national-park/flowers/">Flowers</option>
-      <option value="/kruger-national-park/grasses/">Grasses</option>
-    </select>
-  </div>
-
-  <!-- Layout Grid: sidebar + main -->
-  <div class="grid md:grid-cols-[200px,1fr] gap-8">
-    <!-- Sidebar (desktop only) -->
-    <aside class="hidden md:block bg-white text-black border rounded-lg p-6 overflow-y-auto">
-      <h2 class="text-2xl font-bold mb-6">Guide</h2>
-      <ul class="space-y-3">
-        <li><a href="/kruger-national-park/rest-camps/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Rest Camps</a></li>
-        <li><a href="/kruger-national-park/bushveld-camps/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Bushveld Camps</a></li>
-        <li><a href="/kruger-national-park/picnic-sites/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Picnic Sites</a></li>
-        <li><a href="/kruger-national-park/mammals/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Mammals</a></li>
-        <li><a href="/kruger-national-park/birds/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Birds</a></li>
-        <li><a href="/kruger-national-park/reptiles/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Reptiles</a></li>
-        <li><a href="/kruger-national-park/trees/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Trees</a></li>
-        <li><a href="/kruger-national-park/flowers/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Flowers</a></li>
-        <li><a href="/kruger-national-park/grasses/" class="block px-3 py-2 rounded-lg hover:bg-gray-100 transition">Grasses</a></li>
-      </ul>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="p-6 bg-white rounded-lg shadow">
-      <!-- Your top navbar goes here above/before this <main> if needed -->
-      <!-- Then page-specific content: -->
-      <h1 class="text-3xl font-semibold mb-4">Kruger National Park Guide</h1>
-      <p class="text-gray-700">…your guide content…</p>
-    </main>
-  </div>
-</div>
-
   <scripts href="/assets/js/scripts.js"></scripts>
 </body>
 </html>
