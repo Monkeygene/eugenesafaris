@@ -10,7 +10,7 @@
     <priority>1.00</priority>
   </url>
 
-  <!-- 2.  -->
+  <!-- 2. Safaris en Tours  -->
   <url>
     <loc>https://www.eugenesafaris.com/kruger-national-park/</loc>
     <lastmod>2025-05-02</lastmod>
@@ -18,28 +18,28 @@
     <priority>0.80</priority>
   </url>
 
-  <!-- 3. Park landing -->
+  <!-- 3. About -->
   <url>
     <loc>https://www.eugenesafaris.com/about/</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.50</priority>
   </url>
 
-  <!-- 4. Section landing -->
+  <!-- 4. Contact -->
   <url>
     <loc>https://www.eugenesafaris.com/contact/</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.50</priority>
   </url>
 
-  <!-- 5. Detail page (Pretoriuskop) -->
+  <!-- 5. Guide -->
   <url>
     <loc>https://www.eugenesafaris.com/guide/</loc>
     <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.64</priority>
+    <priority>0.70</priority>
   </url>
 
   <!-- …add more URLs here… -->
