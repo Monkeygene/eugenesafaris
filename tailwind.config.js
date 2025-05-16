@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        avenir: ['AvenirLight', 'sans-serif'],
+        avenir: ['Avenir', 'sans-serif'],
       },
     },
   },
-  plugins: [], 
+  plugins: [],
 };
