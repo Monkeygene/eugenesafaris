@@ -5,14 +5,14 @@
   <!-- 1. Your homepage -->
   <url>
     <loc>https://www.eugenesafaris.com/</loc>
-    <lastmod>2025-05-04</lastmod>
+    <lastmod>2025-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
 
-  <!-- 2. Country landing -->
+  <!-- 2.  -->
   <url>
-    <loc>https://www.eugenesafaris.com/south-africa/</loc>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -20,7 +20,7 @@
 
   <!-- 3. Park landing -->
   <url>
-    <loc>https://www.eugenesafaris.com/south-africa/kruger/</loc>
+    <loc>https://www.eugenesafaris.com/about/</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -28,7 +28,7 @@
 
   <!-- 4. Section landing -->
   <url>
-    <loc>https://www.eugenesafaris.com/south-africa/kruger/rest-camps/</loc>
+    <loc>https://www.eugenesafaris.com/contact/</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
@@ -36,7 +36,7 @@
 
   <!-- 5. Detail page (Pretoriuskop) -->
   <url>
-    <loc>https://www.eugenesafaris.com/south-africa/kruger/rest-camps/pretoriuskop/</loc>
+    <loc>https://www.eugenesafaris.com/guide/</loc>
     <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
