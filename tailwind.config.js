@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.css",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        avenir: ['AvenirLight', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [], 
+};

@@ -39,7 +39,7 @@
 </script>
 
 </head>
-<body class="bg-white">
+<body class="font-avenir bg-white">
   <nav class="bg-white w-full flex relative z-50">
     <div class="max-w-7xl container mx-auto px-6 lg:px-0 flex items-center justify-between h-16 lg:h-20">
       <!-- Brand -->
@@ -120,30 +120,24 @@
     </ol>
   </nav>
 </div>
+  <!-- End of Breadcrumb -->
 
-        <!-- Hero Image Container -->
-    <section class="max-w-7xl mx-auto">
-        <div class="w-full overflow-hidden">
-          <img
-            id="headerImage"
-            src="assets/images/kruger-national-park/little-lying-leopard.jpg"
-            alt="Birds on Africa Birding Tours posed in Header Photo for Index Page"
-            class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover"
-          >
-        </div>
-      </section>
+  <main class="">
+  <!-- 1) Hero section with background + overlay -->
+  <section class="relative">
+    <!-- Background image -->
+    <div class="absolute inset-0 bg-[url('assets/images/kruger-national-park/little-lying-leopard.jpg')] bg-cover bg-center"></div>
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black/30"></div>
 
-<!-- Responsive Hero Text Section -->
-<section class="py-4 lg:py-24">
-    <div class="container mx-auto px-4 flex flex-col items-center justify-center py-8">
-      <div class="max-w-4xl text-center">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-          African Wildlife Safaris
-        </h1>
-        <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700">
-          Thinking of going on an African Safari
-        </p>
-      </div>
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-0 py-44 text-center">
+      <h1 class="font-avenir text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">
+        Kruger Wildlife Safaris
+      </h1>
+      <p class="mt-4 text-lg sm:text-xl text-gray-200">
+        Discover the ultimate safari experiences in Kruger National Park…
+      </p>
     </div>
   </section>
 
