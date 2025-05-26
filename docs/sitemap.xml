@@ -18,6 +18,78 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/five-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/six-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/seven-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/five-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/six-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/seven-day/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 2.1 All-Inclusive Packages  -->
+ <url>
+    <loc>https://www.eugenesafaris.com/kruger-national-park/photographic-safari</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
   <!-- 3. About -->
   <url>
     <loc>https://www.eugenesafaris.com/about/</loc>
