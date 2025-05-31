@@ -4,7 +4,7 @@
 
   <!-- 1. Your homepage -->
   <url>
-    <loc>https://www.eugenesafaris.com/</loc>
+    <loc>https://eugenesafaris.com/</loc>
     <lastmod>2025-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
@@ -12,7 +12,7 @@
 
   <!-- 2. Safaris en Tours  -->
   <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -20,7 +20,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -28,7 +28,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/five-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -36,7 +36,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/six-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -44,7 +44,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/all-inclusive-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/seven-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -52,7 +52,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -60,7 +60,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/five-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -68,7 +68,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/six-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -76,7 +76,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/standard-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/seven-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -84,7 +84,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://www.eugenesafaris.com/kruger-national-park/photographic-safari</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/photographic-safari</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -100,7 +100,7 @@
 
   <!-- 4. Contact -->
   <url>
-    <loc>https://www.eugenesafaris.com/contact/</loc>
+    <loc>https://eugenesafaris.com/contact/</loc>
     <lastmod>2025-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
@@ -108,7 +108,7 @@
 
   <!-- 5. Guide -->
   <url>
-    <loc>https://www.eugenesafaris.com/guide/</loc>
+    <loc>https://eugenesafaris.com/guide/</loc>
     <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
