@@ -109,9 +109,17 @@
   <!-- 5. Guide -->
   <url>
     <loc>https://eugenesafaris.com/guide/</loc>
-    <lastmod>2025-05-01</lastmod>
+    <lastmod>2025-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
+  </url>
+
+   <!-- 5.4 Malaria Guide -->
+  <url>
+    <loc>https://eugenesafaris.com/guide/kruger-national-park/malaria/</loc>
+    <lastmod>2025-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
   </url>
 
   <!-- …add more URLs here… -->
