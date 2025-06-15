@@ -33,3 +33,26 @@
         safariChevron.classList.toggle('rotate-180', open);
       });
     });
+
+    // Tabs
+     function showItinerary(id, event) {
+    const itineraries = document.querySelectorAll('.itinerary');
+    itineraries.forEach(section => {
+      section.style.display = 'none';
+    });
+
+    const buttons = document.querySelectorAll('.tab-button');
+    buttons.forEach(btn => {
+      btn.classList.remove('bg-lime-600', 'text-white');
+      btn.classList.add('bg-stone-300', 'text-black');
+    });
+
+    document.querySelector(`#${id}`).style.display = 'block';
+    event.target.classList.add('bg-lime-600', 'text-white');
+    event.target.classList.remove('bg-stone-300', 'text-black');
+  }
+
+  // Show default tab on load
+  document.addEventListener('DOMContentLoaded', () => {
+    showItinerary('eastgate', document.querySelector('[onclick*="eastgate"]'));
+  });
