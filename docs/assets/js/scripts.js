@@ -34,25 +34,34 @@
       });
     });
 
-    // Tabs
-     function showItinerary(id, event) {
-    const itineraries = document.querySelectorAll('.itinerary');
-    itineraries.forEach(section => {
-      section.style.display = 'none';
+    //tabs
+  function showItinerary(airport, event) {
+    // Hide all itinerary sections
+    document.querySelectorAll('.itinerary-section').forEach(section => {
+      section.classList.add('hidden');
     });
 
-    const buttons = document.querySelectorAll('.tab-button');
-    buttons.forEach(btn => {
-      btn.classList.remove('bg-lime-600', 'text-white');
-      btn.classList.add('bg-stone-300', 'text-black');
+    // Reset all buttons to default style
+    document.querySelectorAll('.tab-button').forEach(button => {
+      button.classList.remove('bg-lime-600', 'text-white');
+      button.classList.add('bg-stone-300', 'text-black');
     });
 
-    document.querySelector(`#${id}`).style.display = 'block';
-    event.target.classList.add('bg-lime-600', 'text-white');
-    event.target.classList.remove('bg-stone-300', 'text-black');
+    // Apply active style to the clicked button
+    event.currentTarget.classList.remove('bg-stone-300', 'text-black');
+    event.currentTarget.classList.add('bg-lime-600', 'text-white');
+
+    // Show the selected itinerary section
+    const selectedSection = document.querySelector(`#itinerary-${airport}`);
+    if (selectedSection) {
+      selectedSection.classList.remove('hidden');
+    }
   }
 
-  // Show default tab on load
+  // Set default tab on page load
   document.addEventListener('DOMContentLoaded', () => {
-    showItinerary('eastgate', document.querySelector('[onclick*="eastgate"]'));
+    const defaultButton = document.querySelector('[onclick*="eastgate"]');
+    if (defaultButton) {
+      defaultButton.click(); // Triggers the showItinerary function as if clicked
+    }
   });
