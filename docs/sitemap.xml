@@ -10,9 +10,17 @@
     <priority>1.00</priority>
   </url>
 
-  <!-- 2. Safaris en Tours  -->
+    <!-- 5. Kruger National Park -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 2. Safaris en Tours  -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/</loc>
     <lastmod>2025-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -20,7 +28,7 @@
 
   <!-- 2.1 All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -28,7 +36,7 @@
 
   <!-- 2.1.1 Five Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/five-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -36,7 +44,7 @@
 
   <!-- 2.1.2 Six Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/six-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -44,7 +52,7 @@
 
   <!-- 2.1.3 Seven Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/seven-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -52,7 +60,7 @@
 
   <!-- 2.2 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -60,7 +68,7 @@
 
   <!-- 2.2.1 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/five-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -68,7 +76,7 @@
 
   <!-- 2.2.2 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/six-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -76,7 +84,7 @@
 
   <!-- 2.2.3 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/standard-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/seven-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -84,7 +92,7 @@
 
   <!-- 2.3 Photographic Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/photographic/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -92,7 +100,7 @@
 
   <!-- 2.4 Safari on Film -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safari-on-film/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/on-film/</loc>
     <lastmod>2025-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -114,18 +122,18 @@
     <priority>0.50</priority>
   </url>
 
-  <!-- 5. Guide -->
+  <!-- 5. Kruger National Park Guide -->
   <url>
-    <loc>https://eugenesafaris.com/guide/</loc>
-    <lastmod>2025-06-21</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/</loc>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
    <!-- 5.4 Malaria Guide -->
   <url>
-    <loc>https://eugenesafaris.com/guide/kruger-national-park/malaria/</loc>
-    <lastmod>2025-06-03</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/malaria/</loc>
+    <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
