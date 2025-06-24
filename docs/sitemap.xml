@@ -5,7 +5,7 @@
   <!-- 1. Your homepage -->
   <url>
     <loc>https://eugenesafaris.com/</loc>
-    <lastmod>2025-06-21</lastmod>
+    <lastmod>2025-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -18,7 +18,7 @@
     <priority>0.70</priority>
   </url>
 
-  <!-- 2. Safaris en Tours  -->
+  <!-- 2. Safaris  -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safaris/</loc>
     <lastmod>2025-05-21</lastmod>
@@ -36,7 +36,7 @@
 
   <!-- 2.1.1 Five Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/5-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -44,7 +44,7 @@
 
   <!-- 2.1.2 Six Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/6-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -52,7 +52,7 @@
 
   <!-- 2.1.3 Seven Day All-Inclusive Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/all-inclusive-packages/7-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -68,7 +68,7 @@
 
   <!-- 2.2.1 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/five-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/5-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -76,7 +76,7 @@
 
   <!-- 2.2.2 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/six-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/6-day/</loc>
     <lastmod>2025-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -84,7 +84,7 @@
 
   <!-- 2.2.3 Standard Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/seven-day/</loc>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/classic-packages/7-day/</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
