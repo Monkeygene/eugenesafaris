@@ -20,6 +20,7 @@ Disallow: /kruger-national-park/standard-packages/
 Disallow: /kruger-national-park/standard-packages/five-day/
 Disallow: /kruger-national-park/standard-packages/six-day/
 Disallow: /kruger-national-park/standard-packages/seven-day/
+Disallow: /kruger-national-park/photographic-safari
 Disallow: /guide/
 Disallow: /guide/kruger-national-park/
 Disallow: /guide/kruger-national-park/malaria
