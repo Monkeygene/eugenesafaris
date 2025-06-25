@@ -12,6 +12,17 @@ Disallow: /birding/malawi/
 Disallow: /birding/malawi/liwonde/
 Disallow: /birding/malawi/nyika-plateau/
 Disallow: /birding/tips/
+Disallow: /kruger-national-park/all-inclusive-packages/
+Disallow: /kruger-national-park/all-inclusive-packages/five-day/
+Disallow: /kruger-national-park/all-inclusive-packages/six-day/
+Disallow: /kruger-national-park/all-inclusive-packages/seven-day/
+Disallow: /kruger-national-park/standard-packages/
+Disallow: /kruger-national-park/standard-packages/five-day/
+Disallow: /kruger-national-park/standard-packages/six-day/
+Disallow: /kruger-national-park/standard-packages/seven-day/
+Disallow: /guide/
+Disallow: /guide/kruger-national-park/
+Disallow: /guide/kruger-national-park/malaria
 Allow: /
 
 Sitemap: https://eugenesafaris.com/sitemap.xml
