@@ -1,6 +1,4 @@
-User-agent: *
-Disallow: /404.html
-Disallow: /offline.html
+# Legacy or outdated paths
 Disallow: /tours/
 Disallow: /tours/south-africa/
 Disallow: /birding/
@@ -12,6 +10,8 @@ Disallow: /birding/malawi/
 Disallow: /birding/malawi/liwonde/
 Disallow: /birding/malawi/nyika-plateau/
 Disallow: /birding/tips/
+
+# Old package paths (noindex equivalents)
 Disallow: /kruger-national-park/all-inclusive-packages/
 Disallow: /kruger-national-park/all-inclusive-packages/five-day/
 Disallow: /kruger-national-park/all-inclusive-packages/six-day/
@@ -20,10 +20,15 @@ Disallow: /kruger-national-park/standard-packages/
 Disallow: /kruger-national-park/standard-packages/five-day/
 Disallow: /kruger-national-park/standard-packages/six-day/
 Disallow: /kruger-national-park/standard-packages/seven-day/
+
+# Canonical path used instead, so disallow old
 Disallow: /kruger-national-park/photographic-safari
+
+# Duplicate or incorrect structure
 Disallow: /guide/
 Disallow: /guide/kruger-national-park/
 Disallow: /guide/kruger-national-park/malaria
+
 Allow: /
 
 Sitemap: https://eugenesafaris.com/sitemap.xml
