@@ -1,6 +1,17 @@
 User-agent: *
 Disallow: /404.html
 Disallow: /offline.html
+Disallow: /tours/
+Disallow: /tours/south-africa/
+Disallow: /birding/
+Disallow: /birding/zambia/
+Disallow: /birding/zambia/kafue/
+Disallow: /birding/zambia/south-luangwa/
+Disallow: /birding/south-africa/
+Disallow: /birding/malawi/
+Disallow: /birding/malawi/liwonde/
+Disallow: /birding/malawi/nyika-plateau/
+Disallow: /birding/tips/
 Allow: /
 
 Sitemap: https://eugenesafaris.com/sitemap.xml
