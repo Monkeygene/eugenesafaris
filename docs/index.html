@@ -114,11 +114,18 @@
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
   <main class="">
- <section class="max-w-7xl mx-auto">
-<div class="w-full overflow-hidden">
-  <img src="assets/images/kruger-national-park/southern-kruger-sunset.jpg" alt="Kruger National Park All Inclusive Packages" class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover">
-</div>
+<!-- Header Image -->
+<section class="max-w-7xl mx-auto">
+  <div class="w-full overflow-hidden">
+    <img 
+      src="/assets/images/kruger-national-park/southern-kruger-sunset.jpg" 
+      alt="Kruger National Park All Inclusive Packages" 
+      class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover"
+      loading="eager"
+      decoding="async">
+  </div>
 </section>
+
    <!-- Responsive Hero Text Section -->
   <section class="py-2 lg:py-6">
     <div class="container mx-auto px-6 flex flex-col items-center justify-center py-4">
@@ -138,14 +145,26 @@
   </section>
   
   <!-- Image box -->
-  <section class="max-w-5xl mx-auto py-4 lg:py-12">
-    <div class="flex justify-center items-center w-full px-4 py-4">
-      <div class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover">
-        <img src="assets/images/kruger-national-park/african-lion-close-to-satara-rest-camp.webp" alt="African Lion close to Satara Rest Camp, viewed from Private Kruger Safari with Eugene" class="w-full h-auto lg:h-[500px] mx-auto object-cover" loading="lazy">
-        <p class="mt-1 text-xs text-center lg:text-left">Male Lion close to Satara Camp, Kruger National Park</p>
+<section class="max-w-4xl mx-auto py-4 lg:py-12">
+  <div class="flex justify-center items-center w-full px-4 py-4">
+    <div class="w-full">
+      <!-- Image with aspect ratio -->
+      <div class="aspect-[16/9] w-full overflow-hidden">
+        <img 
+          src="/assets/images/kruger-national-park/african-lion-close-to-satara-rest-camp.webp" 
+          alt="African Lion close to Satara Rest Camp, viewed from Private Kruger Safari with Eugene" 
+          loading="lazy" 
+          class="w-full h-full object-cover">
       </div>
+      <!-- Caption -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+        Male Lion close to Satara Camp, Kruger National Park
+      </p>
     </div>
-  </section>
+  </div>
+</section>
+
+  
   
   <!-- Short Introduction -->
   <section class="py-4 lg:py-24 mt-6">
