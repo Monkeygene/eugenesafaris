@@ -145,7 +145,7 @@
       </li>
 
       <!-- 3. Kruger National Park Guide (hidden on mobile, visible ≥sm) -->
-      <li class="hidden inline-flex items-center">
+      <li class="hidden items-center">
         <span class="mx-2">/</span>
         <a href="/kruger-national-park/guide/" class="hover:underline">Kruger National Park</a>
       </li>
@@ -178,7 +178,7 @@
 </section>
 
 <!-- Image box -->
-  <section class="max-w-5xl mx-auto py-4 py-16 lg:py-12">
+  <section class="max-w-5xl mx-auto py-4 lg:py-12">
     <div class="flex justify-center items-center w-full px-4 py-4">
       <div class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover">
         <img src="/assets/images/kruger-national-park/mosquito-kruger-national-park-malaria.webp" alt="Sketch of Anopheles Mosquito, Malaria in Kruger National Park" class="w-full h-auto lg:h-[500px] mx-auto object-cover">
@@ -347,27 +347,6 @@
       </div>
     </div>
   </footer>
-
-<script>
-  const originalTitle = document.title;
-
-  const awayMessages = [
-    "Come Back!",
-    "Best Safaris in Africa!",
-    "Still Planning Your Safari?",
-    "Insect Repellent is Key!",
-    "The Chances of Malaria are Low!",
-  ];
-
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) {
-      const randomMessage = awayMessages[Math.floor(Math.random() * awayMessages.length)];
-      document.title = randomMessage;
-    } else {
-      document.title = originalTitle;
-    }
-  });
-</script>
 
   <scripts src="/assets/js/scripts.js"></scripts>
 </body>

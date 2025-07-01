@@ -485,28 +485,6 @@
     </div>
   </footer>
 
-<script>
-  const originalTitle = document.title;
-
-  const awayMessages = [
-    "Come Back!",
-    "Best Safaris in Africa!",
-    "Eugene is King!",
-    "Still Planning Your Safari?",
-    "The Lions Are Waiting!",
-    "Let's go and Explore Kruger!"
-  ];
-
-  document.addEventListener("visibilitychange", function () {
-    if (document.hidden) {
-      const randomMessage = awayMessages[Math.floor(Math.random() * awayMessages.length)];
-      document.title = randomMessage;
-    } else {
-      document.title = originalTitle;
-    }
-  });
-</script>
-
   <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
