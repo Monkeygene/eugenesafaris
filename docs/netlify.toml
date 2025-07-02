@@ -1,0 +1,162 @@
+[build]
+  base = "docs"
+  publish = "."
+  command = ""  # No build step needed for your static HTML/Tailwind site
+
+######################
+# Redirect Rules
+######################
+
+[[redirects]]
+  from = "/tours/*"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/tours/south-africa/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/zambia/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/zambia/kafue/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/zambia/south-luangwa/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/south-africa/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/malawi/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/malawi/liwonde/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/malawi/nyika-plateau/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/birding/tips/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/five-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/six-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/seven-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/five-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/six-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/seven-day/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/kruger-national-park/photographic-safari"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/guide/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/guide/kruger-national-park/"
+  to = "/410.html"
+  status = 410
+
+[[redirects]]
+  from = "/guide/kruger-national-park/malaria"
+  to = "/410.html"
+  status = 410
+
+######################
+# Header Rules
+######################
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/410.html"
+  [headers.values]
+    Cache-Control = "no-cache"
