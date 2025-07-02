@@ -160,3 +160,9 @@
   for = "/410.html"
   [headers.values]
     Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/404.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
