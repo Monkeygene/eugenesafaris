@@ -1,11 +1,10 @@
 module.exports = {
   content: [
-    "./docs/**/*.html",
-    "./docs/**/*.js",
-    "./src/**/*.css",
-    "./*.html",        
-    "./pages/**/*.html", 
-    "./src/**/*.js",   
+    "./docs/**/*.{html,js,md}",
+    "./src/**/*.{html,js,css}",
+    "./*.html",
+    "./*.js",
+    "./*.md",
   ],
   theme: {
     extend: {
