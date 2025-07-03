@@ -368,7 +368,7 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
 <section class="max-w-7xl mx-auto py-8 lg:py-16 px-4">
   <div class="flex flex-col lg:flex-row gap-6 items-start justify-center">
 
-    <!-- Primary image (always visible) -->
+    <!-- Primary image container -->
     <div class="w-full lg:w-2/3">
       <img
         src="/assets/images/kruger-national-park/african-lioness-in-tall-grass-side-view.webp"
@@ -376,11 +376,14 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
         class="w-full h-auto aspect-video object-cover"
         loading="lazy"
       />
+      <!-- Move caption inside this div so it stays with primary image -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+        African Lion resting close to female in tall grass.
+      </p>
     </div>
 
-    <!-- Secondary + Tertiary images stacked (visible only on lg and up) -->
+    <!-- Secondary + Tertiary images stacked on lg+, hidden otherwise -->
     <div class="hidden lg:flex lg:flex-col lg:w-1/3 gap-6">
-      <!-- Secondary image -->
       <div>
         <img
           src="/assets/images/kruger-national-park/african-lion-looking-at-safari-vehicle.webp"
@@ -389,8 +392,6 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
           loading="lazy"
         />
       </div>
-
-      <!-- Tertiary image -->
       <div>
         <img
           src="/assets/images/kruger-national-park/klipspringer-on-boulder-kruger.webp"
@@ -402,11 +403,8 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
     </div>
 
   </div>
-
-  <p class="mt-1 text-xs text-left lg:text-left">
-    African Lion resting close to female in tall grass.
-  </p>
 </section>
+
 
 
 <section class="py-4 lg:py-12 mt-6">
