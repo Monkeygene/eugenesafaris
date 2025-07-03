@@ -1,11 +1,10 @@
 module.exports = {
   content: [
-    "./docs/**/*.{html,js,md}",
-    "./src/**/*.{html,js,css}",
-    "./*.html",
-    "./*.js",
-    "./*.md",
-  ],
+    "./docs/**/*.{html,js}",   
+    "./src/**/*.{css,js}",     
+    "./*.html",                 
+    "./*.js",  
+  ],                
   theme: {
     extend: {
       fontFamily: {
