@@ -122,6 +122,13 @@
   to = "/410.html"
   status = 410
 
+[[redirects]]
+  from = "/*"
+  to = "/maintenance.html"
+  status = 200
+  force = true
+
+
 ######################
 # Header Rules
 ######################
@@ -165,4 +172,10 @@
   for = "/404.html"
   [headers.values]
     Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/maintenance.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
 
