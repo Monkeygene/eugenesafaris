@@ -1,7 +1,6 @@
 [build]
-  base = "docs"
-  publish = "."
-  command = ""  # No build step needed for your static HTML/Tailwind site
+  command = "npm run build"
+  publish = "docs"
 
 ######################
 # Redirect Rules
