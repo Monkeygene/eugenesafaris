@@ -138,6 +138,14 @@
     <priority>0.50</priority>
   </url>
 
+<!-- 6.8 Kruger National Park Weather -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/weather/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
   <!-- 6.9 Kruger National Park Airports -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/guide/airports/</loc>
