@@ -1,16 +1,11 @@
 module.exports = {
-  content: [
-    "./docs/**/*.{html,js}",   
-    "./src/**/*.{css,js}",     
-    "./*.html",                 
-    "./*.js",  
-  ],                
+  content: ["./docs/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-        avenir: ['Avenir', 'sans-serif'],
+        avenir: ['AvenirLight', 'sans-serif'],
       },
     },
   },
   plugins: [],
-};
+}

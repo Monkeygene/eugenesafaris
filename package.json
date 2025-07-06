@@ -4,9 +4,9 @@
   "description": "Build the HTML template with tailwind css.",
   "type": "commonjs",
   "scripts": {
-    "start": "live-server ./docs ",
-    "build": "postcss src/input.css -o docs/style.css",
-    "tailwind": "tailwindcss  -i css/main.css -o docs/assets/css/build/tailwind.css --minify  & live-server ./docs ",
+    "start": "live-server ./public ",
+    "build": "tailwindcss -i ./src/input.css -o ./docs/style.css --minify",
+    "tailwind": "tailwindcss  -i css/main.css -o public/assets/css/build/tailwind.css --minify  & live-server ./public ",
     "dev": "tailwindcss -i ./src/input.css -o ./docs/style.css --watch"
   },
   "keywords": [
@@ -21,7 +21,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "cssnano": "^5.1.9",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.2",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^3.0.24"
