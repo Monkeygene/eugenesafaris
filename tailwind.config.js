@@ -1,9 +1,10 @@
 module.exports = {
   content: ["./docs/**/*.{html,js}"],
-  theme: {
+ theme: {
     extend: {
       fontFamily: {
-        avenir: ['AvenirLight', 'sans-serif'],
+        avenir: ['"Avenir Light"', 'sans-serif'],
+        nunito: ['"Nunito"', 'sans-serif'],
       },
     },
   },
