@@ -121,34 +121,30 @@
   to = "/410.html"
   status = 410
 
-######################
-# 404
-######################
-
 [[redirects]]
   from = "/guide/kruger-national-park/airports/"
-  to = "/404"
-  status = 404
+  to = "/410"
+  status = 410
 
 [[redirects]]
   from = "/guide/kruger-national-park/airports/kmia/"
-  to = "/404"
-  status = 404
+  to = "/410"
+  status = 410
 
 [[redirects]]
   from = "/guide/kruger-national-park/airports/eastgate/"
-  to = "/404"
-  status = 404
+  to = "/410"
+  status = 410
 
 [[redirects]]
   from = "/guide/kruger-national-park/airports/east-gate/"
-  to = "/404"
-  status = 404
+  to = "/410"
+  status = 410
 
 [[redirects]]
   from = "/guide/kruger-national-park/airports/skukuza/"
-  to = "/404"
-  status = 404
+  to = "/410"
+  status = 410
 
 ######################
 # Header Rules
