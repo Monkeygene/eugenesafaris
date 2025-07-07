@@ -12,6 +12,11 @@ Disallow: /birding/malawi/
 Disallow: /birding/malawi/liwonde/
 Disallow: /birding/malawi/nyika-plateau/
 Disallow: /birding/tips/
+Disallow: /guide/kruger-national-park/airports/
+Disallow: /guide/kruger-national-park/airports/kmia/
+Disallow: /guide/kruger-national-park/airports/eastgate/
+Disallow: /guide/kruger-national-park/airports/east-gate/
+Disallow: /guide/kruger-national-park/airports/skukuza/
 
 # Old package paths (noindex equivalents)
 Disallow: /kruger-national-park/all-inclusive-packages/
