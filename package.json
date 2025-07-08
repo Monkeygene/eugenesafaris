@@ -5,10 +5,10 @@
   "type": "commonjs",
   "scripts": {
     "start": "live-server ./docs ",
-    "build": "tailwindcss -i ./src/input.css -o ./docs/styles.css --minify",
+    "build": "tailwindcss -i ./src/input.css -o ./docs/style.css --minify",
     "tailwind": "tailwindcss  -i css/main.css -o docs/assets/css/build/tailwind.css --minify  & live-server ./docs",
-    "dev": "tailwindcss -i ./src/input.css -o ./docs/styles.css --watch",
-    "build:css": "postcss docs/styles.css -o docs/styles.css"
+    "dev": "tailwindcss -i ./src/input.css -o ./docs/style.css --watch",
+    "build:css": "postcss docs/style.css -o docs/style.css"
   },
   "keywords": [
     "HTML template",
