@@ -204,10 +204,8 @@
   [headers.values]
     Cache-Control = "no-cache"
 
-    [[headers]]
+[[headers]]
   for = "/fonts/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "font/ttf"
-
-
