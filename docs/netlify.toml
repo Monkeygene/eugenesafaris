@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = "docs"
 
+  [redirects]
+  trailingSlash = "always"
+
 ######################
 # Redirect Rules
 ######################
