@@ -4,6 +4,7 @@ module.exports = {
     extend: {
 fontFamily: {
   avenir: ['"AvenirLight"', 'sans-serif'],
+  nunito: ['"Nunito"', 'sans-serif'],
 },
 },
   },
