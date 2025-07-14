@@ -9,168 +9,286 @@
 # Redirect Rules
 ######################
 
+# Tours
 [[redirects]]
-  from = "/tours/*"
+  from = "/tours"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/tours/"
+  to = "/410.html"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/tours/south-africa"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/tours/south-africa/"
   to = "/410.html"
   status = 410
   force = true
 
+# Birding base
+[[redirects]]
+  from = "/birding"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/"
   to = "/410.html"
   status = 410
   force = true
 
+# Birding subpaths
+[[redirects]]
+  from = "/birding/zambia"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/zambia/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/zambia/kafue"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/zambia/kafue/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/zambia/south-luangwa"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/zambia/south-luangwa/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/south-africa"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/south-africa/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/malawi"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/malawi/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/malawi/liwonde"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/malawi/liwonde/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/malawi/nyika-plateau"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/malawi/nyika-plateau/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/birding/tips"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/birding/tips/"
   to = "/410.html"
   status = 410
   force = true
 
+# Kruger All-Inclusive
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/five-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/five-day/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/six-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/six-day/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/seven-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/seven-day/"
   to = "/410.html"
   status = 410
   force = true
 
+# Kruger Standard
+[[redirects]]
+  from = "/kruger-national-park/standard-packages"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/standard-packages/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/five-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/standard-packages/five-day/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/six-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/standard-packages/six-day/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/seven-day"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/kruger-national-park/standard-packages/seven-day/"
   to = "/410.html"
   status = 410
   force = true
 
+# Photographic Safari (canonical replaced it)
 [[redirects]]
   from = "/kruger-national-park/photographic-safari"
   to = "/410.html"
   status = 410
   force = true
 
+# Guide Pages
+[[redirects]]
+  from = "/guide"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/guide/kruger-national-park"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/"
   to = "/410.html"
   status = 410
   force = true
-
 [[redirects]]
   from = "/guide/kruger-national-park/malaria"
   to = "/410.html"
   status = 410
   force = true
 
+# Guide Airports
+[[redirects]]
+  from = "/guide/kruger-national-park/airports"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/airports/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/kmia"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/airports/kmia/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/eastgate"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/airports/eastgate/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/east-gate"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/airports/east-gate/"
   to = "/410.html"
   status = 410
   force = true
-
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/skukuza"
+  to = "/410.html"
+  status = 410
+  force = true
 [[redirects]]
   from = "/guide/kruger-national-park/airports/skukuza/"
   to = "/410.html"
