@@ -1,41 +1,5 @@
 User-agent: *
 
-# Legacy or outdated paths
-Disallow: /tours/
-Disallow: /tours/south-africa/
-Disallow: /birding/
-Disallow: /birding/zambia/
-Disallow: /birding/zambia/kafue/
-Disallow: /birding/zambia/south-luangwa/
-Disallow: /birding/south-africa/
-Disallow: /birding/malawi/
-Disallow: /birding/malawi/liwonde/
-Disallow: /birding/malawi/nyika-plateau/
-Disallow: /birding/tips/
-Disallow: /guide/kruger-national-park/airports/
-Disallow: /guide/kruger-national-park/airports/kmia/
-Disallow: /guide/kruger-national-park/airports/eastgate/
-Disallow: /guide/kruger-national-park/airports/east-gate/
-Disallow: /guide/kruger-national-park/airports/skukuza/
-
-# Old package paths (noindex equivalents)
-Disallow: /kruger-national-park/all-inclusive-packages/
-Disallow: /kruger-national-park/all-inclusive-packages/five-day/
-Disallow: /kruger-national-park/all-inclusive-packages/six-day/
-Disallow: /kruger-national-park/all-inclusive-packages/seven-day/
-Disallow: /kruger-national-park/standard-packages/
-Disallow: /kruger-national-park/standard-packages/five-day/
-Disallow: /kruger-national-park/standard-packages/six-day/
-Disallow: /kruger-national-park/standard-packages/seven-day/
-
-# Canonical path used instead, so disallow old
-Disallow: /kruger-national-park/photographic-safari
-
-# Duplicate or incorrect structure
-Disallow: /guide/
-Disallow: /guide/kruger-national-park/
-Disallow: /guide/kruger-national-park/malaria
-
 Allow: /
 
 Sitemap: https://eugenesafaris.com/sitemap.xml
