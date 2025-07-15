@@ -1,17 +1,14 @@
+import kudu from './assets/images/homepage-header/kudu-walking-in-kruger-dry-river-bed.jpg';
+import zebra from './assets/images/homepage-header/plains-zebra-in-kruger-park.jpg';
+import leopard from './assets/images/homepage-header/leopard-in-tall-grass-kruger-h1-1.jpg';
+import klipspringer from './assets/images/homepage-header/klipspringer-on-boulder-kruger.jpg';
+import hornbill from './assets/images/homepage-header/groundhornbill.png';
+import lion from './assets/images/homepage-header/african-lion-close-to-satara-rest-camp.jpg';
+
 const heroImage = document.getElementById('dailyHero');
 
-// List of your hero images (host them locally or via CDN)
-const heroImages = [
-  'src/assets/images/homepage-header/kudu-walking-in-kruger-dry-river-bed.jpg',
-  'src/assets/images/homepage-header/plains-zebra-in-kruger-park.jpg',
-  'src/assets/images/homepage-header/leopard-in-tall-grass-kruger-h1-1.jpg',
-  'src/assets/images/homepage-header/klipspringer-on-boulder-kruger.jpg',
-  'src/assets/images/homepage-header/groundhornbill.png',
-  'src/assets/images/homepage-header/african-lion-close-to-satara-rest-camp.jpg',
-  // Add more as needed
-];
+const heroImages = [kudu, zebra, leopard, klipspringer, hornbill, lion];
 
-// Pick image based on the day (changes every 24h)
 function updateHeroImage() {
   const today = new Date();
   const dayIndex = today.getDate() % heroImages.length;
