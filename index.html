@@ -46,9 +46,9 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
-     <div class="flex items-center">
+     <div class="flex items-center px-6">
     <a href="/">
-      <img id="logoImg" src="src/assets/images/logo/eugenesafaris.svg" class="h-9 transition-all duration-300 ease-in-out"/>
+      <img id="logoImg" src="src/assets/images/logo/eugenesafaris.svg" class="h-7 md:h-9 transition-all duration-300 ease-in-out" />
     </a>
      </div>
       <!-- Desktop Menu -->
@@ -69,7 +69,7 @@
       </ul>
     <!-- Mobile menu button -->
      <div class="md:hidden">
-<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none">
+<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none px-6 lg:px-0">
   <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
   </svg>
@@ -78,8 +78,8 @@
     </div>
     </div>
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-1/2 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
-      <div class="flex justify-end p-6">
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+      <div class="flex justify-end p-6 mr-3">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -747,34 +747,34 @@
   </div>
 
   <!-- Bottom Bar -->
-  <div class="border-t border-gray-200 py-6">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0">
-      
-      <!-- Left: Bible Verse -->
-      <div class="text-center md:text-left">
-        Psalms 23:1–6
-      </div>
+<div class="border-t border-gray-200 py-6">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0 md:space-x-0">
 
-      <!-- Center: Copyright -->
-      <div class="text-center">
-        &copy; 2025 Eugene Safaris. All rights reserved.
-      </div>
-
-      <!-- Right: Social Icons (repeated for symmetry, optional) -->
-      <div class="flex space-x-4 justify-center md:justify-end">
-          <a href="https://facebook.com/eugenesafaris.com/" target="_blank" aria-label="Facebook" class="hover:opacity-50 transition">
-          <img src="src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
-        </a>
-        <a href="https://instagram.com/eugenesafaris.com/" target="_blank" aria-label="Instagram" class="hover:opacity-50 transition">
-          <img src="src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-        </a>
-        <a href="https://youtube.com/@eugenesafaris.com" target="_blank" aria-label="YouTube" class="hover:opacity-50 transition">
-          <img src="src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-        </a>
-      </div>
-
+    <!-- Left (Bottom on small): Bible Verse -->
+    <div class="text-center md:text-left mt-4 md:mt-0">
+      Matthew 7:7-8
     </div>
+
+    <!-- Center (Middle on small): Copyright -->
+    <div class="text-center">
+      &copy; 2025 Eugene Safaris. All rights reserved.
+    </div>
+
+    <!-- Right (Top on small): Social Icons -->
+    <div class="flex space-x-4 justify-center md:justify-end mb-4 md:mb-0">
+      <a href="https://facebook.com/eugenesafaris.com/" target="_blank" aria-label="Facebook" class="hover:opacity-50 transition">
+        <img src="src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
+      </a>
+      <a href="https://instagram.com/eugenesafaris.com/" target="_blank" aria-label="Instagram" class="hover:opacity-50 transition">
+        <img src="src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
+      </a>
+      <a href="https://youtube.com/@eugenesafaris.com" target="_blank" aria-label="YouTube" class="hover:opacity-50 transition">
+        <img src="src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
+      </a>
+    </div>
+
   </div>
+</div>
 </footer>
   <!-- Javascript -->
   <script type="module" src="src/main.js"></script>

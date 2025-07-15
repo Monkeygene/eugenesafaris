@@ -35,14 +35,19 @@ function handleNavbarScroll() {
 
   if (scrolled) {
     siteHeader.classList.add('bg-white', 'shadow-md');
-    navInner.classList.replace('h-20', 'h-14');
-    logoImg.classList.replace('h-9', 'h-6');
+    navInner.classList.remove('h-20');
+    navInner.classList.add('h-14');
+    logoImg.classList.remove('h-7', 'md:h-9');
+    logoImg.classList.add('h-6');
   } else {
     siteHeader.classList.remove('bg-white', 'shadow-md');
-    navInner.classList.replace('h-14', 'h-20');
-    logoImg.classList.replace('h-6', 'h-9');
+    navInner.classList.remove('h-14');
+    navInner.classList.add('h-20');
+    logoImg.classList.remove('h-6');
+    logoImg.classList.add('h-7', 'md:h-9');
   }
 }
+
 
 // Run once on load
 window.addEventListener('DOMContentLoaded', handleNavbarScroll);
