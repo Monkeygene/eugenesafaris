@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 1. Your homepage -->
+  <url>
+    <loc>https://eugenesafaris.com/</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+    <!-- 2. Kruger National Park -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 3. Kruger National Park Safaris  -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/safaris/</loc>
+    <lastmod>2025-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.1 All Inclusive Safari Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.1.1 5 Day All-Inclusive Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.1.2 6 Day All-Inclusive Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.1.3 7 Day All-Inclusive Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.2 Classic Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/classic-safari-packages/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.2.1 5 Day Classic Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/classic-safari-packages/5-day-private-safari/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.2.2 6 Day Classic Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/classic-safari-packages/6-day-private-safari/</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.2.3 7 Day Classic Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/classic-safari-packages/7-day-private-safari/</loc>
+    <lastmod>2025-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.3 Photographic Packages  -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc>
+    <lastmod>2025-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3.4 Safari on Film -->
+ <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/safari-on-film/</loc>
+    <lastmod>2025-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 4. About -->
+  <url>
+    <loc>https://www.eugenesafaris.com/about/</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 5. Contact -->
+  <url>
+    <loc>https://eugenesafaris.com/contact/</loc>
+    <lastmod>2025-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6. Kruger National Park Guide -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+   <!-- 6.4 Malaria Guide -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/malaria/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+<!-- 6.8 Kruger National Park Weather -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/weather/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6.8.10 Kruger National Park Weather in October -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/weather/october/</loc>
+    <lastmod>2025-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6.9 Kruger National Park Airports -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/airports/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6.9.1 East Gate Airport -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/airports/eastgate/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6.9.2 KMIA Airport -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/airports/kmia/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 6.9.3 Skukuza Airport -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/guide/airports/skukuza/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- …add more URLs here… -->
+
+</urlset>

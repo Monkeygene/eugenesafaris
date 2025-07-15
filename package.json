@@ -1,30 +1,17 @@
 {
-  "name": "create-tailwind-app",
-  "version": "1.0.1",
-  "description": "Build the HTML template with tailwind css.",
-  "type": "commonjs",
+  "name": "eugene-safaris",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "live-server ./docs ",
-    "build": "tailwindcss -i ./src/input.css -o ./docs/style.css --minify",
-    "tailwind": "tailwindcss  -i css/main.css -o docs/assets/css/build/tailwind.css --minify  & live-server ./docs",
-    "dev": "tailwindcss -i ./src/input.css -o ./docs/style.css --watch",
-    "build:css": "postcss docs/style.css -o docs/style.css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "HTML template",
-    "tailwindcss",
-    "tailwind",
-    "HTML",
-    " css framework"
-  ],
-  "author": "Rajdeep Singh",
-  "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.9",
-    "live-server": "^1.2.0",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^9.1.0",
-    "tailwindcss": "^3.4.17"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+    "vite": "^7.0.3"
   }
 }

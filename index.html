@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Title & Description -->
+  <title>Private Kruger National Park Safaris with Eugene</title>
+  <meta name="description" content="Experience Kruger wildlife on a private safari with Eugene Safaris. Join us for immersive trips in the South African Lowveld. See Kruger like never before." />
+  <meta name="author" content="Eugene Booysen" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://eugenesafaris.com/" />
+  <!-- Favicon & Apple Touch Icon -->
+  <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+  <!-- Robots -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <!-- JSON-LD Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://eugenesafaris.com/"
+      }
+    ]
+  }
+  </script>
+  <!-- Google Tag Manager (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F2CBZHQXX1');
+  </script>
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+
+<body class="bg-linen font-avenir">
+<nav id="siteHeader" class="bg-linen shadow-sm font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
+    <!-- Logo -->
+     <div class="flex items-center">
+    <a href="/">
+      <img id="logoImg" src="src/assets/images/logo/eugenesafaris.svg" class="h-9 transition-all duration-300 ease-in-out"/>
+
+
+    </a>
+     </div>
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-6 items-center">
+        <li class="relative group">
+          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-gray-600 transition focus:outline-none px-2">
+            Safaris
+          </button>
+          <ul class="absolute left-0 mt-2 w-72 bg-linen shadow-lg rounded-md opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50">
+            <li><a href="kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-t-md">Classic Safari Packages</a></li>
+            <li><a href="kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">All Inclusive Safari Packages</a></li>
+            <li><a href="kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-b-md">Photographic Safari Packages</a></li>
+          </ul>
+        </li>
+        <li><a href="about/" class="text-gray-800 hover:text-gray-600 transition px-2">About</a></li>
+        <li><a href="contact/" class="text-gray-800 hover:text-gray-600 transition px-2">Contact</a></li>
+        <li><a href="kruger-national-park/guide/" class="text-gray-800 hover:text-gray-600 transition px-2">Guide</a></li>
+      </ul>
+    <!-- Mobile menu button -->
+     <div class="md:hidden">
+<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none">
+  <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+</div>
+    </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-1/2 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+      <div class="flex justify-end p-6">
+        <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
+          <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <nav class="px-6 space-y-4">
+        <div class="space-y-2">
+          <!-- NOTE: IDs now match the JS below -->
+          <button class="w-full flex justify-between items-center text-gray-800 hover:text-gray-600 transition focus:outline-none"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  id="mobile-safaris-btn">
+            Safaris
+            <svg class="h-4 w-4 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
+            <a href="kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">Classic Safari Packages</a>
+            <a href="kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">All-Inclusive Safari Packages</a>
+            <a href="kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-gray-900 transition">Photographic Safari Packages</a>
+          </div>
+        </div>
+        <a href="about/" class="block text-gray-800 hover:text-gray-600 transition">About</a>
+        <a href="contact/" class="block text-gray-800 hover:text-gray-600 transition">Contact</a>
+        <a href="kruger-national-park/guide/" class="block text-gray-800 hover:text-gray-600 transition">Guide</a>
+      </nav>
+    </div>
+  </nav>
+   <!-- End of Nav - Start of Breadcrumb Navigation -->
+<div class="max-w-7xl mx-auto">
+  <nav class="sr-only" aria-label="Home Page">
+    <ol class="inline-flex items-center space-x-1">
+      <li class="inline-flex items-center">
+        <span class="font-medium text-gray-500">Home</span>
+      </li>
+    </ol>
+  </nav>
+</div>
+<section class="relative w-full h-screen overflow-hidden">
+  <!-- Image background -->
+  <div class="absolute inset-0 z-0">
+    <img
+      id="dailyHero"
+      src="src/assets/images/homepage-header/kudu-walking-in-kruger-dry-river-bed.jpg"
+      alt="Kruger Safari"
+      class="w-full h-full object-cover opacity-0 transition-opacity duration-1000" 
+      onload="this.classList.add('opacity-100')"
+    />
+    <div class="absolute inset-0 bg-black opacity-10"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex items-center justify-center h-full">
+    <div class="text-center text-white max-w-3xl px-6">
+      <h1 class="font-nunito text-3xl md:text-5xl leading-tight mb-6 font-crimson">
+        Private Kruger Safaris
+      </h1>
+      <p class="text-md md:text-xl font-light leading-relaxed">
+        All Inclusive, personalised safaris in Kruger National Park with Eugene.
+      </p>
+    </div>
+  </div>
+</section>
+   <!-- Responsive Hero Text Section -->
+  <section class="py-4 lg:py-12">
+    <div class="container mx-auto px-6 flex flex-col items-center justify-center py-4">
+      <div class="max-w-4xl text-center">
+        <h1 class="font-nunito text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-2 md:mb-5">
+          Private Kruger Safaris with Eugene
+        </h1>
+        <p class="font-avenir text-md sm:text-base md:text-lg lg:text-lg text-gray-700 py-2 md:py-4">
+        Imagine the African sun rising over the scented savannah, painting the sky in soft hues of orange and pink. The tranquil chorus of birds break the silence, welcoming the day. You are in the heart of it. There is no rush, just you, your loved ones, and the wild.
+        </p>
+        <p class="font-avenir text-md sm:text-base md:text-lg lg:text-lg text-gray-700 py-2 md:py-4">
+          This is the beauty of a private all inclusive safari in Kruger National Park with Eugene Safaris. We craft personalized safari experiences built around your pace, your interests, and your safari dream. 
+        </p>
+        <p class="font-avenir text-md sm:text-base md:text-lg lg:text-lg text-gray-700 py-2 md:py-4">Guided by Eugene, a passionate local expert guide, you'll explore Kruger not as a tourist but as an honored guest exploring a beloved homeland.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image box -->
+<section class="max-w-5xl mx-auto py-4 lg:py-12">
+  <div class="flex justify-center items-center w-full px-4 py-4">
+    <div class="w-full">
+      <!-- Image with aspect ratio -->
+      <div class="aspect-[16/9] w-full overflow-hidden">
+        <img 
+          src="/assets/images/kruger-national-park/african-lion-close-to-satara-kruger.webp" 
+          alt="African Lion close to Satara Rest Camp, viewed from Private Kruger Safari with Eugene" 
+          loading="lazy" 
+          class="w-full h-full object-cover">
+      </div>
+      <!-- Caption -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+        Male Lion close to Satara Camp, Kruger National Park
+      </p>
+    </div>
+  </div>
+</section>
+  <!-- Short Package Introduction -->
+  <section class="py-4 lg:py-12 mt-6">
+    <div class="container mx-auto px-4 py-4 flex flex-col items-center justify-center">
+      <div class="max-w-4xl">
+        <h2 class="font-nunito text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-2 md:mb-5 text-center">Private Kruger National Park Safari Packages</h2>
+        <p class="font-avenir sm:text-base md:text-lg lg:text-lg text-gray-700 text-center">
+          Searching for the perfect Kruger National Park safari package? With Eugene Safaris, your journey is personal, slow paced, and can be completely tailored to you. You make the call, whether you want to spend more time observing elephants or patiently track lions, our private all inclusive Kruger National Park safaris let you experience nature on your own terms, no rush.
+        </p>
+        <p class="font-avenir text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center mt-4">
+          Unlike large group tours, our Kruger safari packages focus on exclusivity, comfort, and deep connection with the wild. Every safari is guided by local expert Eugene Booysen, whose passion and lifelong knowledge of Kruger bring your journey to life.
+        </p>
+        <div class="mt-6 text-center py-0 lg:py-6">
+          <a href="kruger-national-park/safaris/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+            View Safari Packages
+          </a>
+        </div>    
+      </div>
+    </div>
+  </section>
+    <!-- Image box -->
+<section class="max-w-5xl mx-auto py-4 lg:py-12">
+  <div class="flex justify-center items-center w-full px-4 py-4">
+    <div class="w-full">
+      <!-- Image with aspect ratio -->
+      <div class="aspect-[16/9] w-full overflow-hidden">
+        <img 
+          src="/assets/images/kruger-national-park/leopard-on-dead-tree-stump-kruger-sabie-river.webp" 
+          alt="African Lion close to Satara Rest Camp, viewed from Private Kruger Safari with Eugene" 
+          loading="lazy" 
+          class="w-full h-full object-cover">
+      </div>
+      <!-- Caption -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+        Leopard close to Skukuza, Kruger National Park
+      </p>
+    </div>
+  </div>
+</section> 
+  <section class="py-12 lg:py-24 bg-white">
+  <div class="container mx-auto max-w-5xl px-4">
+    <h2 class="font-nunito text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 sm:mb-2 md:mb-5 text-center">
+      Why Choose a Kruger Safari with Eugene Safaris?
+    </h2>
+    
+    <p class="font-avenir text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left mb-8">
+      The Kruger National Park Safari is one of Africa's most unforgettable experiences, taking you into a world of wildlife filled with many small and large critters. But what makes a Eugene Safari different?
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-800 mb-6">
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Private Safaris Only</h3>
+        <p class="font-avenir">No shared vehicles or rigid schedules, just you, your guide, and Kruger wildlife at your own pace.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Expert-Led Experiences</h3>
+        <p class="font-avenir">With Eugene Booysen's insider knowledge, expect deeper sightings, richer stories, and better positioning.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Slow Safari Style</h3>
+        <p class="font-avenir">More time at each sighting. Less rushing. Greater immersion and appreciation for the bush.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">All-Inclusive Options</h3>
+        <p class="font-avenir">Handpicked rest camps, all meals, and seamless logistics, we handle the details so you can enjoy the safari.</p>
+      </div>
+    </div>
+
+    <p class="text-gray-700 text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left">
+      You're not just coming to see the Big Five, you're coming to feel the lowveld energy, forging a real connection, and going deeper into the Kruger.
+    </p>
+  </div>
+</section>
+
+ <!-- Image box -->
+<section class="max-w-5xl mx-auto py-4 lg:py-12">
+  <div class="flex justify-center items-center w-full px-4 py-4">
+    <div class="w-full">
+      <!-- Image with aspect ratio -->
+      <div class="aspect-[16/9] w-full overflow-hidden">
+        <img 
+          src="/assets/images/kruger-national-park/plains-zebra-in-kruger-park.webp" 
+          alt="Plains Zebra close up view on All Inclusive Kruger Safari with Eugene" 
+          loading="lazy" 
+          class="w-full h-full object-cover">
+      </div>
+      <!-- Caption -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+       Plains Zebra in Kruger National Park
+      </p>
+    </div>
+  </div>
+</section>
+  
+  <section class="py-12 lg:py-24 bg-white">
+  <div class="container mx-auto max-w-5xl px-4">
+    <h2 class="font-nunito text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-8">
+      All-Inclusive Kruger National Park Safari Packages
+    </h2>
+
+    <p class="font-avenir text-gray-700 text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left mb-8">
+      Choose from our all-inclusive Kruger safari packages for a fully immersive experience. Where we take care of everything from private game drives and Kruger rustic rest camps to delicious meals and seamless logistics.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-800 mb-8 py-4 lg:py-12">
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Kruger National Park Safari All-Inclusive Packages</h3>
+        <p class="font-avenir">Enjoy a private safari with everything included accommodations, meals, expert guides, and unforgettable wildlife encounters.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Kruger Park Safari Packages for Couples and Families</h3>
+        <p class="font-avenir">Designed for romantic escapes or quality time with loved ones, these packages balance comfort, adventure, and flexibility.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Private Kruger Safari Packages for Birders and Photographers</h3>
+        <p class="font-avenir">Specialized itineraries led by expert guides with a keen eye for birds, rare sightings, and the perfect photographic moment.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-nunito text-lg mb-2">Flexible Kruger Safari Packages Tailored to You</h3>
+        <p class="font-avenir">Personalize your safari to match your pace, interests, and dream Kruger itinerary, whether it's 3 days or 10, we build it your way.</p>
+      </div>
+    </div>
+
+    <p class="font-avenir text-gray-700 text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left">
+      If you're after a short getaway or a multi-day adventure, our <strong>Kruger National Park packages</strong> are desinged to make you feel at ease, feel free to alter your itineraries if you would like to stay longer at certain rest camps.
+    </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+  <!-- 5 Day All-Inclusive -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/cape-buffalo-with-oxpeckers-on-back.webp" alt="Kruger National Park wildlife safari scene" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">5 Day All-Inclusive</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        A perfect short Kruger safari escape. Enjoy private game drives, cozy rest camos, and all meals included, ideal for couples or first-timers.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 Day All-Inclusive -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/rhino-on-grass-field-kruger-afsaal.webp" alt="a Rhino crossing open field on Kruger Park safari" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">6 Day All-Inclusive</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        Explore more of Kruger's diverse landscapes. This mid-length safari balances adventure, relaxation, and unforgettable wildlife sightings.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 Day All-Inclusive -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/swainsons-spurfowl-classic-perch.webp" alt="Private safari spotting a Swainsons Spurfowl in Kruger National Park" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">7 Day All-Inclusive</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        A full week of private safari perfection. Ideal for families, photographers, or wildlife lovers wanting the ultimate Kruger experience.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+    <!-- Image box -->
+<section class="max-w-5xl mx-auto py-4 lg:py-12">
+  <div class="flex justify-center items-center w-full px-4 py-4">
+    <div class="w-full">
+      <!-- Image with aspect ratio -->
+      <div class="aspect-[16/9] w-full overflow-hidden">
+        <img 
+          src="assets/images/kruger-national-park/klipspringer-on-boulder-kruger.webp" 
+          alt="African Lion close to Satara Rest Camp, viewed from Private Kruger Safari with Eugene" 
+          loading="lazy" 
+          class="w-full h-full object-cover">
+      </div>
+      <!-- Caption -->
+      <p class="mt-1 text-xs text-center lg:text-left">
+        Klipspringer on granite boulder in Kruger National Park
+      </p>
+    </div>
+  </div>
+</section>
+<section class="py-12 lg:py-24 bg-white">
+  <div class="container mx-auto max-w-5xl px-4">
+    <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-8">
+      Discover Our Kruger Park Safari Packages
+    </h2>
+    
+    <p class="text-gray-700 text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left mb-8">
+      From all-inclusive packages that cover everything to photographic safaris that focus on capturing the perfect shot of that Lilac-breasted Roller, we have something for everyone.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-800 mb-6">
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold text-lg mb-2">Custom Itineraries</h3>
+        <p>Your interests guide the journey, whether it's wildlife, photography, birding, or relaxation.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold text-lg mb-2">Lodging Options</h3>
+        <p>Choose between luxury lodges and comfortable rest camps, all handpicked for quality and charm.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold text-lg mb-2">For Couples & Families</h3>
+        <p>Enjoy romantic privacy or make memories with the kids, we've got packages to suit all group types.</p>
+      </div>
+      <div class="bg-zinc-100 p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold text-lg mb-2">Fully Inclusive</h3>
+        <p>Our packages include park fees, guided drives, meals, and transfers — all expertly handled for you.</p>
+      </div>
+    </div>
+
+    <p class="text-gray-700 text-base md:text-lg lg:text-lg leading-relaxed text-center md:text-left">
+      Explore our full range of <strong>Kruger National Park packages</strong> and see why guests return again and again.
+    </p>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
+  <!-- All-Inclusive Safaris -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/plains-zebra-in-kruger-park.webp" alt="Kruger National Park wildlife safari scene" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">All-Inclusive Safaris</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        A perfect short Kruger safari escape. Enjoy private game drives, cozy lodges, and all meals included — ideal for couples or first-timers.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/all-inclusive-safari-packages/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Classic Safaris -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/mix-animals-kruger-transport-dam.webp" alt="a Rhino crossing open field on Kruger Park safari" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">Classic Safaris</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        Explore more of Kruger's diverse landscapes. This mid-length safari balances adventure, relaxation, and unforgettable wildlife sightings.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/classic-safari-packages/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photographic Safari -->
+  <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
+    <img src="assets/images/kruger-national-park/african-lioness-in-tall-grass.webp" alt="Private safari spotting a Swainsons Spurfowl in Kruger National Park" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">Photographic Safari</h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+        A full week of private safari perfection. Ideal for families, photographers, or wildlife lovers wanting the ultimate Kruger experience.
+      </p>
+      <div class="mt-auto">
+        <a href="/kruger-national-park/photographic-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+          View Tour
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+  
+  <!-- About Eugene Safaris -->
+  <section class="py-4 lg:py-12 mt-6">
+    <div class="container mx-auto px-4 py-4 flex flex-col items-center justify-center">
+      <div class="max-w-4xl">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center mb-4">
+          About Eugene Safaris
+        </h2>
+        <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center mb-4">
+            Founded by lifelong guide Eugene Booysen, Eugene Safaris is a boutique safari company rooted in authenticity and passion. We're proudly local and deeply committed to creating safaris that feel less like a tour and more like an adventure shared among friends.
+        </p>
+        <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center">
+           With Eugene, you're not just seeing Kruger National Park, you're truly feeling it.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="py-4 lg:py-12">
+    <div class="container mx-auto max-w-4xl px-4">
+      <div class="text-center">
+        <h3 class="text-2xl font-bold mb-2">Nicole</h3>
+        <div class="mx-auto mb-4" style="width: 35px; height: 2px; background-color: #000;"></div>
+        <p class="text-gray-700">
+          A trip of a lifetime that exceeded all our expectations! Our personalized tour guide, Eugene, has extensive knowledge of animals and Kruger. Which allowed us to venture to roads less travelled by other vehicles and enjoy sightings where we were the only ones!
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-4 lg:py-24">
+    <div class="container mx-auto max-w-5xl px-4">
+      <div class="flex flex-col-reverse md:flex-row items-stretch bg-white rounded-md shadow-md overflow-hidden">
+        <!-- Subscribe Form -->
+        <div class="w-full md:w-1/2 p-8 flex flex-col justify-center">
+          <h2 class="text-3xl font-bold mb-4">Join the Herd</h2>
+          <p class="text-gray-700 mb-6">
+            Subscribe to my newsletter and watch my videos earlier, get exclusive offers and read my latest news. And do not worry, I won't fill up your mailbox with spam.
+          </p>
+  
+          <!-- Mailchimp embedded form -->
+          <form
+            action="https://nyonisafaris.us16.list-manage.com/subscribe/post?u=65b6b0cc54bd0862e75865825&amp;id=a04af09294&amp;f_id=0029a5e1f0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="flex flex-col space-y-4"
+            target="_blank"
+            novalidate
+          >
+            <!-- Email Address -->
+            <div class="flex flex-col">
+              <label for="mce-EMAIL" class="text-sm font-medium mb-1">
+                Email Address <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="email"
+                name="EMAIL"
+                class="required email w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="mce-EMAIL"
+                placeholder="you@example.com"
+                required
+              >
+            </div>
+  
+            <!-- First Name -->
+            <div class="flex flex-col">
+              <label for="mce-FNAME" class="text-sm font-medium mb-1">
+                First Name
+              </label>
+              <input
+                type="text"
+                name="FNAME"
+                class="text w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="mce-FNAME"
+                placeholder="Your name"
+              >
+            </div>
+  
+            <!-- Responses -->
+            <div id="mce-responses" class="text-sm text-gray-700">
+              <div class="response text-red-600" id="mce-error-response" style="display:none;"></div>
+              <div class="response text-green-600" id="mce-success-response" style="display:none;"></div>
+            </div>
+  
+            <!-- Honeypot (hide off-screen) -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_65b6b0cc54bd0862e75865825_a04af09294"
+                tabindex="-1"
+                value=""
+              >
+            </div>
+  
+            <!-- Submit -->
+            <button
+              type="submit"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="inline-block bg-white text-black px-4 py-2 md:px-6 md:py-3 rounded-lg border border-black hover:bg-black hover:text-white transition duration-300 text-md sm:text-base md:text-lg lg:text-lg"
+            >
+              Subscribe
+            </button>
+          </form>
+          <!-- End Mailchimp form -->
+        </div>
+  
+        <!-- Image -->
+        <div class="w-full md:w-1/2">
+          <img
+            src="assets/images/kruger-national-park/black-collared-barbet-pretoriuskop-rest-camp.webp"
+            alt="Black-Collared Barbet in Kruger National Park Safaris"
+            class="w-full h-full object-cover" loading="lazy"
+          >
+        </div>
+      </div>
+    </div>
+  
+    <!-- Mailchimp validation script -->
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+        fnames[1] = 'FNAME';
+        ftypes[1] = 'text';
+        fnames[2] = 'LNAME';
+        ftypes[2] = 'text';
+        fnames[3] = 'ADDRESS';
+        ftypes[3] = 'address';
+        fnames[4] = 'PHONE';
+        ftypes[4] = 'phone';
+        fnames[5] = 'BIRTHDAY';
+        ftypes[5] = 'birthday';
+        fnames[6] = 'COMPANY';
+        ftypes[6] = 'text';
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+  </section>
+  
+  
+  <!-- What is a typical Africa Birding Tour like -->
+  <section class="py-4 lg:py-12 mt-6">
+    <div class="container mx-auto px-4 py-4 flex flex-col items-center justify-center">
+      <div class="max-w-4xl">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center mb-4">
+          Plan Your Safari Today
+        </h2>
+        <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center">
+       Book one of our Kruger safari packages and experience the wild like never before. If you're dreaming of an all-inclusive Kruger National Park safari, a private birding safari, or a tailored photographic adventure, we've got the perfect package for you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kruger National Park Guides -->
+  <section class="mt-8 py-4 lg:py-24">
+    <div class="container mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-center">
+      <!-- Image on left on medium+ screens -->
+      <div class="md:w-1/2 p-4">
+        <img src="assets/images/kruger-national-park/kruger-national-park-in-august.webp" alt="Kruger National Park in August on our All Inclusive Kruger National Park Private Safari" class="w-full h-auto">
+      </div>
+      <!-- Text content on right on medium+ screens -->
+      <div class="md:w-1/2 p-4">
+        <div class="max-w-4xl lg:max-w-5xl">
+          <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold py-4 text-center md:text-left">
+            Kruger National Park Guides
+          </h2>
+          <p class="text-gray-700 sm:text-base md:text-lg lg:text-lg mt-2 paragraph-font text-center md:text-left">
+            Prepare yourself for your Kruger National Park safari by reading my guides. In these guides, I'll show you exactly waht makes Kruger so special and how Eugene Safaris elevates the safari experience.
+          </p>
+          <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center md:text-left mt-4">
+         From the park' rich ecosystems and wildlife, to our unique private Kruger National Park All inclusive safari packages and the story of our expert guide Eugene Booysen.
+        </p>
+          <div class="mt-4 text-center md:text-left">
+            <a href="kruger-national-park/guide/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+             Read Our Guides
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Recent Blogs Section -->
+  <section class="py-4 lg:py-24">
+    <div class="container mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Updated & Latest Guides</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <img src="assets/images/kruger-national-park/plains-zebra-in-kruger-park.webp" alt="zebra showing of that stripes in Kruger" class="w-full h-48 object-cover">
+          <div class="p-4 text-center flex flex-col flex-grow">
+            <h3 class="text-xl font-bold mb-2">What to Pack</h3>
+            <p class="text-gray-700 mb-4 flex-grow">
+              What to Pack for your Kruger Safari. This guide will help you pack the essentials for your safari in Kruger National Park.
+            </p>
+            <a href="kruger-national-park/guide/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+              Read Guide
+            </a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <img src="assets/images/kruger-national-park/kruger-park-in-august.webp" alt="Kruger landscape in August" class="w-full h-48 object-cover">
+          <div class="p-4 text-center flex flex-col flex-grow">
+            <h3 class="text-xl font-bold mb-2">Weather</h3>
+            <p class="text-gray-700 mb-4 flex-grow">
+             See weather patterns in Kruger National Park. This will help you decide when to visit and what to pack.
+            </p>
+            <a href="kruger-national-park/guide/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+              Read Guide
+            </a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <img src="assets/images/kruger-national-park/red-billed-oxpecker-on-back-of-white-rhino.webp" alt="Red-Billed Oxpeckers resting on rhinos back in All inclusive kruger park safari" class="w-full h-48 object-cover">
+          <div class="p-4 text-center flex flex-col flex-grow">
+            <h3 class="text-xl font-bold mb-2">Airports</h3>
+            <p class="text-gray-700 mb-4 flex-grow">
+              Figure out which airport to use for your safari in Kruger National Park. These are the3 closest to Kruger.
+            </p>
+            <a href="kruger-national-park/guide/airports/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+              Read Guide
+            </a>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white shadow rounded overflow-hidden flex flex-col">
+          <img src="assets/images/kruger-national-park/mosquito-kruger-national-park-malaria.webp" alt="Mosquito in Kruger National Park Malaria" class="w-full h-48 object-cover">
+          <div class="p-4 text-center flex flex-col flex-grow">
+            <h3 class="text-xl font-bold mb-2">Kruger & Malaria</h3>
+            <p class="text-gray-700 mb-4 flex-grow">
+             Although I have never had malaria in Kruger, it is worth reading up on the risks and how to prevent it.
+            </p>
+            <a href="kruger-national-park/guide/malaria/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
+              Read Guide
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-linen text-gray-700 font-avenir">
+  <!-- Top Footer Grid -->
+  <div class="max-w-7xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    
+    <!-- Column 1: Quote -->
+    <div>
+      <p class="text-md italic">
+        “The only thing predictable about Africa is its unpredictability.”
+      </p>
+    </div>
+
+    <!-- Column 2: Links -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Explore</h4>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/" class="hover:text-gray-900 transition">Home</a></li>
+        <li><a href="kruger-national-park/safaris/" class="hover:text-gray-900 transition">Safaris</a></li>
+        <li><a href="about/" class="hover:text-gray-900 transition">About</a></li>
+        <li><a href="contact/" class="hover:text-gray-900 transition">Contact</a></li>
+        <li><a href="kruger-national-park/guide/" class="hover:text-gray-900 transition">Guide</a></li>
+        <li><a href="https://nyonisafaris.com/" class="hover:text-gray-900 transition">Birding Safaris</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Contact -->
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact</h4>
+      <p class="text-sm mb-4">
+        <a href="mailto:eugene@nyonisafaris.com" class="hover:text-gray-900 transition">eugene@nyonisafaris.com</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="border-t border-gray-200 py-6">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0">
+      
+      <!-- Left: Bible Verse -->
+      <div class="text-center md:text-left">
+        Psalms 23:1–6
+      </div>
+
+      <!-- Center: Copyright -->
+      <div class="text-center">
+        &copy; 2025 Eugene Safaris. All rights reserved.
+      </div>
+
+      <!-- Right: Social Icons (repeated for symmetry, optional) -->
+      <div class="flex space-x-4 justify-center md:justify-end">
+          <a href="https://facebook.com/eugenesafaris.com/" target="_blank" aria-label="Facebook" class="hover:opacity-50 transition">
+          <img src="src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
+        </a>
+        <a href="https://instagram.com/eugenesafaris.com/" target="_blank" aria-label="Instagram" class="hover:opacity-50 transition">
+          <img src="src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
+        </a>
+        <a href="https://youtube.com/@eugenesafaris.com" target="_blank" aria-label="YouTube" class="hover:opacity-50 transition">
+          <img src="src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+  <!-- Javascript -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
