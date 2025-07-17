@@ -48,14 +48,12 @@
 </head>
 <body class="bg-linen font-avenir">
   <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
      <div class="flex items-center">
     <a href="/">
       <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-9 transition-all duration-300 ease-in-out"/>
-
-
     </a>
      </div>
       <!-- Desktop Menu -->
@@ -85,7 +83,7 @@
     </div>
     </div>
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-1/2 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
       <div class="flex justify-end p-6">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -119,7 +117,7 @@
   </nav>
   <section class="h-20 md:h-34"></section>
 <!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-6xl mx-auto px-4">
+<div class="max-w-7xl mx-auto px-5 lg:px-1">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
       <li class="inline-flex items-center">
@@ -134,19 +132,32 @@
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
    <section class="max-w-7xl mx-auto">
-    <div class="w-full overflow-hidden">
-      <img src="/src/assets/images/about/black-collared-barbet-hiding-in-shrub-kruger-national-park-safari.webp" alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" class="w-full object-cover" loading="lazy">
-    </div>
-    </section>
+  <div class="w-full overflow-hidden">
+    <picture>
+      <!-- Desktop (min-width: 1024px = lg breakpoint in Tailwind) -->
+      <source 
+        srcset="/src/assets/images/about/black-collared-barbet-hiding-in-shrub-kruger-national-park-safari.webp" 
+        media="(min-width: 1024px)" 
+        type="image/jpeg">
+      
+      <!-- Default fallback (mobile and smaller devices) -->
+      <img 
+        src="/src/assets/images/about/test-2.jpg" 
+        alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" 
+        class="w-full object-cover" 
+        loading="lazy">
+    </picture>
+  </div>
+</section>
 <!-- Responsive Hero Text Section -->
 <section class="py-4 lg:py-8">
-  <div class="container mx-auto px-4 flex flex-col items-center justify-center py-8">
+  <div class="container mx-auto px-4 flex flex-col items-center justify-center py-4 lg:py-8">
     <div class="max-w-4xl text-center">
       <!-- Replace text heading with image -->
       <img 
         src="/src/assets/images/logo/eugenesafaris.svg" 
         alt="Eugene Safaris Private Kruger Safaris" 
-        class="mx-auto mb-8 w-48 md:w-72 h-auto"
+        class="mx-auto mb-6 lg:mb-8 w-48 md:w-72 h-auto"
       />
       <p class="text-md md:text-lg text-black">
         Thinking of going on a African wildlife journey, guided by a passionate guide who knows Africa. Eugene Safaris specialises in tailor-made African Safaris, featuring exceptional wildife trips from Southern and East Africa. Let me create the perfect tailor-made safari for you, personalised to match your pace and interests.
@@ -175,7 +186,7 @@
       <!-- Text content on right on medium+ screens -->
       <div class="md:w-1/2 p-4">
         <div class="max-w-4xl lg:max-w-5xl">
-          <h2 class="font-nunito text-2xl md:text-3xl py-4 text-black text-center md:text-left">
+          <h2 class="font-playfair text-2xl md:text-4xl py-4 text-black text-center md:text-left">
             Eugene Booysen
           </h2>
           <p class="text-gray-700 sm:text-base md:text-lg lg:text-lg mt-2 paragraph-font text-center md:text-left">
@@ -219,34 +230,33 @@
   </div>
 
   <!-- Bottom Bar -->
-  <div class="border-t border-gray-200 py-6">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0">
-      
-      <!-- Left: Bible Verse -->
-      <div class="text-center md:text-left">
-        Psalms 23:1–6
-      </div>
-
-      <!-- Center: Copyright -->
-      <div class="text-center">
-        &copy; 2025 Eugene Safaris. All rights reserved.
-      </div>
-
-      <!-- Right: Social Icons (repeated for symmetry, optional) -->
-      <div class="flex space-x-4 justify-center md:justify-end">
-          <a href="https://facebook.com/eugenesafaris.com/" target="_blank" aria-label="Facebook" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
-        </a>
-        <a href="https://instagram.com/eugenesafaris.com/" target="_blank" aria-label="Instagram" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-        </a>
-        <a href="https://youtube.com/@eugenesafaris.com" target="_blank" aria-label="YouTube" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-        </a>
-      </div>
-
+<div class="border-t border-gray-200 py-6">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0 md:space-x-0">
+    <!-- Left (Bottom on small): Bible Verse -->
+    <div class="text-center md:text-left mt-4 md:mt-0">
+      Psalms 23:1-6
     </div>
+
+    <!-- Center (Middle on small): Copyright -->
+    <div class="text-center">
+      &copy; 2025 Eugene Safaris. All rights reserved.
+    </div>
+
+    <!-- Right (Top on small): Social Icons -->
+    <div class="flex space-x-4 justify-center md:justify-end mb-4 md:mb-0">
+      <a href="https://facebook.com/eugenesafaris.com/" target="_blank" aria-label="Facebook" class="hover:opacity-50 transition">
+        <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
+      </a>
+      <a href="https://instagram.com/eugenesafaris.com/" target="_blank" aria-label="Instagram" class="hover:opacity-50 transition">
+        <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
+      </a>
+      <a href="https://youtube.com/@eugenesafaris.com" target="_blank" aria-label="YouTube" class="hover:opacity-50 transition">
+        <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
+      </a>
+    </div>
+
   </div>
+</div>
 </footer>
   </body>
   </html>
