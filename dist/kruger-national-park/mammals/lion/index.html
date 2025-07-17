@@ -33,7 +33,19 @@
       "position": 2,
       "name": "Kruger National Park Guide",
       "item": "https://eugenesafaris.com/kruger-national-park/guide/"
+    },
+      {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mammals",
+      "item": "https://eugenesafaris.com/kruger-national-park/mammals/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Lion",
     }
+
   ]
 }
   </script>
@@ -118,18 +130,24 @@
     </div>
   </nav>
   <section class="h-20 md:h-34"></section>
-   <!-- End of Nav - Start of Breadcrumb Navigation -->
-  <div class="max-w-6xl mx-auto px-4">
-  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Lions Breadcrumb">
+  <!-- End of Nav - Start of Breadcrumb Navigation -->
+<div class="max-w-6xl mx-auto px-4">
+  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
-      <!-- 1. Kruger Mammals -->
       <li class="inline-flex items-center">
-        <a href="/kruger-national-park/mammals/" class="hover:underline">Kruger Mammals</a>
-      </li>
-      <!-- 2. Kruger Lions (current page) -->
-      <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Home</a>
         <span class="mx-2">/</span>
-        <span class="font-medium text-gray-500">Lion</span>
+      </li>
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/guide/" class="hover:underline">Kruger National Park Guide</a>
+        <span class="mx-2">/</span>
+      </li>
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/mammals/" class="hover:underline">Mammals</a>
+        <span class="mx-2">/</span>
+      </li>
+      <li class="inline-flex items-center text-gray-500 font-medium">
+        Lion
       </li>
     </ol>
   </nav>
