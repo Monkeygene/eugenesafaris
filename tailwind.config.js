@@ -41,6 +41,7 @@ export default {
       fontFamily: {
         avenir: ['"Avenir Light"', 'system-ui', 'sans-serif'],
         nunito: ['"Nunito Regular"', 'system-ui', 'sans-serif'],
+        playfair: ['"Playfair Display"', 'serif'],
       },
     },
   },

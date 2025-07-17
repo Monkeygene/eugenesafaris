@@ -15,9 +15,7 @@
     <!-- Robots -->
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <!-- Theme-->
-    <meta name="theme-color" content="#ffffff">
-    <!-- JSON-LD SCHEMA BREADCRUMB -->
+   <!-- JSON-LD Schema Breadcrumb (KMIA) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -44,8 +42,7 @@
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "KMIA",
-      "item": "https://eugenesafaris.com/kruger-national-park/airports/kmia/"
+      "name": "KMIA"
     }
   ]
 }
@@ -59,13 +56,14 @@
 
   gtag('config', 'G-F2CBZHQXX1');
 </script>
+ <script type="module" src="/src/main.js"></script>
 </head>
 <body class="font-avenir text-black bg-white">
   <nav class="bg-white w-full flex relative z-50">
     <div class="max-w-7xl container mx-auto px-6 md:px-6 lg:px-0 flex items-center justify-between h-16 lg:h-20">
       <!-- Brand -->
       <a href="/" class="flex-shrink-0">
-        <img src="/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
+        <img src="/src/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
       </a>
 
       <!-- Desktop Menu -->
@@ -129,29 +127,33 @@
       </nav>
     </div>
   </nav>
-  <!-- End of Nav -->
- <!-- Breadcrumb Navigation -->
-<div class="max-w-7xl mx-auto px-4">
+<!-- Start of Breadcrumb Navigation -->
+<div class="max-w-6xl mx-auto px-4">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
-
-      <!-- 1. Airports -->
+      <!-- Home -->
       <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Home</a>
         <span class="mx-2">/</span>
-        <a href="/kruger-national-park/guide/airports/" class="hover:underline">Airports</a>
       </li>
-
-      <!-- 2. Eastgate (current page) -->
+      <!-- Kruger Guide -->
       <li class="inline-flex items-center">
+        <a href="/kruger-national-park/guide/" class="hover:underline">Kruger Guide</a>
         <span class="mx-2">/</span>
-        <span class="font-medium text-gray-500">KMIA</span>
       </li>
-
+      <!-- Airports -->
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/airports/" class="hover:underline">Airports</a>
+        <span class="mx-2">/</span>
+      </li>
+      <!-- KMIA (Current) -->
+      <li class="inline-flex items-center text-gray-500 font-medium">
+        KMIA
+      </li>
     </ol>
   </nav>
 </div>
-<!-- End of Breadcrumb Navigation -->
-<!-- Section: Main Content -->
+<!-- End of Breadcrumb -->
 <section class="py-4 mt-12">
   <div class="container mx-auto px-4 flex flex-col items-center justify-center">
     <div class="max-w-4xl text-center">
@@ -171,7 +173,7 @@
 <section class="max-w-5xl mx-auto py-4 lg:py-12">
   <div class="flex justify-center items-center w-full px-4 py-4">
     <div class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover">
-      <img src="/assets/images/kruger-national-park/red-billed-oxpecker-on-back-of-white-rhino.webp" alt="red-billed oxpeckers on the back of a rhino which resembles Kruger Mpumalanga International Airport Terminal" class="w-full h-auto lg:h-[500px] mx-auto object-cover">
+      <img src="/src/assets/images/kruger-national-park/red-billed-oxpecker-on-back-of-white-rhino.webp" alt="red-billed oxpeckers on the back of a rhino which resembles Kruger Mpumalanga International Airport Terminal" class="w-full h-auto lg:h-[500px] mx-auto object-cover">
       <p class="mt-2 text-xs text-center lg:text-left">Red-Billed Oxpeckers relaxed on a Rhino Airport</p>
     </div>
   </div>
@@ -318,7 +320,5 @@
       </div>
     </div>
   </footer>
-
- <script type="module" src="/src/main.js"></script>
 </body>
 </html>
