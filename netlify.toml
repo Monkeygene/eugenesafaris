@@ -30,7 +30,6 @@
   to = "/410.html"
   status = 410
   force = true
-
 # Birding base
 [[redirects]]
   from = "/birding"
@@ -42,7 +41,6 @@
   to = "/410.html"
   status = 410
   force = true
-
 # Birding subpaths
 [[redirects]]
   from = "/birding/zambia"
@@ -294,6 +292,46 @@
   to = "/410.html"
   status = 410
   force = true
+
+  ######################
+  # Page Redirects to new pages Rules
+  ######################
+
+  [[redirects]]
+  from = "/kruger-national-park/guide/airports/"
+  to = "/kruger-national-park/airports/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/airports/kmia/"
+  to = "/kruger-national-park/airports/kmia/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/airports/eastgate/"
+  to = "/kruger-national-park/airports/eastgate/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/airports/skukuza/"
+  to = "/kruger-national-park/airports/skukuza/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/malaria/"
+  to = "/kruger-national-park/malaria/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/weather/"
+  to = "/kruger-national-park/weather/"
+  status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/guide/weather/october/"
+  to = "/kruger-national-park/weather/october/"
+  status = 301
+
 
 ######################
 # Header Rules

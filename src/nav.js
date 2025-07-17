@@ -32,22 +32,30 @@ const safarisButton = document.querySelector('#siteHeader button[aria-haspopup="
 
 function handleNavbarScroll() {
   const scrolled = window.scrollY > 50;
+  const isMobile = window.innerWidth < 768;
 
   if (scrolled) {
     siteHeader.classList.add('bg-white', 'shadow-md');
     navInner.classList.remove('h-20');
     navInner.classList.add('h-14');
-    logoImg.classList.remove('h-7', 'md:h-9');
+    
+    // Shrink logo on all sizes
+    logoImg.classList.remove('h-7', 'h-9', 'md:h-9');
     logoImg.classList.add('h-6');
   } else {
     siteHeader.classList.remove('bg-white', 'shadow-md');
     navInner.classList.remove('h-14');
     navInner.classList.add('h-20');
+
+    // Restore correct size based on device
     logoImg.classList.remove('h-6');
-    logoImg.classList.add('h-7', 'md:h-9');
+    if (isMobile) {
+      logoImg.classList.add('h-7');
+    } else {
+      logoImg.classList.add('h-9', 'md:h-9');
+    }
   }
 }
-
 
 // Run once on load
 window.addEventListener('DOMContentLoaded', handleNavbarScroll);
