@@ -15,12 +15,6 @@
 <!-- Favicon & Others -->
     <link rel="icon" href="/assets/images/logo/paw-print-lion.png" type="image/png">
     <link rel="apple-touch-icon" href="/assets/images/logo/paw-print-lion.png" type="image/png">
-
-    <link rel="stylesheet" href="/assets/css/build/tailwind.css">
-    <link rel="stylesheet" href="/style.css">
-
-    <meta name="theme-color" content="#ffffff">
-
  <!-- JSON-LD BreadcrumbList for Seven Day Classic Package -->
 <script type="application/ld+json">
 {
@@ -48,8 +42,7 @@
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "7 Day Private Safari",
-      "item": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
+      "name": "7 Day Private Safari"
     }
   ]
 }
@@ -63,13 +56,14 @@
 
   gtag('config', 'G-F2CBZHQXX1');
 </script>
+ <script type="module" src="/src/main.js"></script>
 </head>
 <body class="font-avenir text-black bg-white">
  <nav class="bg-white w-full flex relative z-50">
     <div class="max-w-7xl container mx-auto px-6 md:px-6 lg:px-0 flex items-center justify-between h-16 lg:h-20">
       <!-- Brand -->
       <a href="/" class="flex-shrink-0">
-        <img src="/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
+        <img src="/src/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
       </a>
 
       <!-- Desktop Menu -->
@@ -137,15 +131,20 @@
 <div class="max-w-7xl mx-auto px-4">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
-      <!-- 1. All Inclusive Safaris -->
       <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Home</a>
         <span class="mx-2">/</span>
-        <a href="/kruger-national-park/all-inclusive-safari-packages/" class="hover:underline">Kruger National Park</a>
       </li>
-      <!-- 2. 7 Day Private Safaris(current page) -->
       <li class="inline-flex items-center">
+        <a href="/kruger-national-park/safaris/" class="hover:underline">Kruger National Park Safaris</a>
         <span class="mx-2">/</span>
-        <span class="font-medium text-gray-500">7 Day Private</span>
+      </li>
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/all-inclusive-safari-packages/" class="hover:underline">All Inclusive Packages</a>
+        <span class="mx-2">/</span>
+      </li>
+      <li class="inline-flex items-center text-gray-500 font-medium">
+        7 Day Private Safari
       </li>
     </ol>
   </nav>
@@ -153,7 +152,7 @@
 <!-- End of Breadcrumb Navigation start of Main Content -->
   <section class="max-w-7xl mx-auto">
     <div class="w-full overflow-hidden">
-      <img src="/assets/images/kruger-national-park/african-lioness-in-tall-grass-side-view.webp" alt="7 Day Kruger National Park Safari All Inclusive Package" title="Kruger National Park All Inclusive Packages" class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover" loading="lazy">
+      <img src="/src/assets/images/kruger-national-park/african-lioness-in-tall-grass-side-view.webp" alt="7 Day Kruger National Park Safari All Inclusive Package" title="Kruger National Park All Inclusive Packages" class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover" loading="lazy">
     </div>
     </section>
 
@@ -580,8 +579,5 @@
       </div>
     </div>
   </footer>
-          
-  <script type="module" src="/src/main.js"></script>
-    
 </body>
 </html>
