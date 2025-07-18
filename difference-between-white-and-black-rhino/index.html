@@ -16,7 +16,7 @@
   <!-- Robots -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
-  <!-- JSON-LD Breadcrumb -->
+  <!-- JSON-LD Big 5 Breadcrumb -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -31,15 +31,21 @@
       {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger National Park Guide",
-      "item": "https://eugenesafaris.com/kruger-national-park/mammals/"
+      "name": "Kruger Guide",
+      "item": "https://eugenesafaris.com/kruger-national-park/guide/"
     },
       {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Leopards in Kruger National Park",
-        "item": "https://eugenesafaris.com/kruger-national-park/mammals/leopard/"
-      }
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mammals",
+      "item": "https://eugenesafaris.com/kruger-national-park/mammals/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Black vs White Rhino",
+    }
+
   ]
 }
   </script>
@@ -51,6 +57,7 @@
     gtag('js', new Date());
     gtag('config', 'G-F2CBZHQXX1');
   </script>
+    <script type="module" src="/src/main.js"></script>
 </head>
 <body class="bg-linen font-avenir">
   <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
@@ -122,29 +129,169 @@
     </div>
   </nav>
   <section class="h-20 md:h-34"></section>
-   <!-- End of Nav - Start of Breadcrumb Navigation -->
-  <div class="max-w-7xl mx-auto px-4">
-  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Contact Breadcrumb">
+<!-- End of Nav - Start of Breadcrumb Navigation -->
+<div class="max-w-6xl mx-auto px-4">
+  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
-      <!-- 1. Home -->
       <li class="inline-flex items-center">
-        <a href="/kruger-national-park/mammals/" class="hover:underline">Kruger Mammals</a>
-      </li>
-      <!-- 2. Mammals (current page) -->
-      <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Home</a>
         <span class="mx-2">/</span>
-        <span class="font-medium text-gray-500">Rhino Differences</span>
+      </li>
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/guide/" class="hover:underline">Kruger Guide</a>
+        <span class="mx-2">/</span>
+      </li>
+      <li class="inline-flex items-center">
+        <a href="/kruger-national-park/mammals/" class="hover:underline">Mammals</a>
+        <span class="mx-2">/</span>
+      </li>
+      <li class="inline-flex items-center text-gray-500 font-medium">
+        Black vs White Rhino
       </li>
     </ol>
   </nav>
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
-<section class="max-w-3xl mx-auto py-12 px-6 text-center">
-  <h1 class="text-4xl font-bold mb-4">Difference Between the Black and White Rhino</h1>
-  <p class="text-lg text-gray-700 mb-4">We're currently preparing this guide. Check back soon for in-depth information the difference between Black and White Rhino</p>
-  <a href="/kruger-national-park/mammals/lion/" class="text-primary underline">Read about lions in Kruger</a>
-</section>
+<section class="max-w-5xl mx-auto px-4 py-12 text-gray-800">
+  <h1 class="text-4xl font-bold mb-6">Black vs White Rhino – What’s the Difference?</h1>
+  
+  <p class="text-lg mb-6">
+    When exploring Kruger National Park, few moments rival the thrill of spotting a rhinoceros in the wild. But did you know that South Africa is home to two distinct species of rhino — the Black Rhino (<em>Diceros bicornis</em>) and the White Rhino (<em>Ceratotherium simum</em>)?
+  </p>
+  <p class="text-lg mb-6">
+    Although they may look similar at first glance, these two incredible animals differ in appearance, behavior, feeding habits, and conservation status. Understanding these differences not only enhances your safari experience — it also helps shed light on the vital conservation work being done to protect both species.
+  </p>
+  <p class="text-lg mb-8">
+    This guide breaks down the key distinctions and offers tips for identifying each species in Kruger.
+  </p>
 
+  <h2 class="text-2xl font-semibold mb-3">1. Physical Appearance: Lip Shape is Key</h2>
+  <p class="text-lg mb-4">
+    The most reliable way to tell a white rhino from a black rhino is by looking at their upper lip:
+  </p>
+  <ul class="list-disc list-inside text-lg mb-4 space-y-2">
+    <li><strong>White Rhino:</strong> Wide, flat mouth adapted for grazing on grass. The name comes from the Afrikaans word "wyd" (meaning wide).</li>
+    <li><strong>Black Rhino:</strong> Pointed, hooked lip for browsing shrubs and trees — almost like a parrot’s beak.</li>
+  </ul>
+
+  <h3 class="text-xl font-semibold mb-2">Other Visual Differences</h3>
+  <div class="overflow-auto mb-6">
+    <table class="table-auto w-full text-left border border-gray-300">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="px-4 py-2 font-semibold border">Feature</th>
+          <th class="px-4 py-2 font-semibold border">White Rhino</th>
+          <th class="px-4 py-2 font-semibold border">Black Rhino</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="px-4 py-2 border">Head shape</td>
+          <td class="px-4 py-2 border">Long, drooped head</td>
+          <td class="px-4 py-2 border">Shorter, more upright head</td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="px-4 py-2 border">Hump</td>
+          <td class="px-4 py-2 border">Prominent shoulder hump</td>
+          <td class="px-4 py-2 border">Less pronounced</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 border">Size</td>
+          <td class="px-4 py-2 border">1,800–2,400 kg (larger)</td>
+          <td class="px-4 py-2 border">800–1,400 kg (smaller)</td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="px-4 py-2 border">Ear size</td>
+          <td class="px-4 py-2 border">Short and round</td>
+          <td class="px-4 py-2 border">Larger, funnel-shaped</td>
+        </tr>
+        <tr>
+          <td class="px-4 py-2 border">Skin color</td>
+          <td class="px-4 py-2 border">Both are grey</td>
+          <td class="px-4 py-2 border">Both are grey</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="text-2xl font-semibold mb-3">2. Diet & Feeding Habits</h2>
+  <ul class="list-disc list-inside text-lg mb-4 space-y-2">
+    <li><strong>White Rhino (Grazers):</strong> Feed mostly on short grasses in open savanna and grasslands. Commonly seen with their heads down while grazing.</li>
+    <li><strong>Black Rhino (Browsers):</strong> Eat twigs, branches, and leaves. Their hooked lips allow them to grasp leaves with precision from shrubs and trees.</li>
+  </ul>
+  <p class="text-lg mb-6">These dietary preferences influence where each species is found within Kruger and how they interact with the environment.</p>
+
+  <h2 class="text-2xl font-semibold mb-3">3. Behavior and Temperament</h2>
+  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
+    <li><strong>White Rhinos:</strong> Calmer and more social. Often seen in small groups, especially females with calves. Males may tolerate overlapping territories.</li>
+    <li><strong>Black Rhinos:</strong> Solitary and more aggressive. Known to charge when startled and are often elusive in thick vegetation.</li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mb-3">4. Where to See Each Rhino in Kruger</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+    <div>
+      <h3 class="text-xl font-semibold mb-2">White Rhino Hotspots</h3>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Southern Kruger: Lower Sabie, Crocodile Bridge, Skukuza</li>
+        <li>Open grassy areas along roads like H4-1 and H3</li>
+        <li>Often near waterholes, especially in the dry season</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold mb-2">Black Rhino Zones</h3>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>Central and Northern Kruger: Letaba, Olifants</li>
+        <li>Dense thickets, acacia, and mopane woodland</li>
+        <li>Best viewed early morning or late afternoon</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="text-lg mb-6">
+    Tip: White rhinos are easier to spot on self-drives. For black rhinos, consider a guided safari in a private concession for a better chance.
+  </p>
+
+  <h2 class="text-2xl font-semibold mb-3">5. Conservation Status & Challenges</h2>
+  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
+    <li><strong>White Rhino (Near Threatened):</strong> A conservation success with over 15,000 southern white rhinos, yet still targeted by poachers.</li>
+    <li><strong>Black Rhino (Critically Endangered):</strong> Fewer than 6,000 remain. Kruger’s small population is under heavy protection, with strict anti-poaching strategies in place.</li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mb-3">Common Myths Debunked</h2>
+  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
+    <li><strong>“White rhinos are white, black rhinos are black”:</strong> False. Both are grey. Names stem from a mistranslation of “wyd.”</li>
+    <li><strong>“Black rhinos are more dangerous”:</strong> They’re more reactive due to solitary habits and poor eyesight but not inherently more dangerous.</li>
+    <li><strong>“They don’t coexist”:</strong> Both species live in Kruger but avoid direct competition due to different diets and habitats.</li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mb-3">Explore More Kruger Wildlife</h2>
+  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
+    <li><a href="/kruger-national-park/mammals/white-rhinoceros/" class="text-blue-600 hover:underline">White Rhinoceros in Kruger</a></li>
+    <li><a href="/kruger-national-park/mammals/black-rhinoceros/" class="text-blue-600 hover:underline">Black Rhinoceros in Kruger</a></li>
+    <li><a href="/kruger-national-park/mammals/lion/" class="text-blue-600 hover:underline">Lions in Kruger National Park</a></li>
+    <li><a href="/kruger-national-park/mammals/elephant/" class="text-blue-600 hover:underline">Elephants in Kruger</a></li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mb-3">Ready to See Rhinos in the Wild?</h2>
+  <p class="text-lg mb-4">
+    Browse our <a href="/kruger-national-park/safaris/" class="text-blue-600 hover:underline">Kruger Safari Packages</a> to plan your rhino-spotting adventure.
+  </p>
+
+  <h2 class="text-2xl font-semibold mb-3">External Resources</h2>
+  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
+    <li><a href="https://en.wikipedia.org/wiki/White_rhinoceros" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">White Rhinoceros – Wikipedia</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Black_rhinoceros" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Black Rhinoceros – Wikipedia</a></li>
+    <li><a href="https://www.savetherhino.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Save the Rhino International</a></li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mb-3">Conclusion: The Beauty in Their Differences</h2>
+  <p class="text-lg">
+    While they may look similar, the Black and White Rhinoceros are worlds apart in how they behave, eat, and survive in the wild. Whether you’re an avid wildlife enthusiast or a first-time safari-goer, learning the differences adds richness to your Kruger experience.
+  </p>
+  <p class="text-lg mt-2">
+    Spotting either rhino in Kruger is a privilege — and understanding their uniqueness makes it all the more special.
+  </p>
+</section>
 <section class="max-w-5xl mx-auto mt-16 mb-12 px-4">
   <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Explore Other Big 5 Mammals</h3>
   <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
@@ -155,7 +302,7 @@
     </a>
       <!-- Elephant Card -->
     <a href="/kruger-national-park/mammals/elephant/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-      <img src="/path-to-elephant-image.jpg" alt="Elephant in Kruger" class="w-16 h-16 rounded-md object-cover mr-4" />
+      <img src="/src/assets/images/kruger-national-park/elephant/thumbnail/xs/elephant-bull-standing.webpg" alt="Elephant in Kruger" class="w-16 h-16 rounded-md object-cover mr-4" />
       <span class="flex-1 text-lg font-medium text-gray-900">Elephant</span>
     </a>
    <!-- Leopard Card -->
@@ -233,7 +380,5 @@
     </div>
   </div>
 </footer>
-  <!-- Javascript -->
-  <script type="module" src="/src/main.js"></script>
   </body>
   </html>

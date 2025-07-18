@@ -1,5 +1,8 @@
 User-agent: *
+Access-Control-Allow-Origin: *
 
 Allow: /
+
+Allow: /assets/
 
 Sitemap: https://eugenesafaris.com/sitemap.xml
