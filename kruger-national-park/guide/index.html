@@ -49,7 +49,7 @@
 </head>
 <body class="bg-linen font-avenir">
   <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
      <div class="flex items-center">
@@ -63,10 +63,10 @@
           <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-gray-600 transition focus:outline-none px-2">
             Safaris
           </button>
-          <ul class="absolute left-0 mt-2 w-72 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50">
-            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-t-md">Classic Safari Packages</a></li>
+          <ul class="absolute left-0 mt-2 w-72 bg-white shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-gray-200">
+            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Classic Safari Packages</a></li>
             <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">All Inclusive Safari Packages</a></li>
-            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-b-md">Photographic Safari Packages</a></li>
+            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Photographic Safari Packages</a></li>
           </ul>
         </li>
         <li><a href="/about/" class="text-gray-800 hover:text-gray-600 transition px-2">About</a></li>
@@ -118,7 +118,7 @@
   </nav>
   <section class="h-20 md:h-34"></section>
    <!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-6xl mx-auto px-4">
+<div class="max-w-7xl mx-auto px-5 lg:px-1">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
       <li class="inline-flex items-center">
@@ -135,23 +135,23 @@
 <section class="py-4 lg:py-12">
   <div class="container mx-auto px-4 text-center">
     <div class="max-w-4xl mx-auto">
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+      <h1 class="text-3xl md:text-5xl font-playfair mb-8">
         Kruger National Park Guide
       </h1>
-      <p class="text-md sm:text-base md:text-lg text-gray-700 leading-relaxed mt-4 text-left">
+      <p class="text-md sm:text-base md:text-lg text-gray-700 leading-relaxed mt-4 text-center">
         Welcome to the Kruger National Park Guide. In this guide, you'll find information about the park, its wildlife, and how to make the most of your visit with us. Whether you're interested in birding, mammal watching, or simply enjoying the natural beauty, this guide has you covered.
       </p>
     </div>
   </div>
 </section>
-<section class="max-w-7xl mx-auto px-4 py-12">
+<section class="max-w-7xl mx-auto px-12 lg:px-4 py-12">
   <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
     
     <!-- Sidebar (1 column on large screens) -->
     <aside class="lg:col-span-1">
-      <div class="bg-zinc-100 p-6 rounded-xl shadow-md">
+      <div class="bg-white border border-gray-200 p-6 hover:shadow-xl">
         <h2 class="text-xl font-bold mb-4 border-b pb-2">Categories</h2>
-        <ul class="space-y-2 text-sm">
+        <ul class="space-y-2 text-md">
           <li><a href="/kruger-national-park/mammals/" class="text-gray-800 hover:underline">Mammals</a></li>
           <li><a href="#" class="text-gray-800 hover:underline">Birds</a></li>
           <li><a href="#" class="text-gray-800 hover:underline">Reptiles</a></li>
@@ -162,45 +162,37 @@
     </aside>
 
     <!-- Cards (3 columns on large screens) -->
-    <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-      
-      <!-- Card 1 -->
-      <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
-        <img src="/src/assets/images/kruger-national-park/groundhornbill.webp" alt="Kruger Birds" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-lg font-semibold mb-2">Kruger Birds</h3>
-          <p class="text-gray-600 mb-4">From rollers to raptors, explore Kruger’s birdlife.</p>
-          <a href="#" class="mt-auto inline-block bg-lime-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-lime-700 transition">
-            Learn More
-          </a>
-        </div>
-      </div>
+<div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
 
-      <!-- Card 2 -->
-      <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
-        <img src="/src/assets/images/kruger-national-park/african-lion-looking-at-safari-vehicle.webp" alt="Kruger Mammals" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-lg font-semibold mb-2">Kruger Mammals</h3>
-          <p class="text-gray-600 mb-4">Meet Kruger’s elephants, lions, and other mammals.</p>
-          <a href="/kruger-national-park/mammals/" class="mt-auto inline-block bg-lime-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-lime-700 transition">
-            Learn More
-          </a>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
-        <img src="/src/assets/images/kruger-national-park/kruger-national-park-in-august.webp" alt="Kruger Grasses" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-lg font-semibold mb-2">Kruger Grasses</h3>
-          <p class="text-gray-600 mb-4">Discover how grasses shape the savanna ecosystem.</p>
-          <a href="#" class="mt-auto inline-block bg-lime-600 text-white font-bold px-4 py-2 rounded-lg hover:bg-lime-700 transition">
-            Learn More
-          </a>
-        </div>
-      </div>
-
+  <!-- Card 1 -->
+   <a href="/kruger-national-park/mammals/" class="block border border-gray-200 overflow-hidden hover:shadow-xl transition bg-white">
+    <img src="/src/assets/images/kruger-national-park/mammals/burchells-zebra/image-box/burchells-zebra-standing-waterhole.webp" alt="Kruger Mammals" class="w-full h-48 object-cover">
+    <div class="p-6 text-center">
+      <h2 class="text-xl font-semibold mb-2 text-gray-900">Mammals</h2>
+      <p class="text-gray-600">Meet Kruger’s elephants, lions, and other mammals.</p>
     </div>
+  </a>
+
+  <!-- Card 2 -->
+<a href="/kruger-national-park/birds/" class="block border border-gray-200 overflow-hidden hover:shadow-xl transition bg-white">
+    <img src="/src/assets/images/kruger-national-park/birds/red-billed-oxpecker/red-billed-oxpecker-on-back-of-white-rhino.webp" alt="Kruger Birds" class="w-full h-48 object-cover">
+    <div class="p-6 text-center">
+      <h2 class="text-xl font-semibold mb-2 text-gray-900">Birds</h2>
+      <p class="text-gray-600">From rollers to raptors, explore Kruger’s birdlife.</p>
+    </div>
+  </a>
+
+  <!-- Card 3 -->
+  <a href="#" class="block border border-gray-200 overflow-hidden hover:shadow-xl transition bg-white">
+    <img src="/src/assets/images/kruger-national-park/reptiles/leopard-tortoise/leopard-tortoise-on-road.jpg" alt="Kruger Grasses" class="w-full h-48 object-cover">
+    <div class="p-6 text-center">
+      <h2 class="text-xl font-semibold mb-2 text-gray-900">Reptiles</h2>
+      <p class="text-gray-600">Discover the reptiles of Kruger National Park.</p>
+    </div>
+  </a>
+
+</div>
+
   </div>
 </section>
 

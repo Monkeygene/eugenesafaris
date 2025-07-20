@@ -54,7 +54,7 @@
 </head>
 <body class="font-avenir bg-linen">
   <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
      <div class="flex items-center px-6 md:px-0">
@@ -123,7 +123,7 @@
   </nav>
 <section class="h-20 md:h-34"></section>
 <!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-7xl mx-auto px-4">
+<div class="max-w-7xl mx-auto px-5 lg:px-1">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
       <li class="inline-flex items-center">
@@ -141,75 +141,79 @@
   </nav>
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
-  <section class="max-w-7xl mx-auto">
-    <div class="w-full overflow-hidden">
-      <img src="/src/assets/images/kruger-national-park/groundhornbill.webp" alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" class="w-full object-cover" loading="lazy">
-    </div>
-    </section>
-
+<section class="max-w-7xl mx-auto mb-8 lg:mb-12">
+  <div class="w-full overflow-hidden">
+    <picture>
+      <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
+      <source 
+        srcset="/src/assets/images/kruger-national-park/mammals/klipspringer/header/lg/klipspringer-infront-granite-boulder-kruger-classic-safari.webp" 
+        media="(min-width: 640px)" 
+        type="image/jpeg">
+      
+      <!-- Default fallback (mobile and smaller devices) -->
+      <img 
+        src="/src/assets/images/kruger-national-park/mammals/klipspringer/header/sm/klipspringer-infront-granite-boulder-kruger-classic-safari.webp" 
+        alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" 
+        class="w-full object-cover" 
+        loading="lazy">
+    </picture>
+  </div>
+</section>
   <!-- Kruger National Park Classic Safari Packages -->
-<section class="py-12">
+<section class="">
   <div class="container mx-auto max-w-6xl px-4">
     <!-- Section Title & Explanation -->
-    <div class="text-center mb-12">
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold py-4 lg:py-8">
+    <div class="text-center">
+      <h1 class="font-playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl py-4 lg:py-8">
         Classic Kruger National Park Safari Packages
       </h1>
       <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center py-4 lg:py-8">
 Experience <a href="/kruger-national-park/safaris/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger National Park</a> like never before with our privately guided standard safari packages. Although you take care of your own meals, we provide everything else you need for an unforgettable Kruger safari experience. Enjoy expertly guided safaris, rustic Kruger accommodations and unforgettable wildlife encounters. Book your safari today!
       </p>
     </div>
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 lg:py-16">
-      <!-- Card: 5 Day Classic Safari Package -->
-      <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
-        <img src="/src/assets/images/kruger-national-park/plains-zebra-in-kruger-park.webp" alt="Kruger National Park safaris provide the best option to see Plains Zebra" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-xl font-bold mb-2">5 Day Classic Kruger</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-           A 5 day safari is perfect for a Kruger Park Introduction. Experience the best of Kruger with expert guides, full meals, and flexible airport options.
-          </p>
-          <div class="mt-auto">
-            <a href="/kruger-national-park/classic-safari-packages/5-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
-              VIEW ITINERARY
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card: 6 Day Classic Safari Package -->
-      <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
-        <img src="/src/assets/images/kruger-national-park/african-lion-close-to-satara-rest-camp.webp" alt="a male lion close to Satara on a Kruger National Park Classic Safari Package" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-xl font-bold mb-2">6 Day Classic Kruger</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-             6 days in Kruger National Park is the perfect amount of time to explore the park's diverse regions, see the Big 5 and enjoy the best of Kruger Park.
-          </p>
-          <div class="mt-auto">
-            <a href="/kruger-national-park/classic-safari-packages/6-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
-              VIEW ITINERARY
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Card: 7 Day Day Classic Safari Package -->
-      <div class="bg-zinc-100 shadow-lg rounded overflow-hidden flex flex-col h-full">
-        <img src="/src/assets/images/kruger-national-park/african-lioness-in-tall-grass-side-view.webp" alt="Kruger National Park Luxury Safari relaxing with a Lioness" class="w-full h-48 object-cover">
-        <div class="p-4 flex flex-col flex-grow text-center">
-          <h3 class="text-xl font-bold mb-2">7 Day Classic Kruger</h3>
-          <p class="text-gray-700 mb-4 flex-grow">
-            Explore Kruger's diverse regions on a 7-day all inclusive safari, this safari is perfect to completely immerse yourself in the park's wildlife and landscapes.
-          </p>
-          <div class="mt-auto">
-            <a href="/kruger-national-park/classic-safari-packages/7-day-private-safari/" class="inline-block bg-lime-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg border border-lime-800 hover:shadow-[0_0_0_2px_#365314] transition-all duration-300 text-md sm:text-base md:text-lg lg:text-lg shadow">
-              VIEW ITINERARY
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</section>
+    </section>
+    <section class="py-12">
+      <div class="container mx-auto max-w-6xl px-12">
+ <!-- Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-4 lg:py-16">
 
+  <!-- Card: 5 Day Classic Safari Package -->
+  <a href="/kruger-national-park/classic-safari-packages/5-day-private-safari/" class=" bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+    <img src="/src/assets/images/kruger-national-park/mammals/chacma-baboon/chacma-baboon.jpg" alt="Kruger National Park safaris provide the best option to see Plains Zebra" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">5 Day Classic Kruger</h3>
+      <p class="text-gray-700 mb-0 flex-grow">
+        A 5 day safari is perfect for a Kruger Park Introduction. Experience the best of Kruger with expert guides, full meals, and flexible airport options.
+      </p>
+    </div>
+  </a>
+
+  <!-- Card: 6 Day Classic Safari Package -->
+  <a href="/kruger-national-park/classic-safari-packages/6-day-private-safari/" class=" bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+    <img src="/src/assets/images/kruger-national-park/mammals/leopard/image-box/leopard-walking-open-woodland.jpg" alt="a male lion close to Satara on a Kruger National Park Classic Safari Package" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">6 Day Classic Kruger</h3>
+      <p class="text-gray-700 mb-0 flex-grow">
+        6 days in Kruger National Park is the perfect amount of time to explore the park's diverse regions, see the Big 5 and enjoy the best of Kruger Park.
+      </p>
+    </div>
+  </a>
+
+  <!-- Card: 7 Day Classic Safari Package -->
+  <a href="/kruger-national-park/classic-safari-packages/7-day-private-safari/" class=" bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+    <img src="/src/assets/images/kruger-national-park/mammals/smiths-bush-squirrel/smiths-bush-squirrel-ready-to-make-a-move.jpg" alt="Kruger National Park Luxury Safari relaxing with a Lioness" class="w-full h-48 object-cover">
+    <div class="p-4 flex flex-col flex-grow text-center">
+      <h3 class="text-xl font-bold mb-2">7 Day Classic Kruger</h3>
+      <p class="text-gray-700 mb-0 flex-grow">
+        Explore Kruger's diverse regions on a 7-day all inclusive safari, this safari is perfect to completely immerse yourself in the park's wildlife and landscapes.
+      </p>
+    </div>
+  </a>
+
+</div>
+      </div>
+    </section>
 <!-- Kruger Safari All-Inclusive Section -->
 <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
   <div class="max-w-4xl mx-auto text-gray-800">
@@ -239,7 +243,7 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
   <section class="max-w-5xl mx-auto py-4 lg:py-20">
     <div class="flex justify-center items-center w-full px-4 py-4">
       <div class="w-full object-cover">
-        <img src="/src/assets/images/kruger-national-park/leopard-in-tall-grass-kruger-h1-1.webp" alt="an African Leopard walking in tall grass on classic kruger safari" class="w-full aspect-auto mx-auto object-cover">
+        <img src="/src/assets/images/kruger-national-park/mammals/leopard/image-box/leopard-walking-open-woodland.jpg" alt="an African Leopard walking in tall grass on classic kruger safari" class="w-full aspect-auto mx-auto object-cover">
         <p class="mt-1 text-xs text-center lg:text-left">Leopard walking in tall grass.</p>
       </div>
     </div>
@@ -290,7 +294,7 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
   <section class="max-w-5xl mx-auto py-4 lg:py-20">
     <div class="flex justify-center items-center w-full px-4 py-4">
       <div class="w-full object-cover">
-        <img src="/src/assets/images/kruger-national-park/cape-buffalo-with-oxpeckers-on-back.webp" alt="Cape Bufallo with red-billed oxpeckers on back Kruger Luxury Safaris" class="w-full aspect-auto mx-auto object-cover">
+        <img src="/src/assets/images/kruger-national-park/birds/crested-barbet/crested-barbet.jpg" alt="Cape Bufallo with red-billed oxpeckers on back Kruger Luxury Safaris" class="w-full aspect-auto mx-auto object-cover">
         <p class="mt-1 text-xs text-center lg:text-left">Old Cape Buffalo with Red-Billed Oxpeckers on back.</p>
       </div>
     </div>
@@ -319,7 +323,7 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
   <section class="max-w-5xl mx-auto py-4 lg:py-20">
     <div class="flex justify-center items-center w-full px-4 py-4">
       <div class="w-full object-cover">
-        <img src="/src/assets/images/kruger-national-park/kudu-walking-in-kruger-dry-river-bed.webp" alt="Kudus walking in Sabie river close to skukuza on Classic Kruger National Safari Package" class="w-full aspect-auto mx-auto object-cover">
+        <img src="/src/assets/images/kruger-national-park/landscape/sabi-river.jpg" alt="Kudus walking in Sabie river close to skukuza on Classic Kruger National Safari Package" class="w-full aspect-auto mx-auto object-cover">
         <p class="mt-1 text-xs text-center lg:text-left">Kudus moving back into dense vegetation after drink from Sabie River</p>
       </div>
     </div>
@@ -367,7 +371,7 @@ Experience <a href="/kruger-national-park/safaris/" class="underline decoration-
   <section class="max-w-5xl mx-auto py-4 lg:py-20">
     <div class="flex justify-center items-center w-full px-4 py-4">
       <div class="w-full object-cover">
-        <img src="/src/assets/images/kruger-national-park/african-lioness-in-tall-grass.webp" alt="Kudus walking in Sabie river close to skukuza on Classic Kruger National Safari Package" class="w-full aspect-auto mx-auto object-cover">
+        <img src="/src/assets/images/kruger-national-park/mammals/impala/male-impala.jpg" alt="Kudus walking in Sabie river close to skukuza on Classic Kruger National Safari Package" class="w-full aspect-auto mx-auto object-cover">
         <p class="mt-1 text-xs text-center lg:text-left">Lioness in tall grass next to the road.</p>
       </div>
     </div>

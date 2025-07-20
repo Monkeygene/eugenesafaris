@@ -32,6 +32,8 @@ export default {
   "./kruger-national-park/mammals/elephant/index.html",
   "./kruger-national-park/mammals/white-rhinoceros/index.html",
   "./kruger-national-park/mammals/black-rhinoceros/index.html",
+  "./kruger-national-park/mammals/rhinoceros/index.html",
+  "./difference-between-white-and-black-rhino/index.html",
   "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
