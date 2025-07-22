@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, 'index.html'),
         about: path.resolve(__dirname, 'about/index.html'),
+        blog: path.resolve(__dirname, 'blog/index.html'),
         contact: path.resolve(__dirname, 'contact/index.html'),
         krugernationalpark: path.resolve(__dirname, 'kruger-national-park/index.html'),
         krugernationalparksafaris: path.resolve(__dirname, 'kruger-national-park/safaris/index.html'),

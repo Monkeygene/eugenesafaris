@@ -3,6 +3,7 @@ export default {
   content: [
   "./index.html",
   "./about/index.html",
+  "./blog/index.html",
   "./contact/index.html",
   "./kruger-national-park/index.html",
   "./kruger-national-park/safaris/index.html",
