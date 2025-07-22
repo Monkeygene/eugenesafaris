@@ -61,13 +61,6 @@
   status = 410
   force = true
 
-# Remove photographic safari (non-slash version indexed)
-[[redirects]]
-  from = "/kruger-national-park/photographic-safari"
-  to = "/410.html"
-  status = 410
-  force = true
-
 # Remove old guide section
 [[redirects]]
   from = "/guide/"
