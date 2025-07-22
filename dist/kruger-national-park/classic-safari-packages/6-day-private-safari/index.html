@@ -30,7 +30,7 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger National Park Safaris",
+      "name": "Kruger Safaris",
       "item": "https://eugenesafaris.com/kruger-national-park/safaris/"
     },
     {
@@ -42,7 +42,7 @@
     {
   "@type": "ListItem",
   "position": 4,
-  "name": "6 Day Private Safari",
+  "name": "6 Day",
   "item": "https://eugenesafaris.com/kruger-national-park/classic-safari-packages/6-day-private-safari/"
 }
   ]
@@ -59,48 +59,48 @@
   gtag('config', 'G-F2CBZHQXX1');
 </script>
   <!-- Tailwind CSS -->
-  <script type="module" crossorigin src="/assets/main-7Y0vcItM.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-80LSgu8T.css">
+  <script type="module" crossorigin src="/assets/main-BZ6nBK4n.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-lM0Ge6Cj.css">
 </head>
-<body class="font-avenir text-black bg-white">
-  <nav class="bg-white w-full flex relative z-50">
-    <div class="max-w-7xl container mx-auto px-6 md:px-6 lg:px-0 flex items-center justify-between h-16 lg:h-20">
-      <!-- Brand -->
-      <a href="/" class="flex-shrink-0">
-        <img src="/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
-      </a>
-
+<body class="bg-linen font-avenir">
+ <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
+    <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
+    <!-- Logo -->
+     <div class="flex items-center px-6 md:px-0">
+    <a href="/">
+      <img id="logoImg" src="/assets/eugenesafaris-B0wVnQBX.svg" class="h-7 md:h-9 transition-all duration-300 ease-in-out" />
+    </a>
+     </div>
       <!-- Desktop Menu -->
-      <ul class="hidden md:flex space-x-8">
+      <ul class="hidden md:flex space-x-6 items-center">
         <li class="relative group">
-          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-gray-600 transition focus:outline-none">
+          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none px-2">
             Safaris
           </button>
-          <ul class="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50">
-            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-t-md">Classic Packages</a></li>
-            <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">All Inclusive Packages</a></li>
-            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-b-md">Photographic Safari</a></li>
+          <ul class="absolute left-0 mt-2 w-72 bg-linen shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-zinc-100">
+            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Classic Safari Packages</a></li>
+            <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
+            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Photographic Safari Packages</a></li>
           </ul>
         </li>
-        <li><a href="/about/" class="text-gray-800 hover:text-gray-600 transition">About</a></li>
-        <li><a href="/contact/" class="text-gray-800 hover:text-gray-600 transition">Contact</a></li>
-        <li><a href="/kruger-national-park/guide/" class="text-gray-800 hover:text-gray-600 transition">Guide</a></li>
+        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
+         <li><a href="/Blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
+        <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
       </ul>
-
-      <!-- Mobile menu button -->
-      <button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none">
-        <svg id="icon-open" class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-        <svg id="icon-close" class="h-6 w-6 text-gray-800 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+    <!-- Mobile menu button -->
+     <div class="md:hidden">
+<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none px-6 lg:px-0">
+  <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+</div>
     </div>
-
+    </div>
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-white shadow-lg transform translate-x-full transition-transform duration-300 md:hidden">
-      <div class="flex justify-end p-6">
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+      <div class="flex justify-end p-6 mr-3">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -110,7 +110,7 @@
       <nav class="px-6 space-y-4">
         <div class="space-y-2">
           <!-- NOTE: IDs now match the JS below -->
-          <button class="w-full flex justify-between items-center text-gray-800 hover:text-gray-600 transition focus:outline-none"
+          <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
                   aria-haspopup="true"
                   aria-expanded="false"
                   id="mobile-safaris-btn">
@@ -120,17 +120,18 @@
             </svg>
           </button>
           <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-            <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">Classic Packages</a>
-            <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">All-Inclusive Packages</a>
-            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-gray-900 transition">Photographic Safari</a>
+            <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Classic Safari Packages</a>
+            <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
+            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safari Packages</a>
           </div>
         </div>
-        <a href="/about/" class="block text-gray-800 hover:text-gray-600 transition">About</a>
-        <a href="/contact/" class="block text-gray-800 hover:text-gray-600 transition">Contact</a>
-        <a href="/kruger-national-park/guide/" class="block text-gray-800 hover:text-gray-600 transition">Guide</a>
+        <a href="/about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
+        <a href="/blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
+        <a href="/contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
       </nav>
     </div>
   </nav>
+  <section class="h-20 md:h-34"></section>
 <!-- Breadcrumb Navigation for 6 Day Classic Safari -->
 <div class="max-w-7xl mx-auto px-4">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
@@ -140,7 +141,7 @@
         <span class="mx-2">/</span>
       </li>
       <li class="inline-flex items-center">
-        <a href="/kruger-national-park/safaris/" class="hover:underline">Kruger National Park Safaris</a>
+        <a href="/kruger-national-park/safaris/" class="hover:underline">Kruger Safaris</a>
         <span class="mx-2">/</span>
       </li>
       <li class="inline-flex items-center">
@@ -148,20 +149,31 @@
         <span class="mx-2">/</span>
       </li>
       <li class="inline-flex items-center text-gray-500 font-medium">
-        6 Day Private Safari
+        6 Day
       </li>
     </ol>
   </nav>
 </div>
-
 <!-- End of Breadcrumb Navigation start of Main Content -->
-  <section class="max-w-7xl mx-auto">
-    <div class="w-full overflow-hidden">
-      <img src="/assets/images/south-luangwa-national-park/leopardandtounge.png" alt="Contact Header Image" class="w-full h-[220px] sm:h-[300px] md:h-[360px] lg:h-[440px] object-cover">
-    </div>
-    </section>
-
-   <!-- Itinerary Introduction -->
+<section class="max-w-7xl mx-auto mb-8 lg:mb-12">
+  <div class="w-full overflow-hidden">
+    <picture>
+      <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
+      <source 
+        srcset="/assets/blue-wildebeest-kruger-park-BAWq4vjQ.webp" 
+        media="(min-width: 640px)" 
+        type="image/jpeg">
+      
+      <!-- Default fallback (mobile and smaller devices) -->
+      <img 
+        src="/assets/blue-wildebeest-kruger-park-DV7DotQm.webp" 
+        alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" 
+        class="w-full object-cover" 
+        loading="lazy">
+    </picture>
+  </div>
+</section>
+   <!-- 6 Day Itinerary Introduction -->
 <section class="max-w-7xl mx-auto px-4 py-12 bg-white">
   <h1 class="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-6 lg:mb-10">6-Day Classic Private Safari in Kruger National Park</h1>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg text-center mb-6">Experience the legendary wildlife of Kruger National Park on our immersive 7-day Kruger National Park All Inclusive Safari. Your journey begins at Eastgate (Hoedspruit) Airport, from where you'll enter Kruger Park through Orpen Gate and head into the bush in a safari vehicle. Over the next six nights you'll stay at three iconic rest camps - Satara (2 nights), Skukuza (2 nights), and Berg-en-Dal (2 nights) - experiencing diverse landscapes and wildlife at every turn. Each day offers flexible private game drives (morning or full-day) led by an expert guide; with a private safari you set the pace, choosing how long to observe lions, elephants, rhinos, giraffes and other Big Five game. Enjoy authentic South African hospitality at camp each evening and delightful meals under the African sky.</p>

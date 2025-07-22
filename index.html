@@ -54,18 +54,18 @@
       <!-- Desktop Menu -->
       <ul class="hidden md:flex space-x-6 items-center">
         <li class="relative group">
-          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-gray-600 transition focus:outline-none px-2">
+          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none px-2">
             Safaris
           </button>
-          <ul class="absolute left-0 mt-2 w-72 bg-linen shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-gray-200">
-            <li><a href="kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Classic Safari Packages</a></li>
-            <li><a href="kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">All Inclusive Safari Packages</a></li>
-            <li><a href="kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Photographic Safari Packages</a></li>
+          <ul class="absolute left-0 mt-2 w-72 bg-linen shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-zinc-100">
+            <li><a href="kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Classic Safari Packages</a></li>
+            <li><a href="kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
+            <li><a href="kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Photographic Safari Packages</a></li>
           </ul>
         </li>
-        <li><a href="about/" class="text-gray-800 hover:text-gray-600 transition px-2">About</a></li>
-         <li><a href="Blog/" class="text-gray-800 hover:text-gray-600 transition px-2">Blog</a></li>
-        <li><a href="contact/" class="text-gray-800 hover:text-gray-600 transition px-2">Contact</a></li>
+        <li><a href="about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
+         <li><a href="Blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
+        <li><a href="contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
       </ul>
     <!-- Mobile menu button -->
      <div class="md:hidden">
@@ -89,7 +89,7 @@
       <nav class="px-6 space-y-4">
         <div class="space-y-2">
           <!-- NOTE: IDs now match the JS below -->
-          <button class="w-full flex justify-between items-center text-gray-800 hover:text-gray-600 transition focus:outline-none"
+          <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
                   aria-haspopup="true"
                   aria-expanded="false"
                   id="mobile-safaris-btn">
@@ -99,14 +99,14 @@
             </svg>
           </button>
           <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-            <a href="kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">Classic Safari Packages</a>
-            <a href="kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">All-Inclusive Safari Packages</a>
-            <a href="kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-gray-900 transition">Photographic Safari Packages</a>
+            <a href="kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Classic Safari Packages</a>
+            <a href="kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
+            <a href="kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safari Packages</a>
           </div>
         </div>
-        <a href="about/" class="block text-gray-800 hover:text-gray-600 transition">About</a>
-        <a href="blog/" class="block text-gray-800 hover:text-gray-600 transition">Blog</a>
-        <a href="contact/" class="block text-gray-800 hover:text-gray-600 transition">Contact</a>
+        <a href="about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
+        <a href="blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
+        <a href="contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
       </nav>
     </div>
   </nav>
@@ -493,122 +493,31 @@
   </section>
   
   <section class="py-4 lg:py-24">
-    <div class="container mx-auto max-w-5xl px-4">
-      <div class="flex flex-col-reverse md:flex-row items-stretch bg-white rounded-md shadow-md overflow-hidden">
-        <!-- Subscribe Form -->
-        <div class="w-full md:w-1/2 p-8 flex flex-col justify-center">
-          <h2 class="text-3xl font-bold mb-4">Join the Herd</h2>
-          <p class="text-gray-700 mb-6">
-            Subscribe to my newsletter and watch my videos earlier, get exclusive offers and read my latest news. And do not worry, I won't fill up your mailbox with spam.
-          </p>
-  
-          <!-- Mailchimp embedded form -->
-          <form
-            action="https://nyonisafaris.us16.list-manage.com/subscribe/post?u=65b6b0cc54bd0862e75865825&amp;id=a04af09294&amp;f_id=0029a5e1f0"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="flex flex-col space-y-4"
-            target="_blank"
-            novalidate
-          >
-            <!-- Email Address -->
-            <div class="flex flex-col">
-              <label for="mce-EMAIL" class="text-sm font-medium mb-1">
-                Email Address <span class="text-red-500">*</span>
-              </label>
-              <input
-                type="email"
-                name="EMAIL"
-                class="required email w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
-                id="mce-EMAIL"
-                placeholder="you@example.com"
-                required
-              >
-            </div>
-  
-            <!-- First Name -->
-            <div class="flex flex-col">
-              <label for="mce-FNAME" class="text-sm font-medium mb-1">
-                First Name
-              </label>
-              <input
-                type="text"
-                name="FNAME"
-                class="text w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
-                id="mce-FNAME"
-                placeholder="Your name"
-              >
-            </div>
-  
-            <!-- Responses -->
-            <div id="mce-responses" class="text-sm text-gray-700">
-              <div class="response text-red-600" id="mce-error-response" style="display:none;"></div>
-              <div class="response text-green-600" id="mce-success-response" style="display:none;"></div>
-            </div>
-  
-            <!-- Honeypot (hide off-screen) -->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input
-                type="text"
-                name="b_65b6b0cc54bd0862e75865825_a04af09294"
-                tabindex="-1"
-                value=""
-              >
-            </div>
-  
-            <!-- Submit -->
-            <button
-              type="submit"
-              name="subscribe"
-              id="mc-embedded-subscribe"
-              class="inline-block bg-white text-black px-4 py-2 md:px-6 md:py-3 rounded-lg border border-black hover:bg-black hover:text-white transition duration-300 text-md sm:text-base md:text-lg lg:text-lg"
-            >
-              Subscribe
-            </button>
-          </form>
-          <!-- End Mailchimp form -->
-        </div>
-  
-        <!-- Image -->
-        <div class="w-full md:w-1/2">
-          <img
-            src="src/assets/images/kruger-national-park/mammals/impala/image-box/impala-drinking-water.jpg"
-            alt="Black-Collared Barbet in Kruger National Park Safaris"
-            class="w-full h-full object-cover" loading="lazy"
-          >
-        </div>
+  <div class="container mx-auto max-w-5xl px-4">
+    <div class="flex flex-col-reverse md:flex-row items-stretch bg-white rounded-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+      
+      <!-- Clickable CTA Block -->
+      <a href="https://mailchi.mp/51825f2d7940/nyoni-birding-safaris" target="_blank" rel="noopener noreferrer"
+         class="w-full md:w-1/2 p-8 flex flex-col justify-center hover:bg-zinc-100 transition duration-300">
+        <h2 class="text-3xl font-bold mb-4">Join the Herd</h2>
+        <p class="text-gray-700 mb-6">
+          Subscribe to my newsletter and watch my videos earlier, get exclusive offers and read my latest news. 
+          And do not worry, I won't fill up your mailbox with spam.
+        </p>
+      </a>
+
+      <!-- Image -->
+      <div class="w-full md:w-1/2">
+        <img
+          src="src/assets/images/kruger-national-park/mammals/impala/image-box/impala-drinking-water.jpg"
+          alt="Black-Collared Barbet in Kruger National Park Safaris"
+          class="w-full h-full object-cover"
+          loading="lazy"
+        >
       </div>
     </div>
-  
-    <!-- Mailchimp validation script -->
-    <script
-      type="text/javascript"
-      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-    ></script>
-    <script type="text/javascript">
-      (function($) {
-        window.fnames = new Array();
-        window.ftypes = new Array();
-        fnames[0] = 'EMAIL';
-        ftypes[0] = 'email';
-        fnames[1] = 'FNAME';
-        ftypes[1] = 'text';
-        fnames[2] = 'LNAME';
-        ftypes[2] = 'text';
-        fnames[3] = 'ADDRESS';
-        ftypes[3] = 'address';
-        fnames[4] = 'PHONE';
-        ftypes[4] = 'phone';
-        fnames[5] = 'BIRTHDAY';
-        ftypes[5] = 'birthday';
-        fnames[6] = 'COMPANY';
-        ftypes[6] = 'text';
-      })(jQuery);
-      var $mcj = jQuery.noConflict(true);
-    </script>
-  </section>
-  
+  </div>
+</section>
   
   <!-- What is a typical Africa Birding Tour like -->
   <section class="py-4 lg:py-12 mt-6">
@@ -722,9 +631,9 @@
   <div>
     <h4 class="text-lg font-semibold mb-4">Contact</h4>
     <ul class="text-sm space-y-2">
-      <li><strong>Cell:</strong> <a href="tel:+27821234567" class="hover:text-gray-900 transition">+27 82 123 4567</a></li>
-      <li><strong>Email:</strong> <a href="mailto:eugene@nyonisafaris.com" class="hover:text-gray-900 transition">eugene@nyonisafaris.com</a></li>
-      <li><strong>Office Hours:</strong> Mon–Fri, 08:00–17:00</li>
+      <li><strong>Cell:</strong> <a href="tel:+27821234567" class="hover:text-gray-900 transition">+351 964 872 495</a></li>
+      <li><strong>Email:</strong> <a href="mailto:bushbap@gmail.com.com" class="hover:text-gray-900 transition">bushbap@gmail.com</a></li>
+      <li><strong>Office Hours:</strong> Mon-Fri, 08:00-17:00</li>
     </ul>
   </div>
 
@@ -735,19 +644,20 @@
       <li><a href="/" class="hover:text-gray-900 transition">Home</a></li>
       <li><a href="/kruger-national-park/safaris/" class="hover:text-gray-900 transition">Safaris</a></li>
       <li><a href="/about/" class="hover:text-gray-900 transition">About</a></li>
+      <li><a href="/blog/" class="hover:text-gray-900 transition">Blog</a></li>
       <li><a href="/contact/" class="hover:text-gray-900 transition">Contact</a></li>
-      <li><a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Guide</a></li>
-      <li><a href="https://nyonisafaris.com/" class="hover:text-gray-900 transition">Birding Safaris</a></li>
+      <li><a href="#" class="hover:text-gray-900 transition">Birding Safaris</a></li>
     </ul>
   </div>
 
   <!-- Column 3: Kruger Guide -->
   <div>
     <h4 class="text-lg font-semibold mb-4">
-      <a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Kruger Guide</a>
+      Eugenes Guides
     </h4>
     <ul class="space-y-2 text-sm">
-      <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Kruger National Park</a></li>
+       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Kruger National Park</a></li>
+      <li><a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Kruger Guide</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Wildlife</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Landscapes</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
