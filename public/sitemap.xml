@@ -5,7 +5,7 @@
   <!-- 1. Your homepage -->
   <url>
     <loc>https://eugenesafaris.com/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -13,7 +13,7 @@
     <!-- 2. Kruger National Park -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
@@ -21,7 +21,7 @@
   <!-- 3. Kruger National Park Safaris  -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safaris/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -85,7 +85,7 @@
   <!-- 3.2.3 7 Day Classic Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/classic-safari-packages/7-day-private-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -93,7 +93,7 @@
   <!-- 3.3 Photographic Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -109,20 +109,28 @@
   <!-- 4. About -->
   <url>
     <loc>https://www.eugenesafaris.com/about/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2025-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.50</priority>
   </url>
 
-  <!-- 5. Contact -->
+  <!-- 5. Blog -->
   <url>
-    <loc>https://eugenesafaris.com/contact/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://eugenesafaris.com/blog/</loc>
+    <lastmod>2025-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
 
-  <!-- 6. Kruger National Park Guide -->
+  <!-- 6. Contact -->
+  <url>
+    <loc>https://eugenesafaris.com/contact/</loc>
+    <lastmod>2025-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- 7. Kruger National Park Guide -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/guide/</loc>
     <lastmod>2025-07-16</lastmod>
