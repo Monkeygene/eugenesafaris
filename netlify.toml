@@ -13,96 +13,12 @@
 # Redirect Rules
 ######################
 
-# Remove all /tours/
-[[redirects]]
-  from = "/tours/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/tours/*"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove all /birding/
-[[redirects]]
-  from = "/birding/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/birding/*"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove old all-inclusive packages
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/*"
-  to = "/410.html"
+  to = ""
   status = 410
   force = true
 
-# Remove old standard packages
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/*"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove old guide section
-[[redirects]]
-  from = "/guide/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/guide/*"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove /kruger-national-park/guide/airports/ (moved)
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/*"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove /kruger-national-park/guide/malaria/
-[[redirects]]
-  from = "/kruger-national-park/guide/malaria/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-# Remove /kruger-national-park/guide/weather/
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/"
-  to = "/410.html"
-  status = 410
-  force = true
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/*"
-  to = "/410.html"
-  status = 410
-  force = true
 
 ######################
 # Permanent Redirects to New Paths
