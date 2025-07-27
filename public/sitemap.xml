@@ -231,10 +231,98 @@
     <priority>0.50</priority>
   </url>
 
+    <!-- 6.8.1 Kruger National Park Weather in January -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/january/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+    <!-- 6.8.2 Kruger National Park Weather in February -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/february/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+    <!-- 6.8.3 Kruger National Park Weather in March -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/march/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+     <!-- 6.8.4 Kruger National Park Weather in April -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/april/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.5 Kruger National Park Weather in May -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/may/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.6 Kruger National Park Weather in June -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/june/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.7 Kruger National Park Weather in July -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/july/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+    <!-- 6.8.8 Kruger National Park Weather in August -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/august/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.9 Kruger National Park Weather in September -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/september/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
   <!-- 6.8.10 Kruger National Park Weather in October -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/weather/october/</loc>
     <lastmod>2025-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.11 Kruger National Park Weather in November -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/november/</loc>
+    <lastmod>2025-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+   <!-- 6.8.12 Kruger National Park Weather in December -->
+  <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/weather/december/</loc>
+    <lastmod>2025-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
