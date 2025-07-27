@@ -16,34 +16,3 @@ function updateHeroImage() {
 
 document.addEventListener('DOMContentLoaded', updateHeroImage);
 
- //tabs
-  function showItinerary(airport, event) {
-    // Hide all itinerary sections
-    document.querySelectorAll('.itinerary-section').forEach(section => {
-      section.classList.add('hidden');
-    });
-
-    // Reset all buttons to default style
-    document.querySelectorAll('.tab-button').forEach(button => {
-      button.classList.remove('bg-lime-600', 'text-white');
-      button.classList.add('bg-stone-300', 'text-black');
-    });
-
-    // Apply active style to the clicked button
-    event.currentTarget.classList.remove('bg-stone-300', 'text-black');
-    event.currentTarget.classList.add('bg-lime-600', 'text-white');
-
-    // Show the selected itinerary section
-    const selectedSection = document.querySelector(`#itinerary-${airport}`);
-    if (selectedSection) {
-      selectedSection.classList.remove('hidden');
-    }
-  }
-
-  // Set default tab on page load
-  document.addEventListener('DOMContentLoaded', () => {
-    const defaultButton = document.querySelector('[onclick*="eastgate"]');
-    if (defaultButton) {
-      defaultButton.click(); // Triggers the showItinerary function as if clicked
-    }
-  });

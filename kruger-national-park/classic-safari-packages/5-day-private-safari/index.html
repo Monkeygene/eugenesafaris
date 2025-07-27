@@ -60,7 +60,7 @@
 <script type="module" src="/src/main.js"></script>
 </head>
 <body class="bg-linen font-avenir">
-   <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+ <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
@@ -129,8 +129,8 @@
     </div>
   </nav>
   <section class="h-20 md:h-34"></section>
-<!-- Breadcrumb Navigation for 6 Day Classic Safari -->
-<div class="max-w-7xl mx-auto px-4">
+<!-- End of Nav - Start of Breadcrumb Navigation -->
+<div class="max-w-7xl mx-auto px-5 lg:px-1">
   <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1">
       <li class="inline-flex items-center">
@@ -225,26 +225,23 @@
   </div>
 </section>
 
-
- <!-- Tabs -->
+<!-- Tabs -->
 <div class="max-w-7xl mx-auto px-8">
   <div class="flex justify-center gap-4 mb-6">
-    <button onclick="showItinerary('eastgate', event)" class="tab-button bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700">Eastgate Airport</button>
-    <button onclick="showItinerary('kmia', event)" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">KMIA Airport</button>
-    <button onclick="showItinerary('skukuza', event)" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">Skukuza Airport</button>
+    <button data-airport="eastgate" class="tab-button bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700">Eastgate Airport</button>
+    <button data-airport="kmia" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">KMIA Airport</button>
+    <button data-airport="skukuza" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">Skukuza Airport</button>
   </div>
 </div>
-
 <!-- East Gate Itinerary -->
 <div id="itinerary-eastgate" class="itinerary-section">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
   
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
-
+<main class="itinerary-content space-y-8">
     <!-- Day 1 -->
-<section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
+<section class="bg-stone-200 p-6 rounded-md shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 1: Arrival at Eastgate Airport</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Arrive at <a href="/kruger-national-park/airports/eastgate/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Eastgate (Hoedspruit) Airport</a>, meet your guide and transfer into Kruger Park via Orpen Gate. Enter the park in time for an afternoon game drive towards Satara Rest Camp. Settle into your chalet and enjoy dinner at camp.</p>
@@ -253,7 +250,7 @@
 </section>
 
     <!-- Day 2 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-2">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 2: Explore the area around Satara</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Full day exploring Satara's open savannah, famous for its big cats. Begin with an early morning game drive (when predators are most active) through grasslands often called “Lion Central”. Return mid-day for brunch at camp, then head out again in the afternoon. Evening at leisure in Satara.</p>
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg"><strong>Accommodation:</strong> Same as Day 1.</p>
@@ -267,7 +264,7 @@
 </section>
 
     <!-- Day 3 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-3">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 3: Game Drive down to Southern Kruger</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">After a sunrise drive and light breakfast, depart Satara and head south toward Skukuza Rest Camp. Lunch will be en route or upon arrival at Skukuza. This camp, the park's largest, sits in the heart of Big Five country along the Sabie River. Enjoy an afternoon drive in this area or relax at camp's pool or viewing decks before dinner.</p>
 
@@ -275,7 +272,7 @@
 </section>
 
     <!-- Day 4 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-4">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 4: Explore Southern Kruger</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">A full day based at Skukuza to spot wildlife along the shady riverine areas and open plains. Your guide will tailor the day to your interests - whether tracking elephants by the river or searching for leopards in the forest. Brunch is served back at camp mid-day. In the evening you might join an optional nocturnal game drive or simply stargaze around a campfire.</p>
 
@@ -289,7 +286,7 @@
 </div>
 </section>  
     <!-- Day 5 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-7">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 5: Departure to Skukuza Airport</h3>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4"> Optionally rise for one last early game drive at dawn (Depending on your flight time). After a light breakfast (depending on your flight schedule), say farewell to Kruger as you drive to Kruger Mpumalanga International Airport for your departing flight. (Breakfast included if time allows; brunch and dinner not included.)</p>
 </section>
@@ -301,12 +298,10 @@
 <div id="itinerary-kmia" class="itinerary-section hidden">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
-  
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
-
+<main class="itinerary-content space-y-8">
     <!-- Day 1 -->
-<section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
+<section class="bg-stone-200 p-6 rounded-md shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 1: Arrival at Kruger Mpumalanga International Airport (KMIA)</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Arrive at KMIA, meet your guide, and enter Kruger National Park via the Numbi or Paul Kruger Gate. Enjoy your first afternoon game drive en route to Skukuza or Lower Sabie Rest Camp. Settle into your chalet and relax with dinner at camp.</p>
@@ -315,7 +310,7 @@
 </section>
 
     <!-- Day 2 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-2">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 2: Explore Southern Kruger</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Spend a full day discovering the southern region's riverine forests and open savannah. Early morning and afternoon game drives offer chances to see the Big Five, especially leopards and elephants along the Sabie River. Brunch is served at camp midday, with time to relax at the pool or on the deck before your evening drive.</p>
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg"><strong>Accommodation:</strong> Same as Day 1.</p>
@@ -329,7 +324,7 @@
 </section>
 
     <!-- Day 3 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-3">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 3: Transfer to Central Kruger (Satara)</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">After a sunrise game drive and light breakfast, depart for Satara Rest Camp, located in the heart of Kruger's big cat country. Game drive en route and arrive in time for lunch at camp. Spend the afternoon exploring Satara's iconic grasslands before dinner and a relaxing evening.</p>
 
@@ -337,7 +332,7 @@
 </section>
 
     <!-- Day 4 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-4">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 4: Explore the Savannas of Satara</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Full day of game drives in Satara's open plains—prime habitat for lions, cheetahs, and other predators. Customize your day with morning and afternoon drives, or even a full-day excursion with picnic stops in the bush.</p>
 
@@ -351,7 +346,7 @@
 </div>
 </section>
     <!-- Day 5 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-7">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 7: Departure to Eastgate (Hoedspruit) Airport</h3>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4"> Optional final sunrise drive. After a light breakfast (depending on your flight time), transfer to <a href="https://eastgateairport.co.za/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Eastgate (Hoedspruit) Airport</a> for your outbound flight.</p>
 </section>
@@ -363,12 +358,10 @@
 <div id="itinerary-skukuza" class="itinerary-section hidden">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
-  
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
-
+<main class="itinerary-content space-y-8">
     <!-- Day 1 -->
-<section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
+<section class="bg-stone-200 p-6 rounded-md shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 1: Arrival at Skukuza Airport</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Arrive at Skukuza Airport, meet your guide, and transfer into Kruger National Park. Settle into your bungalow at Skukuza Rest Camp and enjoy your first afternoon game drive along the Sabie River, known for frequent sightings of elephants, leopards, and hippos. Return to camp for dinner under the stars.</p>
@@ -377,7 +370,7 @@
 </section>
 
     <!-- Day 2 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-2">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 2: Explore Southern Kruger</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">A full day of game viewing in the southern section of the park, exploring riverine forests and open plains. Morning and afternoon drives are tailored to your interests, with a break for brunch back at camp. Relax at the camp pool or take in the views from the Sabie River deck in between.</p>
     <p class="text-black text-md sm:text-base md:text-lg lg:text-lg"><strong>Accommodation:</strong> Same as Day 1.</p>
@@ -391,7 +384,7 @@
 </section>
 
     <!-- Day 3 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-3">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 3: Transfer to Satara via Central Kruger</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">After an early game drive and light breakfast, depart Skukuza and journey north toward Satara Rest Camp, game viewing all the way. Arrive at Satara in time for lunch and enjoy an afternoon safari in one of the best areas in the park for predators—especially lions and cheetahs.</p>
 
@@ -399,7 +392,7 @@
 </section>
 
     <!-- Day 4 -->
-<section class="bg-stone-200 p-6 rounded-lg shadow-md" id="day-4">
+<section class="bg-stone-200 p-6 rounded-lg shadow-md">
   <h3 class="text-2xl font-semibold mb-2">Day 4: Safari in the Open Grasslands of Satara</h3>
   <p class="font-sans text-black text-md sm:text-base md:text-lg lg:text-lg mb-4">Spend a full day exploring Satara's wide open plains, often referred to as “Big Cat Country.” Head out early to track lions or hyenas on the move, return to camp for brunch, and then enjoy a relaxing afternoon before an evening game drive.</p>
 
@@ -413,7 +406,7 @@
 </div>
 </section>
     <!-- Day 5 -->
-<section class="bg-stone-200 p-6 rounded-md" id="day-7">
+<section class="bg-stone-200 p-6 rounded-md">
   <h3 class="text-2xl font-semibold mb-2">Day 7: Departure from Skukuza Airport</h3>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg mb-4"> Optionally enjoy one last early morning game drive. After a light breakfast (if time allows), transfer to Skukuza Airport for your departing flight.</p>
 </section>
@@ -531,6 +524,40 @@
         &copy; 2025 Eugene Safaris. All rights reserved.
       </div>
     </div>
-  </footer>   
+  </footer>  
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll('.tab-button');
+    if (!buttons.length) return;
+
+    function showItinerary(airport, button) {
+      document.querySelectorAll('.itinerary-section').forEach(section => {
+        section.classList.add('hidden');
+      });
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-lime-600', 'text-white');
+        btn.classList.add('bg-stone-300', 'text-black');
+      });
+
+      button.classList.remove('bg-stone-300', 'text-black');
+      button.classList.add('bg-lime-600', 'text-white');
+
+      const target = document.getElementById(`itinerary-${airport}`);
+      if (target) target.classList.remove('hidden');
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        showItinerary(button.dataset.airport, button);
+      });
+    });
+
+    // Auto activate default tab
+    const defaultBtn = document.querySelector('[data-airport="eastgate"]');
+    if (defaultBtn) defaultBtn.click();
+  });
+</script>
+
 </body>
 </html>
