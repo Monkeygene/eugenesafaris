@@ -14,55 +14,7 @@
 ######################
 
 [[redirects]]
-  from = "/kruger-national-park/standard-packages/six-day/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/3-day-safari"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
   from = "/kruger-national-park/mammals/black-vs-white-rhino/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/mammals/rhinoceros/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/difference-between-white-and-black-rhino/"
   to = "/410.html"
   status = 410
   force = true
@@ -164,49 +116,7 @@
   force = true
 
 [[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/five-day/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/seven-day/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/six-day/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/five-day/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
   from = "/guide/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/october/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/malaria/"
   to = "/410.html"
   status = 410
   force = true
@@ -249,6 +159,54 @@
   from = "/kruger-national-park/guide/weather/october/"
   to = "/kruger-national-park/weather/october/"
   status = 301
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/"
+  to = "/kruger-national-park/all-inclusive-safari-packages/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/five-day/"
+  to = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/six-day/"
+  to = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/all-inclusive-packages/seven-day/"
+  to = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/"
+  to = "/kruger-national-park/classic-safari-packages/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/five-day/"
+  to = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/six-day/"
+  to = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/standard-packages/seven-day/"
+  to = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
+  status = 301
+  force = true
 
 ######################
 # Header Rules
