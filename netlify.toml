@@ -14,42 +14,6 @@
 ######################
 
 [[redirects]]
-  from = "/kruger-national-park/mammals/black-vs-white-rhino/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/kmia/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/eastgate/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/skukuza/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/east-gate/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
   from = "/birding/tips/"
   to = "/410.html"
   status = 410
@@ -115,50 +79,93 @@
   status = 410
   force = true
 
-[[redirects]]
-  from = "/guide/"
-  to = "/410.html"
-  status = 410
-  force = true
-
 ######################
 # Permanent Redirects to New Paths
 ######################
 
 [[redirects]]
+  from = "/guide/kruger-national-park/airports/"
+  to = "/kruger-national-park/airports/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/kmia/"
+  to = "/kruger-national-park/airports/kmia/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/eastgate/"
+  to = "/kruger-national-park/airports/eastgate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/skukuza/"
+  to = "/kruger-national-park/airports/skukuza/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide/kruger-national-park/airports/east-gate/"
+  to = "/kruger-national-park/airports/eastgate/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guide/"
+  to = "/kruger-national-park/guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/mammals/black-vs-white-rhino/"
+  to = "/difference-between-white-and-black-rhino/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/kruger-national-park/guide/airports/"
   to = "/kruger-national-park/airports/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/airports/kmia/"
   to = "/kruger-national-park/airports/kmia/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/airports/eastgate/"
   to = "/kruger-national-park/airports/eastgate/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/airports/skukuza/"
   to = "/kruger-national-park/airports/skukuza/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/malaria/"
   to = "/kruger-national-park/malaria/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/weather/"
   to = "/kruger-national-park/weather/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/weather/october/"
   to = "/kruger-national-park/weather/october/"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/"
