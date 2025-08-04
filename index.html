@@ -76,8 +76,10 @@
 </div>
     </div>
     </div>
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+     <!-- Backdrop for outside clicks -->
+<div id="mobile-backdrop" class="fixed inset-0 bg-black/25 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden z-40"></div>
+   <!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden z-50">
       <div class="flex justify-end p-6 mr-3">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -632,7 +634,7 @@
       <li><a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Kruger Guide</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Wildlife</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Landscapes</a></li>
-      <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
+      <li><a href="/best-time-to-visit-kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
       <li><a href="/kruger-national-park/airports/" class="hover:text-gray-900 transition">Getting There</a></li>
     </ul>
   </div>
@@ -669,7 +671,7 @@
   </div>
 </div>
 </footer>
-<script type="module" src="src/main.js"></script>
+<script type="module" src="/src/main.js"></script>
 </body>
 </html>
 

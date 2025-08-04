@@ -47,6 +47,7 @@ export default {
   "./kruger-national-park/mammals/black-rhinoceros/index.html",
   "./kruger-national-park/mammals/rhinoceros/index.html",
   "./difference-between-white-and-black-rhino/index.html",
+  "./best-time-to-visit-kruger-national-park/index.html",
   "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -55,7 +56,6 @@ export default {
       },
       fontFamily: {
         avenir: ['"Avenir Light"', 'system-ui', 'sans-serif'],
-        nunito: ['"Nunito Regular"', 'system-ui', 'sans-serif'],
         playfair: ['"Playfair Display"', 'serif'],
       },
     },

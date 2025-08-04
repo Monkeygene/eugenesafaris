@@ -59,11 +59,11 @@
   <script type="module" src="/src/main.js"></script>
 </head>
 <body class="bg-linen font-avenir">
- <nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+<nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
-     <div class="flex items-center px-6 md:px-0">
+     <div class="flex items-center">
     <a href="/">
       <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-7 md:h-9 transition-all duration-300 ease-in-out" />
     </a>
@@ -74,14 +74,14 @@
           <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none px-2">
             Safaris
           </button>
-          <ul class="absolute left-0 mt-2 w-72 bg-linen shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-zinc-100">
+          <ul class="absolute left-0 mt-2 w-72 bg-white shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-zinc-100">
             <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Classic Safari Packages</a></li>
             <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
             <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Photographic Safari Packages</a></li>
           </ul>
         </li>
         <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
-         <li><a href="/Blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
+         <li><a href="/blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
         <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
       </ul>
     <!-- Mobile menu button -->
@@ -94,8 +94,10 @@
 </div>
     </div>
     </div>
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+     <!-- Backdrop for outside clicks -->
+<div id="mobile-backdrop" class="fixed inset-0 bg-black/25 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden z-40"></div>
+   <!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden z-50">
       <div class="flex justify-end p-6 mr-3">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

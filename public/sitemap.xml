@@ -128,6 +128,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
+     <!-- 5.2 Best Time to Visit Kruger National Park -->
+    <url>
+    <loc>https://eugenesafaris.com/best-time-to-visit-kruger-national-park/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
 
   <!-- 6. Contact -->
   <url>

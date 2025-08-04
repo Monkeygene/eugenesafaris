@@ -55,48 +55,48 @@
 
   gtag('config', 'G-F2CBZHQXX1');
 </script>
-  <!-- Tailwind CSS -->
-<script type="module" src="/src/main.js"></script>
 </head>
-<body class="font-avenir text-black bg-white">
-   <nav class="bg-white w-full flex relative z-50">
-    <div class="max-w-7xl container mx-auto px-6 md:px-6 lg:px-0 flex items-center justify-between h-16 lg:h-20">
-      <!-- Brand -->
-      <a href="/" class="flex-shrink-0">
-        <img src="/src/assets/images/logo/eugenesafaris.svg" alt="Nyoni Safaris logo" class="h-[26px] lg:h-[36px]"/>
-      </a>
-
+<body class="bg-linen font-avenir">
+<nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
+    <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
+    <!-- Logo -->
+     <div class="flex items-center">
+    <a href="/">
+      <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-7 md:h-9 transition-all duration-300 ease-in-out" />
+    </a>
+     </div>
       <!-- Desktop Menu -->
-      <ul class="hidden md:flex space-x-8">
+      <ul class="hidden md:flex space-x-6 items-center">
         <li class="relative group">
-          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-gray-600 transition focus:outline-none">
+          <button aria-haspopup="true" aria-expanded="false" class="flex items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none px-2">
             Safaris
           </button>
-          <ul class="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50">
-            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-t-md">Classic Packages</a></li>
-            <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">All Inclusive Packages</a></li>
-            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-b-md">Photographic Safari</a></li>
+          <ul class="absolute left-0 mt-2 w-72 bg-white shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transform scale-95 group-hover:scale-100 transition-all origin-top z-50 border border-zinc-100">
+            <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Classic Safari Packages</a></li>
+            <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
+            <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:bg-zinc-100">Photographic Safari Packages</a></li>
           </ul>
         </li>
-        <li><a href="/about/" class="text-gray-800 hover:text-gray-600 transition">About</a></li>
-        <li><a href="/contact/" class="text-gray-800 hover:text-gray-600 transition">Contact</a></li>
-        <li><a href="/kruger-national-park/guide/" class="text-gray-800 hover:text-gray-600 transition">Guide</a></li>
+        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
+         <li><a href="/blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
+        <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
       </ul>
-
-      <!-- Mobile menu button -->
-      <button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none">
-        <svg id="icon-open" class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-        <svg id="icon-close" class="h-6 w-6 text-gray-800 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
+    <!-- Mobile menu button -->
+     <div class="md:hidden">
+<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none px-6 lg:px-0">
+  <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+</div>
     </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-white shadow-lg transform translate-x-full transition-transform duration-300 md:hidden">
-      <div class="flex justify-end p-6">
+    </div>
+     <!-- Backdrop for outside clicks -->
+<div id="mobile-backdrop" class="fixed inset-0 bg-black/25 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden z-40"></div>
+   <!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden z-50">
+      <div class="flex justify-end p-6 mr-3">
         <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
           <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -106,7 +106,7 @@
       <nav class="px-6 space-y-4">
         <div class="space-y-2">
           <!-- NOTE: IDs now match the JS below -->
-          <button class="w-full flex justify-between items-center text-gray-800 hover:text-gray-600 transition focus:outline-none"
+          <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
                   aria-haspopup="true"
                   aria-expanded="false"
                   id="mobile-safaris-btn">
@@ -116,31 +116,32 @@
             </svg>
           </button>
           <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-            <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">Classic Packages</a>
-            <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-gray-900 transition">All-Inclusive Packages</a>
-            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-gray-900 transition">Photographic Safari</a>
+            <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Classic Safari Packages</a>
+            <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
+            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safari Packages</a>
           </div>
         </div>
-        <a href="/about/" class="block text-gray-800 hover:text-gray-600 transition">About</a>
-        <a href="/contact/" class="block text-gray-800 hover:text-gray-600 transition">Contact</a>
-        <a href="/kruger-national-park/guide/" class="block text-gray-800 hover:text-gray-600 transition">Guide</a>
+        <a href="/about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
+        <a href="/blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
+        <a href="/contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
       </nav>
     </div>
   </nav>
+  <section class="h-20 md:h-34"></section>
  <!-- End of Nav - Start of Breadcrumb Navigation -->
 <div class="max-w-7xl mx-auto px-5 lg:px-1">
-  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
+  <nav class="flex justify-start text-[0.65rem] lg:text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center">
       <li class="inline-flex items-center">
         <a href="/" class="hover:underline">Home</a>
-        <span class="mx-2">/</span>
+        <span class="mx-1 lg:mx-2">/</span>
       </li>
-      <li class="inline-flex items-center">
-        <a href="/kruger-national-park/guide/" class="hover:underline">Kruger Guide</a>
-        <span class="mx-2">/</span>
+        <li class="inline-flex items-center">
+        <a href="/" class="hover:underline">Kruger Guide</a>
+        <span class="mx-1 lg:mx-2">/</span>
       </li>
-      <li class="inline-flex items-center text-gray-500 font-medium">
-       Weather
+      <li class="inline-flex items-center text-gray-500 font-avenir">
+        Weather
       </li>
     </ol>
   </nav>
@@ -164,95 +165,146 @@
     </picture>
   </div>
 </section>
-  <!-- Kruger National Park Weather Section -->
+ <!-- Kruger National Park Weather Section -->
 <section class="py-12">
   <div class="container mx-auto max-w-5xl px-4">
-    <!-- Section Title & Explanation -->
-    <div class="text-center mb-12">
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-        Kruger National Park Weather
-      </h1>
-      <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto">
-        Planning a safari in <a href="/kruger-national-park/safaris/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger Park</a>? Understanding the park's seasonal rhythms helps you pack smart, set expectations, and truly enjoy nature at its pace. <a
-        href="https://www.sanparks.org/parks/kruger/useful-information/weather/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="underline decoration-slate-600 hover:decoration-2 underline-offset-2"
-      >Kruger National Park</a> has a subtropical climate, with warm wet summers and dry mild winters. Each month brings its own character—from lush green landscapes and dramatic thunderstorms to crisp dry mornings and golden sunsets.
-      </p>
-      <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-xl mx-auto mt-4">
-        Let’s take a slow walk through the year, month by month:
-      </p>
-    </div>
-
-    <!-- Months Overview -->
-    <div class="space-y-8 text-gray-800 max-w-3xl mx-auto">
-      <div>
-        <h2 class="text-xl font-semibold mb-2">January</h2>
-        <p>Peak of the summer rainy season. Expect hot, humid days (30–35°C) with afternoon thunderstorms. Lush landscapes and active wildlife, especially birds.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/january/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">January Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">February</h2>
-        <p>Still very green and wet. The rains ease slightly, but humidity remains high. Great for photographers and birders; mammals may be harder to spot in tall grass.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/february/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">February Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">March</h2>
-        <p>The rains start to taper off. Days are still warm, but nights begin to cool. A good transition month with fewer bugs and excellent birding.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/march/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">March Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">April</h2>
-        <p>The bush dries out. Cooler mornings, warm afternoons. A great month for both scenery and game viewing as visibility improves.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/april/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">April Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">May</h2>
-        <p>Start of the dry season. Clear skies, cool mornings (around 10°C), and pleasant afternoons. Wildlife starts congregating around waterholes.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/may/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">May Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">June</h2>
-        <p>Midwinter. Cold mornings (sometimes near 5°C) and warm, sunny days. Dry conditions make for excellent game viewing as the bush is sparse.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/june/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">June Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">July</h2>
-        <p>Similar to June. Crisp mornings, ideal midday temperatures (around 25°C). Visibility is great, and water sources become key animal hotspots.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/july/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">July Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">August</h2>
-        <p>The driest month. Dusty and cool, especially in the early morning. Game viewing is at its peak, especially around rivers and pans.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/august/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">August Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">September</h2>
-        <p>First signs of spring. Trees start budding. Days get warmer, but the bush is still dry—another fantastic month for sightings and photography.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/september/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">September Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">October</h2>
-        <p>Temperatures rise quickly. Early rains may arrive. The landscape is still mostly dry, but life begins to stir. Bird migration picks up.</p>
-        <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/october/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">October Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">November</h2>
-        <p>Rainfall becomes more regular. Expect warm, sometimes stormy afternoons. Everything turns green again. Insect life increases; birdlife is vibrant.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/november/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">November Weather in Kruger National Park</a></p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold mb-2">December</h2>
-        <p>Lush, hot, and buzzing. The full return of the green season. Afternoon rains bring dramatic skies. Excellent for birders and photographers.</p>
-         <p class="mt-4">Read More on: <a href="/kruger-national-park/weather/december/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">December Weather in Kruger National Park</a></p>
+    
+    <!-- Main Article -->
+    <div class="text-gray-800 prose lg:prose-lg max-w-none mb-12">
+  <h1 class="font-playfair text-2xl sm:text-3xl md:text-4xl mb-4 text-center">Kruger National Park Weather</h1>
+  <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto mb-8">
+    Understanding the <strong>Kruger National Park Weather</strong> is essential for planning a successful safari. Whether you're visiting in the <a href="/kruger-national-park/weather/december/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">green summer</a> or <a href="/kruger-national-park/weather/july/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">dry winter</a>, weather plays a major role in shaping your wildlife encounters, comfort, and overall safari experience. This guide explores the annual climate patterns in <a href="/kruger-national-park/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger National Park</a>, helping you decide when to go and what to expect.
+  </p>
+  <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto mb-8">
+    <a href="/kruger-national-park/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger National Park</a> has a subtropical climate. Summers, from <a href="/kruger-national-park/weather/november/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">November</a> to <a href="/kruger-national-park/weather/march/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">March</a>, are hot, humid, and wet. This is the green season, where rainfall rejuvenates the bushveld, offering lush landscapes and excellent <a href="/kruger-national-park/photographic-safari/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">birdwatching</a>. Temperatures often reach 30–35°C during the day, with afternoon thunderstorms cooling things down. Winter, from <a href="/kruger-national-park/weather/may/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">May</a> to <a href="/kruger-national-park/weather/august/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">August</a>, is dry and cooler, with chilly mornings and crisp, clear days around 25°C — perfect for game viewing.
+  </p>
+  <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto mb-8">
+    One of the best things about <strong>Kruger National Park Weather</strong> is that it creates distinct safari experiences throughout the year. In <a href="/kruger-national-park/weather/january/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">summer</a>, migratory birds arrive, many animals give birth, and the park buzzes with life. However, thick vegetation can sometimes make sightings tricky. In <a href="/kruger-national-park/weather/june/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">winter</a>, the sparse vegetation and reliable water sources increase visibility, making it easier to spot <a href="/kruger-national-park/mammals/lion/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">predators</a> and herds at close range.
+  </p>
+  <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto mb-8">
+    Each month brings its own highlights, challenges, and photographic opportunities. That's why we've created dedicated monthly weather pages, linked below, to guide you through the year in Kruger. Whether you're after roaring lions under blue winter skies or elephants silhouetted in a golden summer sunset, this guide to Kruger National Park Weather will help you choose the best time for your safari.
+  </p>
+  <p class="text-base sm:text-md md:text-lg text-gray-700 max-w-5xl mx-auto mb-8">
+    Keep reading for a breakdown of the weather in Kruger month by month, or click through to individual months for detailed insights. From misty <a href="/kruger-national-park/weather/june/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">June</a> mornings to the dramatic lightning shows of <a href="/kruger-national-park/weather/december/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">December</a>, the <strong>Kruger National Park Weather</strong> is a spectacle in its own right.
+  </p>
+</div>
+    <!-- Month Navigation Grid -->
+    <div class="mb-12">
+      <h2 class="text-xl font-semibold text-center mb-4">Jump to Monthly Weather Pages</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <a href="/kruger-national-park/weather/january/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">January</a>
+        <a href="/kruger-national-park/weather/february/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">February</a>
+        <a href="/kruger-national-park/weather/march/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">March</a>
+        <a href="/kruger-national-park/weather/april/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">April</a>
+        <a href="/kruger-national-park/weather/may/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">May</a>
+        <a href="/kruger-national-park/weather/june/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">June</a>
+        <a href="/kruger-national-park/weather/july/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">July</a>
+        <a href="/kruger-national-park/weather/august/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">August</a>
+        <a href="/kruger-national-park/weather/september/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">September</a>
+        <a href="/kruger-national-park/weather/october/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">October</a>
+        <a href="/kruger-national-park/weather/november/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">November</a>
+        <a href="/kruger-national-park/weather/december/" class="block text-center bg-amber-100 hover:bg-amber-200 rounded-lg p-4 shadow font-medium">December</a>
       </div>
     </div>
+<!-- Monthly Weather Summaries -->
+<div class="space-y-10 text-gray-800 max-w-3xl mx-auto">
+  <div>
+    <h2 class="text-xl font-semibold mb-2">January</h2>
+    <p>January marks the peak of the summer rainy season. <strong>Kruger National Park weather</strong> this time of year is hot and humid, with average daytime highs between 30–35°C. Afternoon thunderstorms bring dramatic skies and refresh the lush landscape. Birdlife is abundant, and many species are breeding.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/january/" class="underline hover:text-amber-700">Full January Weather Guide</a></p>
   </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">February</h2>
+    <p>February in Kruger continues the wet, vibrant rhythm. The <strong>Kruger National Park weather</strong> is still humid, though the rains begin to ease slightly. It’s a top month for birders and photographers, though thick grass can make spotting big game a challenge.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/february/" class="underline hover:text-amber-700">Full February Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">March</h2>
+    <p>March sees the rainy season taper off. The days remain warm, but evenings begin to cool. <strong>Kruger National Park weather</strong> is transitional — a lovely blend of late-summer lushness and early-autumn calm. It’s a great time to explore with fewer insects and clear skies.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/march/" class="underline hover:text-amber-700">Full March Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">April</h2>
+    <p>April is when the landscape starts drying out. Days are warm and pleasant, while mornings grow cooler. Visibility improves as vegetation thins. <strong>Kruger National Park weather</strong> in April is excellent for photography and sightings.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/april/" class="underline hover:text-amber-700">Full April Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">May</h2>
+    <p>May marks the start of the dry winter season. Clear blue skies and cool mornings dominate. Wildlife begins congregating at waterholes. The <strong>Kruger National Park weather</strong> is ideal for long game drives and comfortable bush walks.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/may/" class="underline hover:text-amber-700">Full May Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">June</h2>
+    <p>June is deep into Kruger’s winter. Expect cold mornings (as low as 5°C) and warm afternoons. Vegetation is sparse, improving wildlife visibility. The dry, predictable <strong>Kruger National Park weather</strong> makes this a popular time for safaris.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/june/" class="underline hover:text-amber-700">Full June Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">July</h2>
+    <p>July is crisp and dry, with similar conditions to June. Daytime temps hover around 24–26°C. <strong>Kruger National Park weather</strong> is stable, making it a peak month for international travelers and great wildlife viewing around permanent water sources.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/july/" class="underline hover:text-amber-700">Full July Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">August</h2>
+    <p>August is the driest month. Dusty sunrises, crisp air, and golden light dominate the bushveld. The <strong>Kruger National Park weather</strong> brings visibility to its peak — many consider this the best time to visit for predators, especially around rivers and pans.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/august/" class="underline hover:text-amber-700">Full August Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">September</h2>
+    <p>Spring awakens the park. Trees begin to bud, days warm up, but the bush remains open and dry. <strong>Kruger National Park weather</strong> in September offers the best of both worlds: great visibility with signs of seasonal change.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/september/" class="underline hover:text-amber-700">Full September Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">October</h2>
+    <p>October is hot and often dry, but the first rains may begin to fall. It’s a dramatic month as the landscape transitions. <strong>Kruger National Park weather</strong> in October sets the stage for bird migration and the green season to come.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/october/" class="underline hover:text-amber-700">Full October Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">November</h2>
+    <p>November sees the return of regular rains. The bush begins to turn green. Warm days, frequent storms, and rich birdlife define the <strong>Kruger National Park weather</strong> this time of year. A great month for landscapes and baby animals.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/november/" class="underline hover:text-amber-700">Full November Weather Guide</a></p>
+  </div>
+
+  <div>
+    <h2 class="text-xl font-semibold mb-2">December</h2>
+    <p>December is lush, hot, and alive. Afternoon rains are common, the park is a vibrant green, and the air hums with life. The <strong>Kruger National Park weather</strong> here is dramatic and photogenic — ideal for birders and adventurous travelers.</p>
+    <p class="mt-2">👉 <a href="/kruger-national-park/weather/december/" class="underline hover:text-amber-700">Full December Weather Guide</a></p>
+  </div>
+</div>
+<!-- Closing Summary -->
+<div class="mt-12 text-gray-800 max-w-3xl mx-auto text-lg leading-relaxed">
+  <h2 class="text-2xl font-bold mb-4">Final Thoughts on Kruger National Park Weather</h2>
+  <p class="mb-4">
+    Whether you're drawn to misty <a href="/kruger-national-park/weather/june/" class="underline text-amber-700 hover:text-amber-800">winter mornings</a> or the electric energy of <a href="/kruger-national-park/weather/january/" class="underline text-amber-700 hover:text-amber-800">summer thunderstorms</a>, understanding the <strong>Kruger National Park weather</strong> is key to crafting the perfect safari. Each season offers its own unique rhythm — from dry landscapes teeming with visible wildlife to lush scenes alive with birds and newborns.
+  </p>
+  <p class="mb-6">
+    With this month-by-month breakdown, you're now equipped to pick the best time for your travel goals — be it <a href="/kruger-national-park/photographic-safari/" class="underline text-amber-700 hover:text-amber-800">photography</a>, <a href="/kruger-national-park/mammals/big-5/" class="underline text-amber-700 hover:text-amber-800">Big 5 game viewing</a>, or <a href="/kruger-national-park/weather/november/" class="underline text-amber-700 hover:text-amber-800">birding in the green season</a>. And if you're still unsure, we’re here to help you make that decision effortless.
+  </p>
+
+  <!-- CTA -->
+  <div class="bg-amber-100 border-l-4 border-amber-500 p-6 rounded-lg shadow-md">
+    <h3 class="text-xl font-semibold mb-2">Ready to Experience the Best of Kruger?</h3>
+    <p class="mb-4">
+      We offer <a href="/kruger-national-park/all-inclusive-safari-packages/" class="underline text-amber-700 hover:text-amber-800">all-inclusive</a>, <a href="/kruger-national-park/classic-safari-packages/" class="underline text-amber-700 hover:text-amber-800">classic</a>, and <a href="/kruger-national-park/photographic-safari/" class="underline text-amber-700 hover:text-amber-800">photographic safaris</a> tailored to your pace, your interests, and the season that suits you best. Whether you're traveling solo, as a couple, or with family, we’ll help you make the most of your adventure.
+    </p>
+    <a href="/kruger-national-park/safaris/" class="inline-block mt-2 bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded transition">
+      Explore Our Kruger Safari Packages
+    </a>
+  </div>
+</div>
+</div>
 </section>
 <!-- Footer -->
     <footer class="bg-linen text-gray-700 font-avenir">
-  <!-- Top Footer Grid -->
    <!-- Top Footer Grid -->
 <div class="max-w-7xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
   
@@ -289,7 +341,7 @@
       <li><a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Kruger Guide</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Wildlife</a></li>
       <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Landscapes</a></li>
-      <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
+      <li><a href="/best-time-to-visit-kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
       <li><a href="/kruger-national-park/airports/" class="hover:text-gray-900 transition">Getting There</a></li>
     </ul>
   </div>
@@ -297,7 +349,7 @@
 </div>
 
   <!-- Bottom Bar -->
-<div class="border-t border-gray-200 py-6">
+<div class="bg-white border-t border-gray-200 py-6">
   <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-500 space-y-4 md:space-y-0 md:space-x-0">
 
     <!-- Left (Bottom on small): Bible Verse -->
@@ -326,5 +378,6 @@
   </div>
 </div>
 </footer>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
