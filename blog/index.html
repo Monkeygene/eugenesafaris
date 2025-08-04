@@ -134,21 +134,22 @@
   </nav>
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
-   <section class="max-w-7xl mx-auto mb-12">
+   <section class="max-w-7xl mx-auto mb-6 lg:mb-8">
   <div class="w-full overflow-hidden">
     <picture>
       <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
       <source 
         srcset="/src/assets/images/kruger-national-park/flowers/impala-lily/header/lg/impala-lily-kruger-national-park.webp" 
         media="(min-width: 640px)" 
-        type="image/jpeg">
+        type="image/webp">
       
       <!-- Default fallback (mobile and smaller devices) -->
       <img 
         src="/src/assets/images/kruger-national-park/flowers/impala-lily/header/sm/impala-lily-kruger-national-park.webp" 
         alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" 
         class="w-full object-cover" 
-        loading="lazy">
+         loading="lazy"
+        decoding="async">
     </picture>
   </div>
 </section>
@@ -161,6 +162,65 @@
   Explore the wild heart of South Africa through our Kruger Safari blog — your go-to source for trip inspiration, expert tips, and unforgettable wildlife stories. Whether you're planning your first game drive or a return visit to the iconic Kruger National Park, our blog offers insider insights, seasonal updates, and guides to help you make the most of your safari adventure.
   </p>
 </div>
+<section class="py-12">
+  <div class="mx-auto max-w-7xl px-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+      <!-- Blog Card 1 -->
+      <a href="/kruger-national-park/3-day-safari/" class="bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+        <img 
+          src="/src/assets/images/blog/image-box/kruger-3-day-safari.webp" 
+          alt="A safari vehicle watching a lion during a 3-day Kruger safari" 
+          class="w-full h-48 object-cover" 
+          loading="lazy"
+        >
+        <div class="p-4 text-center flex flex-col flex-grow">
+          <h3 class="text-xl font-bold mb-2">Is a 3-Day Safari Enough?</h3>
+          <p class="text-gray-700 mb-0 flex-grow">
+            Many visitors consider a 3-day safari, but is it enough to truly experience Kruger? Here's what to expect and why a longer stay might be better.
+          </p>
+        </div>
+      </a>
+
+      <!-- Blog Card 2 -->
+      <a href="/difference-between-white-and-black-rhino/" class="bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+        <img 
+          src="/src/assets/images/blog/image-box/white-vs-black-rhino.webp" 
+          alt="Comparison of white rhino and black rhino in Kruger National Park" 
+          class="w-full h-48 object-cover" 
+          loading="lazy"
+        >
+        <div class="p-4 text-center flex flex-col flex-grow">
+          <h3 class="text-xl font-bold mb-2">White vs Black Rhino</h3>
+          <p class="text-gray-700 mb-0 flex-grow">
+            Learn how to tell apart Kruger’s two rhino species—from lip shape to behavior—and discover their unique roles in the ecosystem.
+          </p>
+        </div>
+      </a>
+
+      <!-- Blog Card 3 -->
+      <a href="/best-time-to-visit-kruger-national-park/" class="bg-white hover:shadow-xl overflow-hidden transition flex flex-col h-full border border-gray-200">
+        <img 
+          src="/src/assets/images/blog/image-box/best-time-to-visit-kruger.webp" 
+          alt="Golden sunrise over the Kruger savanna during the best time to visit" 
+          class="w-full h-48 object-cover" 
+          loading="lazy"
+        >
+        <div class="p-4 text-center flex flex-col flex-grow">
+          <h3 class="text-xl font-bold mb-2">Best Time to Visit Kruger</h3>
+          <p class="text-gray-700 mb-0 flex-grow">
+            Whether you're into birding, photography, or big cat sightings—this guide helps you pick the perfect season for your Kruger adventure.
+          </p>
+        </div>
+      </a>
+
+      <!-- Add more blog cards here -->
+      <!-- Just copy a card <a> block and paste it inside the grid -->
+
+    </div>
+  </div>
+</section>
+
 <!-- Footer -->
     <footer class="bg-linen text-gray-700 font-avenir">
   <!-- Top Footer Grid -->
