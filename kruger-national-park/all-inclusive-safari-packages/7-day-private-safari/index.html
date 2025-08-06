@@ -130,21 +130,21 @@
     </div>
   </nav>
   <section class="h-20 md:h-34"></section>
-<!-- Breadcrumb Navigation for 7 Day Classic Safari -->
-<div class="max-w-7xl mx-auto px-4">
-  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center space-x-1">
+<!-- End of Nav - Start of Breadcrumb Navigation -->
+<div class="max-w-7xl mx-auto px-5 lg:px-1">
+  <nav class="flex justify-start text-[0.65rem] lg:text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
+    <ol class="inline-flex items-center">
       <li class="inline-flex items-center">
         <a href="/" class="hover:underline">Home</a>
-        <span class="mx-2">/</span>
+        <span class="mx-1 lg:mx-2">/</span>
       </li>
       <li class="inline-flex items-center">
         <a href="/kruger-national-park/safaris/" class="hover:underline">Kruger Safaris</a>
-        <span class="mx-2">/</span>
+        <span class="mx-1 lg:mx-2">/</span>
       </li>
-      <li class="inline-flex items-center">
+       <li class="inline-flex items-center">
         <a href="/kruger-national-park/all-inclusive-safari-packages/" class="hover:underline">All Inclusive Packages</a>
-        <span class="mx-2">/</span>
+        <span class="mx-1 lg:mx-2">/</span>
       </li>
       <li class="inline-flex items-center text-gray-500 font-medium">
         7 Day
@@ -153,7 +153,7 @@
   </nav>
 </div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
-<section class="max-w-7xl mx-auto mb-8 lg:mb-12">
+<section class="max-w-7xl mx-auto">
   <div class="w-full overflow-hidden">
     <picture>
       <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
@@ -172,8 +172,8 @@
   </div>
 </section>
    <!-- Itinerary Introduction -->
-<section class="max-w-7xl mx-auto px-4 py-6 md:py-12 bg-white">
-  <h1 class="text-xl md:text-4xl font-bold text-center mb-4 md:mb-6 lg:mb-10">7-Day All Inclusive Private Safari in Kruger National Park</h1>
+<section class="max-w-7xl mx-auto px-4">
+  <h1 class="font-playfair text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl py-7 lg:py-14">7-Day All Inclusive Private Safari in Kruger National Park</h1>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg text-center mb-3">Experience the breathtaking Kruger National Park for six nights staying in national parks borders on our 7 day immersive all-inclusive safari. Your journey begins at your selected airport, this is where you'll meet your guide and set off into the heart of Kruger.</p>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg text-center mb-3">Over six unforgettable nights you'll stay at three unique rest camps inside Kruger, two nights at each rest camp, allowing you to explore the different regions and habitats of the park. Everyday offers personalized game drives with your private guide, giving you the freedom to linger and enjoy sightings to the fullest.</p>
   <p class="text-black text-md sm:text-base md:text-lg lg:text-lg text-center">Evenings are spent inside the Kruger rest camps in comfortable bungalow accommodation, with delicious meals served in camp, under the stars. Choose your ideal starting point below to view your tailored itinerary.</p>
@@ -236,19 +236,17 @@
 <!-- Tabs -->
 <div class="max-w-7xl mx-auto px-8">
   <div class="flex justify-center gap-4 mb-6">
-    <button onclick="showItinerary('eastgate', event)" class="tab-button bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700">Eastgate Airport</button>
-    <button onclick="showItinerary('kmia', event)" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">KMIA Airport</button>
-    <button onclick="showItinerary('skukuza', event)" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">Skukuza Airport</button>
+    <button data-airport="eastgate" class="tab-button bg-lime-600 text-white px-4 py-2 rounded hover:bg-lime-700">Eastgate Airport</button>
+    <button data-airport="kmia" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">KMIA Airport</button>
+    <button data-airport="skukuza" class="tab-button bg-stone-300 text-black px-4 py-2 rounded hover:bg-lime-700">Skukuza Airport</button>
   </div>
 </div>
-
 <!-- East Gate Itinerary -->
 <div id="itinerary-eastgate" class="itinerary-section">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
-  
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
+<main class="itinerary-content space-y-8">
 
     <!-- Day 1 -->
 <section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
@@ -323,13 +321,13 @@
 </section>
 </div>
 
+
 <!-- KMIA Airport Itinerary -->
 <div id="itinerary-kmia" class="itinerary-section hidden">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
-  
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
+<main class="itinerary-content space-y-8">
 
     <!-- Day 1 -->
 <section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
@@ -408,9 +406,8 @@
 <div id="itinerary-skukuza" class="itinerary-section hidden">
  <!-- Tour Layout -->
 <section class="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row gap-8">
-  
   <!-- Main Itinerary Content -->
-  <main id="itinerary" class="space-y-8">
+<main class="itinerary-content space-y-8">
 
     <!-- Day 1 -->
 <section class="bg-stone-200 p-6 rounded-md shadow-md" id="day-1">
