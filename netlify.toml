@@ -222,18 +222,30 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "no-referrer-when-downgrade"
-    Content-Security-Policy = """
+    X-Frame-Options             = "SAMEORIGIN"
+    X-Content-Type-Options      = "nosniff"
+    X-XSS-Protection            = "1; mode=block"
+    Referrer-Policy             = "strict-origin-when-cross-origin"
+    Permissions-Policy          = "geolocation=(), microphone=(), camera=(), payment=()"
+    Cross-Origin-Opener-Policy  = "same-origin"
+    Cross-Origin-Embedder-Policy= "require-corp"
+    Expect-CT                   = "max-age=86400, enforce, report-uri=\"/report-ct\""
+    Report-To                   = "{\"group\":\"csp-endpoint\",\"max_age\":10886400,\"endpoints\":[{\"url\":\"https://example.com/report\"}]}"
+    Content-Security-Policy     = """
       default-src 'self';
-      script-src 'self' 'unsafe-inline' https://www.youtube.com https://www.youtube-nocookie.com;
-      style-src 'self' 'unsafe-inline';
-      img-src 'self' data:;
-      frame-src https://www.youtube.com https://www.youtube-nocookie.com;
+      script-src 'self' 'nonce-{{nonce}}' https://www.youtube.com https://youtube-nocookie.com;
+      style-src  'self' 'nonce-{{nonce}}' 'unsafe-inline';
+      img-src    'self' data: https://images.examplecdn.com;
+      font-src   'self' https://fonts.gstatic.com;
+      connect-src 'self' https://api.example.com;
+      media-src  'self' data:;
+      frame-src  https://www.youtube.com https://youtube-nocookie.com;
+      object-src 'none';
+      base-uri   'self';
+      report-uri /csp-report;
     """
-    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-    Cache-Control = "no-cache"
+    Strict-Transport-Security    = "max-age=63072000; includeSubDomains; preload"
+    Cache-Control               = "no-cache"
 
 [[headers]]
   for = "/assets/*"
