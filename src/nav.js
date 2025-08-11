@@ -55,18 +55,17 @@ mobileSafarisBtn.addEventListener('click', () => {
 
 // Scroll
 function updateLogoSize(shrunk) {
-  logoImg.classList.remove('h-6', 'h-7', 'h-9', 'md:h-9');
+  // always strip both variants
+  logoImg.classList.remove('h-6', 'h-8');
+
+  // add exactly one size
   if (shrunk) {
     logoImg.classList.add('h-6');
   } else {
-    const isMobile = window.innerWidth < 768;
-    if (isMobile) {
-      logoImg.classList.add('h-7');
-    } else {
-      logoImg.classList.add('h-9', 'md:h-9');
-    }
+    logoImg.classList.add('h-8');
   }
 }
+
 
 function applyNavbarState(shouldShrink) {
   if (shouldShrink) {
