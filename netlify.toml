@@ -219,74 +219,56 @@
 # Header Rules
 ######################
 
- [[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options              = "SAMEORIGIN"
-    X-Content-Type-Options       = "nosniff"
-    X-XSS-Protection             = "1; mode=block"
-    Referrer-Policy              = "strict-origin-when-cross-origin"
-    Permissions-Policy           = "geolocation=(), microphone=(), camera=(), payment=()"
-    Cross-Origin-Opener-Policy   = "same-origin"
-    Cross-Origin-Embedder-Policy = "require-corp"
-    Expect-CT                    = "max-age=86400, enforce, report-uri=\"/report-ct\""
-    Report-To                    = "{\"group\":\"csp-endpoint\",\"max_age\":10886400,\"endpoints\":[{\"url\":\"https://example.com/report\"}]}"
-    Strict-Transport-Security    = "max-age=63072000; includeSubDomains; preload"
-    Cache-Control                = "no-cache"
-    Content-Security-Policy = """
-      default-src     'self';
-      # allow only scripts you host (with nonce) + GTM
-      script-src      'self' 'nonce-{{nonce}}' https://www.googletagmanager.com;
-      script-src-elem 'self' https://www.googletagmanager.com;
-      script-src-attr 'self' 'nonce-{{nonce}}';
-      # only styles you host (with nonce) — remove unsafe-inline
-      style-src       'self' 'nonce-{{nonce}}';
-      style-src-elem  'self';
-      # images, fonts, etc.
-      img-src         'self' data: https://images.examplecdn.com;
-      font-src        'self' https://fonts.gstatic.com;
-      connect-src     'self' https://api.example.com https://www.googletagmanager.com;
-      frame-src       https://www.youtube.com https://youtube-nocookie.com;
-      object-src      'none';
-      base-uri        'self';
-      form-action     'self';
-      report-uri      /csp-report;
-    """
-
-    Strict-Transport-Security    = "max-age=63072000; includeSubDomains; preload"
-    Cache-Control               = "no-cache"
-
+# Global security + HTML caching
 [[headers]]
-  for = "/assets/*"
+for = "/*"
+  [headers.values]
+    X-Frame-Options            = "SAMEORIGIN"
+    X-Content-Type-Options     = "nosniff"
+    Referrer-Policy            = "strict-origin-when-cross-origin"
+    # Drop COEP unless you need cross-origin isolation:
+    # Cross-Origin-Opener-Policy = "same-origin"   # keep if you want, doesn't usually break things
+    # Cross-Origin-Embedder-Policy = "require-corp" # REMOVE to avoid breaking embeds
+    Strict-Transport-Security  = "max-age=63072000; includeSubDomains; preload"
+    # HTML should not be cached by browsers or CDNs
+    Cache-Control              = "no-store, must-revalidate"
+    # Modern, compatible CSP (adjust domains to what you actually use)
+    Content-Security-Policy    = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; upgrade-insecure-requests; img-src 'self' data: https:; script-src 'self' https://www.googletagmanager.com; script-src-elem 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://stats.g.doubleclick.net; frame-src https://www.youtube.com https://www.youtube-nocookie.com; form-action 'self';"
+
+# Long-cache for versioned static assets
+[[headers]]
+for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/favicon.ico"
+for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Icons (cache a day)
+[[headers]]
+for = "/favicon.ico"
   [headers.values]
     Cache-Control = "public, max-age=86400"
 
+# Error/utility pages (don’t cache)
 [[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/410.html"
+for = "/404.html"
   [headers.values]
     Cache-Control = "no-cache"
 
 [[headers]]
-  for = "/404.html"
+for = "/410.html"
   [headers.values]
     Cache-Control = "no-cache"
 
 [[headers]]
-  for = "/maintenance.html"
+for = "/maintenance.html"
   [headers.values]
     Cache-Control = "no-cache"
