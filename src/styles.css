@@ -14,6 +14,12 @@
   font-display: swap;
 }
 
+@layer base {
+  ::selection {
+    @apply bg-stone-200 text-stone-700;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

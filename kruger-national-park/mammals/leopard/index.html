@@ -17,39 +17,35 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
   <!-- JSON-LD Leopard Breadcrumb -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://eugenesafaris.com/"
-      },
-      {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": { "@id": "https://eugenesafaris.com/", "name": "Home" }
+    },
+    {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger Guide",
-      "item": "https://eugenesafaris.com/kruger-national-park/guide/"
+      "item": { "@id": "https://eugenesafaris.com/kruger-national-park/guide/", "name": "Kruger Guide" }
     },
-      {
+    {
       "@type": "ListItem",
       "position": 3,
-      "name": "Mammals",
-      "item": "https://eugenesafaris.com/kruger-national-park/mammals/"
+      "item": { "@id": "https://eugenesafaris.com/kruger-national-park/mammals/", "name": "Mammals" }
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Leopard",
-      "item": "https://eugenesafaris.com/kruger-national-park/mammals/leopard/"
+      "item": { "@id": "https://eugenesafaris.com/kruger-national-park/mammals/leopard/", "name": "Leopard" }
     }
-
   ]
 }
-  </script>
+</script>
+
   <!-- Google Tag Manager (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
   <script>
@@ -137,17 +133,17 @@
     <ol class="inline-flex items-center">
       <li class="inline-flex items-center">
         <a href="/" class="hover:underline">Home</a>
-        <span class="mx-1 lg:mx-2">/</span>
+        <span class="mx-1 lg:mx-2" aria-hidden="true">/</span>
       </li>
       <li class="inline-flex items-center">
         <a href="/kruger-national-park/guide/" class="hover:underline">Kruger Guide</a>
-        <span class="mx-1 lg:mx-2">/</span>
+        <span class="mx-1 lg:mx-2" aria-hidden="true">/</span>
       </li>
        <li class="inline-flex items-center">
         <a href="/kruger-national-park/mammals/" class="hover:underline">Mammals</a>
-        <span class="mx-1 lg:mx-2">/</span>
+        <span class="mx-1 lg:mx-2" aria-hidden="true">/</span>
       </li>
-      <li class="inline-flex items-center text-gray-500 font-medium">
+      <li class="inline-flex items-center text-gray-400 font-medium">
         Leopard
       </li>
     </ol>
@@ -166,9 +162,9 @@
       <!-- Default fallback (mobile and smaller devices) -->
       <img 
         src="/src/assets/images/kruger-national-park/mammals/leopard/header/sm/leopard-in-marula-tree-kruger-national-park-pretoriuskop.webp" 
-        alt="African Leopard sitting in Marula tree close to Pretoriuskop Rest camp in Kruger National Park" 
+        alt="Leopard in Kruger National Park sitting in Marula tree close to Pretoriuskop Rest camp" 
         class="w-full object-cover" 
-         loading="lazy"
+         fetchpriority="high"
         decoding="async">
     </picture>
   </div>
@@ -179,14 +175,14 @@
       Leopard in Kruger National Park
     </h1>
     <div class="py-2 lg:py-4">
-       <p class="text-lg text-gray-700  mb-6">
-The African <a href="https://en.wikipedia.org/wiki/Leopard" class="text-blue-600 underline" target="_blank" rel="noopener">leopard</a> is the most elusive and mysterious member of the <a href="/kruger-national-park/mammals/big-5/" class="text-blue-600 underline">Big Five</a> in <a href="https://en.wikipedia.org/wiki/Kruger_National_Park" class="text-blue-600 underline" target="_blank" rel="noopener">Kruger National Park</a>. Known for their stealth and adaptability, these spotted predators often go unseen despite their widespread presence. In this guide, you’ll discover how many leopards are in Kruger, where you’re most likely to find them, and what to look for in their behavior.
+       <p class="text-lg text-gray-700 mb-6">
+If you've ever dreamed of seeing a leopard in the wild, Kruger National Park is one of the best places in Africa to make it happen. These spotted cats are the most elusive members of the Big Five, masters of stealth, blending perfectly into the bush, and often moving like ghosts through the tall yellow-thatching grass. In this guide, we'll chat about how many leopards are in Kruger, where to spot them, what they get up to, and the best times of year to catch a glimpse.
 </p>
     </div>
   </div>
   </section>
   <section class="px-4 py-4">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-5xl mx-auto">
     <div class="py-6">
 
       <!-- H2 kept with your exact styling -->
@@ -195,14 +191,13 @@ The African <a href="https://en.wikipedia.org/wiki/Leopard" class="text-blue-600
       </h2>
 
       <p class="text-lg text-gray-700 mb-6">
-        Absolutely. Kruger is a stronghold for <em>leopards in Kruger</em> (your best shot at a wild leopard in Southern Africa).
-        They’re widespread along rivers, woodland edges, and rocky outcrops—stealthy by nature, but seen often if you know when and where to look.
+    Absolutely! Kruger National Park is one of the national parks where you can see them in their natural habitat. They are in healthy numbers, spread across the park's rivers, woodlands, rocky outcrops and savannas. But to find and spot them succesfully is not always easy, they are quite illusive, and mostly start moving when the sun sets.
       </p>
 
       <!-- NEW: query picked up in GSC -->
-      <h3 class="font-playfair text-xl md:text-2xl mb-3 text-gray-900 text-center md:text-start py-2">
+      <h2 class="font-playfair text-2xl md:text-3xl mb-4 text-gray-900 text-center md:text-start py-4">
         How Many Leopards in Kruger National Park?
-      </h3>
+      </h2>
       <p class="text-lg text-gray-700 mb-6">
         Estimates suggest <strong>well over 1,000 leopards</strong> range across Kruger’s ~20,000 km². Because leopards are solitary and mostly nocturnal,
         exact counts are tough, but a long history of ranger records, camera-trap projects, and research confirms a healthy, stable population.
@@ -232,7 +227,52 @@ The African <a href="https://en.wikipedia.org/wiki/Leopard" class="text-blue-600
         <li><strong>Territory tells:</strong> Scratch marks, urine spray, and a loud, rasping “sawing” call at night.</li>
         <li><strong>Mothers &amp; cubs:</strong> Dens are hidden in thickets; sightings of cubs are rare and special.</li>
       </ul>
+      </div>
+      </div>
+        <div class="max-w-7xl mx-auto py-4 md:py-12">
+ <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <!-- Image 1 (LCP - eager load) -->
+  <img
+    src="/src/assets/images/kruger-national-park/mammals/leopard/vertical/leopard-going-to-scratch-tree-kruger-national-park.webp"
+    alt="Leopard in Kruger National Park walking to scratch tree"
+    width="768" height="1024"
+    decoding="async" fetchpriority="high" loading="eager"
+    class="w-full aspect-[3/4] object-cover bg-gray-200"
+  />
 
+  <!-- Image 2 -->
+  <img
+    src="/src/assets/images/kruger-national-park/mammals/leopard/vertical/leopard-scratching-tree-kruger-national-park.webp"
+    alt="Leopard in Kruger National Park scratching silver cluster leaf to mark territory"
+    width="768" height="1024"
+    decoding="async" loading="lazy" fetchpriority="low"
+    class="w-full aspect-[3/4] object-cover bg-gray-200 transition-opacity duration-300 opacity-0 blur-sm"
+    onload="this.classList.remove('opacity-0','blur-sm')"
+  />
+
+  <!-- Image 3 -->
+  <img
+    src="/src/assets/images/kruger-national-park/mammals/leopard/vertical/leopard-stop-scratching-tree-kruger-national-park.webp"
+    alt="Leopard in Kruger National Park stopping scratching tree to continue territorial patrol"
+    width="768" height="1024"
+    decoding="async" loading="lazy" fetchpriority="low"
+    class="w-full aspect-[3/4] object-cover bg-gray-200 transition-opacity duration-300 opacity-0 blur-sm"
+    onload="this.classList.remove('opacity-0','blur-sm')"
+  />
+
+  <!-- Image 4 -->
+  <img
+    src="/src/assets/images/kruger-national-park/mammals/leopard/vertical/leopard-on-patrol-kruger-national-park.webp"
+    alt="close up of Leopard in Kruger National Park patrolling territory"
+    width="768" height="1024"
+    decoding="async" loading="lazy" fetchpriority="low"
+    class="w-full aspect-[3/4] object-cover bg-gray-200 transition-opacity duration-300 opacity-0 blur-sm"
+    onload="this.classList.remove('opacity-0','blur-sm')"
+  />
+</div>
+</div>
+
+  <div class="max-w-4xl mx-auto">
       <!-- Best time -->
       <h2 class="font-playfair text-2xl md:text-3xl mb-4 text-gray-900 text-center md:text-start py-4">
         Best Time to See Leopards in Kruger
@@ -262,30 +302,8 @@ The African <a href="https://en.wikipedia.org/wiki/Leopard" class="text-blue-600
         <li>Drive slow and steady; patience beats speed for cats.</li>
         <li>Check recent sightings boards at camps like Skukuza and Satara.</li>
       </ul>
-
-      <!-- Big Five context -->
-      <h2 class="font-playfair text-2xl md:text-3xl mb-4 text-gray-900 text-center md:text-start py-4">
-        Leopards and the Big Five
-      </h2>
-      <p class="text-lg text-gray-700 mb-6">
-        Lions roar, elephants tower—but many seasoned visitors rate a leopard sighting as their top Kruger moment.
-        Their elusive nature and effortless grace make them unforgettable, completing the Big Five alongside
-        <a href="https://eugenesafaris.com/kruger-national-park/mammals/lion/" class="text-blue-600 underline">lion</a>,
-        <a href="https://eugenesafaris.com/kruger-national-park/mammals/elephant/" class="text-blue-600 underline">elephant</a>,
-        <a href="https://eugenesafaris.com/kruger-national-park/mammals/rhinoceros/" class="text-blue-600 underline">rhino</a> and
-        <a href="https://eugenesafaris.com/kruger-national-park/mammals/buffalo/" class="text-blue-600 underline">buffalo</a>.
-      </p>
-
-      <!-- Internal article links (3) -->
-      <div class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8">
-        <p class="text-gray-900 font-medium mb-3">Plan smarter:</p>
-        <ul class="list-disc pl-6 text-gray-700 space-y-2">
-          <li><a href="https://eugenesafaris.com/best-time-to-visit-kruger-national-park/" class="text-blue-600 underline">Best Time to Visit Kruger National Park</a></li>
-          <li><a href="https://eugenesafaris.com/kruger-national-park/weather/" class="text-blue-600 underline">Kruger National Park Weather (Month-by-Month)</a></li>
-          <li><a href="https://eugenesafaris.com/what-to-wear-on-a-safari/" class="text-blue-600 underline">What to Wear on a Safari</a></li>
-        </ul>
-      </div>
-
+</div>
+  <div class="max-w-6xl mx-auto py-4 md:py-12">
       <!-- Service page links (2) -->
       <div class="bg-white border border-gray-200 rounded-2xl p-6 flex flex-col md:flex-row gap-4 md:items-center md:justify-between">
         <div>
@@ -301,27 +319,11 @@ The African <a href="https://en.wikipedia.org/wiki/Leopard" class="text-blue-600
           </a>
         </div>
       </div>
-
-      <!-- External references (2) -->
-      <div class="text-sm text-gray-600">
-        <p class="mb-2">Further reading:</p>
-        <ul class="list-disc pl-6 space-y-1">
-          <li>
-            <a href="https://www.sanparks.org/parks/kruger" target="_blank" rel="noopener" class="text-blue-600 underline">
-              SANParks — Kruger National Park (official)
-            </a>
-          </li>
-          <li>
-            <a href="https://www.panthera.org/cat/leopard" target="_blank" rel="noopener" class="text-blue-600 underline">
-              Panthera — Leopard Conservation
-            </a>
-          </li>
-        </ul>
-      </div>
-
     </div>
   </div>
+  
 </section>
+
 <section class="max-w-5xl mx-auto mt-16 mb-12 px-4">
   <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Explore Other Big 5 Mammals</h3>
   <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
