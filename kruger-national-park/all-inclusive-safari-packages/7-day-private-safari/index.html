@@ -14,7 +14,7 @@
 <!-- Favicon & Apple Touch Icon -->
   <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
   <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
- <!-- JSON-LD BreadcrumbList for 7 Day All Inclusive Safari Package -->
+<!-- JSON-LD BreadcrumbList for 7 Day All Inclusive Safari Package -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -23,27 +23,35 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
-      "item": "https://eugenesafaris.com/"
+      "item": {
+        "@id": "https://eugenesafaris.com/",
+        "name": "Home"
+      }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger National Park Safaris",
-      "item": "https://eugenesafaris.com/kruger-national-park/safaris/"
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/safaris/",
+        "name": "Kruger National Park Safaris"
+      }
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "All Inclusive Packages",
-      "item": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/"
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/",
+        "name": "All Inclusive Packages"
+      }
     },
     {
-  "@type": "ListItem",
-  "position": 4,
-  "name": "7 Day",
-  "item": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
-}
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/",
+        "name": "7 Day"
+      }
+    }
   ]
 }
 </script>

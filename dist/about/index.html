@@ -17,7 +17,7 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
   <!-- JSON-LD About Breadcrumb -->
- <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -25,14 +25,18 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
-      "item": "https://eugenesafaris.com/"
+      "item": {
+        "@id": "https://eugenesafaris.com/",
+        "name": "Home"
+      }
     },
-     {
+    {
       "@type": "ListItem",
       "position": 2,
-      "name": "About",
-      "item": "https://eugenesafaris.com/about/"
+      "item": {
+        "@id": "https://eugenesafaris.com/about/",
+        "name": "About"
+      }
     }
   ]
 }
