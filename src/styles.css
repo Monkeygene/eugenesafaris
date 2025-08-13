@@ -20,6 +20,12 @@
   }
 }
 
+@layer base {
+  h1 { @apply text-4xl md:text-5xl leading-tight font-semibold; }
+  h2 { @apply text-3xl md:text-4xl font-semibold; }
+  h3 { @apply text-2xl md:text-3xl font-semibold; }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

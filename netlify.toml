@@ -215,6 +215,7 @@
   status = 301
   force = true
 
+
 ######################
 # Header Rules
 ######################
@@ -226,14 +227,19 @@ for = "/*"
     X-Frame-Options            = "SAMEORIGIN"
     X-Content-Type-Options     = "nosniff"
     Referrer-Policy            = "strict-origin-when-cross-origin"
-    # Drop COEP unless you need cross-origin isolation:
-    # Cross-Origin-Opener-Policy = "same-origin"   # keep if you want, doesn't usually break things
-    # Cross-Origin-Embedder-Policy = "require-corp" # REMOVE to avoid breaking embeds
     Strict-Transport-Security  = "max-age=63072000; includeSubDomains; preload"
-    # HTML should not be cached by browsers or CDNs
+    Permissions-Policy         = "geolocation=(), microphone=(), camera=(), payment=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+    # Skip COEP for now to avoid breaking future embeds. Add later if needed:
+    # Cross-Origin-Embedder-Policy = "require-corp"
+    Cross-Origin-Resource-Policy = "same-site"
     Cache-Control              = "no-store, must-revalidate"
-    # Modern, compatible CSP (adjust domains to what you actually use)
-    Content-Security-Policy    = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; upgrade-insecure-requests; img-src 'self' data: https:; script-src 'self' https://www.googletagmanager.com; script-src-elem 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://stats.g.doubleclick.net; frame-src https://www.youtube.com https://www.youtube-nocookie.com; form-action 'self';"
+
+    # --- Content Security Policy ---
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'sha256-jcK0+Q5vl3fsLLg6b4+WEVZr3Z02A7Jgji5/7n+NE5w='; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://stats.g.doubleclick.net; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://stats.g.doubleclick.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-src https://www.googletagmanager.com; base-uri 'self'; object-src 'none';"
+
+    # Optional: monitor Trusted Types without breaking anything
+    Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
 
 # Long-cache for versioned static assets
 [[headers]]
@@ -251,7 +257,7 @@ for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Icons (cache a day)
+# Icons
 [[headers]]
 for = "/favicon.ico"
   [headers.values]
