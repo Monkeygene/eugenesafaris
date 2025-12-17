@@ -16,7 +16,7 @@
 
 @layer base {
   ::selection {
-    @apply bg-stone-200 text-stone-700;
+    @apply bg-amber-300 text-stone-900;
   }
 }
 
