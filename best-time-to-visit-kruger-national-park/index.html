@@ -70,31 +70,37 @@
     </a>
      </div>
       <!-- Desktop Menu -->
-      <ul class="hidden md:flex space-x-6 items-center">
-    <li class="relative group 
+   <ul class="hidden md:flex space-x-6 items-center">
+  <li class="relative group 
     before:absolute before:left-0 before:right-0 before:top-full before:h-3 before:content-['']">
 
-  <button aria-haspopup="true" aria-expanded="false" aria-label="Safari Packages Menu"
-    class="flex items-center text-gray-800 hover:text-zinc-400 transition px-2">
-    Safaris
-  </button>
+    <button aria-haspopup="true" aria-expanded="false" aria-label="Safari Packages Menu"
+      class="flex items-center text-gray-800 hover:text-zinc-400 transition px-2">
+      Safaris
+    </button>
 
-  <ul
-    class="absolute left-0 md:right-0 mt-2 w-72 bg-white shadow-lg border border-zinc-100 z-50
-           invisible opacity-0 group-hover:visible group-hover:opacity-100
-           transition-all duration-200 ease-out
-           translate-y-2 group-hover:translate-y-0">
+    <ul
+      class="absolute left-0 md:right-0 mt-2 w-72 bg-white shadow-lg border border-zinc-100 z-50
+             invisible opacity-0 group-hover:visible group-hover:opacity-100
+             transition-all duration-200 ease-out
+             translate-y-2 group-hover:translate-y-0">
 
-    <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Classic Safari Packages</a></li>
-    <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
-    <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Photographic Safari Packages</a></li>
+      <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Classic Safari Packages</a></li>
+      <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
+      <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Photographic Safari Packages</a></li>
 
-  </ul>
-</li>
-        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
-         <li><a href="/blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
-        <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
-      </ul>
+    </ul>
+  </li>
+  <li>
+    <a href="/birding/" class="text-gray-800 hover:text-zinc-400 transition px-2">
+      Birding
+    </a>
+  </li>
+
+  <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
+  <li><a href="/blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
+  <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
+</ul>
     <!-- Mobile menu button -->
      <div class="md:hidden">
 <button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none px-6 lg:px-0">
@@ -116,28 +122,35 @@
           </svg>
         </button>
       </div>
-      <nav class="px-6 space-y-4">
-        <div class="space-y-2">
-          <!-- NOTE: IDs now match the JS below -->
-          <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  id="mobile-safaris-btn">
-            Safaris
-            <svg class="h-4 w-4 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-            <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Classic Safari Packages</a>
-            <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
-            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safari Packages</a>
-          </div>
-        </div>
-        <a href="/about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
-        <a href="/blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
-        <a href="/contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
-      </nav>
+   <nav class="px-6 space-y-4">
+  <div class="space-y-2">
+    <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
+            aria-haspopup="true"
+            aria-expanded="false"
+            id="mobile-safaris-btn">
+      Safaris
+      <svg class="h-4 w-4 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+
+    <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
+      <a href="/kruger-national-park/classic-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Classic Safari Packages</a>
+      <a href="/kruger-national-park/all-inclusive-safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
+      <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safari Packages</a>
+    </div>
+  </div>
+
+  <!-- NEW: Birding -->
+  <a href="/birding/" class="block text-gray-800 hover:text-zinc-400 transition">
+    Birding
+  </a>
+
+  <a href="/about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
+  <a href="/blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
+  <a href="/contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
+</nav>
+
     </div>
   </nav>
   </header>
@@ -292,18 +305,30 @@
   <p class="mb-6">There’s no single best time to visit Kruger National Park—just the best time for <em>you</em>. Whether it’s the dry season’s drama or the summer green of new life, we’ll tailor your safari around what matters most.</p>
   <p class="mb-6 font-medium">Let’s start planning your unforgettable Kruger experience today.</p>
 </section>
-<!--Footer-->
+<!-- Footer -->
 <footer class="bg-linen text-gray-700 font-avenir">
   <!-- Top Footer Grid -->
-  <div class="max-w-7xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+  <div class="max-w-6xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
 
     <!-- Column 1: Contact Info -->
     <div>
       <h4 class="text-lg font-semibold mb-4">Contact</h4>
       <ul class="text-sm space-y-2">
-        <li><strong>Cell:</strong> <a href="tel:+351964872495" class="hover:text-gray-900 transition">+351 964 872 495</a></li>
-        <li><strong>Email:</strong> <a href="mailto:bushbap@gmail.com" class="hover:text-gray-900 transition">bushbap@gmail.com</a></li>
-        <li><strong>Office Hours:</strong> Mon–Fri, 08:00–17:00</li>
+        <li>
+          <strong>Cell:</strong>
+          <a href="tel:+351964872495" class="text-gray-800 hover:text-zinc-400 transition">
+            +351 964 872 495
+          </a>
+        </li>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:bushbap@gmail.com" class="text-gray-800 hover:text-zinc-400 transition">
+            bushbap@gmail.com
+          </a>
+        </li>
+        <li>
+          <strong>Office Hours:</strong> Mon–Fri, 08:00–17:00
+        </li>
       </ul>
     </div>
 
@@ -311,38 +336,25 @@
     <div>
       <h4 class="text-lg font-semibold mb-4">Explore</h4>
       <ul class="space-y-2 text-sm">
-        <li><a href="/" class="hover:text-gray-900 transition">Home</a></li>
-        <li><a href="/kruger-national-park/" class="hover:text-gray-900 transition">Kruger National Park</a></li>
-        <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="hover:text-gray-900 transition">All-Inclusive Safari Packages</a></li>
-        <li><a href="/kruger-national-park/photographic-safari/" class="hover:text-gray-900 transition">Photographic Safaris</a></li>
-        <li><a href="/about/" class="hover:text-gray-900 transition">About Eugene Safaris</a></li>
-        <li><a href="/contact/" class="hover:text-gray-900 transition">Contact</a></li>
+        <li><a href="/" class="text-gray-800 hover:text-zinc-400 transition">Home</a></li>
+        <li><a href="/kruger-national-park/" class="text-gray-800 hover:text-zinc-400 transition">Kruger National Park</a></li>
+        <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="text-gray-800 hover:text-zinc-400 transition">All Inclusive Safari Packages</a></li>
+        <li><a href="/birding/" class="text-gray-800 hover:text-zinc-400 transition">Birding</a></li>
+        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition">About Eugene Safaris</a></li>
+        <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition">Contact</a></li>
       </ul>
     </div>
 
-    <!-- Column 3: Safari Guides -->
+    <!-- Column 3: Kruger Guides -->
     <div>
       <h4 class="text-lg font-semibold mb-4">Kruger Safari Guides</h4>
       <ul class="space-y-2 text-sm">
-        <li><a href="/kruger-national-park/guide/" class="hover:text-gray-900 transition">Kruger Safari Guide</a></li>
-        <li><a href="/kruger-national-park/mammals/" class="hover:text-gray-900 transition">Wildlife & Big 5</a></li>
-        <li><a href="/kruger-national-park/weather/" class="hover:text-gray-900 transition">Kruger Weather</a></li>
-        <li><a href="/kruger-national-park/malaria/" class="hover:text-gray-900 transition">Malaria Info</a></li>
-        <li><a href="/kruger-national-park/airports/" class="hover:text-gray-900 transition">Getting There</a></li>
-        <li><a href="/best-time-to-visit-kruger-national-park/" class="hover:text-gray-900 transition">Best Time to Visit</a></li>
-      </ul>
-    </div>
-
-    <!-- Column 4: Monthly Safari Planner -->
-    <div>
-      <h4 class="text-lg font-semibold mb-4">Monthly Safari Planner</h4>
-      <ul class="space-y-2 text-sm">
-        <li><a href="/kruger-national-park/weather/january/" class="hover:text-gray-900 transition">January in Kruger</a></li>
-        <li><a href="/kruger-national-park/weather/march/" class="hover:text-gray-900 transition">March in Kruger</a></li>
-        <li><a href="/kruger-national-park/weather/june/" class="hover:text-gray-900 transition">June in Kruger</a></li>
-        <li><a href="/kruger-national-park/weather/september/" class="hover:text-gray-900 transition">September in Kruger</a></li>
-        <li><a href="/kruger-national-park/weather/november/" class="hover:text-gray-900 transition">November in Kruger</a></li>
-        <li><a href="/kruger-national-park/weather/december/" class="hover:text-gray-900 transition">December in Kruger</a></li>
+        <li><a href="/kruger-national-park/guide/" class="text-gray-800 hover:text-zinc-400 transition">Kruger Safari Guide</a></li>
+        <li><a href="/kruger-national-park/mammals/" class="text-gray-800 hover:text-zinc-400 transition">Wildlife & Big 5</a></li>
+        <li><a href="/kruger-national-park/weather/" class="text-gray-800 hover:text-zinc-400 transition">Kruger Weather</a></li>
+        <li><a href="/kruger-national-park/malaria/" class="text-gray-800 hover:text-zinc-400 transition">Malaria Info</a></li>
+        <li><a href="/kruger-national-park/airports/" class="text-gray-800 hover:text-zinc-400 transition">Getting There</a></li>
+        <li><a href="/best-time-to-visit-kruger-national-park/" class="text-gray-800 hover:text-zinc-400 transition">Best Time to Visit</a></li>
       </ul>
     </div>
 
@@ -361,22 +373,43 @@
       &copy; 2025 Eugene Safaris. All rights reserved.
     </div>
 
-   <!-- Social Icons -->
-      <div class="flex space-x-4 justify-center md:justify-end mb-2 md:mb-0">
-        <a href="https://facebook.com/eugenesafaris.com/" target="_blank" rel="nofollow" aria-label="Facebook" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
-        </a>
-        <a href="https://instagram.com/eugenesafaris.com/" target="_blank" rel="nofollow" aria-label="Instagram" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-        </a>
-        <a href="https://youtube.com/@eugenesafaris.com" target="_blank" rel="nofollow" aria-label="YouTube" class="hover:opacity-50 transition">
-          <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-        </a>
-      </div>
+  <!-- Social Icons -->
+<div class="flex space-x-4 justify-center md:justify-end mb-2 md:mb-0">
+  <a
+    href="https://www.facebook.com/eugenesafaris"
+    target="_blank"
+    rel="nofollow noopener noreferrer"
+    aria-label="Facebook"
+    class="hover:opacity-50 transition"
+  >
+    <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
+  </a>
+
+  <a
+    href="https://www.instagram.com/eugenesafaris/"
+    target="_blank"
+    rel="nofollow noopener noreferrer"
+    aria-label="Instagram"
+    class="hover:opacity-50 transition"
+  >
+    <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
+  </a>
+
+  <a
+    href="https://www.youtube.com/@birdinglegend"
+    target="_blank"
+    rel="nofollow noopener noreferrer"
+    aria-label="YouTube"
+    class="hover:opacity-50 transition"
+  >
+    <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
+  </a>
+</div>
 
   </div>
 </div>
 </footer>
+<!-- End of Page -->
 <script type="module" src="/src/main.js"></script>
   </body>
   </html>
