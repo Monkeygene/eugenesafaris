@@ -14,54 +14,6 @@
 ######################
 
 [[redirects]]
-  from = "/birding/tips/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/south-africa/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/zambia/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/zambia/kafue/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/zambia/south-luangwa/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/malawi/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/malawi/nyika-plateau/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/birding/malawi/liwonde/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
   from = "/tours/"
   to = "/410.html"
   status = 410
