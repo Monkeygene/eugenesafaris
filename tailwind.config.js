@@ -17,6 +17,8 @@ export default {
   "./kruger-national-park/classic-safari-packages/7-day-private-safari/index.html",
   "./kruger-national-park/photographic-safari/index.html",
   "./kruger-national-park/safari-on-film/index.html",
+  "./birding/index.html",
+  "./birding/kruger-national-park/index.html",
   "./kruger-national-park/3-day-safari/index.html",
   "./kruger-national-park/guide/index.html",
   "./kruger-national-park/malaria/index.html",
