@@ -20,6 +20,18 @@
   force = true
 
 [[redirects]]
+from = "/tours/malawi/miombo-montane/"
+to = "/410.html"
+status = 410
+force = true
+
+[[redirects]]
+from = "/tours/malawi/miombo-montane/"
+to = "/410.html"
+status = 410
+force = true
+
+[[redirects]]
   from = "/tours/south-africa/"
   to = "/410.html"
   status = 410
