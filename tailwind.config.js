@@ -60,7 +60,7 @@ export default {
       },
       fontFamily: {
         avenir: ['"Avenir Light"', 'system-ui', 'sans-serif'],
-        playfair: ['"Playfair Display"', 'serif'],
+        crimson: ['"Crimson Text"', 'serif'],
       },
     },
   },
