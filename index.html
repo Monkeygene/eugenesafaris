@@ -166,30 +166,24 @@
 </div>
 <!-- End of Breadcrumb Navigation -->
 <section class="relative h-screen w-full overflow-hidden">
-  <!-- YouTube Background -->
-  <div class="absolute inset-0 w-full h-full bg-black z-0">
-<iframe
-  class="absolute top-1/2 left-1/2 min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw]
-         -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-  src="https://www.youtube.com/embed/b6-JVeidvoE?autoplay=1&mute=1&loop=1&playlist=b6-JVeidvoE&controls=0&modestbranding=1&rel=0&playsinline=1"
-  frameborder="0"
-  allow="autoplay; fullscreen"
-  title="Background video"
-></iframe>
-
-
-    <!-- Overlay -->
+  <div class="absolute inset-0 bg-black z-0">
+    <div class="absolute inset-0 aspect-video">
+      <iframe
+        class="w-full h-full pointer-events-none"
+        src="https://www.youtube.com/embed/b6-JVeidvoE?autoplay=1&mute=1&loop=1&playlist=b6-JVeidvoE&controls=0&modestbranding=1&rel=0&playsinline=1"
+        allow="autoplay; fullscreen"
+        title="Background video"
+        frameborder="0"
+      ></iframe>
+    </div>
     <div class="absolute inset-0 bg-black/10"></div>
   </div>
 
-  <!-- Content -->
   <div class="relative z-10 flex items-center justify-center h-full">
     <div class="text-center text-white max-w-3xl px-6">
-      <h1 class="mb-6">
-        Private Safaris South Africa
-      </h1>
+      <h1 class="mb-6">Private Safaris South Africa</h1>
       <p>
-        All Inclusive, personalized safari experiences in the heart of Kruger National Park. Join Eugene Safaris for an unforgettable journey into the wild.
+        All Inclusive, personalized safari experiences in the heart of Kruger National Park.
       </p>
     </div>
   </div>
