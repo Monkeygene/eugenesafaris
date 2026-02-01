@@ -53,12 +53,12 @@
     gtag('js', new Date());
     gtag('config', 'G-F2CBZHQXX1');
   </script>
-  <script type="module" crossorigin src="/assets/main-CxI_ZXgg.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-CbG5kb-9.css">
+  <script type="module" crossorigin src="/assets/main-CH3MBUFQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CWiSodNq.css">
 </head>
-<body class="bg-linen font-avenir">
+<body>
 <header>
-<nav id="siteHeader" class="bg-linen font-avenir fixed w-full z-50 transition-all duration-300 ease-in-out">
+<nav id="siteHeader" class="fixed w-full z-50 transition-all duration-300 ease-in-out">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
     <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
     <!-- Logo -->
@@ -72,10 +72,26 @@
   <li class="relative group 
     before:absolute before:left-0 before:right-0 before:top-full before:h-3 before:content-['']">
 
-    <button aria-haspopup="true" aria-expanded="false" aria-label="Safari Packages Menu"
-      class="flex items-center text-gray-800 hover:text-zinc-400 transition px-2">
-      Safaris
-    </button>
+  <button
+  aria-haspopup="true"
+  aria-expanded="false"
+  aria-label="Safari Packages Menu"
+  class="flex items-center gap-1 text-gray-800 hover:text-zinc-400 transition px-2 group"
+>
+  Safaris
+
+  <!-- Dropdown arrow -->
+  <svg
+    class="h-4 w-4 text-gray-600 transition-transform duration-200 ease-out group-hover:rotate-180"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+  </svg>
+</button>
+
 
     <ul
       class="absolute left-0 md:right-0 mt-2 w-72 bg-white shadow-lg border border-zinc-100 z-50
@@ -83,9 +99,9 @@
              transition-all duration-200 ease-out
              translate-y-2 group-hover:translate-y-0">
 
-      <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Classic Safari Packages</a></li>
-      <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">All Inclusive Safari Packages</a></li>
-      <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-gray-700 hover:text-zinc-400 transition hover:bg-zinc-100">Photographic Safari Packages</a></li>
+      <li><a href="/kruger-national-park/classic-safari-packages/" class="block px-4 py-2 black hover:text-zinc-400 transition">Classic Safari Packages</a></li>
+      <li><a href="/kruger-national-park/all-inclusive-safari-packages/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">All Inclusive Safari Packages</a></li>
+      <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">Photographic Safari Packages</a></li>
 
     </ul>
   </li>
@@ -155,7 +171,7 @@
     </div>
   </nav>
   </header>
-    <main data-nosnippet>
+   <main>
    <!-- End of Nav - Start of Breadcrumb Navigation -->
 <div class="max-w-7xl mx-auto">
   <nav class="sr-only" aria-label="Home Page">
