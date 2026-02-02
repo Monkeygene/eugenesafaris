@@ -69,14 +69,17 @@ function updateLogoSize(shrunk) {
 
 function applyNavbarState(shouldShrink) {
   if (shouldShrink) {
-    siteHeader.classList.add('bg-white', 'shadow-md');
+
+    // shrink height
     navInner.classList.remove('h-20');
     navInner.classList.add('h-14');
   } else {
-    siteHeader.classList.remove('bg-white', 'shadow-md');
+
+    // restore height
     navInner.classList.remove('h-14');
     navInner.classList.add('h-20');
   }
+
   updateLogoSize(shouldShrink);
 }
 
