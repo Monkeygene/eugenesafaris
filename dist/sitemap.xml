@@ -5,7 +5,7 @@
   <!-- 1. Your homepage -->
   <url>
     <loc>https://eugenesafaris.com/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -109,7 +109,7 @@
   <!-- 4. About -->
   <url>
     <loc>https://www.eugenesafaris.com/about/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -117,7 +117,7 @@
   <!-- 5. Blog -->
   <url>
     <loc>https://eugenesafaris.com/blog/</loc>
-    <lastmod>2025-07-23</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -160,7 +160,7 @@
   <!-- 6. Contact -->
   <url>
     <loc>https://eugenesafaris.com/contact/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <lastmod>2026-02-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

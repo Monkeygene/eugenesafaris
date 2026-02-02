@@ -82,7 +82,7 @@
   }
 
   main h1 {
-    @apply text-2xl md:text-3xl;
+    @apply text-3xl md:text-4xl;
   }
 
   main h2 {
