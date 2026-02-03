@@ -193,7 +193,7 @@ for = "/*"
     Cross-Origin-Resource-Policy = "same-site"
     Cache-Control              = "no-store, must-revalidate"
 
-   Content-Security-Policy = "
+Content-Security-Policy = """
 default-src 'self';
 script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'sha256-jcK0+Q5vl3fsLLg6b4+WEVZr3Z02A7Jgji5/7n+NE5w=';
 script-src-elem 'self' https://www.googletagmanager.com https://www.google-analytics.com;
@@ -204,7 +204,7 @@ font-src 'self' data:;
 frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com;
 base-uri 'self';
 object-src 'none';
-"
+"""
 
     # Optional: monitor Trusted Types without breaking anything
     Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
