@@ -30,7 +30,7 @@
   <meta name="twitter:description" content="Experience premium private safaris in Kruger National Park with Eugene Safaris." />
   <meta name="twitter:image" content="https://eugenesafaris.com/src/assets/images/about/eugene-booysen-kruger-safaris.webp" />
 
-  <!-- JSON-LD Home Page Breadcrumb -->
+  <!-- JSON-LD SHCEMA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -45,14 +45,24 @@
     ]
   }
   </script>
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TouristTrip",
+  "@type": "TouristInformationCenter",
+  "@id": "https://eugenesafaris.com/#organization",
   "name": "Eugene Safaris",
-  "url": "https://eugenesafaris.com",
+  "url": "https://eugenesafaris.com/",
   "logo": "https://eugenesafaris.com/src/assets/images/logo/paw-print-lion.png",
+  "image": "https://eugenesafaris.com/src/assets/images/about/eugene-booysen-kruger-safaris.webp",
   "description": "Private, immersive Kruger National Park safaris led by expert guide Eugene Booysen.",
+  "founder": {
+    "@type": "Person",
+    "name": "Eugene Booysen",
+    "sameAs": [
+      "https://www.instagram.com/birdinglegend/",
+      "https://www.linkedin.com/in/birdinglegend/"
+    ]
+  },
   "email": "eugene@eugenesafaris.com",
   "telephone": "+351964872495",
   "areaServed": {
@@ -67,7 +77,22 @@
   ]
 }
 </script>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Eugene Safaris",
+  "url": "https://eugenesafaris.com/",
+  "publisher": {
+    "@id": "https://eugenesafaris.com/#organization"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://eugenesafaris.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
   <!-- Google Tag Manager (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
   <script>
@@ -224,7 +249,7 @@
   <!-- Content -->
   <div class="relative z-10 flex items-center justify-center h-full">
     <div class="text-center text-white max-w-3xl px-6">
-      <h1 class="mb-6">Private Safaris South Africa</h1>
+      <h1 class="mb-6">Private Kruger National Park Safaris with Eugene</h1>
       <p>
         All Inclusive, personalized safari experiences in the heart of Kruger National Park.
       </p>
@@ -237,7 +262,7 @@
     <div class="container mx-auto px-6 flex flex-col items-center justify-center py-4">
       <div class="max-w-5xl text-center">
         <h1 class="mb-2 sm:mb-2 md:mb-5">
-          Private Safaris South Africa
+          Private Kruger National Park Safaris
         </h1>
         <p class="py-2 md:py-4">
         Imagine the African sun rising over the scented savannah, painting the sky in soft hues of orange and pink. The tranquil chorus of birds break the silence, welcoming the day. You are in the heart of it. There is no rush, just you, your loved ones, and the wild.

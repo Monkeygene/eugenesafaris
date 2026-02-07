@@ -14,45 +14,45 @@
 <!-- Favicon & Apple Touch Icon -->
   <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
   <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-<!-- JSON-LD BreadcrumbList for 7 Day All Inclusive Safari Package -->
+<!-- BreadcrumbList -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "https://eugenesafaris.com/",
-        "name": "Home"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-national-park/safaris/",
-        "name": "Kruger National Park Safaris"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/",
-        "name": "All Inclusive Packages"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/",
-        "name": "7 Day"
-      }
-    }
+    { "@type": "ListItem", "position": 1, "item": { "@id": "https://eugenesafaris.com/", "name": "Home" }},
+    { "@type": "ListItem", "position": 2, "item": { "@id": "https://eugenesafaris.com/kruger-national-park/safaris/", "name": "Kruger National Park Safaris" }},
+    { "@type": "ListItem", "position": 3, "item": { "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/", "name": "All Inclusive Packages" }},
+    { "@type": "ListItem", "position": 4, "item": { "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/", "name": "7 Day Safari" }}
   ]
+}
+</script>
+<!-- TouristTrip -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "@id": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/#trip",
+  "name": "7-Day All Inclusive Private Kruger Safari",
+  "description": "Enjoy a 7-day all-inclusive private safari in Kruger National Park with premium accommodation, expert guiding, and daily game drives, led by Eugene Safaris.",
+  "mainEntityOfPage": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/#service",
+  "touristType": "Private Safari",
+  "touristDestination": { "@type": "TouristDestination", "name": "Kruger National Park, South Africa" },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://eugenesafaris.com/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/",
+    "priceCurrency": "ZAR",
+    "price": "36,000",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "priceCurrency": "ZAR",
+      "price": "6000",
+      "unitText": "per person per day",
+      "eligibleQuantity": { "@type": "QuantitativeValue", "minValue": 2, "unitCode": "C62" }
+    },
+    "availability": "https://schema.org/InStock"
+  },
+  "provider": { "@id": "https://eugenesafaris.com/#organization" }
 }
 </script>
 <!-- Google tag (gtag.js) -->
@@ -226,7 +226,7 @@
     <!-- Stats Cards -->
     <div class="grid grid-cols-2 gap-4 lg:col-span-1">
       <div class="bg-stone-200 p-6 rounded-lg text-center shadow-md">
-        <h3 class="text-2xl font-bold">R45,225</h3>
+        <h3 class="text-2xl font-bold">R36,000</h3>
         <p class="text-md text-stone-900 mt-1">per person</p>
       </div>
       <div class="bg-stone-200 p-6 rounded-lg text-center shadow-md">
