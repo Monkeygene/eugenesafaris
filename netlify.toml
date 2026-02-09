@@ -193,8 +193,6 @@ for = "/*"
     Cross-Origin-Resource-Policy = "same-site"
     Cache-Control              = "no-store, must-revalidate"
 
-Content-Security-Policy = """ ... """
-
     # Optional: monitor Trusted Types without breaking anything
     Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
 
