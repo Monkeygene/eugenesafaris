@@ -13,163 +13,61 @@
 # Redirect Rules
 ######################
 
-[[redirects]]
-  from = "/tours/"
-  to = "/410.html"
-  status = 410
-  force = true
-
-[[redirects]]
-from = "/tours/malawi/miombo-montane/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/tours/malawi/miombo-montane/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-  from = "/tours/south-africa/"
-  to = "/410.html"
-  status = 410
-  force = true
-
 ######################
 # Permanent Redirects to New Paths
 ######################
 
 [[redirects]]
-  from = "/guide/kruger-national-park/airports/"
-  to = "/kruger-national-park/airports/"
+  from = "/kruger-national-park/classic-safari-packages/"
+  to = "/kruger-national-park/safari-packages/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/kmia/"
-  to = "/kruger-national-park/airports/kmia/"
+  [[redirects]]
+  from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
+  to = "/kruger-national-park/safari-packages/5-day-private-safari/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/eastgate/"
-  to = "/kruger-national-park/airports/eastgate/"
+  [[redirects]]
+  from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
+  to = "/kruger-national-park/safari-packages/6-day-private-safari/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/skukuza/"
-  to = "/kruger-national-park/airports/skukuza/"
+  [[redirects]]
+  from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
+  to = "/kruger-national-park/safari-packages/7-day-private-safari/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/guide/kruger-national-park/airports/east-gate/"
-  to = "/kruger-national-park/airports/eastgate/"
+  [[redirects]]
+  from = "/kruger-national-park/safaris/"
+  to = "/kruger-national-park/private-safaris/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/guide/"
-  to = "/kruger-national-park/guide/"
+  [[redirects]]
+  from = "/kruger-national-park/all-inclusive-safari-packages/"
+  to = "/kruger-national-park/safari-all-inclusive-packages/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/kruger-national-park/mammals/black-vs-white-rhino/"
-  to = "/difference-between-white-and-black-rhino/"
+  [[redirects]]
+  from = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
+  to = "/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/"
-  to = "/kruger-national-park/airports/"
+  [[redirects]]
+  from = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
+  to = "/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/kmia/"
-  to = "/kruger-national-park/airports/kmia/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/eastgate/"
-  to = "/kruger-national-park/airports/eastgate/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/airports/skukuza/"
-  to = "/kruger-national-park/airports/skukuza/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/malaria/"
-  to = "/kruger-national-park/malaria/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/"
-  to = "/kruger-national-park/weather/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/guide/weather/october/"
-  to = "/kruger-national-park/weather/october/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/"
-  to = "/kruger-national-park/all-inclusive-safari-packages/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/five-day/"
-  to = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/six-day/"
-  to = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/all-inclusive-packages/seven-day/"
-  to = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/"
-  to = "/kruger-national-park/classic-safari-packages/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/five-day/"
-  to = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/six-day/"
-  to = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kruger-national-park/standard-packages/seven-day/"
-  to = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
+  [[redirects]]
+  from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
+  to = "/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/"
   status = 301
   force = true
 

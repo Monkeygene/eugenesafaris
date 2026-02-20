@@ -110,6 +110,10 @@
   }
 }
 
+.nav-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
 /* Explicit utilities (safe with Vite) */
 @layer utilities {
   .font-crimson {
