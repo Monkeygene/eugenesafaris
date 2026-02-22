@@ -66,7 +66,7 @@
     <!-- Logo -->
      <div class="flex items-center">
     <a href="/" class="block">
-      <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-8 transition-all duration-300 ease-in-out" alt="Eugene Safaris Logo" loading="eager" />
+      <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-8 pl-4 md:pl-0 transition-all duration-300 ease-in-out" alt="Eugene Safaris Logo" loading="eager" />
     </a>
      </div>
       <!-- Desktop Menu -->
@@ -101,7 +101,7 @@
              transition-all duration-200 ease-out
              translate-y-2 group-hover:translate-y-0">
 
-      <li><a href="/kruger-national-park/safari-packages/" class="block px-4 py-2 black hover:text-zinc-400 transition">Classic Kruger Safaris</a></li>
+      <li><a href="/kruger-national-park/private-safaris/" class="block px-4 py-2 black hover:text-zinc-400 transition">Private Kruger Safaris</a></li>
       <li><a href="/kruger-national-park/safari-all-inclusive-packages/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">All-Inclusive Kruger Safaris</a></li>
       <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">Photographic Safaris</a></li>
 
@@ -154,8 +154,8 @@
     </button>
 
     <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-      <a href="/kruger-national-park/safari-packages/" class="block text-gray-700 hover:text-zinc-400 transition">Kruger Safari Packages</a>
-      <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Safari Packages</a>
+      <a href="/kruger-national-park/private-safaris/" class="block text-gray-700 hover:text-zinc-400 transition">Private Kruger Safaris</a>
+      <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Kruger Safaris</a>
       <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safaris</a>
     </div>
   </div>
@@ -175,42 +175,27 @@
   </header>
    <main class="pt-16">
  <!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-7xl mx-auto px-5 lg:px-1">
-  <nav class="flex justify-start text-[0.65rem] lg:text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center">
-      <li class="inline-flex items-center">
+  <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
+    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+      
+      <li class="flex items-center">
         <a href="/" class="hover:underline">Home</a>
-        <span class="mx-1 lg:mx-2">/</span>
+        <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center">
-        <a href="/kruger-national-park/safaris/" class="hover:underline">Kruger Safaris</a>
-        <span class="mx-1 lg:mx-2">/</span>
+
+      <li class="flex items-center">
+        <a href="/kruger-national-park/safari-packages/" class="hover:underline">
+          Kruger Packages
+        </a>
+        <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center text-gray-500 font-medium">
-        Photographic Safari
+
+      <li class="flex items-center text-gray-500">
+       Photographic Safaris
       </li>
+
     </ol>
   </nav>
-</div>
-<!-- End of Breadcrumb Navigation start of Main Content -->
- <section class="max-w-7xl mx-auto mb-8 lg:mb-12">
-  <div class="w-full overflow-hidden">
-    <picture>
-      <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
-      <source 
-        srcset="/src/assets/images/kruger-national-park/mammals/leopard/header/lg/leopard-walking-road.webp" 
-        media="(min-width: 640px)" 
-        type="image/jpeg">
-      
-      <!-- Default fallback (mobile and smaller devices) -->
-      <img 
-        src="/src/assets/images/kruger-national-park/mammals/leopard/header/sm/leopard-walking-road.webp" 
-        alt="Black-Collared Barbet at Pretoriuskop Rest Camp in Kruger National Park perched behind thicket" 
-        class="w-full object-cover" 
-        loading="lazy">
-    </picture>
-  </div>
-</section>
   <!-- Kruger National Park Photographic Safari-->
 <section class="">
   <div class="container mx-auto max-w-6xl px-4">
