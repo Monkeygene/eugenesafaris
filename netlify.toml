@@ -19,31 +19,31 @@
 
 [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/"
-  to = "/kruger-national-park/safari-packages/"
+  to = "/kruger-national-park/private-safaris/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
-  to = "/kruger-national-park/safari-packages/5-day-private-safari/"
+  to = "/kruger-national-park/private-safaris/5-day/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
-  to = "/kruger-national-park/safari-packages/6-day-private-safari/"
+  to = "/kruger-national-park/private-safaris/5-day/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
-  to = "/kruger-national-park/safari-packages/7-day-private-safari/"
+  to = "/kruger-national-park/private-safaris/5-day/"
   status = 301
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/safaris/"
-  to = "/kruger-national-park/private-safaris/"
+  to = "/kruger-national-park/safari-packages/"
   status = 301
   force = true
 

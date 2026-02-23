@@ -51,72 +51,72 @@
 
   <!-- Kruger National Park Safaris  -->
   <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/private-safaris/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/safari-packages/</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- 3.1 All Inclusive Safari Packages  -->
+  <!-- Kruger National Park Safari All Inclusive Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/</loc>
-    <lastmod>2025-07-29</lastmod>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- 3.1.1 5 Day All-Inclusive Packages  -->
+  <!-- 5 Day Kruger National Park Safari All Inclusive Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- 3.1.2 6 Day All-Inclusive Packages  -->
+  <!-- 6 Day Kruger National Park Safari All Inclusive Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/</loc>
-    <lastmod>2025-08-25</lastmod>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- 3.1.3 7 Day All-Inclusive Packages  -->
+  <!-- 7 Day Kruger National Park Safari All Inclusive Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <!-- Kruger National Park Safari Packages  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safari-packages/</loc>
-    <lastmod>2025-07-29</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/private-safaris/</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <!-- Kruger National Park Safari Packages 5 Day  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safari-packages/5-day-private-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/private-safaris/5-day/</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <!-- Kruger National Park Safari Packages 6 Day  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safari-packages/6-day-private-safari/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/private-safaris/6-day/</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <!-- Kruger National Park Safari Packages 7 Day  -->
  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/safari-packages/7-day-private-safari/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <loc>https://eugenesafaris.com/kruger-national-park/private-safaris/7-day/</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -124,7 +124,7 @@
   <!-- 3.3 Photographic Packages  -->
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc>
-    <lastmod>2025-07-22</lastmod>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
