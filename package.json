@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "clean": "powershell Remove-Item -Recurse -Force dist,node_modules,.vite -ErrorAction SilentlyContinue",
     "build": "vite build",
     "preview": "vite preview"
   },
