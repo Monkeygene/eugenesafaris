@@ -106,8 +106,9 @@
   }
 
   main p {
-    @apply text-lg font-crimson leading-relaxed;
+    @apply text-lg font-crimson text-gray-900 leading-relaxed;
   }
+
 }
 
 .nav-transition {
