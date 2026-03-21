@@ -50,6 +50,7 @@ export default {
   "./kruger-national-park/mammals/black-rhinoceros/index.html",
   "./kruger-national-park/mammals/rhinoceros/index.html",
   "./difference-between-white-and-black-rhino/index.html",
+  "./impala/index.html",
   "./what-to-wear-on-a-safari/index.html",
   "./what-to-bring-on-an-african-safari/index.html",
   "./src/**/*.{js,ts,jsx,tsx}"],

@@ -56,6 +56,7 @@ export default defineConfig({
         krugernationalparkblackrhinoceros: path.resolve(__dirname, 'kruger-national-park/mammals/black-rhinoceros/index.html'),
         krugernationalparkrhinoceros: path.resolve(__dirname, 'kruger-national-park/mammals/rhinoceros/index.html'),
         whitevsblackrhino: path.resolve(__dirname, 'difference-between-white-and-black-rhino/index.html'),
+        impala: path.resolve(__dirname, 'impala/index.html'),
         whattowearonsafar: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
         whattobringonanafricansafari: path.resolve(__dirname, 'what-to-bring-on-an-african-safari/index.html')
       }
