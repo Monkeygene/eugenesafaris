@@ -5,18 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Title & Description -->
-  <title>White Rhinoceros in Kruger National Park | Eugene Safaris</title>
-  <meta name="description" content="Experience Kruger wildlife on a private safari with Eugene Safaris. Join us for immersive trips in the South African Lowveld. See Kruger like never before." />
+  <title>African Buffalo</title>
+  <meta name="description" content="The most danngerous annd unpredicatble animal to hunt the African Buffalo" />
   <meta name="author" content="Eugene Booysen" />
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/mammals/white-rhinoceros/" />
+  <link rel="canonical" href="https://eugenesafaris.com/african-buffalo/" />
   <!-- Favicon & Apple Touch Icon -->
   <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
   <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
   <!-- Robots -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
-  <!-- JSON-LD White Rhinoceros Breadcrumb -->
+  <!-- Preload Fonts -->
+  <link rel="preload" href="/assets/CrimsonText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- JSON-LD SHCEMA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,13 +31,13 @@
         "name": "Home",
         "item": "https://eugenesafaris.com/"
       },
-      {
+        {
       "@type": "ListItem",
       "position": 2,
       "name": "Kruger Guide",
       "item": "https://eugenesafaris.com/kruger-national-park/guide/"
     },
-      {
+    {
       "@type": "ListItem",
       "position": 3,
       "name": "Mammals",
@@ -43,13 +46,13 @@
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "White Rhinoceros",
-      "item": "https://eugenesafaris.com/kruger-national-park/mammals/white-rhinoceros/"
+      "name": "African Buffalo",
+      "item": "https://eugenesafaris.com/african-buffalo/"
     }
-
-  ]
-}
+    ]
+  }
   </script>
+
   <!-- Google Tag Manager (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
   <script>
@@ -58,7 +61,6 @@
     gtag('js', new Date());
     gtag('config', 'G-F2CBZHQXX1');
   </script>
-    <script type="module" src="/src/main.js"></script>
 </head>
 <body>
 <header>
@@ -82,7 +84,7 @@
   aria-label="Safari Packages Menu"
   class="flex items-center gap-1 text-gray-800 hover:text-zinc-400 transition px-2 group"
 >
-  Safaris
+  <a href="/kruger-national-park/safari-packages/" class="text-gray-800 hover:text-zinc-400 transition">Safaris</a>
 
   <!-- Dropdown arrow -->
   <svg
@@ -175,141 +177,116 @@
     </div>
   </nav>
   </header>
-   <main class="pt-16">
-<!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-7xl mx-auto px-5 lg:px-1">
-  <nav class="flex justify-start text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center space-x-1">
-      <li class="inline-flex items-center">
+  <main class="pt-16">
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4 mb-6">
+    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+      
+      <li class="flex items-center">
         <a href="/" class="hover:underline">Home</a>
         <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center">
-        <a href="/kruger-national-park/guide/" class="hover:underline">Kruger Guide</a>
+
+      <li class="flex items-center">
+        <a href="/kruger-national-park/guide/" class="hover:underline">
+          Kruger Guide
+        </a>
         <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center">
-        <a href="/kruger-national-park/mammals/" class="hover:underline">Mammals</a>
+
+      <li class="flex items-center">
+        <a href="/kruger-national-park/mammals/" class="hover:underline">
+          Mammals
+        </a>
         <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center text-gray-500 font-medium">
-        White Rhinoceros
+
+      <li class="flex items-center text-gray-500" aria-current="page">
+         African Buffalo
       </li>
+
     </ol>
   </nav>
-</div>
-<!-- End of Breadcrumb Navigation start of Main Content -->
-  <section class="max-w-7xl mx-auto mb-12">
-  <div class="w-full overflow-hidden">
-    <picture>
-      <!-- Desktop (min-width: 640px = lg breakpoint in Tailwind) -->
-      <source 
-        srcset="/src/assets/images/kruger-national-park/lion/header/lg/male-lion-crossing-road.jpg" 
-        media="(min-width: 640px)" 
-        type="image/jpeg">
-      
-      <!-- Default fallback (mobile and smaller devices) -->
-      <img 
-        src="/src/assets/images/kruger-national-park/lion/header/sm/male-lion-crossing-road.jpg" 
-        alt="Male Lion with mane walking across gravel road in Kruger National Park" 
-        class="w-full object-cover" 
-        loading="lazy">
-    </picture>
+    <section class="px-4">
+  <div class="max-w-md mx-auto">
+    <figure class="overflow-hidden">
+      <img
+        src="/src/assets/images/kruger-national-park/mammals/buffalo/thumbnail/african-buffalo-sketch.webp"
+        alt="Male and female impala sketch comparison"
+        class="w-full h-auto object-contain"
+        loading="eager"
+      >
+    </figure>
   </div>
 </section>
-<!-- End of Image-->
-<section class="max-w-5xl mx-auto px-4 py-12 text-gray-800">
-  <h1 class="text-4xl font-bold mb-6">White Rhinoceros in Kruger National Park</h1>
-  <p class="text-lg mb-6">
-    The White Rhinoceros, also known as the square-lipped rhino (<em>Ceratotherium simum</em>), is one of Africa’s most iconic and endangered animals. As a member of the Big Five, it holds a special place in the hearts of safari-goers, conservationists, and wildlife lovers around the world. Kruger National Park is one of the last strongholds for this prehistoric-looking herbivore, offering one of the best opportunities in Africa to see white rhinos in their natural habitat.
-  </p>
-
-  <h2 class="text-2xl font-semibold mb-3">White Rhino Behavior and Traits</h2>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li><strong>Name Origin:</strong> “White” comes from the Dutch “wijde,” meaning wide—referring to their mouth shape.</li>
-    <li><strong>Social Behavior:</strong> Often found in small groups, especially females with calves.</li>
-    <li><strong>Feeding:</strong> Grazers who keep their heads low while feeding on short grass.</li>
-    <li><strong>Daily Routine:</strong> Most active early mornings and late afternoons. Rest or wallow during the heat of the day.</li>
-    <li><strong>Territoriality:</strong> Males mark territory with dung piles and urine sprays—visible along roads and tracks.</li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">The Threat of Poaching</h2>
-  <p class="text-lg mb-4">
-    Despite protection laws, white rhinos remain under severe threat due to poaching, driven by demand for rhino horn. Kruger has been a focal point in both the poaching crisis and conservation efforts.
-  </p>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li><strong>Anti-poaching efforts:</strong> Kruger uses rangers, surveillance tech, and drones to protect rhinos.</li>
-    <li><strong>Community involvement:</strong> Education and economic incentives are helping engage local communities in conservation.</li>
-    <li><strong>Important note:</strong> Rhino horns are made of keratin—like fingernails—and have no proven medicinal use.</li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">Best Time to See White Rhinos in Kruger</h2>
-  <p class="text-lg mb-2"><strong>Dry Season (May to October):</strong></p>
-  <ul class="list-disc list-inside text-lg mb-4 space-y-2">
-    <li>Less vegetation makes rhinos easier to spot.</li>
-    <li>Waterholes become key gathering points.</li>
-    <li>Ideal times: early morning and late afternoon.</li>
-  </ul>
-  <p class="text-lg mb-2"><strong>Wet Season (November to April):</strong></p>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li>Vegetation is thicker, making sightings more challenging.</li>
-    <li>Calving season offers a chance to see young rhinos with mothers.</li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">Safari Tips for Rhino Spotting</h2>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li>Scan open grassy areas—especially near roadsides at dawn.</li>
-    <li>Look for oxpeckers perched on their backs and listen for their high-pitched calls.</li>
-    <li>Stay quiet and at a distance—rhinos have poor eyesight but excellent hearing and smell.</li>
-    <li>Check daily sighting boards in camps like Skukuza and Lower Sabie.</li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">Helpful Internal Links</h2>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li><a href="/kruger-national-park/mammals/lion/" class="text-blue-600 hover:underline">Lions in Kruger National Park</a></li>
-    <li><a href="/kruger-national-park/mammals/elephant/" class="text-blue-600 hover:underline">African Elephants in Kruger</a></li>
-    <li><a href="/difference-between-white-and-black-rhino/" class="text-blue-600 hover:underline">Difference Between White and Black Rhino</a></li>
-    <li><a href="/kruger-national-park/safaris/" class="text-blue-600 hover:underline">Kruger National Park Safari Packages</a></li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">External Resources</h2>
-  <ul class="list-disc list-inside text-lg mb-6 space-y-2">
-    <li><a href="https://en.wikipedia.org/wiki/White_rhinoceros" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">White Rhinoceros – Wikipedia</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Kruger_National_Park" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Kruger National Park – Wikipedia</a></li>
-  </ul>
-
-  <h2 class="text-2xl font-semibold mb-3">Conclusion</h2>
-  <p class="text-lg">
-    The white rhinoceros represents one of Kruger National Park’s greatest conservation successes—and most urgent challenges. With their powerful stature, gentle demeanor, and prehistoric features, white rhinos are a must-see for any safari-goer. By visiting Kruger and supporting responsible wildlife tourism, you're contributing directly to the survival of these incredible animals. Whether on a self-drive route or with an expert guide, encountering a white rhino in the wild is an experience that will stay with you for life.
-  </p>
-</section>
-
-<section class="max-w-5xl mx-auto mt-16 mb-12 px-4">
-  <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Explore Other Big 5 Mammals</h3>
-  <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-       <!-- Buffalo Card -->
-    <a href="/kruger-national-park/mammals/buffalo/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-      <img src="/src/assets/images/kruger-national-park/mammals/buffalo/thumbnail/african-buffalo-sketch.webp" alt="African Buffalo in Kruger" class="w-24 h-22 rounded-md object-cover mr-4" />
-      <span class="flex-1 text-lg font-medium text-gray-900">Buffalo</span>
-    </a>
-   <!-- Elephant Card -->
-    <a href="/kruger-national-park/mammals/elephant/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-      <img src="/src/assets/images/kruger-national-park/mammals/elephant/thumbnail/african-elephant-sketch.webp" alt="Elephant in Kruger" class="w-18 h-16 rounded-md object-cover mr-4" />
-      <span class="flex-1 text-lg font-medium text-gray-900">Elephant</span>
-    </a>
-   <!-- Leopard Card -->
-    <a href="/kruger-national-park/mammals/leopard/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-      <img src="/src/assets/images/kruger-national-park/mammals/leopard/thumbnail/african-leopard-sketch.webp" alt="Leopard in Kruger" class="w-24 h-16 rounded-md object-cover mr-4" />
-      <span class="flex-1 text-lg font-medium text-gray-900">Leopard</span>
-    </a>
-   <!-- Lion Card -->
-    <a href="/kruger-national-park/mammals/lion/" class="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow duration-300">
-      <img src="/src/assets/images/kruger-national-park/mammals/lion/thumbnail/african-lion-sketch.webp" alt="Elephant in Kruger" class="w-20 h-13 rounded-md object-cover mr-4" />
-      <span class="flex-1 text-lg font-medium text-gray-900">Lion</span>
-    </a>
+  <section class="max-w-3xl mx-auto py-10 md:py-12 mt-10 md:mt-0 px-4 md:px-0">
+  <div class="text-center">
+    <h1 class="font-bold text-2xl md:text-4xl mb-4">
+     African Buffalo
+    </h1>
+    <h3 class="mb-6">
+      (Syncerus caffer)
+    </h3>
+       <p class="mb-6">
+The African buffalo is ann enormous and formidable bovid with a reputation for a danngerously moody temprament. Their size, strenght and propennsity to charge determinedly without warnning have resulted in their inclusion of the big five (the top African mammals to see in the Kruger National Park). It is also cosidered the most dangerous of the five to hunt.
+      </p>
   </div>
 </section>
-</main>
+<section class="py-12 px-4">
+  <div class="max-w-5xl mx-auto">
+
+    <div class="overflow-hidden border border-gray-300 rounded-lg">
+      <table class="w-full text-sm text-left">
+
+        <tbody class="divide-y divide-gray-200">
+
+          <tr>
+            <th class="w-1/3 bg-amber-100 px-4 py-3 font-semibold">Size</th>
+            <td class="px-4 py-3">1.4 meters at the shoulder</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Weight</th>
+            <td class="px-4 py-3">Males weigh 800kg and female 750kg</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Lifespan</th>
+            <td class="px-4 py-3">23 years</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Habitat & Distribution</th>
+            <td class="px-4 py-3">Wide rage, wherever there is suitable forage, access to water and shade</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Gestation</th>
+            <td class="px-4 py-3">11 months</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Number of Young</th>
+            <td class="px-4 py-3">One</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Food</th>
+            <td class="px-4 py-3">Bulk grazers, they prefer log grass. Take small amount of browse during times of drought</td>
+          </tr>
+
+          <tr>
+            <th class="bg-amber-100 px-4 py-3 font-semibold">Predators</th>
+            <td class="px-4 py-3">Lions and humans</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+
+  </div>
+</section>
+  </main>
 <!-- Footer -->
 <footer class="bg-linen text-gray-700 font-avenir">
   <!-- Top Footer Grid -->
@@ -352,9 +329,9 @@
       <h4 class="text-lg font-semibold mb-4">Explore</h4>
       <ul class="space-y-2 text-sm">
         <li><a href="/" class="text-gray-800 hover:text-zinc-400 transition">Home</a></li>
-        <li><a href="/kruger-national-park/private-safaris/" class="text-gray-800 hover:text-zinc-400 transition">Kruger Private Safaris</a></li>
-        <li><a href="/birding/" class="text-gray-800 hover:text-zinc-400 transition">Birding</a></li>
-        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition">About Eugene Safaris</a></li>
+        <li><a href="/kruger-national-park/safari-packages/" class="text-gray-800 hover:text-zinc-400 transition">Kruger Safari Packages</a></li>
+        <li><a href="/birding/" class="text-gray-800 hover:text-zinc-400 transition">Birding Safaris</a></li>
+        <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition">About</a></li>
         <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition">Contact</a></li>
       </ul>
     </div>
@@ -416,5 +393,6 @@
   </div>
 </footer>
 <!-- Psalms 23:1–6 -->
-  </body>
-  </html>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

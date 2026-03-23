@@ -30,6 +30,42 @@
   force = true
 
   [[redirects]]
+  from = "/kruger-national-park/mammals/elephant/"
+  to = "/kruger-national-park/african-elephant/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/lion/"
+  to = "/lion/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/leopard/"
+  to = "/african-leopard/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/buffalo/"
+  to = "/african-buffalo/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/black-rhinoceros/"
+  to = "/black-rhinoceros/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/white-rhinoceros/"
+  to = "/white-rhinoceros/"
+  status = 301
+  force = true
+
+  [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
   to = "/kruger-national-park/private-safaris/5-day/"
   status = 301
