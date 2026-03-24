@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Title & Description -->
-  <title>Kruger National Park | Eugene Safaris</title>
-  <meta name="description" content="Experience Kruger wildlife on a private safari with Eugene Safaris. Join us for immersive trips in the South African Lowveld. See Kruger like never before." />
+  <title>Kruger National Park</title>
+  <meta name="description" content="Read about the great Kruger National Park and why it is such a great safari destination." />
   <meta name="author" content="Eugene Booysen" />
   <!-- Canonical URL -->
   <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/" />
@@ -25,19 +25,22 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "item": {
-        "@id": "https://eugenesafaris.com/",
-        "name": "Home"
-      }
+      "name": "Home",
+      "item": "https://eugenesafaris.com/"
+    },
+      {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Kruger Guide",
+      "item": "https://eugenesafaris.com/kruger-national-park/guide/"
     },
     {
       "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-national-park/",
-        "name": "Kruger Park"
-      }
+      "position": 3,
+      "name": "Kruger National Park",
+      "item": "https://eugenesafaris.com/kruger-national-park/"
     }
+    
   ]
 }
 </script>
@@ -167,19 +170,27 @@
   </header>
    <main class="pt-16">
 <!-- End of Nav - Start of Breadcrumb Navigation -->
-<div class="max-w-7xl mx-auto px-5 lg:px-1">
-  <nav class="flex justify-start text-[0.65rem] lg:text-xs text-gray-700 mb-4" aria-label="Breadcrumb">
-    <ol class="inline-flex items-center">
-      <li class="inline-flex items-center">
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
+    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+      
+      <li class="flex items-center">
         <a href="/" class="hover:underline">Home</a>
-        <span class="mx-1 lg:mx-2">/</span>
+        <span class="mx-2">/</span>
       </li>
-      <li class="inline-flex items-center text-gray-500 font-avenir">
-        Kruger Park
+
+      <li class="flex items-center">
+        <a href="/kruger-national-park/guide/" class="hover:underline">
+          Kruger Guide
+        </a>
+        <span class="mx-2">/</span>
       </li>
+
+      <li class="flex items-center text-gray-500">
+        Kruger National Park
+      </li>
+
     </ol>
   </nav>
-</div>
 <!-- End of Breadcrumb Navigation start of Main Content -->
  <section class="py-4 mt-12">
   <div class="container mx-auto px-4 flex flex-col items-center justify-center">
@@ -188,8 +199,8 @@
         Kruger National Park
       </h1>
     </div>
-    <div class="max-w-4xl text-left mt-4">
-       <p class="mb-4 text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+    <div class="max-w-4xl text-center mt-4">
+       <p class="mb-6">
         Spanning nearly 2 million hectares of untamed wilderness, Kruger National Park is South Africa's flagship safari destination and one of the most celebrated game reserves in the world. Teeming with iconic wildlife, diverse ecosystems, and a rich history, Kruger offers an unforgettable safari experience even if you are a first-time visitor or a seasoned safari-goer.
       </p>
       <p class="mb-4 text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
