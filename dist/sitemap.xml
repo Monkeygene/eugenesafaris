@@ -171,7 +171,7 @@
     <priority>0.50</priority>
   </url>
 
-  <!-- 7. Kruger National Park Guide -->
+  <!-- Kruger National Park Guide -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/guide/</loc>
     <lastmod>2025-07-16</lastmod>
@@ -179,56 +179,70 @@
     <priority>0.50</priority>
   </url>
 
-  <!-- 6.2 Kruger National Park Guide -->
+  <!-- Kruger National Park Mammals -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/mammals/</loc>
     <lastmod>2025-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
-  <!-- 6.2.1 Kruger National Park Mammals Black Rhinoceros -->
+  <!-- Black Rhinoceros -->
   <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/mammals/black-rhinoceros/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://eugenesafaris.com/black-rhinoceros/</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
-  <!-- 6.2.2 Kruger National Park Mammals White Rhinoceros -->
+  <!-- White Rhinoceros -->
   <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/mammals/white-rhinoceros/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <loc>https://eugenesafaris.com/white-rhinoceros/</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
-  <!-- Elephant -->
+  <!-- African Bush Elephant -->
   <url>
-    <loc>https://eugenesafaris.com/african-elephant/</loc>
+    <loc>https://eugenesafaris.com/african-bush-elephant/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+   <!-- Lion -->
+  <url>
+    <loc>https://eugenesafaris.com/lion/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+   <!-- African Leopard -->
+  <url>
+    <loc>https://eugenesafaris.com/african-leopard/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+   <!-- African Buffalo -->
+  <url>
+    <loc>https://eugenesafaris.com/african-buffalo/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+      <!-- Impala -->
+  <url>
+    <loc>https://eugenesafaris.com/impala/</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
-   <!-- 6.2.4 Kruger National Park Mammals Lion -->
-  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/mammals/lion/</loc>
-    <lastmod>2025-07-16</lastmod>
+  <!-- Kruger National Park Birds -->
+    <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/birds/</loc>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
-   <!-- 6.2.5 Kruger National Park Mammals Leopard -->
-  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/mammals/leopard/</loc>
-    <lastmod>2025-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-   <!-- 6.2.6 Kruger National Park Mammals Buffalo -->
-  <url>
-    <loc>https://eugenesafaris.com/kruger-national-park/mammals/buffalo/</loc>
-    <lastmod>2025-07-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <!-- 6.2.7 Kruger National Park Mammals Rhinoceros -->
+  <!-- Kruger National Park Mammals Rhinoceros -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/mammals/rhinoceros/</loc>
     <lastmod>2025-07-17</lastmod>
@@ -389,14 +403,6 @@
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/airports/skukuza/</loc>
     <lastmod>2025-07-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-    <!-- Impala -->
-  <url>
-    <loc>https://eugenesafaris.com/impala/</loc>
-    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
