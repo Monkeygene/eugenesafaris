@@ -74,7 +74,7 @@
 
  <url>
     <loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/</loc>
-    <lastmod>2026-02-23</lastmod>
+    <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -182,7 +182,7 @@
   <!-- Kruger National Park Mammals -->
   <url>
     <loc>https://eugenesafaris.com/kruger-national-park/mammals/</loc>
-    <lastmod>2025-07-16</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -231,6 +231,13 @@
       <!-- Impala -->
   <url>
     <loc>https://eugenesafaris.com/impala/</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <!-- Wildlife -->
+    <url>
+    <loc>https://eugenesafaris.com/kruger-national-park/wildlife/</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>

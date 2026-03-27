@@ -40,6 +40,7 @@ export default {
   "./kruger-national-park/weather/october/index.html",
   "./kruger-national-park/weather/november/index.html",
   "./kruger-national-park/weather/december/index.html",
+  "./kruger-national-park/wildlife/index.html",
   "./kruger-national-park/mammals/index.html",
   "./african-buffalo/index.html",
   "./african-bush-elephant/index.html",

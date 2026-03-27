@@ -46,6 +46,7 @@ export default defineConfig({
         krugernationalparkweatheroctober: path.resolve(__dirname, 'kruger-national-park/weather/october/index.html'),
         krugernationalparkweathernovember: path.resolve(__dirname, 'kruger-national-park/weather/november/index.html'),
         krugernationalparkweatherdecember: path.resolve(__dirname, 'kruger-national-park/weather/december/index.html'),
+        krugernationalparkwildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
         krugernationalparkmammals: path.resolve(__dirname, 'kruger-national-park/mammals/index.html'),
         krugernationalparkbirds: path.resolve(__dirname, 'kruger-national-park/birds/index.html'),
         africanbuffalo: path.resolve(__dirname, 'african-buffalo/index.html'),
