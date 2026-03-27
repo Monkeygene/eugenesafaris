@@ -105,12 +105,6 @@
   from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
   to = "/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/"
   status = 301
-  force = 
-  
-  [[redirects]]
-  from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
-  to = "/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/"
-  status = 301
   force = true
 
 
