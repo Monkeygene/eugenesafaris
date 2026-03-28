@@ -31,7 +31,7 @@
 
   [[redirects]]
   from = "/kruger-national-park/mammals/elephant/"
-  to = "/kruger-national-park/african-elephant/"
+  to = "/african-bush-elephant/"
   status = 301
   force = true
 
@@ -107,6 +107,61 @@
   status = 301
   force = true
 
+  ######################
+  # 410 Removals
+  ######################
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/lion/"
+  status = 410
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/buffalo/"
+  status = 410
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/elephant/"
+  status = 410
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/black-rhinoceros/"
+  status = 410
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/white-rhinoceros/"
+  status = 410
+  force = true
+
+  [[redirects]]
+  from = "/kruger-national-park/mammals/leopard/"
+  status = 410
+  force = true
+
+  # Removed guide pages
+[[redirects]]
+  from = "/kruger-national-park/guide/airports/kmia/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/kruger-national-park/guide/weather/october/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/guide/kruger-national-park/malaria/"
+  status = 410
+  force = true
+
+# Removed tour page
+[[redirects]]
+  from = "/tours/malawi/miombo-montane/"
+  status = 410
+  force = true
 
 ######################
 # Header Rules
