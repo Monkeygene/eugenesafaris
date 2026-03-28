@@ -10,18 +10,8 @@
   trailingSlash = "always"
 
 ######################
-# Redirect Rules
-######################
-
-######################
 # Permanent Redirects to New Paths
 ######################
-
-  [[redirects]]
-  from = "/kruger-national-park/classic-safari-packages/"
-  to = "/kruger-national-park/private-safaris/"
-  status = 301
-  force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/"
@@ -35,12 +25,6 @@
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
-  to = "/kruger-national-park/private-safaris/5-day/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
   status = 410
   force = true
 
@@ -48,12 +32,6 @@
   from = "/kruger-national-park/standard-packages/five-day/"
   status = 410
   force = true 
-
-  [[redirects]]
-  from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
-  to = "/kruger-national-park/private-safaris/5-day/"
-  status = 301
-  force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
@@ -66,10 +44,6 @@
   force = true 
 
   [[redirects]]
-  from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
-  to = "/kruger-national-park/private-safaris/5-day/"
-  status = 301
-  force = true
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
@@ -83,12 +57,6 @@
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/"
-  to = "/kruger-national-park/safari-all-inclusive-packages/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/all-inclusive-safari-packages/"
   status = 410
   force = true 
 
@@ -96,12 +64,6 @@
   from = "/kruger-national-park/all-inclusive-packages/"
   status = 410
   force = true 
-
-  [[redirects]]
-  from = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
-  to = "/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/"
-  status = 301
-  force = true
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
@@ -115,12 +77,6 @@
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
-  to = "/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
   status = 410
   force = true
 
@@ -128,12 +84,6 @@
   from = "/kruger-national-park/all-inclusive-packages/six-day/"
   status = 410
   force = true 
-
-  [[redirects]]
-  from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
-  to = "/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/"
-  status = 301
-  force = true
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
@@ -147,19 +97,7 @@
 
   [[redirects]]
   from = "/kruger-national-park/mammals/elephant/"
-  to = "/african-bush-elephant/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/elephant/"
   status = 410
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/lion/"
-  to = "/lion/"
-  status = 301
   force = true
 
   [[redirects]]
@@ -169,19 +107,7 @@
 
   [[redirects]]
   from = "/kruger-national-park/mammals/leopard/"
-  to = "/african-leopard/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/leopard/"
   status = 410
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/buffalo/"
-  to = "/african-buffalo/"
-  status = 301
   force = true
 
   [[redirects]]
@@ -191,19 +117,7 @@
 
   [[redirects]]
   from = "/kruger-national-park/mammals/black-rhinoceros/"
-  to = "/black-rhinoceros/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/black-rhinoceros/"
   status = 410
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/mammals/white-rhinoceros/"
-  to = "/white-rhinoceros/"
-  status = 301
   force = true
 
   [[redirects]]
@@ -213,15 +127,8 @@
 
   [[redirects]]
   from = "/kruger-national-park/safaris/"
-  to = "/kruger-national-park/safari-packages/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/kruger-national-park/safaris/"
   status = 410
   force = true
-
 
   # Removed guide pages
 [[redirects]]

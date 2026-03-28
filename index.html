@@ -226,12 +226,23 @@
   </nav>
   </header>
    <main>
-    <!-- MAIN -->
-     <section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24">
-  <!-- YouTube Background -->
+   <section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24">
+  
+  <!-- Background Image (loads fast) -->
+  <div class="absolute inset-0 w-full h-full bg-black">
+    <img 
+      src="/src/assets/images/homepage/kruger-national-park-safaris-landing-video.webp" 
+      alt="Kruger National Park Safari Video Landing"
+      class="w-full h-full object-cover"
+      loading="eager"
+    >
+  </div>
+  <!-- Youtube Iframe -->
   <div class="absolute inset-0 w-full h-full bg-black z-0">
     <iframe
       class="absolute top-1/2 left-1/2 min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+      id="heroVideo"
+      loading="lazy"
       src="https://www.youtube.com/embed/253FM83CAhs?autoplay=1&mute=1&loop=1&playlist=253FM83CAhs&controls=0&showinfo=0&modestbranding=1&rel=0"
       frameborder="0"
       allow="autoplay; fullscreen"
@@ -1152,6 +1163,13 @@ stroke-width="1.5" stroke="currentColor" class="size-5">
   </div>
 </footer>
 <!-- Psalms 23:1–6 -->
+ <script>
+window.addEventListener("load", function() {
+  const iframe = document.getElementById("heroVideo");
+  iframe.src = "https://www.youtube.com/embed/253FM83CAhs?autoplay=1&mute=1&loop=1&playlist=253FM83CAhs&controls=0&showinfo=0&modestbranding=1&rel=0";
+  iframe.style.opacity = "1";
+});
+</script>
 <script>
 
 let currentSlide = 0;
