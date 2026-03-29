@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'Avenir Light';
-  src: url('./assets/fonts/avenir-light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Crimson Text';
   src: url('./assets/fonts/crimson/CrimsonText-Regular.woff2') format('woff2');
   font-weight: 400;
@@ -119,9 +111,5 @@
 @layer utilities {
   .font-crimson {
     font-family: "Crimson Text", serif;
-  }
-
-  .font-avenir {
-    font-family: "Avenir Light", system-ui, sans-serif;
   }
 }

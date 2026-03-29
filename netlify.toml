@@ -15,31 +15,37 @@
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/standard-packages/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/standard-packages/five-day/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/standard-packages/six-day/"
+  to = "/410.html"
   status = 410
   force = true 
 
@@ -47,113 +53,135 @@
 
   [[redirects]]
   from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/standard-packages/seven-day/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/six-day"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/six-day/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/all-inclusive-packages/seven-day/"
+  to = "/410.html"
   status = 410
   force = true 
 
   [[redirects]]
   from = "/kruger-national-park/mammals/elephant/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/mammals/lion/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/mammals/leopard/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/mammals/buffalo/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/mammals/black-rhinoceros/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/mammals/white-rhinoceros/"
+  to = "/410.html"
   status = 410
   force = true
 
   [[redirects]]
   from = "/kruger-national-park/safaris/"
+  to = "/410.html"
   status = 410
   force = true
 
   # Removed guide pages
 [[redirects]]
   from = "/kruger-national-park/guide/airports/kmia/"
+  to = "/410.html"
   status = 410
   force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/airports/"
+  to = "/410.html"
   status = 410
   force = true
 
 [[redirects]]
   from = "/kruger-national-park/guide/weather/october/"
+  to = "/410.html"
   status = 410
   force = true
 
 [[redirects]]
   from = "/guide/kruger-national-park/malaria/"
+  to = "/410.html"
   status = 410
   force = true
 
 # Removed tour page
 [[redirects]]
   from = "/tours/malawi/miombo-montane/"
+  to = "/410.html"
   status = 410
   force = true
 
