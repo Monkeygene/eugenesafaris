@@ -189,7 +189,7 @@
 # Header Rules
 ######################
 
-# Global security + HTML caching
+  # Global security + HTML caching
 [[headers]]
 for = "/*"
   [headers.values]
@@ -199,10 +199,9 @@ for = "/*"
     Strict-Transport-Security  = "max-age=63072000; includeSubDomains; preload"
     Permissions-Policy         = "geolocation=(), microphone=(), camera=(), payment=()"
     Cross-Origin-Opener-Policy = "same-origin"
-    # Skip COEP for now to avoid breaking future embeds. Add later if needed:
-    # Cross-Origin-Embedder-Policy = "require-corp"
     Cross-Origin-Resource-Policy = "same-site"
-    Cache-Control              = "no-store, must-revalidate"
+    Cache-Control              = "public, max-age=0, must-revalidate"
+    Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
 
     # Optional: monitor Trusted Types without breaking anything
     Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
