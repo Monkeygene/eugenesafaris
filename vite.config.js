@@ -60,7 +60,8 @@ export default defineConfig({
         whitevsblackrhino: path.resolve(__dirname, 'difference-between-white-and-black-rhino/index.html'),
         impala: path.resolve(__dirname, 'impala/index.html'),
         whattowearonsafar: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
-        whattobringonanafricansafari: path.resolve(__dirname, 'what-to-bring-on-an-african-safari/index.html')
+        whattobringonanafricansafari: path.resolve(__dirname, 'what-to-bring-on-an-african-safari/index.html'),
+        worsttimetovisitkrugernationalpark: path.resolve(__dirname, 'worst-time-to-visit-kruger-national-park/index.html')
       }
     }
   }

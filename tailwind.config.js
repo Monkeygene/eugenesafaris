@@ -55,6 +55,7 @@ export default {
   "./impala/index.html",
   "./what-to-wear-on-a-safari/index.html",
   "./what-to-bring-on-an-african-safari/index.html",
+  "./worst-time-to-visit-kruger-national-park/index.html",
   "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
