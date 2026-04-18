@@ -11,8 +11,8 @@
   <meta name="googlebot" content="index, follow" />
 
   <link rel="canonical" href="https://eugenesafaris.com/" />
-  <link rel="icon" href="/assets/logo/paw-print-lion.png" type="image/png" />
-  <link rel="apple-touch-icon" href="/assets/logo/paw-print-lion.png" type="image/png" />
+  <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
 
   <meta property="og:title" content="Private Kruger National Park Safaris | Eugene Safaris" />
   <meta property="og:description" content="Experience private Kruger National Park safaris with expert guide Eugene Booysen." />
@@ -42,55 +42,6 @@
     ]
   }
   </script>
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": ["Organization", "TravelAgency"],
-    "@id": "https://eugenesafaris.com/#organization",
-    "name": "Eugene Safaris",
-    "url": "https://eugenesafaris.com/",
-    "logo": "https://eugenesafaris.com/assets/logo/paw-print-lion.png",
-    "image": "https://eugenesafaris.com/assets/about/eugene-driving-and-searching-for-animals.webp",
-    "description": "Private, immersive Kruger National Park safaris led by expert guide Eugene Booysen.",
-    "founder": {
-      "@type": "Person",
-      "name": "Eugene Booysen",
-      "sameAs": [
-        "https://www.instagram.com/birdinglegend/",
-        "https://www.linkedin.com/in/birdinglegend/"
-      ]
-    },
-    "email": "eugene@eugenesafaris.com",
-    "telephone": "+351964872495",
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "Mpumalanga",
-      "addressCountry": "ZA"
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Kruger National Park, South Africa"
-    },
-    "sameAs": [
-      "https://www.instagram.com/eugenesafaris/",
-      "https://www.facebook.com/eugenesafaris",
-      "https://www.youtube.com/@birdinglegend",
-      "https://g.page/r/CT4xG6jMOpXmEBI"
-    ]
-  }
-  </script>
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Eugene Safaris",
-    "url": "https://eugenesafaris.com/",
-    "publisher": {
-      "@id": "https://eugenesafaris.com/#organization"
-    }
-  }
-  </script>
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -98,6 +49,7 @@
     gtag('js', new Date());
     gtag('config', 'G-F2CBZHQXX1');
   </script>
+  </head>
 <body>
 <header>
   <nav
@@ -291,7 +243,7 @@
     playsinline
     preload="auto"
   >
-    <source src="/videos/private-kruger-national-park-safaris.mp4" type="video/mp4" />
+    <source src="/src/assets/videos/private-kruger-national-park-safaris.mp4" type="video/mp4" />
   </video>
 
   <div class="relative z-10 flex items-center justify-center h-full">
@@ -305,7 +257,6 @@
     </div>
   </div>
 </section>
-
 <section class="max-w-4xl mx-auto py-10 md:py-12 mt-10 md:mt-0 px-4 md:px-0">
   <div class="text-center">
     <h1 class="font-bold text-2xl md:text-4xl mb-6">
@@ -908,10 +859,6 @@ stroke-width="1.5" stroke="currentColor" class="size-5">
 
   </div>
 </section>
-
-</div>
-    </div>
-  </section>
     <!-- Image box -->
 <section class="max-w-5xl mx-auto py-4 lg:py-12">
   <div class="flex justify-center items-center w-full px-4 py-4">
@@ -1203,11 +1150,23 @@ stroke-width="1.5" stroke="currentColor" class="size-5">
   </div>
 </footer>
 <!-- Psalms 23:1–6 -->
- <script>
-window.addEventListener("load", function() {
-  const iframe = document.getElementById("heroVideo");
-  iframe.src = "https://www.youtube.com/embed/253FM83CAhs?autoplay=1&mute=1&loop=1&playlist=253FM83CAhs&controls=0&showinfo=0&modestbranding=1&rel=0";
-  iframe.style.opacity = "1";
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const video = document.getElementById('heroVideo');
+
+  if (!video) return;
+
+  video.play().catch((err) => {
+    console.log('Autoplay failed:', err);
+  });
+
+  video.addEventListener('loadeddata', () => {
+    console.log('Video loaded');
+  });
+
+  video.addEventListener('playing', () => {
+    console.log('Video is playing');
+  });
 });
 </script>
 <script>
