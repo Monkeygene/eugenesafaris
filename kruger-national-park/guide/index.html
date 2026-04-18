@@ -181,18 +181,16 @@
 
     </ol>
   </nav>
-<!-- End of Breadcrumb Navigation start of Main Content -->
-<section class="py-4 lg:py-12">
-  <div class="container mx-auto px-4 text-center">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-3xl md:text-5xl font-playfair mb-8">
-        Kruger National Park Guide
-      </h1>
-      <p class="text-md sm:text-base md:text-lg text-gray-900 leading-relaxed mt-4 text-center">
-        Welcome to the Eugene Safaris Kruger National Park Guide. In this guide, you'll find information about the park, its wildlife, and how to make the most of your visit with us. Whether you're interested in birding, mammal watching, or simply enjoying the natural beauty, this guide has you covered.
-      </p>
-    </div>
-  </div>
+
+<section>
+  <div class="max-w-4xl mx-auto px-4 text-center flex flex-col justify-center space-y-6 pt-8 md:pt-16 pb-0 md:pb-16">
+  <h1 class="text-center font-semibold pb-8 md:pb-12">
+    Kruger National Park Guide
+  </h1>
+  <p>
+  Welcome to the Eugene Safaris Kruger National Park Guide. In this guide, you'll find information about the park, its wildlife, and how to make the most of your visit with us. Whether you're interested in birding, mammal watching, or simply enjoying the natural beauty, this guide has you covered.
+  </p>
+</div>
 </section>
 <section class="max-w-7xl mx-auto px-12 lg:px-4 py-12">
   <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -212,15 +210,12 @@
     </aside>
 
     <!-- Cards (3 columns on large screens) -->
-<div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+<div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
 <!-- Mammals Card -->
  <a href="/kruger-national-park/mammals/" 
-   class="group relative block overflow-hidden hover:shadow-2xl transition duration-500">
-  <!-- Category Badge -->
-  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
-    Kruger Wildlife
-  </span>
+   class="group relative block rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500">
+
   <!-- Image -->
   <img 
     src="/src/assets/images/kruger-national-park/mammals/burchells-zebra/image-box/burchells-zebra-standing-waterhole.webp"
@@ -228,26 +223,36 @@
     loading="lazy"
     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
   >
+
   <!-- Gradient -->
-  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"></div>
+
+  <!-- Category -->
+  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
+    Kruger Guide
+  </span>
+
   <!-- Content -->
   <div class="relative z-10 flex flex-col justify-end h-72 p-6 text-white">
-    <h2 class="text-2xl font-semibold mb-1">
+
+    <h2 class="text-xl font-semibold mb-1">
       Mammals
     </h2>
-    <p class="text-sm text-gray-200 max-w-base">
-      Meet Kruger’s elephants, lions, leopards and many other fascinating mammals.
+
+    <p class="text-sm text-gray-200 mb-2">
+      Meet Kruger’s elephants, lions, leopards and more.
     </p>
+
+    <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      Explore →
+    </span>
+
   </div>
 </a>
 
-<!-- Birds Card -->
- <a href="/kruger-national-park/birds/" 
-   class="group relative block overflow-hidden hover:shadow-2xl transition duration-500">
-  <!-- Category Badge -->
-  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
-    Kruger Wildlife
-  </span>
+<a href="/kruger-national-park/birds/" 
+   class="group relative block rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500">
+
   <!-- Image -->
   <img 
     src="/src/assets/images/kruger-national-park/birds/red-billed-oxpecker/red-billed-oxpecker-on-back-of-white-rhino.webp"
@@ -255,61 +260,140 @@
     loading="lazy"
     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
   >
+
   <!-- Gradient -->
-  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"></div>
+
+  <!-- Category -->
+  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
+    Kruger Guide
+  </span>
+
   <!-- Content -->
   <div class="relative z-10 flex flex-col justify-end h-72 p-6 text-white">
-    <h2 class="text-2xl font-semibold mb-1">
+
+    <h2 class="text-xl font-semibold mb-1">
       Birds
     </h2>
-    <p class="text-base text-gray-200 max-w-xs">
-      From rollers to raptors, explore Kruger’s birdlife.
+
+    <p class="text-sm text-gray-200 mb-2">
+      Meet Krugers avian friends, all birdlife in Kruger National Park from north to south.
     </p>
+
+    <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      Explore →
+    </span>
+
   </div>
 </a>
 
-  <!-- Card 3 -->
-  <a href="#" class="block border border-gray-200 overflow-hidden hover:shadow-xl transition bg-white">
-    <img src="/src/assets/images/kruger-national-park/reptiles/leopard-tortoise/leopard-tortoise-on-road.jpg" alt="Kruger Grasses" class="w-full h-48 object-cover">
-    <div class="p-6 text-center">
-      <h2 class="text-xl font-semibold mb-2 text-gray-900">Reptiles</h2>
-      <p class="text-gray-600">Discover the reptiles of Kruger National Park.</p>
-    </div>
-  </a>
+<a href="/kruger-national-park/mammals/" 
+   class="group relative block rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500">
 
-  <!-- Card 4 -->
-  <a href="/kruger-national-park/weather/" class="block border border-gray-200 overflow-hidden hover:shadow-xl transition bg-white">
-    <img src="/src/assets/images/kruger-national-park/reptiles/leopard-tortoise/leopard-tortoise-on-road.jpg" alt="Kruger Grasses" class="w-full h-48 object-cover">
-    <div class="p-6 text-center">
-      <h2 class="text-xl font-semibold mb-2 text-gray-900">Weather</h2>
-      <p class="text-gray-600">Discover the Weather of Kruger National Park.</p>
-    </div>
-  </a>
-
-  <!-- Birds Card -->
- <a href="/kruger-national-park/wildlife/" 
-   class="group relative block overflow-hidden hover:shadow-2xl transition duration-500">
-  <!-- Category Badge -->
-  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
-    Kruger Wildlife
-  </span>
   <!-- Image -->
   <img 
-    src="/src/assets/images/kruger-national-park/landscape/mix-animals-kruger-transport-dam.webp"
+    src="/src/assets/images/worst-time-to-visit-kruger-national-park/blue-tailed-skink.webp"
     alt="Burchell’s zebra at a waterhole in Kruger National Park"
     loading="lazy"
     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
   >
+
   <!-- Gradient -->
-  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"></div>
+
+  <!-- Category -->
+  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
+    Kruger Guide
+  </span>
+
   <!-- Content -->
   <div class="relative z-10 flex flex-col justify-end h-72 p-6 text-white">
-    <h2 class="text-2xl font-semibold mb-1">
-      Wildlife
+
+    <h2 class="text-xl font-semibold mb-1">
+      Reptiles
     </h2>
-    <p class="text-base text-gray-200 max-w-xs">
-     Read more about the wildlife of Kruger National Park
+
+    <p class="text-sm text-gray-200 mb-2">
+      Kruger has a lot of life including smaller critters like tortoises, lizards and snakes.
     </p>
+
+    <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      Explore →
+    </span>
+
+  </div>
+</a>
+
+<a href="/kruger-national-park/weather/" 
+   class="group relative block rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500">
+
+  <!-- Image -->
+  <img 
+    src="/src/assets/images/best-time-to-visit-kruger-national-park/river-near-picnic-site.webp"
+    alt="Burchell’s zebra at a waterhole in Kruger National Park"
+    loading="lazy"
+    class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+  >
+
+  <!-- Gradient -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"></div>
+
+  <!-- Category -->
+  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
+    Kruger Guide
+  </span>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col justify-end h-72 p-6 text-white">
+
+    <h2 class="text-xl font-semibold mb-1">
+      Weather
+    </h2>
+
+    <p class="text-sm text-gray-200 mb-2">
+      Understand weather patterns month by month so you can plan your trip better.
+    </p>
+
+    <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      Explore →
+    </span>
+
+  </div>
+</a>
+<a href="/kruger-national-park/airports/" 
+   class="group relative block rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition duration-500">
+
+  <!-- Image -->
+  <img 
+    src="/src/assets/images/kruger-national-park/airports/east-gate/east-gate-front.jpg"
+    alt="Burchell’s zebra at a waterhole in Kruger National Park"
+    loading="lazy"
+    class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+  >
+
+  <!-- Gradient -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent"></div>
+
+  <!-- Category -->
+  <span class="absolute top-4 left-4 z-20 bg-black/60 backdrop-blur px-3 py-1 text-xs tracking-wide text-white rounded-full">
+    Kruger Guide
+  </span>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col justify-end h-72 p-6 text-white">
+
+    <h2 class="text-xl font-semibold mb-1">
+      Airports
+    </h2>
+
+    <p class="text-sm text-gray-200 mb-2">
+      Read more about the three airports that connects you quickly with Kruger Park
+    </p>
+
+    <span class="text-sm font-medium opacity-0 group-hover:opacity-100 transition">
+      Explore →
+    </span>
+
   </div>
 </a>
 
