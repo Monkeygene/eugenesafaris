@@ -1,4 +1,3 @@
-// Element refs
 const navToggle = document.getElementById('nav-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 const mobileClose = document.getElementById('mobile-close');
@@ -6,6 +5,7 @@ const mobileBackdrop = document.getElementById('mobile-backdrop');
 
 const mobileSafarisBtn = document.getElementById('mobile-safaris-btn');
 const mobileSafarisMenu = document.getElementById('mobile-safaris-menu');
+const mobileSafarisIcon = document.getElementById('mobile-safaris-icon');
 
 const siteHeader = document.getElementById('siteHeader');
 const navInner = document.getElementById('navInner');
@@ -14,98 +14,102 @@ const logoImg = document.getElementById('logoImg');
 let isShrunk = false;
 let ticking = false;
 
-// ---------- Mobile menu open/close with backdrop ----------
+// --------------------
+// Mobile menu
+// --------------------
 function openMenu() {
   mobileMenu.classList.remove('translate-x-full');
   mobileBackdrop.classList.remove('pointer-events-none', 'opacity-0');
   mobileBackdrop.classList.add('opacity-100');
   navToggle.setAttribute('aria-expanded', 'true');
+  document.body.classList.add('overflow-hidden');
 }
 
 function closeMenu() {
   mobileMenu.classList.add('translate-x-full');
   mobileBackdrop.classList.remove('opacity-100');
   mobileBackdrop.classList.add('opacity-0');
-  // after the fade-out completes, disable pointer events so underlying page is interactive
+  navToggle.setAttribute('aria-expanded', 'false');
+  document.body.classList.remove('overflow-hidden');
+
   setTimeout(() => {
     mobileBackdrop.classList.add('pointer-events-none');
-  }, 300); // matches your transition duration
-  navToggle.setAttribute('aria-expanded', 'false');
+  }, 300);
 }
 
-navToggle.addEventListener('click', () => {
-  const expanded = navToggle.getAttribute('aria-expanded') === 'true';
-  if (expanded) closeMenu();
-  else openMenu();
-});
-mobileClose.addEventListener('click', closeMenu);
-mobileBackdrop.addEventListener('click', closeMenu);
+if (navToggle && mobileMenu && mobileClose && mobileBackdrop) {
+  navToggle.addEventListener('click', () => {
+    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+    expanded ? closeMenu() : openMenu();
+  });
 
-// Close when any mobile menu link is clicked
-mobileMenu.querySelectorAll('a').forEach((link) => {
-  link.addEventListener('click', closeMenu);
-});
+  mobileClose.addEventListener('click', closeMenu);
+  mobileBackdrop.addEventListener('click', closeMenu);
 
-// Safaris submenu toggle (mobile)
-mobileSafarisBtn.addEventListener('click', () => {
-  const expanded = mobileSafarisBtn.getAttribute('aria-expanded') === 'true';
-  mobileSafarisBtn.setAttribute('aria-expanded', (!expanded).toString());
-  mobileSafarisMenu.classList.toggle('hidden');
-});
+  mobileMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+}
 
-// Scroll
-function updateLogoSize(shrunk) {
-  // always strip both variants
-  logoImg.classList.remove('h-6', 'h-8');
+// --------------------
+// Mobile submenu
+// --------------------
+if (mobileSafarisBtn && mobileSafarisMenu) {
+  mobileSafarisBtn.addEventListener('click', () => {
+    const expanded = mobileSafarisBtn.getAttribute('aria-expanded') === 'true';
+    const nextState = !expanded;
 
-  // add exactly one size
+    mobileSafarisBtn.setAttribute('aria-expanded', String(nextState));
+    mobileSafarisMenu.classList.toggle('hidden');
+    mobileSafarisIcon.classList.toggle('rotate-180', nextState);
+  });
+}
+
+// --------------------
+// Navbar shrink
+// --------------------
+function applyNavbarState(shrunk) {
   if (shrunk) {
-    logoImg.classList.add('h-6');
-  } else {
-    logoImg.classList.add('h-8');
-  }
-}
-
-
-function applyNavbarState(shouldShrink) {
-  if (shouldShrink) {
-
-    // shrink height
     navInner.classList.remove('h-20');
     navInner.classList.add('h-14');
-  } else {
 
-    // restore height
+    logoImg.classList.remove('h-8', 'md:h-9');
+    logoImg.classList.add('h-6', 'md:h-7'); 
+
+    siteHeader.classList.add('shadow-sm', 'border-zinc-200');
+  } else {
     navInner.classList.remove('h-14');
     navInner.classList.add('h-20');
-  }
 
-  updateLogoSize(shouldShrink);
+    logoImg.classList.remove('h-7', 'md:h-8');
+    logoImg.classList.add('h-9', 'md:h-10');
+
+    siteHeader.classList.remove('shadow-sm', 'border-zinc-200');
+  }
 }
 
 function handleNavbarScroll() {
-  if (!ticking) {
-    window.requestAnimationFrame(() => {
-      const shouldShrink = window.scrollY > 50;
-      if (shouldShrink !== isShrunk) {
-        isShrunk = shouldShrink;
-        applyNavbarState(shouldShrink);
-      }
-      ticking = false;
-    });
-    ticking = true;
-  }
+  if (ticking) return;
+
+  ticking = true;
+
+  window.requestAnimationFrame(() => {
+    const shouldShrink = window.scrollY > 40;
+
+    if (shouldShrink !== isShrunk) {
+      isShrunk = shouldShrink;
+      applyNavbarState(shouldShrink);
+    }
+
+    ticking = false;
+  });
 }
 
-// Keep logo sizing correct on resize when not shrunk
-window.addEventListener('resize', () => {
-  if (!isShrunk) {
-    updateLogoSize(false);
-  }
+window.addEventListener('DOMContentLoaded', () => {
+  const shouldShrink = window.scrollY > 40;
+  isShrunk = shouldShrink;
+  applyNavbarState(shouldShrink);
 });
 
-window.addEventListener('DOMContentLoaded', () => {
-  // initial state
-  handleNavbarScroll();
-});
-window.addEventListener('scroll', handleNavbarScroll);
+window.addEventListener('scroll', handleNavbarScroll, { passive: true });
+
