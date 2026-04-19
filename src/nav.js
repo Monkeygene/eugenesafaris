@@ -54,7 +54,7 @@ if (navToggle && mobileMenu && mobileClose && mobileBackdrop) {
 // --------------------
 // Mobile submenu
 // --------------------
-if (mobileSafarisBtn && mobileSafarisMenu) {
+if (mobileSafarisBtn && mobileSafarisMenu && mobileSafarisIcon) {
   mobileSafarisBtn.addEventListener('click', () => {
     const expanded = mobileSafarisBtn.getAttribute('aria-expanded') === 'true';
     const nextState = !expanded;
@@ -74,15 +74,15 @@ function applyNavbarState(shrunk) {
     navInner.classList.add('h-14');
 
     logoImg.classList.remove('h-8', 'md:h-9');
-    logoImg.classList.add('h-6', 'md:h-7'); 
+    logoImg.classList.add('h-6', 'md:h-7');
 
     siteHeader.classList.add('shadow-sm', 'border-zinc-200');
   } else {
     navInner.classList.remove('h-14');
     navInner.classList.add('h-20');
 
-    logoImg.classList.remove('h-7', 'md:h-8');
-    logoImg.classList.add('h-9', 'md:h-10');
+    logoImg.classList.remove('h-6', 'md:h-7');
+    logoImg.classList.add('h-8', 'md:h-9');
 
     siteHeader.classList.remove('shadow-sm', 'border-zinc-200');
   }
@@ -112,4 +112,3 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('scroll', handleNavbarScroll, { passive: true });
-

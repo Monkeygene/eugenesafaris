@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Title & Description -->
-  <title>Kruger National Park</title>
-  <meta name="description" content="Read about the great Kruger National Park and why it is such a great safari destination." />
+  <title>Kruger National Park Safaris | Wildlife, Travel Guide & Tours</title>
+  <meta name="description" content="Explore Kruger National Park safaris, wildlife, and travel tips. Discover the best time to visit and plan your guided safari experience." />
   <meta name="author" content="Eugene Booysen" />
   <!-- Canonical URL -->
   <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/" />
@@ -55,119 +55,187 @@
 </head>
 <body>
 <header>
-<nav id="siteHeader" class="bg-linen fixed w-full z-50 transition-all duration-300 ease-in-out">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
-    <div class="flex justify-between items-center h-20 transition-all duration-300 ease-in-out" id="navInner">
-    <!-- Logo -->
-     <div class="flex items-center">
-    <a href="/" class="block">
-      <img id="logoImg" src="/src/assets/images/logo/eugenesafaris.svg" class="h-8 pl-4 md:pl-0 transition-all duration-300 ease-in-out" alt="Eugene Safaris Logo" loading="eager" />
-    </a>
-     </div>
-      <!-- Desktop Menu -->
-   <ul class="hidden md:flex space-x-6 items-center">
-  <li class="relative group 
-    before:absolute before:left-0 before:right-0 before:top-full before:h-3 before:content-['']">
-
-  <button
-  aria-haspopup="true"
-  aria-expanded="false"
-  aria-label="Safari Packages Menu"
-  class="flex items-center gap-1 text-gray-800 hover:text-zinc-400 transition px-2 group"
->
-  Safaris
-
-  <!-- Dropdown arrow -->
-  <svg
-    class="h-4 w-4 text-gray-600 transition-transform duration-200 ease-out group-hover:rotate-180"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
+  <nav
+    id="siteHeader"
+    class="fixed top-0 left-0 right-0 z-50 bg-linen/95 backdrop-blur-sm border-b border-transparent transition-all duration-300 ease-in-out"
   >
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-  </svg>
-</button>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
+      <div
+        id="navInner"
+        class="flex items-center justify-between h-20 transition-all duration-300 ease-in-out"
+      >
+        <!-- Logo -->
+        <a href="/" class="flex items-center shrink-0">
+       <img
+  id="logoImg"
+  src="/src/assets/images/logo/eugenesafaris.svg"
+  alt="Eugene Safaris Logo"
+  width="160"
+  height="44"
+  loading="eager"
+  class="h-8 md:h-9 w-auto origin-left transition-all duration-300 ease-in-out"
+/>
+        </a>
 
+        <!-- Desktop nav -->
+       <ul class="hidden md:flex items-center space-x-10">
+  <li class="relative group">
+    <button
+      type="button"
+      aria-haspopup="true"
+      aria-expanded="false"
+      aria-label="Open safari menu"
+      class="flex items-center gap-2 text-gray-800 hover:text-zinc-500 transition"
+    >
+      <span>Safaris</span>
 
-    <ul
-      class="absolute left-0 md:right-0 mt-2 w-60 bg-linen shadow-lg border border-zinc-100 z-50
-             invisible opacity-0 group-hover:visible group-hover:opacity-100
-             transition-all duration-200 ease-out
-             translate-y-2 group-hover:translate-y-0">
-
-      <li><a href="/kruger-national-park/private-safaris/" class="block px-4 py-2 black hover:text-zinc-400 transition">Private Kruger Safaris</a></li>
-      <li><a href="/kruger-national-park/safari-all-inclusive-packages/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">All-Inclusive Kruger Safaris</a></li>
-      <li><a href="/kruger-national-park/photographic-safari/" class="block px-4 py-2 text-black hover:text-zinc-400 transition">Photographic Safaris</a></li>
-
-    </ul>
-  </li>
-
-  <!-- NEW: Birding -->
-  <li>
-    <a href="/birding/" class="text-gray-800 hover:text-zinc-400 transition px-2">
-      Birding
-    </a>
-  </li>
-
-  <li><a href="/about/" class="text-gray-800 hover:text-zinc-400 transition px-2">About</a></li>
-  <li><a href="/blog/" class="text-gray-800 hover:text-zinc-400 transition px-2">Blog</a></li>
-  <li><a href="/contact/" class="text-gray-800 hover:text-zinc-400 transition px-2">Contact</a></li>
-</ul>
-
-    <!-- Mobile menu button -->
-     <div class="md:hidden">
-<button id="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle mobile menu" class="md:hidden focus:outline-none px-6 lg:px-0">
-  <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-  </svg>
-</button>
-</div>
-    </div>
-    </div>
-     <!-- Backdrop for outside clicks -->
-<div id="mobile-backdrop" class="fixed inset-0 bg-black/25 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden z-40"></div>
-   <!-- Mobile Menu -->
-<div id="mobile-menu" class="fixed inset-y-0 right-0 w-2/3 bg-linen shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out md:hidden z-50">
-      <div class="flex justify-end p-6 mr-3">
-        <button id="mobile-close" aria-label="Close mobile menu" class="focus:outline-none">
-          <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-   <nav class="px-6 space-y-4">
-  <div class="space-y-2">
-    <button class="w-full flex justify-between items-center text-gray-800 hover:text-zinc-400 transition focus:outline-none"
-            aria-haspopup="true"
-            aria-expanded="false"
-            id="mobile-safaris-btn">
-      Safaris
-      <svg class="h-4 w-4 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg
+        class="h-4 w-4 text-gray-600 transition-transform duration-200 ease-out group-hover:rotate-180"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
       </svg>
     </button>
 
-    <div id="mobile-safaris-menu" class="ml-4 hidden space-y-2">
-      <a href="/kruger-national-park/private-safaris/" class="block text-gray-700 hover:text-zinc-400 transition">Private Kruger Safaris</a>
-      <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block text-gray-700 hover:text-zinc-400 transition">All-Inclusive Kruger Safaris</a>
-      <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-400 transition">Photographic Safaris</a>
+    <ul
+      class="absolute left-0 top-full mt-0 py-3 w-64 bg-linen border border-zinc-200 shadow-lg opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out"
+    >
+      <li>
+        <a href="/kruger-national-park/private-safaris/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
+          Private Kruger Safaris
+        </a>
+      </li>
+      <li>
+        <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
+          All-Inclusive Kruger Safaris
+        </a>
+      </li>
+      <li>
+        <a href="/kruger-national-park/photographic-safari/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
+          Photographic Safaris
+        </a>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="/birding/" class="text-gray-800 hover:text-zinc-500 transition">
+      Birding
+    </a>
+  </li>
+  <li>
+    <a href="/about/" class="text-gray-800 hover:text-zinc-500 transition">
+      About
+    </a>
+  </li>
+  <li>
+    <a href="/blog/" class="text-gray-800 hover:text-zinc-500 transition">
+      Blog
+    </a>
+  </li>
+  <li>
+    <a href="/contact/" class="text-gray-800 hover:text-zinc-500 transition">
+      Contact
+    </a>
+  </li>
+</ul>
+
+        <!-- Mobile button -->
+        <button
+          id="nav-toggle"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Toggle mobile menu"
+          class="md:hidden inline-flex items-center justify-center p-2 text-gray-800"
+        >
+          <svg
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
     </div>
-  </div>
 
-  <!-- NEW: Birding -->
-  <a href="/birding/" class="block text-gray-800 hover:text-zinc-400 transition">
-    Birding
-  </a>
+    <!-- Backdrop -->
+    <div
+      id="mobile-backdrop"
+      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden"
+    ></div>
 
-  <a href="/about/" class="block text-gray-800 hover:text-zinc-400 transition">About</a>
-  <a href="/blog/" class="block text-gray-800 hover:text-zinc-400 transition">Blog</a>
-  <a href="/contact/" class="block text-gray-800 hover:text-zinc-400 transition">Contact</a>
-</nav>
+    <!-- Mobile menu -->
+    <div
+      id="mobile-menu"
+      class="fixed top-0 right-0 h-screen w-4/5 max-w-sm bg-linen shadow-xl translate-x-full transition-transform duration-300 ease-in-out md:hidden"
+    >
+      <div class="flex items-center justify-between px-6 h-20 border-b border-zinc-200">
+        <span class="text-base font-medium text-gray-900">Menu</span>
+        <button
+          id="mobile-close"
+          aria-label="Close mobile menu"
+          class="inline-flex items-center justify-center p-2 text-gray-800"
+        >
+          <svg
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
 
+      <nav class="px-6 py-6 space-y-5">
+        <div>
+          <button
+            id="mobile-safaris-btn"
+            aria-haspopup="true"
+            aria-expanded="false"
+            class="w-full flex items-center justify-between text-left text-gray-800 hover:text-zinc-500 transition"
+          >
+            <span>Safaris</span>
+            <svg
+              id="mobile-safaris-icon"
+              class="h-4 w-4 transition-transform duration-200"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div id="mobile-safaris-menu" class="hidden mt-3 ml-4 space-y-3">
+            <a href="/kruger-national-park/private-safaris/" class="block text-gray-700 hover:text-zinc-500 transition">
+              Private Kruger Safaris
+            </a>
+            <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block text-gray-700 hover:text-zinc-500 transition">
+              All-Inclusive Kruger Safaris
+            </a>
+            <a href="/kruger-national-park/photographic-safari/" class="block text-gray-700 hover:text-zinc-500 transition">
+              Photographic Safaris
+            </a>
+          </div>
+        </div>
+
+        <a href="/birding/" class="block text-gray-800 hover:text-zinc-500 transition">Birding</a>
+        <a href="/about/" class="block text-gray-800 hover:text-zinc-500 transition">About</a>
+        <a href="/blog/" class="block text-gray-800 hover:text-zinc-500 transition">Blog</a>
+        <a href="/contact/" class="block text-gray-800 hover:text-zinc-500 transition">Contact</a>
+      </nav>
     </div>
   </nav>
-  </header>
+</header>
    <main class="pt-16">
 <!-- End of Nav - Start of Breadcrumb Navigation -->
 <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
@@ -192,112 +260,456 @@
     </ol>
   </nav>
 <!-- End of Breadcrumb Navigation start of Main Content -->
- <section class="py-4 mt-12">
+ <section class="py-12">
   <div class="container mx-auto px-4 flex flex-col items-center justify-center">
+    
     <div class="max-w-4xl text-center">
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4">
         Kruger National Park
       </h1>
     </div>
+
     <div class="max-w-4xl text-center mt-4">
-       <p class="mb-6">
-        Spanning nearly 2 million hectares of untamed wilderness, Kruger National Park is South Africa's flagship safari destination and one of the most celebrated game reserves in the world. Teeming with iconic <a href="/kruger-national-park/wildlife/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">wildlife</a>, diverse ecosystems, and a rich history, Kruger offers an unforgettable safari experience even if you are a first-time visitor or a seasoned safari-goer.
+      
+      <p class="mb-6 text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+        <strong>Kruger National Park</strong> is one of Africa’s greatest safari destinations, covering nearly 2 million hectares of protected wilderness in South Africa. Known for its exceptional <a href="/kruger-national-park/wildlife/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">wildlife</a>, diverse landscapes, and reliable Big Five sightings, the park offers a safari experience that is both accessible and deeply rewarding for first-time visitors and seasoned travellers alike.
       </p>
-      <p class="mb-4 text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
-       From luxurious all-inclusive safaris to authentic tented camps and self-drive adventures, Kruger caters to every type of traveler. Let's dive into what makes Kruger so legendary.
+
+      <p class="mb-6 text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+        Whether you choose a <a href="/kruger-national-park/private-safaris/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">private safari</a> or a fully <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">all-inclusive Kruger safari</a>, the experience is shaped by the rhythm of the bush — from early morning game drives to quiet moments at waterholes as the day unfolds.
       </p>
+
+      <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 leading-relaxed">
+        In this guide, you’ll discover what makes Kruger National Park so special, from its size and ecosystems to the wildlife, seasons, and safari options that define the experience.
+      </p>
+
     </div>
+    
+  </div>
+</section>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/kruger-national-park/landscape/southern-kruger-sunset.webp"
+      alt="Elephants at a waterhole during sunset in southern Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      Sunset captured on a bridge southern Kruger during the dry season
+    </p>
+
   </div>
 </section>
 
-<!-- Blog Content Section -->
-<section class="max-w-4xl mx-auto px-4 lg:px-0 py-12">
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">How Big is Kruger National Park?</h2>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Covering an area of 19,485 square kilometers (7,523 square miles), Kruger is roughly the size of Israel or New Jersey. It stretches from the Crocodile River in the south to the Limpopo River in the north, forming part of the Greater Limpopo Transfrontier Park, which links South Africa with Mozambique and Zimbabwe.
-  </p>
-    <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   This enormous scale allows for an incredible variety of landscapes — from open savanna and mopane woodland to riverine forests and rocky outcrops — and supports one of the richest biodiversities in Africa.
+<section class="py-12 text-center">
+  <h2 class="text-2xl font-bold mb-4">
+    Experience Kruger National Park the Right Way
+  </h2>
+
+  <p class="mb-6 max-w-2xl mx-auto">
+    The best way to experience Kruger National Park is on a fully guided safari. With expert knowledge, careful planning, and a relaxed pace, you spend more time enjoying wildlife and less time worrying about logistics.
   </p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Wildlife: What Can You Expect to See?</h2>
-   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-  Kruger is home to the <a href="/kruger-national-park/mammals/big-5/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Big Five</a> — <a href="/lion/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">lion</a>, <a href="/african-leopard/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">leopard</a>, <a href="/african-bush-elephant/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">elephant</a>, <a href="/african-buffalo/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">buffalo</a>, and both <a href="/black-rhinoceros/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">black</a> and <a href="/white-rhinoceros/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">white rhinoceros</a> — along with over 500 bird species, 100+ reptiles, and countless mammals, from cheetahs to hippos and hyenas.
-  </p>
+  <div class="flex flex-col md:flex-row justify-center gap-4">
+    <a href="/kruger-national-park/safari-all-inclusive-packages/" class="bg-amber-700 text-white px-6 py-3 rounded-xl">
+      All-Inclusive Safaris
+    </a>
+
+    <a href="/kruger-national-park/private-safaris/" class="border border-gray-300 px-6 py-3 rounded-xl">
+      Private Safaris
+    </a>
+  </div>
+</section>
+
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+  
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    How Big is Kruger National Park?
+  </h2>
+
   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-  For more details on wildlife sightings, check out our full Kruger National Park <a href="/kruger-national-park/mammals/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">mammals guide</a>.
+    Kruger National Park covers an incredible 19,485 square kilometers (7,523 square miles), making it one of the largest and most diverse wildlife reserves in Africa. To put it into perspective, it is roughly the size of Israel or the US state of New Jersey.
   </p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Where to Stay: Camps & Safari Packages</h2>
-   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Kruger offers a wide range of accommodation, including:
-  </p>
-  <ul class="list-disc list-inside mt-2 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    <li><span class="font-bold"><a href="https://www.sanparks.org/parks/kruger/" target="_blank" rel="noopener noreferrer" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">SANParks Rest Camps</a></span> like Skukuza, Lower Sabie, Satara, and Letaba — ideal for self-drive visitors or those seeking affordable, rustic stays.</li>
-    <li><span class="font-bold">Private Lodges</span> in adjoining reserves (like Sabi Sand) for luxury and exclusivity.</li>
-    <li><span class="font-bold">Fully guided experiences</span> such as Eugene Safaris' <a href="/kruger-national-park/safari-all-inclusive-packages/">All-Inclusive Safari Packages</a> and <a href="/kruger-national-park/private-safaris/">Classic Packages</a> for comfort, convenience, and deep immersion with expert guides.</li>
-  </ul>
   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Need help choosing the right safari? Explore our range of <a href="/kruger-national-park/safari-packages/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger National Park Safaris</a>.
+    The park stretches from the Crocodile River in the south to the Limpopo River in the north, forming part of the Greater Limpopo Transfrontier Park, which connects South Africa with Mozambique and Zimbabwe.
   </p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Getting There: Kruger Airports</h2>
-   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Reaching Kruger is easier than ever, with <a href="/kruger-national-park/airports/skukuza/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Skukuza</a>, <a href="/kruger-national-park/airports/kmia/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">KMIA</a>, and <a href="/kruger-national-park/airports/eastgate/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Eastgate</a> Airport all offering daily flights from Johannesburg and Cape Town. Road transfers and shuttle options are also available, and self-drivers can enter through several park gates.
+  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
+    This vast scale creates an extraordinary range of habitats, from open savanna and mopane woodland to riverine forests and rocky outcrops. It is this diversity that makes Kruger National Park one of the most rewarding safari destinations in Africa. Explore this landscape on a 
+<a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+guided Kruger safari
+</a>.
   </p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Best Time to Visit Kruger National Park</h2>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    <a href="/best-time-to-visit-kruger-national-park/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger is a year-round destination</a>, but dry season (May-September) is best for big game viewing as animals gather near water sources. The green season (October-April) is excellent for birding, baby animals, and dramatic thunderstorms.</a>.
-  </p>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   Planning a trip in October? Read our Kruger National Park Weather in <a href="/kruger-national-park/weather/october/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">October guide</a>.
-  </p>
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">
+  Wildlife: What Can You Expect to See?
+</h2>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Malaria & Health</h2>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Parts of Kruger fall within a malaria zone, especially during the rainy season. While risks are low, it’s wise to consult with a medical professional before traveling. Follow standard park rules — stay inside your vehicle unless in designated areas, drive slowly, and never feed animals.
-  </p>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   For more, see our <a href="/kruger-national-park/malaria/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Malaria guide</a>.
-  </p>
+<p class="mt-4">
+  Kruger National Park is one of the best places in Africa to see wildlife. The park is home to the famous 
+  <a href="/kruger-national-park/mammals/big-5/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">Big Five</a> — 
+  <a href="/lion/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">lion</a>, 
+  <a href="/african-leopard/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">leopard</a>, 
+  <a href="/african-bush-elephant/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">elephant</a>, 
+  <a href="/african-buffalo/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">buffalo</a>, 
+  and both 
+  <a href="/black-rhinoceros/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">black</a> 
+  and 
+  <a href="/white-rhinoceros/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">white rhinoceros</a>.
+</p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">For Photographers & Filmmakers</h2>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-    Whether you're a hobbyist or a professional, Kruger is a paradise for wildlife photography. Our tailored <a href="/kruger-national-park/photographic-safari/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Photographic Safaris</a> offer expert-guided sessions and opportunities to shoot from the perfect angle in golden light.
-  </p>
-   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   For a taste of what to expect, explore our visual journal: <a href="/kruger-national-park/safari-on-film/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Safari on Film</a>.
-  </p>
+<p class="mt-4">
+  Beyond the Big Five, Kruger supports an incredible variety of life. You can expect regular sightings of giraffe, zebra, wildebeest, and antelope, as well as predators like cheetah, hyena, and wild dog in certain areas. The park is also a birding hotspot, with over 500 species recorded throughout the year.
+</p>
 
-  <h2 class="text-xl lg:text-3xl font-bold text-gray-800 mt-10">Why Kruger?</h2>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   Kruger National Park isn't just a destination — it's a living, breathing wilderness that delivers raw African magic with every sunrise. Whether you dream of tracking lions on a private game drive, sipping sundowners at a remote camp, or photographing elephants on the move, Kruger delivers an unforgettable safari adventure.
-  </p>
-   <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-   Ready to plan your trip? View our <a href="/kruger-national-park/safari-packages/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Kruger National Park Safaris</a> or reach out via our <a href="/contact/" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Contact Page</a> to start crafting your ideal itinerary.
-  </p>
-  <p class="mt-4 text-gray-700 text-md sm:text-base md:text-lg lg:text-lg leading-relaxed">
-  Want an additional traveler’s perspective? Read the <a href="https://www.lonelyplanet.com/destinations/south-africa/mpumalanga/kruger-national-park" target="_blank" rel="noopener noreferrer" class="underline decoration-slate-600 hover:decoration-2 underline-offset-2">Lonely Planet guide to Kruger</a>.
+<p class="mt-4">
+  The diversity of habitats across Kruger means every drive is different, with new sightings around every corner. With an experienced guide, you not only increase your chances of seeing more wildlife, but also gain a deeper understanding of animal behaviour and the smaller details that bring the bush to life.
+</p>
+
+<p class="mt-4">
+  For a deeper look at the species found in the park, explore our full 
+  <a href="/kruger-national-park/mammals/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+    Kruger National Park mammals guide
+  </a>.
+</p>
+<p class="mt-4">
+  Experience these sightings on a 
+  <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+    guided Kruger safari
+  </a>, designed to maximise your time in the park.
 </p>
 </section>
-<section class="bg-white py-6 px-4 mt-12 border-t border-b border-gray-200">
-  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-    <div>
-      <h4 class="font-semibold mb-2">Photographic Safaris</h4>
-      <p class="text-sm mb-2">Tailored trips for wildlife filmmakers & photographers.</p>
-      <a href="/kruger-national-park/photographic-safari/" class="underline decoration-slate-600 hover:decoration-2">Learn more</a>
-    </div>
-    <div>
-      <h4 class="font-semibold mb-2">Birding Adventures</h4>
-      <p class="text-sm mb-2">Green season specialties and migrant species.</p>
-      <a href="/birding/" class="underline decoration-slate-600 hover:decoration-2">Explore birding</a>
-    </div>
-    <div>
-      <h4 class="font-semibold mb-2">Best Time to Visit</h4>
-      <p class="text-sm mb-2">Match your interests with the right season.</p>
-      <a href="/best-time-to-visit-kruger-national-park/" class="underline decoration-slate-600 hover:decoration-2">See guide</a>
-    </div>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/best-time-to-visit-kruger-national-park/leopard-crossing-low-water-bridge.webp"
+      alt="Leopard crossing low water bridge in Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      Leopard crossing low water bridge in Kruger near Skukuza
+    </p>
+
+  </div>
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    Where to Stay: Camps & Safari Packages
+  </h2>
+
+  <p class="mt-4">
+    Kruger National Park offers a range of accommodation options, but the experience varies greatly depending on how you choose to explore the park.
+  </p>
+
+  <ul class="list-disc list-inside mt-4 space-y-2 text-lg font-crimson">
+    
+    <li>
+      <span class="font-bold">
+        <a href="https://www.sanparks.org/parks/kruger/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+          SANParks Rest Camps</a> </span>such as Skukuza, Lower Sabie, Satara, and Letaba provide a classic Kruger experience and form the base for many guided safaris.
+    </li>
+
+    <li>
+      <span class="font-bold">Private Lodges</span> in surrounding reserves offer a more exclusive and luxury-focused safari environment.
+    </li>
+
+    <li>
+      <span class="font-bold">Fully guided safari experiences</span> — including our 
+      <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+        all-inclusive Kruger safaris
+      </a> 
+      and 
+      <a href="/kruger-national-park/private-safaris/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+        private guided safaris
+      </a> — 
+      combine carefully selected accommodation with expert guiding, allowing you to focus entirely on the experience.
+    </li>
+
+  </ul>
+
+  <p class="mt-6">
+    Choosing a guided safari brings everything together, from where you stay to how you experience the park. Explore our full range of 
+    <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      Kruger National Park safaris
+    </a> 
+    to find the right fit for your trip.
+  </p>
+
+</section>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/punda-maria-rest-camp/punda-maria-bungalows.webp"
+      alt="Punda Maria Bungalows in Northern Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      Bungalows at Punda Maria Rest Camp
+    </p>
+
+  </div>
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    Best Time to Visit Kruger National Park
+  </h2>
+
+  <p class="mt-4">
+    <a href="/best-time-to-visit-kruger-national-park/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      Kruger National Park is a year-round safari destination
+    </a>, but the experience changes with the seasons. The dry winter months from May to September are often the best time for game viewing, as vegetation is thinner and animals gather more regularly around rivers, dams, and waterholes.
+  </p>
+
+  <p class="mt-4">
+    The green season, from October to April, brings a very different side of the park. This is a beautiful time for birding, dramatic skies, newborn animals, and lush landscapes that completely transform the feel of Kruger.
+  </p>
+
+  <p class="mt-4">
+    Planning a spring safari? Read our 
+    <a href="/kruger-national-park/weather/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      Kruger National Park weather guide
+    </a> 
+    for a closer look at conditions and find your most rewarding months to visit Kruger National Park.
+  </p>
+
+</section>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/best-time-to-visit-kruger-national-park/river-near-picnic-site.webp"
+      alt="dry river in Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      River captured during the dry season
+    </p>
+
+  </div>
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    Getting There: Kruger National Park
+  </h2>
+
+  <p class="mt-4">
+    Reaching Kruger National Park is straightforward, with several well-connected airports providing easy access to the region. Most safaris begin with a short flight followed by a transfer into the park.
+  </p>
+
+  <p class="mt-4">
+    The most commonly used airports include 
+    <a href="/kruger-national-park/airports/skukuza/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">Skukuza Airport</a>, 
+    <a href="/kruger-national-park/airports/kmia/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">Kruger Mpumalanga International Airport (KMIA)</a>, 
+    and 
+    <a href="/kruger-national-park/airports/eastgate/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">Eastgate Airport</a>. 
+    Each offers convenient connections from Johannesburg and Cape Town.
+  </p>
+
+  <p class="mt-4">
+    On a guided safari, transfers and logistics are taken care of for you, making the journey into Kruger smooth and stress-free. Explore our 
+    <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      all-inclusive Kruger safaris
+    </a> 
+    to see how your trip can be seamlessly arranged from arrival to departure.
+  </p>
+
+</section>
+
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    Malaria & Health
+  </h2>
+
+  <p class="mt-4">
+    Kruger National Park is located in a low-risk malaria area, particularly during the warmer summer months. While the risk is generally low, it is always a good idea to speak with a medical professional before travelling and take simple precautions such as using insect repellent and wearing long sleeves in the evenings.
+  </p>
+
+  <p class="mt-4">
+    On a guided safari, your experience is designed to be both comfortable and safe, with expert guidance throughout your time in the park. This allows you to focus on enjoying the wildlife and the environment with confidence.
+  </p>
+  <p class="mt-4">
+    Many travellers visit Kruger every year without issue, making it one of the most accessible safari destinations in Africa.
+  </p>
+
+  <p class="mt-4">
+    For a more detailed overview, see our 
+    <a href="/kruger-national-park/malaria/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      Kruger National Park malaria guide
+    </a>.
+  </p>
+
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    For Photographers & Filmmakers
+  </h2>
+
+  <p class="mt-4">
+    Kruger National Park is one of the most rewarding wildlife photography destinations in Africa. From close encounters with large mammals to intimate moments with birds and smaller species, every drive offers opportunities to capture something unique.
+  </p>
+
+  <p class="mt-4">
+    Our 
+    <a href="/kruger-national-park/photographic-safari/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      photographic safaris
+    </a> 
+    are designed to give you the time, positioning, and guidance needed to get the best possible shots. This means working with the light, staying longer at sightings, and approaching each moment with patience and purpose.
+  </p>
+  <p class="mt-4">
+    This approach is ideal for both experienced photographers and those looking to improve their skills in the field.
+  </p>
+
+  <p class="mt-4">
+    For a feel of what to expect, explore our 
+    <a href="/kruger-national-park/safari-on-film/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      Safari on Film
+    </a> 
+    — a collection of moments captured in the field.
+  </p>
+
+</section>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/kruger-national-park/mammals/leopard/image-box/leopard-walking-on-road-in-kruger-national-park.webp"
+      alt="leopard crossing the road in Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      Leopard crossing the road close to the vehicle
+    </p>
+
+  </div>
+</section>
+<section class="max-w-4xl mx-auto text-center px-4 lg:px-0 py-12">
+
+  <h2 class="text-xl lg:text-3xl font-bold text-gray-800">
+    Why Kruger National Park?
+  </h2>
+
+  <p class="mt-4">
+    Kruger National Park is more than just a safari destination — it is a place where every day unfolds differently. From early morning drives in golden light to quiet moments at waterholes, the experience is shaped by the rhythm of the bush and the wildlife that moves through it.
+  </p>
+
+  <p class="mt-4">
+    With the right guide, Kruger becomes something deeper. It is not only about seeing animals, but understanding them, spending more time at meaningful sightings, and experiencing the park in a way that feels personal and unhurried.
+  </p>
+
+  <p class="mt-6">
+    Explore our 
+    <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      all-inclusive Kruger safaris
+    </a> 
+    or 
+    <a href="/kruger-national-park/private-safaris/" class="underline underline-offset-[3px] decoration-amber-500 hover:decoration-2">
+      private guided safaris
+    </a> 
+    to start planning your experience.
+  </p>
+
+  <div class="mt-8 text-center">
+    <a 
+      href="/contact/" 
+      class="inline-block bg-amber-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-amber-800 transition"
+    >
+      Start Planning Your Safari
+    </a>
+  </div>
+
+  <p class="mt-6 text-gray-500 text-sm leading-relaxed text-center">
+    For an additional perspective, you can also read the 
+    <a href="https://www.lonelyplanet.com/destinations/south-africa/mpumalanga/kruger-national-park" target="_blank" rel="noopener noreferrer" class="underline">
+      Lonely Planet guide to Kruger
+    </a>.
+  </p>
+
+</section>
+<section class="py-12">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <img 
+      src="/src/assets/images/kruger-national-park/birds/red-billed-oxpecker/red-billed-oxpecker-on-back-of-white-rhino.webp"
+      alt="red billed oxpeckers resting on white rhino in Kruger National Park"
+      loading="lazy"
+      decoding="async"
+      width="1200"
+      height="800"
+      class="w-full h-auto object-cover"
+    />
+
+    <p class="mt-2 text-sm text-gray-500">
+      Red-Billed Oxpeckers resting on the back of a White Rhino
+    </p>
+
+  </div>
+</section>
+<section class="py-20 bg-linen">
+  <div class="max-w-3xl mx-auto text-center px-4">
+
+    <h2 class="text-2xl md:text-3xl font-bold mb-4">
+      Ready to Experience Kruger National Park?
+    </h2>
+
+    <p class="mt-4">
+      A safari in Kruger is more than just a trip — it’s an experience shaped by timing, location, and the way you explore the park. With the right guidance, every moment becomes more meaningful.
+    </p>
+
+    <p class="mt-4">
+      Explore our 
+      <a href="/kruger-national-park/safari-all-inclusive-packages/" class="underline decoration-amber-500 underline-offset-[3px] hover:decoration-2">
+        all-inclusive Kruger safaris
+      </a> 
+      or 
+      <a href="/kruger-national-park/private-safaris/" class="underline decoration-amber-500 underline-offset-[3px] hover:decoration-2">
+        private guided safaris
+      </a>, 
+      or get in touch to start planning your own tailored experience.
+    </p>
+
+    <a 
+      href="/contact/" 
+      class="inline-block bg-amber-700 text-white px-8 py-4 rounded-xl font-semibold hover:bg-amber-800 transition mt-6"
+    >
+      Start Planning Your Safari
+    </a>
+
   </div>
 </section>
 </main>
