@@ -16,57 +16,39 @@
   <!-- Robots -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
-  <!-- JSON-LD SHCEMA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://eugenesafaris.com/"
-      },
-        {
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://eugenesafaris.com/",
+        "name": "Home"
+      }
+    },
+    {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger Guide",
-      "item": "https://eugenesafaris.com/kruger-national-park/guide/"
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/",
+        "name": "Kruger National Park"
+      }
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Mammals",
-      "item": "https://eugenesafaris.com/kruger-national-park/mammals/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "African Buffalo",
-      "item": "https://eugenesafaris.com/african-leopard/"
+      "item": {
+        "@id": "https://eugenesafaris.com/african-leopard/",
+        "name": "African Leopard"
+      }
     }
-    ]
-  }
-  </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "African Leopard in Kruger National Park",
-  "description": "Learn about leopard behavior, population, habitat, and where to see leopards in Kruger National Park.",
-  "author": {
-    "@type": "Person",
-    "name": "Eugene Booysen"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://eugenesafaris.com/#organization"
-  },
-  "mainEntityOfPage": "https://eugenesafaris.com/african-leopard/",
-  "dateModified": "2026-04-01"
+  ]
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -117,8 +99,8 @@
 </script>
   <!-- Google Tag Manager (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2CBZHQXX1"></script>
-  <script type="module" crossorigin src="/assets/main-BreLMlYJ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BJEmWh4q.css">
+  <script type="module" crossorigin src="/assets/main-E5gc_Wmi.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CYuEviby.css">
 </head>
 <body>
 <header>
@@ -305,33 +287,26 @@
 </header>
   <main class="pt-16">
 <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4 mb-6">
-    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
-      
-      <li class="flex items-center">
-        <a href="/" class="hover:underline">Home</a>
-        <span class="mx-2">/</span>
-      </li>
+  <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+    
+    <li class="flex items-center">
+      <a href="/" class="hover:underline">Home</a>
+      <span class="mx-2">/</span>
+    </li>
 
-      <li class="flex items-center">
-        <a href="/kruger-national-park/guide/" class="hover:underline">
-          Kruger Guide
-        </a>
-        <span class="mx-2">/</span>
-      </li>
+    <li class="flex items-center">
+      <a href="/kruger-national-park/" class="hover:underline">
+        Kruger National Park
+      </a>
+      <span class="mx-2">/</span>
+    </li>
 
-      <li class="flex items-center">
-        <a href="/kruger-national-park/mammals/" class="hover:underline">
-          Mammals
-        </a>
-        <span class="mx-2">/</span>
-      </li>
+    <li class="flex items-center text-gray-500" aria-current="page">
+      African Leopard
+    </li>
 
-      <li class="flex items-center text-gray-500" aria-current="page">
-         African Leopard
-      </li>
-
-    </ol>
-  </nav>
+  </ol>
+</nav>
     <section class="px-4">
   <div class="max-w-md mx-auto">
     <figure class="overflow-hidden">

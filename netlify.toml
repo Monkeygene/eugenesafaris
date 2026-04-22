@@ -29,6 +29,12 @@ force = true
 # 410 Redirects - Safari Package Pages
 ######################
 
+[[redirects]]
+from = "https://www.eugenesafaris.com/punda-maria-rest-camp/"
+to = "https://eugenesafaris.com/kruger-national-park/rest-camps/punda-maria-rest-camp/"
+status = 301
+force = true
+
 # Classic safari packages
 [[redirects]]
 from = "/kruger-national-park/classic-safari-packages/"

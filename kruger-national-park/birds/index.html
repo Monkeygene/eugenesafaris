@@ -25,22 +25,27 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
-      "item": "https://eugenesafaris.com/"
+      "item": {
+        "@id": "https://eugenesafaris.com/",
+        "name": "Home"
+      }
     },
-      {
+    {
       "@type": "ListItem",
       "position": 2,
-      "name": "Kruger Guide",
-      "item": "https://eugenesafaris.com/kruger-national-park/guide/"
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/",
+        "name": "Kruger National Park"
+      }
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Birds",
-      "item": "https://eugenesafaris.com/kruger-national-park/birds/"
+      "item": {
+        "@id": "https://eugenesafaris.com/kruger-national-park/birds/",
+        "name": "Birds"
+      }
     }
-    
   ]
 }
 </script>
@@ -232,27 +237,27 @@
 </header>
    <main class="pt-16">
   <!-- Birds of Kruger National Park - Breadcrumb -->
-  <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
-    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
-      
-      <li class="flex items-center">
-        <a href="/" class="hover:underline">Home</a>
-        <span class="mx-2">/</span>
-      </li>
+ <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4 mb-6">
+  <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+    
+    <li class="flex items-center">
+      <a href="/" class="hover:underline">Home</a>
+      <span class="mx-2">/</span>
+    </li>
 
-      <li class="flex items-center">
-        <a href="/kruger-national-park/guide/" class="hover:underline">
-          Kruger Guide
-        </a>
-        <span class="mx-2">/</span>
-      </li>
+    <li class="flex items-center">
+      <a href="/kruger-national-park/" class="hover:underline">
+        Kruger National Park
+      </a>
+      <span class="mx-2">/</span>
+    </li>
 
-      <li class="flex items-center text-gray-500">
-        Birds of Kruger National Park
-      </li>
+    <li class="flex items-center text-gray-500" aria-current="page">
+      Birds
+    </li>
 
-    </ol>
-  </nav>
+  </ol>
+</nav>
 <!-- End of Breadcrumb Navigation start of Main Content -->
 <section class="">
   <div class="container mx-auto max-w-5xl px-4">
@@ -323,7 +328,7 @@ Whether you are a beginner or experienced birder, Kruger National Park offers ex
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-1 gap-x-6">
 
     <div>
-      <a href="#" class="hover:text-lime-700 hover:underline underline-offset-2">
+      <a href="/white-faced-whistling-duck/" class="hover:text-lime-700 hover:underline underline-offset-2">
         White-faced Whistling Duck
       </a>
     </div>

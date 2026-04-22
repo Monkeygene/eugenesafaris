@@ -100,6 +100,7 @@ export default defineConfig({
         waterbuck: path.resolve(__dirname, 'waterbuck/index.html'),
         whattobringonanafricansafari: path.resolve(__dirname, 'what-to-bring-on-a-safari/index.html'),
         whattowearonsafari: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
+        whitefacedwhistlingduck: path.resolve(__dirname, 'white-faced-whistling-duck/index.html'),
         whiterhinoceros: path.resolve(__dirname, 'white-rhinoceros/index.html'),
         wilddog: path.resolve(__dirname, 'wild-dog/index.html'),
         worsttimetovisitkrugernationalpark: path.resolve(__dirname, 'worst-time-to-visit-kruger-national-park/index.html')
