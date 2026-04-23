@@ -14,11 +14,25 @@ export default defineConfig({
         contact: path.resolve(__dirname, 'contact/index.html'),
         blog: path.resolve(__dirname, 'blog/index.html'),
 
-        // Kruger Hub
+         // Kruger Hub
         kruger: path.resolve(__dirname, 'kruger-national-park/index.html'),
+        kruger3DaySafari: path.resolve(__dirname, 'kruger-national-park/3-day-safari/index.html'),
+        airports: path.resolve(__dirname, 'kruger-national-park/airports/index.html'),
+        eastgateAirport: path.resolve(__dirname, 'kruger-national-park/airports/eastgate/index.html'),
+        kmiaAirport: path.resolve(__dirname, 'kruger-national-park/airports/kmia/index.html'),
+        skukuzaAirport: path.resolve(__dirname, 'kruger-national-park/airports/skukuza/index.html'),
         bestTime: path.resolve(__dirname, 'kruger-national-park/best-time-to-visit/index.html'),
-        worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
         big5: path.resolve(__dirname, 'kruger-national-park/big-5/index.html'),
+        flowers: path.resolve(__dirname, 'kruger-national-park/flowers/index.html'),
+        impalaLily: path.resolve(__dirname, 'kruger-national-park/flowers/impala-lily/index.html'),
+        leopardOrchid: path.resolve(__dirname, 'kruger-national-park/flowers/leopard-orchid/index.html'),
+        grasses: path.resolve(__dirname, 'kruger-national-park/grasses/index.html'),
+        guide: path.resolve(__dirname, 'kruger-national-park/guide/index.html'),
+        malaria: path.resolve(__dirname, 'kruger-national-park/malaria/index.html'),
+        reptiles: path.resolve(__dirname, 'kruger-national-park/reptiles/index.html'),
+        restCamps: path.resolve(__dirname, 'kruger-national-park/rest-camps/index.html'),
+        wildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
+        worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
 
         // Birds Hub
         birds: path.resolve(__dirname, 'kruger-national-park/birds/index.html'),
@@ -78,10 +92,31 @@ export default defineConfig({
 
         // Safari Pages
         safariPackages: path.resolve(__dirname, 'kruger-national-park/safari-packages/index.html'),
+        photographicSafari: path.resolve(__dirname, 'kruger-national-park/photographic-safari/index.html'),
         privateSafaris: path.resolve(__dirname, 'kruger-national-park/private-safaris/index.html'),
+        privateSafari5Day: path.resolve(__dirname, 'kruger-national-park/private-safaris/5-day/index.html'),
+        privateSafari6Day: path.resolve(__dirname, 'kruger-national-park/private-safaris/6-day/index.html'),
+        privateSafari7Day: path.resolve(__dirname, 'kruger-national-park/private-safaris/7-day/index.html'),
+        safariAllInclusivePackages: path.resolve(__dirname, 'kruger-national-park/safari-all-inclusive-packages/index.html'),
+        safariAllInclusive5Day: path.resolve(__dirname, 'kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/index.html'),
+        safariAllInclusive6Day: path.resolve(__dirname, 'kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/index.html'),
+        safariAllInclusive7Day: path.resolve(__dirname, 'kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/index.html'),
+        safariOnFilm: path.resolve(__dirname, 'kruger-national-park/safari-on-film/index.html'),
 
         // Weather Hub
-        weather: path.resolve(__dirname, 'kruger-national-park/weather/index.html')
+        weather: path.resolve(__dirname, 'kruger-national-park/weather/index.html'),
+        weatherJanuary: path.resolve(__dirname, 'kruger-national-park/weather/january/index.html'),
+        weatherFebruary: path.resolve(__dirname, 'kruger-national-park/weather/february/index.html'),
+        weatherMarch: path.resolve(__dirname, 'kruger-national-park/weather/march/index.html'),
+        weatherApril: path.resolve(__dirname, 'kruger-national-park/weather/april/index.html'),
+        weatherMay: path.resolve(__dirname, 'kruger-national-park/weather/may/index.html'),
+        weatherJune: path.resolve(__dirname, 'kruger-national-park/weather/june/index.html'),
+        weatherJuly: path.resolve(__dirname, 'kruger-national-park/weather/july/index.html'),
+        weatherAugust: path.resolve(__dirname, 'kruger-national-park/weather/august/index.html'),
+        weatherSeptember: path.resolve(__dirname, 'kruger-national-park/weather/september/index.html'),
+        weatherOctober: path.resolve(__dirname, 'kruger-national-park/weather/october/index.html'),
+        weatherNovember: path.resolve(__dirname, 'kruger-national-park/weather/november/index.html'),
+        weatherDecember: path.resolve(__dirname, 'kruger-national-park/weather/december/index.html'),
 
       }
     }
