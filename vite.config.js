@@ -47,6 +47,13 @@ export default defineConfig({
         verreauxsEagleOwl: path.resolve(__dirname, 'kruger-national-park/birds/verreauxs-eagle-owl/index.html'),
         whiteFacedWhistlingDuck: path.resolve(__dirname, 'kruger-national-park/birds/white-faced-whistling-duck/index.html'),
 
+        // Birding Kruger
+        birding: path.resolve(__dirname, 'birding/index.html'),
+        birdingkrugernationalpark: path.resolve(__dirname, 'birding/kruger-national-park/index.html'),
+        birdingnorthtosouth: path.resolve(__dirname, 'birding/kruger-national-park/north-to-south/index.html'),
+        birdingnorthern: path.resolve(__dirname, 'birding/kruger-national-park/northern/index.html'),
+        birdingsouthern: path.resolve(__dirname, 'birding/kruger-national-park/southern/index.html'),
+
         // Mammals Hub
         mammals: path.resolve(__dirname, 'kruger-national-park/mammals/index.html'),
 
