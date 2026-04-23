@@ -1,58 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://eugenesafaris.com/</loc></url>
-  <url><loc>https://eugenesafaris.com/aardvark/</loc></url>
   <url><loc>https://eugenesafaris.com/about/</loc></url>
-  <url><loc>https://eugenesafaris.com/african-buffalo/</loc></url>
-  <url><loc>https://eugenesafaris.com/african-bush-elephant/</loc></url>
-  <url><loc>https://eugenesafaris.com/african-leopard/</loc></url>
-  <url><loc>https://eugenesafaris.com/african-wildcat/</loc></url>
-  <url><loc>https://eugenesafaris.com/bateleur/</loc></url>
-  <url><loc>https://eugenesafaris.com/best-time-to-visit-kruger-national-park/</loc></url>
   <url><loc>https://eugenesafaris.com/birding/</loc></url>
   <url><loc>https://eugenesafaris.com/birding/kruger-national-park/</loc></url>
   <url><loc>https://eugenesafaris.com/birding/kruger-national-park/north-to-south/</loc></url>
   <url><loc>https://eugenesafaris.com/birding/kruger-national-park/northern/</loc></url>
   <url><loc>https://eugenesafaris.com/birding/kruger-national-park/southern/</loc></url>
-  <url><loc>https://eugenesafaris.com/black-backed-jackal/</loc></url>
-  <url><loc>https://eugenesafaris.com/black-rhinoceros/</loc></url>
   <url><loc>https://eugenesafaris.com/blog/</loc></url>
-  <url><loc>https://eugenesafaris.com/blue-wildebeest/</loc></url>
-  <url><loc>https://eugenesafaris.com/brown-headed-parrot/</loc></url>
-  <url><loc>https://eugenesafaris.com/burchells-zebra/</loc></url>
-  <url><loc>https://eugenesafaris.com/bushbuck/</loc></url>
-  <url><loc>https://eugenesafaris.com/cape-porcupine/</loc></url>
-  <url><loc>https://eugenesafaris.com/caracal/</loc></url>
-  <url><loc>https://eugenesafaris.com/chacma-baboon/</loc></url>
-  <url><loc>https://eugenesafaris.com/cheetah/</loc></url>
-  <url><loc>https://eugenesafaris.com/civet/</loc></url>
-  <url><loc>https://eugenesafaris.com/common-duiker/</loc></url>
   <url><loc>https://eugenesafaris.com/contact/</loc></url>
-  <url><loc>https://eugenesafaris.com/crested-barbet/</loc></url>
   <url><loc>https://eugenesafaris.com/difference-between-white-and-black-rhino/</loc></url>
-  <url><loc>https://eugenesafaris.com/dwarf-mongoose/</loc></url>
-  <url><loc>https://eugenesafaris.com/eland/</loc></url>
-  <url><loc>https://eugenesafaris.com/greater-kudu/</loc></url>
-  <url><loc>https://eugenesafaris.com/hippopotamus/</loc></url>
-  <url><loc>https://eugenesafaris.com/honey-badger/</loc></url>
-  <url><loc>https://eugenesafaris.com/impala/</loc></url>
-  <url><loc>https://eugenesafaris.com/klipspringer/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/3-day-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/airports/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/airports/eastgate/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/airports/kmia/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/airports/skukuza/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/best-time-to-visit/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/big-5/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/birds/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/bateleur/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/brown-headed-parrot/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/crested-barbet/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/lilac-breasted-roller/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/purple-roller/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/reed-cormorant/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/verreauxs-eagle-owl/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birds/white-faced-whistling-duck/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/flowers/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/flowers/impala-lily/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/flowers/leopard-orchid/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/grasses/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/guide/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/malaria/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/big-5/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/aardvark/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/african-buffalo/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/african-bush-elephant/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/african-leopard/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/african-wildcat/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/black-backed-jackal/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/black-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/blue-wildebeest/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/burchells-zebra/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/bushbuck/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/cape-porcupine/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/caracal/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/chacma-baboon/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/cheetah/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/civet/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/common-duiker/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/dwarf-mongoose/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/eland/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/greater-kudu/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/hippopotamus/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/honey-badger/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/impala/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/klipspringer/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/large-spotted-genet/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/lesser-galago/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/lion/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/nyala/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/pangolin/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/rock-hyrax/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/scrub-hare/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/southern-giraffe/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/spotted-hyena/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/tree-squirrel/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/vervet-monkey/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/warthog/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/waterbuck/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/white-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/mammals/wild-dog/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/private-safaris/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/private-safaris/5-day/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/private-safaris/6-day/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/private-safaris/7-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/reptiles/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/rest-camps/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/</loc></url>
@@ -74,27 +99,7 @@
   <url><loc>https://eugenesafaris.com/kruger-national-park/weather/october/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/weather/september/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/</loc></url>
-  <url><loc>https://eugenesafaris.com/large-spotted-genet/</loc></url>
-  <url><loc>https://eugenesafaris.com/lesser-galago/</loc></url>
-  <url><loc>https://eugenesafaris.com/lilac-breasted-roller/</loc></url>
-  <url><loc>https://eugenesafaris.com/lion/</loc></url>
-  <url><loc>https://eugenesafaris.com/nyala/</loc></url>
-  <url><loc>https://eugenesafaris.com/punda-maria-rest-camp/</loc></url>
-  <url><loc>https://eugenesafaris.com/purple-roller/</loc></url>
-  <url><loc>https://eugenesafaris.com/reed-cormorant/</loc></url>
-  <url><loc>https://eugenesafaris.com/rock-hyrax/</loc></url>
-  <url><loc>https://eugenesafaris.com/scrub-hare/</loc></url>
-  <url><loc>https://eugenesafaris.com/southern-giraffe/</loc></url>
-  <url><loc>https://eugenesafaris.com/spotted-hyena/</loc></url>
-  <url><loc>https://eugenesafaris.com/tree-squirrel/</loc></url>
-  <url><loc>https://eugenesafaris.com/verreauxs-eagle-owl/</loc></url>
-  <url><loc>https://eugenesafaris.com/vervet-monkey/</loc></url>
-  <url><loc>https://eugenesafaris.com/warthog/</loc></url>
-  <url><loc>https://eugenesafaris.com/waterbuck/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/worst-time-to-visit/</loc></url>
   <url><loc>https://eugenesafaris.com/what-to-bring-on-a-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/what-to-wear-on-a-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/white-faced-whistling-duck/</loc></url>
-  <url><loc>https://eugenesafaris.com/white-rhinoceros/</loc></url>
-  <url><loc>https://eugenesafaris.com/wild-dog/</loc></url>
-  <url><loc>https://eugenesafaris.com/worst-time-to-visit-kruger-national-park/</loc></url>
 </urlset>

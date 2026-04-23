@@ -1,131 +1,309 @@
 ######################
-# Build Settings
+# 301 Redirects - Moved Mammal Pages
 ######################
-
-[build]
-  command = "npm run build"
-  publish = "dist"
-
-[build.processing]
-  trailingSlash = "always"
-
-######################
-# Force HTTPS + non-www
-######################
+# Old clean root URLs -> new Kruger mammals structure
 
 [[redirects]]
-from = "http://eugenesafaris.com/*"
-to = "https://eugenesafaris.com/:splat"
+from = "/aardvark/"
+to = "/kruger-national-park/mammals/aardvark/"
 status = 301
 force = true
 
 [[redirects]]
-from = "https://www.eugenesafaris.com/*"
-to = "https://eugenesafaris.com/:splat"
+from = "/african-buffalo/"
+to = "/kruger-national-park/mammals/african-buffalo/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/african-bush-elephant/"
+to = "/kruger-national-park/mammals/african-bush-elephant/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/african-leopard/"
+to = "/kruger-national-park/mammals/african-leopard/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/african-wildcat/"
+to = "/kruger-national-park/mammals/african-wildcat/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/black-backed-jackal/"
+to = "/kruger-national-park/mammals/black-backed-jackal/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/black-rhinoceros/"
+to = "/kruger-national-park/mammals/black-rhinoceros/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/blue-wildebeest/"
+to = "/kruger-national-park/mammals/blue-wildebeest/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/burchells-zebra/"
+to = "/kruger-national-park/mammals/burchells-zebra/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bushbuck/"
+to = "/kruger-national-park/mammals/bushbuck/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/cape-porcupine/"
+to = "/kruger-national-park/mammals/cape-porcupine/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/caracal/"
+to = "/kruger-national-park/mammals/caracal/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/chacma-baboon/"
+to = "/kruger-national-park/mammals/chacma-baboon/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/cheetah/"
+to = "/kruger-national-park/mammals/cheetah/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/civet/"
+to = "/kruger-national-park/mammals/civet/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/common-duiker/"
+to = "/kruger-national-park/mammals/common-duiker/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dwarf-mongoose/"
+to = "/kruger-national-park/mammals/dwarf-mongoose/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/eland/"
+to = "/kruger-national-park/mammals/eland/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/greater-kudu/"
+to = "/kruger-national-park/mammals/greater-kudu/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/hippopotamus/"
+to = "/kruger-national-park/mammals/hippopotamus/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/honey-badger/"
+to = "/kruger-national-park/mammals/honey-badger/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/impala/"
+to = "/kruger-national-park/mammals/impala/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/klipspringer/"
+to = "/kruger-national-park/mammals/klipspringer/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/large-spotted-genet/"
+to = "/kruger-national-park/mammals/large-spotted-genet/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/lesser-galago/"
+to = "/kruger-national-park/mammals/lesser-galago/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/lion/"
+to = "/kruger-national-park/mammals/lion/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/nyala/"
+to = "/kruger-national-park/mammals/nyala/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/pangolin/"
+to = "/kruger-national-park/mammals/pangolin/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/rock-hyrax/"
+to = "/kruger-national-park/mammals/rock-hyrax/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/scrub-hare/"
+to = "/kruger-national-park/mammals/scrub-hare/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/southern-giraffe/"
+to = "/kruger-national-park/mammals/southern-giraffe/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/spotted-hyena/"
+to = "/kruger-national-park/mammals/spotted-hyena/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/tree-squirrel/"
+to = "/kruger-national-park/mammals/tree-squirrel/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/vervet-monkey/"
+to = "/kruger-national-park/mammals/vervet-monkey/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/warthog/"
+to = "/kruger-national-park/mammals/warthog/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/waterbuck/"
+to = "/kruger-national-park/mammals/waterbuck/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/white-rhinoceros/"
+to = "/kruger-national-park/mammals/white-rhinoceros/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/wild-dog/"
+to = "/kruger-national-park/mammals/wild-dog/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/kruger-national-park/mammals/big-5/"
+to = "/kruger-national-park/big-5/"
 status = 301
 force = true
 
 ######################
-# 410 Redirects - Safari Package Pages
+# 301 Redirects - Moved Bird Pages
 ######################
+# Old clean root URLs -> new Kruger birds structure
 
 [[redirects]]
-from = "https://www.eugenesafaris.com/punda-maria-rest-camp/"
-to = "https://eugenesafaris.com/kruger-national-park/rest-camps/punda-maria-rest-camp/"
+from = "/bateleur/"
+to = "/kruger-national-park/birds/bateleur/"
 status = 301
 force = true
 
-# Classic safari packages
 [[redirects]]
-from = "/kruger-national-park/classic-safari-packages/"
-to = "/410.html"
-status = 410
+from = "/brown-headed-parrot/"
+to = "/kruger-national-park/birds/brown-headed-parrot/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/classic-safari-packages/5-day-private-safari/"
-to = "/410.html"
-status = 410
+from = "/crested-barbet/"
+to = "/kruger-national-park/birds/crested-barbet/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/classic-safari-packages/6-day-private-safari/"
-to = "/410.html"
-status = 410
+from = "/lilac-breasted-roller/"
+to = "/kruger-national-park/birds/lilac-breasted-roller/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/classic-safari-packages/7-day-private-safari/"
-to = "/410.html"
-status = 410
-force = true
-
-# Standard packages
-[[redirects]]
-from = "/kruger-national-park/standard-packages/"
-to = "/410.html"
-status = 410
+from = "/purple-roller/"
+to = "/kruger-national-park/birds/purple-roller/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/standard-packages/five-day/"
-to = "/410.html"
-status = 410
+from = "/reed-cormorant/"
+to = "/kruger-national-park/birds/reed-cormorant/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/standard-packages/six-day/"
-to = "/410.html"
-status = 410
+from = "/verreauxs-eagle-owl/"
+to = "/kruger-national-park/birds/verreauxs-eagle-owl/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/standard-packages/seven-day/"
-to = "/410.html"
-status = 410
+from = "/white-faced-whistling-duck/"
+to = "/kruger-national-park/birds/white-faced-whistling-duck/"
+status = 301
 force = true
 
-# All-inclusive package pages
-[[redirects]]
-from = "/kruger-national-park/all-inclusive-safari-packages/"
-to = "/410.html"
-status = 410
-force = true
+######################
+# 301 Redirects - Moved Kruger Planning Pages
+######################
 
 [[redirects]]
-from = "/kruger-national-park/all-inclusive-packages/"
-to = "/410.html"
-status = 410
+from = "/best-time-to-visit-kruger-national-park/"
+to = "/kruger-national-park/best-time-to-visit/"
+status = 301
 force = true
 
 [[redirects]]
-from = "/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/all-inclusive-packages/six-day/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/all-inclusive-packages/seven-day/"
-to = "/410.html"
-status = 410
+from = "/worst-time-to-visit-kruger-national-park/"
+to = "/kruger-national-park/worst-time-to-visit/"
+status = 301
 force = true
 
 ######################
@@ -134,12 +312,6 @@ force = true
 
 [[redirects]]
 from = "/kruger-national-park/mammals/elephant/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/mammals/lion/"
 to = "/410.html"
 status = 410
 force = true
@@ -155,135 +327,3 @@ from = "/kruger-national-park/mammals/buffalo/"
 to = "/410.html"
 status = 410
 force = true
-
-[[redirects]]
-from = "/kruger-national-park/mammals/black-rhinoceros/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/mammals/white-rhinoceros/"
-to = "/410.html"
-status = 410
-force = true
-
-######################
-# 410 Redirects - Guide Pages
-######################
-
-[[redirects]]
-from = "/kruger-national-park/guide/airports/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/guide/airports/kmia/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/guide/airports/skukuza/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/guide/weather/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/kruger-national-park/guide/weather/october/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/guide/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/guide/kruger-national-park/malaria/"
-to = "/410.html"
-status = 410
-force = true
-
-######################
-# 410 Redirects - Other Removed Pages
-######################
-
-[[redirects]]
-from = "/kruger-national-park/safaris/"
-to = "/410.html"
-status = 410
-force = true
-
-[[redirects]]
-from = "/tours/malawi/miombo-montane/"
-to = "/410.html"
-status = 410
-force = true
-
-######################
-# Header Rules
-######################
-
-  # Global security + HTML caching
-[[headers]]
-for = "/*"
-  [headers.values]
-    X-Frame-Options            = "SAMEORIGIN"
-    X-Content-Type-Options     = "nosniff"
-    Referrer-Policy            = "strict-origin-when-cross-origin"
-    Strict-Transport-Security  = "max-age=63072000; includeSubDomains; preload"
-    Permissions-Policy         = "geolocation=(), microphone=(), camera=(), payment=()"
-    Cross-Origin-Opener-Policy = "same-origin"
-    Cross-Origin-Resource-Policy = "same-site"
-    Cache-Control              = "public, max-age=0, must-revalidate"
-
-    # Optional: monitor Trusted Types without breaking anything
-    Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
-
-# Long-cache for versioned static assets
-[[headers]]
-for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# Icons
-[[headers]]
-for = "/favicon.ico"
-  [headers.values]
-    Cache-Control = "public, max-age=86400"
-
-# Error/utility pages (don’t cache)
-[[headers]]
-for = "/404.html"
-  [headers.values]
-    Cache-Control = "no-cache"
-
-[[headers]]
-for = "/410.html"
-  [headers.values]
-    Cache-Control = "no-cache"
-
-[[headers]]
-for = "/maintenance.html"
-  [headers.values]
-    Cache-Control = "no-cache"
