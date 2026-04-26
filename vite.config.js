@@ -11,37 +11,20 @@ export default defineConfig({
         // Core
         main: path.resolve(__dirname, 'index.html'),
         about: path.resolve(__dirname, 'about/index.html'),
-        contact: path.resolve(__dirname, 'contact/index.html'),
         blog: path.resolve(__dirname, 'blog/index.html'),
-
-         // Kruger Hub
-        kruger: path.resolve(__dirname, 'kruger-national-park/index.html'),
-        kruger3DaySafari: path.resolve(__dirname, 'kruger-national-park/3-day-safari/index.html'),
-        airports: path.resolve(__dirname, 'kruger-national-park/airports/index.html'),
-        eastgateAirport: path.resolve(__dirname, 'kruger-national-park/airports/eastgate/index.html'),
-        kmiaAirport: path.resolve(__dirname, 'kruger-national-park/airports/kmia/index.html'),
-        skukuzaAirport: path.resolve(__dirname, 'kruger-national-park/airports/skukuza/index.html'),
-        bestTime: path.resolve(__dirname, 'kruger-national-park/best-time-to-visit/index.html'),
-        big5: path.resolve(__dirname, 'kruger-national-park/big-5/index.html'),
-        flowers: path.resolve(__dirname, 'kruger-national-park/flowers/index.html'),
-        impalaLily: path.resolve(__dirname, 'kruger-national-park/flowers/impala-lily/index.html'),
-        leopardOrchid: path.resolve(__dirname, 'kruger-national-park/flowers/leopard-orchid/index.html'),
-        grasses: path.resolve(__dirname, 'kruger-national-park/grasses/index.html'),
-        guide: path.resolve(__dirname, 'kruger-national-park/guide/index.html'),
-        malaria: path.resolve(__dirname, 'kruger-national-park/malaria/index.html'),
-        reptiles: path.resolve(__dirname, 'kruger-national-park/reptiles/index.html'),
-        restCamps: path.resolve(__dirname, 'kruger-national-park/rest-camps/index.html'),
-        wildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
-        worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
-
-        whattobringonasafari: path.resolve(__dirname, 'what-to-bring-on-a-safari/index.html'),
-        whattowearonasafari: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
+        contact: path.resolve(__dirname, 'contact/index.html'),
         differencecbetweenwhiteandblackrhino: path.resolve(__dirname, 'difference-between-white-and-black-rhino/index.html'),
-
-        // Birds Hub
+        krugernationalpark: path.resolve(__dirname, 'kruger-national-park/index.html'),
+        kruger3daysafari: path.resolve(__dirname, 'kruger-national-park/3-day-safari/index.html'),
+        // Airports
+        airports: path.resolve(__dirname, 'kruger-national-park/airports/index.html'),
+        eastgateairport: path.resolve(__dirname, 'kruger-national-park/airports/eastgate/index.html'),
+        kmiaairport: path.resolve(__dirname, 'kruger-national-park/airports/kmia/index.html'),
+        skukuzaairport: path.resolve(__dirname, 'kruger-national-park/airports/skukuza/index.html'),
+        besttimetovisitkruger: path.resolve(__dirname, 'kruger-national-park/best-time-to-visit/index.html'),
+        krugernationalparkbig5: path.resolve(__dirname, 'kruger-national-park/big-5/index.html'),
+        // Birds
         birds: path.resolve(__dirname, 'kruger-national-park/birds/index.html'),
-
-        // Bird Species
         bateleur: path.resolve(__dirname, 'kruger-national-park/birds/bateleur/index.html'),
         brownHeadedParrot: path.resolve(__dirname, 'kruger-national-park/birds/brown-headed-parrot/index.html'),
         crestedBarbet: path.resolve(__dirname, 'kruger-national-park/birds/crested-barbet/index.html'),
@@ -50,6 +33,25 @@ export default defineConfig({
         reedCormorant: path.resolve(__dirname, 'kruger-national-park/birds/reed-cormorant/index.html'),
         verreauxsEagleOwl: path.resolve(__dirname, 'kruger-national-park/birds/verreauxs-eagle-owl/index.html'),
         whiteFacedWhistlingDuck: path.resolve(__dirname, 'kruger-national-park/birds/white-faced-whistling-duck/index.html'),
+        // Floweres
+        flowers: path.resolve(__dirname, 'kruger-national-park/flowers/index.html'),
+        impalaLily: path.resolve(__dirname, 'kruger-national-park/flowers/impala-lily/index.html'),
+        leopardOrchid: path.resolve(__dirname, 'kruger-national-park/flowers/leopard-orchid/index.html'),
+        // Grasses
+        grasses: path.resolve(__dirname, 'kruger-national-park/grasses/index.html'),
+        guide: path.resolve(__dirname, 'kruger-national-park/guide/index.html'),
+        malaria: path.resolve(__dirname, 'kruger-national-park/malaria/index.html'),
+        // Reptiles
+        reptiles: path.resolve(__dirname, 'kruger-national-park/reptiles/index.html'),
+        flapneckchameleon: path.resolve(__dirname, 'kruger-national-park/reptiles/flap-necked-chameleon/index.html'),
+        restCamps: path.resolve(__dirname, 'kruger-national-park/rest-camps/index.html'),
+        wildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
+        worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
+
+        whattobringonasafari: path.resolve(__dirname, 'what-to-bring-on-a-safari/index.html'),
+        whattowearonasafari: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
+    
+        pundamariarestcamp: path.resolve(__dirname, 'kruger-national-park/rest-camps/punda-maria/index.html'),
 
         // Birding Kruger
         birding: path.resolve(__dirname, 'birding/index.html'),
