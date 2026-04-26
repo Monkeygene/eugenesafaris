@@ -34,6 +34,10 @@ export default defineConfig({
         wildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
         worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
 
+        whattobringonasafari: path.resolve(__dirname, 'what-to-bring-on-a-safari/index.html'),
+        whattowearonasafari: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
+        differencecbetweenwhiteandblackrhino: path.resolve(__dirname, 'difference-between-white-and-black-rhino/index.html'),
+
         // Birds Hub
         birds: path.resolve(__dirname, 'kruger-national-park/birds/index.html'),
 
