@@ -244,6 +244,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/kruger-national-park/guide/"
+to = "/kruger-national-park/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/flap-necked-chameleon/"
 to = "/kruger-national-park/reptiles/flap-necked-chameleon/"
 status = 301

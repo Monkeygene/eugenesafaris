@@ -18,17 +18,23 @@ let ticking = false;
 // Mobile menu
 // --------------------
 function openMenu() {
+  if (!mobileMenu || !mobileBackdrop || !navToggle) return;
+
   mobileMenu.classList.remove('translate-x-full');
   mobileBackdrop.classList.remove('pointer-events-none', 'opacity-0');
   mobileBackdrop.classList.add('opacity-100');
+
   navToggle.setAttribute('aria-expanded', 'true');
   document.body.classList.add('overflow-hidden');
 }
 
 function closeMenu() {
+  if (!mobileMenu || !mobileBackdrop || !navToggle) return;
+
   mobileMenu.classList.add('translate-x-full');
   mobileBackdrop.classList.remove('opacity-100');
   mobileBackdrop.classList.add('opacity-0');
+
   navToggle.setAttribute('aria-expanded', 'false');
   document.body.classList.remove('overflow-hidden');
 
@@ -45,6 +51,10 @@ if (navToggle && mobileMenu && mobileClose && mobileBackdrop) {
 
   mobileClose.addEventListener('click', closeMenu);
   mobileBackdrop.addEventListener('click', closeMenu);
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeMenu();
+  });
 
   mobileMenu.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', closeMenu);

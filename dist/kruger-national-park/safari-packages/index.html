@@ -40,14 +40,14 @@
   ]
 }
 </script>
-  <script type="module" crossorigin src="/assets/main-Da8Vs3on.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-DIG0_wGT.css">
+  <script type="module" crossorigin src="/assets/main-DYabfejD.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BnBG72U7.css">
 </head>
 <body>
 <header>
   <nav
-    id="siteHeader"
-    class="fixed top-0 left-0 right-0 z-50 bg-linen/95 backdrop-blur-sm border-b border-transparent transition-all duration-300 ease-in-out"
+   id="siteHeader"
+  class="fixed top-0 left-0 right-0 z-50 bg-linen border-b border-transparent transition-all duration-300 ease-in-out"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
       <div
@@ -68,7 +68,7 @@
         </a>
 
         <!-- Desktop nav -->
-       <ul class="hidden md:flex items-center space-x-10">
+       <ul class="desktop-nav hidden md:flex items-center space-x-10">
   <li class="relative group">
     <button
       type="button"
@@ -77,7 +77,7 @@
       aria-label="Open safari menu"
       class="flex items-center gap-2 text-gray-800 hover:text-zinc-500 transition"
     >
-      <span>Safaris</span>
+      <span class="text-lg">Safaris</span>
 
       <svg
         class="h-4 w-4 text-gray-600 transition-transform duration-200 ease-out group-hover:rotate-180"
@@ -91,19 +91,19 @@
     </button>
 
     <ul
-      class="absolute left-0 top-full mt-0 py-3 w-64 bg-linen border border-zinc-200 shadow-lg opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out"
+      class="absolute text left-0 top-full mt-0 py-3 w-64 bg-linen border border-zinc-200 shadow-lg opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out"
     >
-      <li>
+      <li class="text-lg">
         <a href="/kruger-national-park/private-safaris/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
           Private Kruger Safaris
         </a>
       </li>
-      <li>
+      <li class="text-lg">
         <a href="/kruger-national-park/safari-all-inclusive-packages/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
           All-Inclusive Kruger Safaris
         </a>
       </li>
-      <li>
+      <li class="text-lg">
         <a href="/kruger-national-park/photographic-safari/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
           Photographic Safaris
         </a>
@@ -111,26 +111,32 @@
     </ul>
   </li>
 
-  <li>
+  <li class="text-lg">
     <a href="/birding/" class="text-gray-800 hover:text-zinc-500 transition">
       Birding
     </a>
   </li>
-  <li>
+   <li class="text-lg">
+    <a href="/kruger-national-park/" class="text-gray-800 hover:text-zinc-500 transition">
+      Kruger
+    </a>
+  </li>
+  <li class="text-lg">
     <a href="/about/" class="text-gray-800 hover:text-zinc-500 transition">
       About
     </a>
   </li>
-  <li>
+  <li class="text-lg">
     <a href="/blog/" class="text-gray-800 hover:text-zinc-500 transition">
       Blog
     </a>
   </li>
-  <li>
+  <li class="text-lg">
     <a href="/contact/" class="text-gray-800 hover:text-zinc-500 transition">
       Contact
     </a>
   </li>
+   
 </ul>
 
         <!-- Mobile button -->
@@ -154,17 +160,17 @@
       </div>
     </div>
 
-    <!-- Backdrop -->
-    <div
-      id="mobile-backdrop"
-      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden"
-    ></div>
+   <!-- Backdrop -->
+<div
+  id="mobile-backdrop"
+  class="fixed inset-0 z-[60] bg-black/30 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden"
+></div>
 
     <!-- Mobile menu -->
-    <div
-      id="mobile-menu"
-      class="fixed top-0 right-0 h-screen w-4/5 max-w-sm bg-linen shadow-xl translate-x-full transition-transform duration-300 ease-in-out md:hidden"
-    >
+  <div
+  id="mobile-menu"
+  class="fixed top-0 right-0 z-[70] h-screen w-4/5 max-w-sm bg-linen shadow-xl translate-x-full transition-transform duration-300 ease-in-out md:hidden"
+>
       <div class="flex items-center justify-between px-6 h-20 border-b border-zinc-200">
         <span class="text-base font-medium text-gray-900">Menu</span>
         <button
@@ -219,7 +225,8 @@
         </div>
 
         <a href="/birding/" class="block text-gray-800 hover:text-zinc-500 transition">Birding</a>
-        <a href="/about/" class="block text-gray-800 hover:text-zinc-500 transition">About</a>
+        <a href="/kruger-national-park/" class="block text-gray-800 hover:text-zinc-500 transition">Kruger</a>
+        <a href="/about/" class="block text-gray-800 hover:text-zinc-500 transition">About</a>   
         <a href="/blog/" class="block text-gray-800 hover:text-zinc-500 transition">Blog</a>
         <a href="/contact/" class="block text-gray-800 hover:text-zinc-500 transition">Contact</a>
       </nav>

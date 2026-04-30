@@ -113,3 +113,16 @@
     font-family: "Crimson Text", serif;
   }
 }
+
+#siteHeader .desktop-nav,
+#mobile-menu {
+  font-family: "Crimson Text", Georgia, serif;
+}
+
+#siteHeader .desktop-nav a,
+#siteHeader .desktop-nav button,
+#mobile-menu a,
+#mobile-menu button,
+#mobile-menu span {
+  font-family: "Crimson Text", Georgia, serif;
+}

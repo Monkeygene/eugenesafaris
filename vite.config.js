@@ -39,7 +39,6 @@ export default defineConfig({
         leopardOrchid: path.resolve(__dirname, 'kruger-national-park/flowers/leopard-orchid/index.html'),
         // Grasses
         grasses: path.resolve(__dirname, 'kruger-national-park/grasses/index.html'),
-        guide: path.resolve(__dirname, 'kruger-national-park/guide/index.html'),
         malaria: path.resolve(__dirname, 'kruger-national-park/malaria/index.html'),
         // Reptiles
         reptiles: path.resolve(__dirname, 'kruger-national-park/reptiles/index.html'),
