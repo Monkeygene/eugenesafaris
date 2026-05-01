@@ -255,6 +255,24 @@ to = "/kruger-national-park/reptiles/flap-necked-chameleon/"
 status = 301
 force = true
 
+[[redirects]]
+from = "/difference-between-white-and-black-rhino/"
+to = "/blog/difference-between-white-and-black-rhino/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/what-to-bring-on-a-safari/"
+to = "/blog/what-to-bring-on-a-safari/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/what-to-wear-on-a-safari/"
+to = "/blog/what-to-wear-on-a-safari/"
+status = 301
+force = true
+
 ######################
 # 301 Redirects - Moved Bird Pages
 ######################

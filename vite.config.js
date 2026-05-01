@@ -13,7 +13,7 @@ export default defineConfig({
         about: path.resolve(__dirname, 'about/index.html'),
         blog: path.resolve(__dirname, 'blog/index.html'),
         contact: path.resolve(__dirname, 'contact/index.html'),
-        differencecbetweenwhiteandblackrhino: path.resolve(__dirname, 'difference-between-white-and-black-rhino/index.html'),
+        differencecbetweenwhiteandblackrhino: path.resolve(__dirname, 'blog/difference-between-white-and-black-rhino/index.html'),
         krugernationalpark: path.resolve(__dirname, 'kruger-national-park/index.html'),
         kruger3daysafari: path.resolve(__dirname, 'kruger-national-park/3-day-safari/index.html'),
         // Airports
@@ -47,8 +47,8 @@ export default defineConfig({
         wildlife: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
         worstTime: path.resolve(__dirname, 'kruger-national-park/worst-time-to-visit/index.html'),
 
-        whattobringonasafari: path.resolve(__dirname, 'what-to-bring-on-a-safari/index.html'),
-        whattowearonasafari: path.resolve(__dirname, 'what-to-wear-on-a-safari/index.html'),
+        whattobringonasafari: path.resolve(__dirname, 'blog/what-to-bring-on-a-safari/index.html'),
+        whattowearonasafari: path.resolve(__dirname, 'blog/what-to-wear-on-a-safari/index.html'),
     
         pundamariarestcamp: path.resolve(__dirname, 'kruger-national-park/rest-camps/punda-maria/index.html'),
 
