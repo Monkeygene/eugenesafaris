@@ -53,25 +53,25 @@ force = true
 
 [[redirects]]
 from = "/birding/kruger-national-park/"
-to = "/kruger-national-park/birding-safaris/"
+to = "/kruger-national-park/birding-safari/"
 status = 410
 force = true
 
 [[redirects]]
 from = "/birding/kruger-national-park/northern/"
-to = "/kruger-national-park/birding-safaris/"
+to = "/kruger-national-park/birding-safari/"
 status = 410
 force = true
 
 [[redirects]]
 from = "/birding/kruger-national-park/north-to-south/"
-to = "/kruger-national-park/birding-safaris/"
+to = "/kruger-national-park/birding-safari/"
 status = 410
 force = true
 
 [[redirects]]
 from = "/birding/kruger-national-park/southern/"
-to = "/kruger-national-park/birding-safaris/"
+to = "/kruger-national-park/birding-safari/"
 status = 410
 force = true
 
@@ -416,8 +416,8 @@ force = true
   force = true
 
 [[redirects]]
-from = "/kruger-national-park/mammals/big-5/"
-to = "/kruger-national-park/big-5/"
+from = "/kruger-national-park/big-5/"
+to = "/kruger-national-park/wildlife/big-5/"
 status = 301
 force = true
 
