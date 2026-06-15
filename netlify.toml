@@ -416,12 +416,6 @@ force = true
   force = true
 
 [[redirects]]
-from = "/kruger-national-park/big-5/"
-to = "/kruger-national-park/wildlife/big-5/"
-status = 301
-force = true
-
-[[redirects]]
 from = "/kruger-national-park/guide/"
 to = "/kruger-national-park/"
 status = 301

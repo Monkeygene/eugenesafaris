@@ -21,7 +21,7 @@ export default defineConfig({
         // Airports
         airportsguide: path.resolve(__dirname, 'kruger-national-park/airports-guide/index.html'),
         besttimetovisitkruger: path.resolve(__dirname, 'kruger-national-park/best-time-to-visit/index.html'),
-        krugernationalparkbig5: path.resolve(__dirname, 'kruger-national-park/wildlife/big-5/index.html'),
+        krugernationalparkbig5: path.resolve(__dirname, 'kruger-national-park/big-5/index.html'),
         // Birds
         birds: path.resolve(__dirname, 'kruger-national-park/wildlife/index.html'),
         bateleur: path.resolve(__dirname, 'kruger-national-park/wildlife/bateleur/index.html'),
