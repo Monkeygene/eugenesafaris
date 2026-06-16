@@ -1,0 +1,86 @@
+# -------------------------------------------------------------------
+# EUGENE SAFARIS - MASTER 301 REDIRECT RULES
+# -------------------------------------------------------------------
+
+# --- 1. Wildlife & Animal Profile Migrations ---
+/kruger-national-park/mammals/lion/                            /kruger-national-park/wildlife/lion/                    301
+/kruger-national-park/mammals/elephant/                        /kruger-national-park/wildlife/african-bush-elephant/   301
+/african-leopard/                                              /kruger-national-park/wildlife/african-leopard/          301
+/kruger-national-park/mammals/leopard/                         /kruger-national-park/wildlife/african-leopard/          301
+/kruger-national-park/mammals/african-leopard/                 /kruger-national-park/wildlife/african-leopard/          301
+/kruger-national-park/mammals/african-buffalo/                 /kruger-national-park/wildlife/african-buffalo/          301
+/kruger-national-park/mammals/buffalo/                         /kruger-national-park/wildlife/african-buffalo/          301
+/kruger-national-park/mammals/cheetah/                         /kruger-national-park/wildlife/cheetah/                  301
+/kruger-national-park/mammals/honey-badger/                    /kruger-national-park/wildlife/honey-badger/            301
+/kruger-national-park/mammals/hippopotamus/                    /kruger-national-park/wildlife/hippopotamus/            301
+/kruger-national-park/birds/white-faced-whistling-duck/        /kruger-national-park/wildlife/white-faced-whistling-duck/ 301
+/white-faced-whistling-duck/                                   /kruger-national-park/wildlife/white-faced-whistling-duck/ 301
+/kruger-national-park/birds/lilac-breasted-roller/             /kruger-national-park/wildlife/lilac-breasted-roller/    301
+/dwarf-mongoose/                                               /kruger-national-park/wildlife/dwarf-mongoose/          301
+/black-backed-jackal/                                          /kruger-national-park/wildlife/black-backed-jackal/     301
+/nyala/                                                        /kruger-national-park/wildlife/nyala/                    301
+/hippopotamus/                                                 /kruger-national-park/wildlife/hippopotamus/            301
+
+# --- 2. Directory & Category Level Consolidation ---
+/kruger-national-park/mammals/                                 /kruger-national-park/wildlife/mammals/                  301
+/kruger-national-park/wildlife/big-5/                          /kruger-national-park/big-5/                             301
+/kruger-national-park/guide/                                   /kruger-national-park/                                   301
+
+# --- 3. Commercial Tour Packages & Itineraries ---
+/kruger-national-park/safari-all-inclusive-packages/           /kruger-national-park/all-inclusive-safaris/             301
+/kruger-national-park/all-inclusive-safari-packages/           /kruger-national-park/all-inclusive-safaris/             301
+/kruger-national-park/classic-safari-packages/                 /kruger-national-park/safari-packages/                  301
+/kruger-national-park/standard-packages/                       /kruger-national-park/safari-packages/                  301
+/kruger-national-park/safaris/                                 /kruger-national-park/safari-packages/                  301
+
+# --- 7-Day Itinerary Consolidation ---
+/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/   /kruger-national-park/7-day-safari/ 301
+/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/   /kruger-national-park/7-day-safari/ 301
+/kruger-national-park/private-safaris/7-day/                                /kruger-national-park/7-day-safari/ 301
+
+# --- 6-Day Itinerary Consolidation ---
+/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/   /kruger-national-park/6-day-safari/ 301
+/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/   /kruger-national-park/6-day-safari/ 301
+/kruger-national-park/classic-safari-packages/6-day-private-safari/        /kruger-national-park/6-day-safari/ 301
+/kruger-national-park/private-safaris/6-day/                                /kruger-national-park/6-day-safari/ 301
+
+# --- 5-Day Itinerary Consolidation ---
+/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/   /kruger-national-park/5-day-safari/ 301
+/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/   /kruger-national-park/5-day-safari/ 301
+/kruger-national-park/classic-safari-packages/5-day-private-safari/        /kruger-national-park/5-day-safari/ 301
+
+# --- 4. Travel Logistics & Legacy Guide Folders ---
+/best-time-to-visit-kruger-national-park/                      /kruger-national-park/best-time-to-visit/                301
+/kruger-national-park/malaria/                                 /kruger-national-park/malaria-guide/                     301
+/kruger-national-park/guide/malaria/                           /kruger-national-park/malaria-guide/                     301
+/kruger-national-park/airports/                                /kruger-national-park/airports-guide/                    301
+/kruger-national-park/airports/eastgate/                       /kruger-national-park/airports-guide/                    301
+/kruger-national-park/airports/kmia/                           /kruger-national-park/airports-guide/                    301
+/kruger-national-park/airports/skukuza/                         /kruger-national-park/airports-guide/                    301
+/kruger-national-park/guide/airports/kmia/                     /kruger-national-park/airports-guide/                    301
+/kruger-national-park/guide/airports/skukuza/                   /kruger-national-park/airports-guide/                    301
+
+# --- Weather & Legacy Monthly Paths ---
+/kruger-national-park/guide/weather/october/                    /kruger-national-park/weather/                           301
+/kruger-national-park/weather/january/                         /kruger-national-park/weather/                           301
+/kruger-national-park/weather/february/                        /kruger-national-park/weather/                           301
+/kruger-national-park/weather/march/                           /kruger-national-park/weather/                           301
+/kruger-national-park/weather/april/                           /kruger-national-park/weather/                           301
+/kruger-national-park/weather/may/                             /kruger-national-park/weather/                           301
+/kruger-national-park/weather/june/                            /kruger-national-park/weather/                           301
+/kruger-national-park/weather/july/                            /kruger-national-park/weather/                           301
+/kruger-national-park/weather/august/                          /kruger-national-park/weather/                           301
+/kruger-national-park/weather/september/                       /kruger-national-park/weather/                           301
+/kruger-national-park/weather/october/                         /kruger-national-park/weather/                           301
+/kruger-national-park/weather/november/                        /kruger-national-park/weather/                           301
+/kruger-national-park/weather/december/                        /kruger-national-park/weather/                           301
+
+# --- 5. Birding Sub-Silo Cleanup ---
+/birding/                                                      /kruger-national-park/birding-safaris/                   301
+/birding/kruger-national-park/                                 /kruger-national-park/birding-safaris/                   301
+/birding/kruger-national-park/north-to-south/                  /kruger-national-park/birding-safaris/                   301
+
+# --- 6. Protocol and Asset Normalization ---
+http://eugenesafaris.com/                                      https://eugenesafaris.com/                               301
+http://eugenesafaris.com/kruger-national-park/                 https://eugenesafaris.com/kruger-national-park/          301
+http://eugenesafaris.com/kruger-national-park/photographic-safari/ https://eugenesafaris.com/kruger-national-park/photographic-safari/ 301
