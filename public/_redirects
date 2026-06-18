@@ -4,22 +4,26 @@
 
 # --- 1. Wildlife & Animal Profile Migrations ---
 /kruger-national-park/mammals/lion/                            /kruger-national-park/wildlife/lion/                    301
+/kruger-national-park/wildlife/lion/                            /kruger-national-park/lion/                    301
 /kruger-national-park/mammals/elephant/                        /kruger-national-park/wildlife/african-bush-elephant/   301
-/african-leopard/                                              /kruger-national-park/wildlife/african-leopard/          301
-/kruger-national-park/mammals/leopard/                         /kruger-national-park/wildlife/african-leopard/          301
-/kruger-national-park/mammals/african-leopard/                 /kruger-national-park/wildlife/african-leopard/          301
-/kruger-national-park/mammals/african-buffalo/                 /kruger-national-park/wildlife/african-buffalo/          301
-/kruger-national-park/mammals/buffalo/                         /kruger-national-park/wildlife/african-buffalo/          301
-/kruger-national-park/mammals/cheetah/                         /kruger-national-park/wildlife/cheetah/                  301
-/kruger-national-park/mammals/honey-badger/                    /kruger-national-park/wildlife/honey-badger/            301
-/kruger-national-park/mammals/hippopotamus/                    /kruger-national-park/wildlife/hippopotamus/            301
-/kruger-national-park/birds/white-faced-whistling-duck/        /kruger-national-park/wildlife/white-faced-whistling-duck/ 301
-/white-faced-whistling-duck/                                   /kruger-national-park/wildlife/white-faced-whistling-duck/ 301
-/kruger-national-park/birds/lilac-breasted-roller/             /kruger-national-park/wildlife/lilac-breasted-roller/    301
-/dwarf-mongoose/                                               /kruger-national-park/wildlife/dwarf-mongoose/          301
-/black-backed-jackal/                                          /kruger-national-park/wildlife/black-backed-jackal/     301
-/nyala/                                                        /kruger-national-park/wildlife/nyala/                    301
-/hippopotamus/                                                 /kruger-national-park/wildlife/hippopotamus/            301
+/kruger-national-park/wildlife/african-bush-elephant/           /kruger-national-park/african-bush-elephant/   301
+/african-leopard/                                              /kruger-national-park/african-leopard/          301
+/kruger-national-park/mammals/leopard/                         /kruger-national-park/african-leopard/          301
+/kruger-national-park/mammals/african-leopard/                 /kruger-national-park/african-leopard/          301
+/kruger-national-park/wildlife/african-leopard/                 /kruger-national-park/african-leopard/          301
+/kruger-national-park/mammals/african-buffalo/                 /kruger-national-park/african-buffalo/          301
+/kruger-national-park/mammals/buffalo/                         /kruger-national-park/african-buffalo/          301
+/kruger-national-park/wildlife/african-buffalo/                 /kruger-national-park/african-buffalo/          301
+/kruger-national-park/mammals/cheetah/                         /kruger-national-park/wildlife/                  301
+/kruger-national-park/mammals/honey-badger/                    /kruger-national-park/wildlife/           301
+/kruger-national-park/mammals/hippopotamus/                    /kruger-national-park/wildlife/            301
+/kruger-national-park/birds/white-faced-whistling-duck/        /kruger-national-park/wildlife/ 301
+/white-faced-whistling-duck/                                   /kruger-national-park/wildlife/ 301
+/kruger-national-park/birds/lilac-breasted-roller/             /kruger-national-park/wildlife/    301
+/dwarf-mongoose/                                               /kruger-national-park/wildlife/          301
+/black-backed-jackal/                                          /kruger-national-park/wildlife/     301
+/nyala/                                                        /kruger-national-park/wildlife/                    301
+/hippopotamus/                                                 /kruger-national-park/wildlife/            301
 
 # --- 2. Directory & Category Level Consolidation ---
 /kruger-national-park/mammals/                                 /kruger-national-park/wildlife/mammals/                  301
