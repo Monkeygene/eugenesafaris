@@ -1,6 +1,7 @@
 import './styles.css';
 import './nav.js';
 import './tabs.js';
+import './weather.js';
 
 // Create dataLayer FIRST
 window.dataLayer = window.dataLayer || [];
