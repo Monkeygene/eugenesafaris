@@ -11,6 +11,7 @@ export default defineConfig({
         // Core
         main: path.resolve(__dirname, 'index.html'),
         krugernationalpark: path.resolve(__dirname, 'kruger-national-park/index.html'),
+        krugernationalparkbig5: path.resolve(__dirname, 'kruger-national-park/big-5/index.html'),
         allinclusivesafaris: path.resolve(__dirname, 'kruger-national-park/all-inclusive-safaris/index.html'),
         safaris5day: path.resolve(__dirname, 'kruger-national-park/5-day-safari/index.html'),
         safaris6day: path.resolve(__dirname, 'kruger-national-park/6-day-safari/index.html'),

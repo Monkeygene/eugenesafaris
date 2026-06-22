@@ -9,10 +9,15 @@
   <!-- Main Kruger Hub & Specialized Commercial Landing Pages -->
   <url><loc>https://eugenesafaris.com/kruger-national-park/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safaris/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/birding-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc></url>
 
   <!-- Master Itinerary Booking Pages (Unified & Flat) -->
   <url><loc>https://eugenesafaris.com/kruger-national-park/5-day-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/6-day-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/7-day-safari/</loc></url>
+
+  <!-- Informational -->
+  <url><loc>https://eugenesafaris.com/kruger-national-park/big-5/</loc></url>
 
 </urlset>
