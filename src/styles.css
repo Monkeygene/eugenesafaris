@@ -62,7 +62,7 @@
   }
 
   body {
-    @apply bg-linen font-crimson text-base md:text-lg text-gray-800 leading-relaxed;
+    @apply bg-linen font-crimson text-base md:text-lg text-gray-900 leading-relaxed;
   }
 
   h1 {
