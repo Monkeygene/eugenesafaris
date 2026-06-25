@@ -6,29 +6,26 @@
 
 # --- Wildlife & Animal Pages ---
 
-/kruger-national-park/mammals/lion/ / 301
-/kruger-national-park/wildlife/lion/ / 301
-/kruger-national-park/lion/ / 301
+/kruger-national-park/mammals/lion/ /kruger-national-park/lion/ 301
+/kruger-national-park/wildlife/lion/ /kruger-national-park/lion/ 301
 
-/kruger-national-park/mammals/elephant/ / 301
-/kruger-national-park/wildlife/african-bush-elephant/ / 301
-/kruger-national-park/african-bush-elephant/ / 301
+/kruger-national-park/mammals/elephant/ /kruger-national-park/elephant/ 301
+/kruger-national-park/wildlife/african-bush-elephant/ /kruger-national-park/elephant/ 301
+/kruger-national-park/african-bush-elephant/ /kruger-national-park/elephant/ 301
 
-/african-leopard/ / 301
-/kruger-national-park/mammals/leopard/ / 301
-/kruger-national-park/mammals/african-leopard/ / 301
-/kruger-national-park/wildlife/african-leopard/ / 301
-/kruger-national-park/african-leopard/ / 301
+/african-leopard/ /kruger-national-park/leopard/ 301
+/kruger-national-park/mammals/leopard/ /kruger-national-park/leopard/ 301
+/kruger-national-park/mammals/african-leopard/ /kruger-national-park/leopard/ 301
+/kruger-national-park/wildlife/african-leopard/ /kruger-national-park/leopard/ 301
+/kruger-national-park/african-leopard/ /kruger-national-park/leopard/ 301
 
-/kruger-national-park/mammals/african-buffalo/ / 301
-/kruger-national-park/mammals/buffalo/ / 301
-/kruger-national-park/wildlife/african-buffalo/ / 301
-/kruger-national-park/african-buffalo/ / 301
+/kruger-national-park/mammals/african-buffalo/ /kruger-national-park/buffalo/ 301
+/kruger-national-park/mammals/buffalo/ /kruger-national-park/buffalo/ 301
+/kruger-national-park/wildlife/african-buffalo/ /kruger-national-park/buffalo/ 301
+/kruger-national-park/african-buffalo/ /kruger-national-park/buffalo/ 301
 
-/kruger-national-park/wildlife/black-rhinoceros/ / 301
-/kruger-national-park/wildlife/white-rhinoceros/ / 301
-/kruger-national-park/black-rhinoceros/ / 301
-/kruger-national-park/white-rhinoceros/ / 301
+/kruger-national-park/wildlife/black-rhinoceros/ /kruger-national-park/black-rhinoceros/ 301
+/kruger-national-park/wildlife/white-rhinoceros/ /kruger-national-park/white-rhinoceros/ 301
 
 /kruger-national-park/mammals/cheetah/ / 301
 /kruger-national-park/mammals/honey-badger/ / 301
@@ -43,12 +40,10 @@
 
 # --- Wildlife Directories ---
 
-/kruger-national-park/wildlife/ / 301
 /kruger-national-park/mammals/ / 301
 /kruger-national-park/birds/ / 301
 /kruger-national-park/reptiles/ / 301
-/kruger-national-park/big-5/ / 301
-/kruger-national-park/wildlife/big-5/ / 301
+/kruger-national-park/wildlife/big-5/ /kruger-national-park/big-5/ 301
 /kruger-national-park/guide/ / 301
 
 # --- Legacy Commercial Pages ---
