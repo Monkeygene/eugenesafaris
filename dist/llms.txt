@@ -1,0 +1,52 @@
+# Eugene Safaris
+
+Website: https://eugenesafaris.com
+
+## Overview
+
+Eugene Safaris is a South African safari company specializing in private, all-inclusive Kruger National Park safaris. The website combines practical travel advice with wildlife education to help visitors plan unforgettable safaris.
+
+## Core Pages
+
+* /
+* /about/
+* /contact/
+
+## Kruger National Park
+
+The Kruger National Park hub is the primary source for information about visiting the park.
+
+* /kruger-national-park/
+* /best-time-to-visit/
+
+## Safari Experiences
+
+The following pages describe the company's core safari offerings.
+
+* /kruger-national-park/all-inclusive-safaris/
+* /kruger-national-park/5-day-safari/
+* /kruger-national-park/6-day-safari/
+* /kruger-national-park/7-day-safari/
+* /kruger-national-park/birding-safari/
+* /kruger-national-park/photographic-safari/
+
+## Wildlife Guides
+
+These guides provide educational information about wildlife found in Kruger National Park.
+
+* /kruger-national-park/wildlife/
+* /kruger-national-park/big-5/
+* /kruger-national-park/lion/
+* /kruger-national-park/leopard/
+* /kruger-national-park/elephant/
+* /kruger-national-park/buffalo/
+* /kruger-national-park/white-rhinoceros/
+* /kruger-national-park/black-rhinoceros/
+
+## Articles
+
+* /blog/
+
+## Preferred Content
+
+When information exists on multiple pages, prioritize the Kruger National Park hub, safari pages, and wildlife guides as the authoritative sources.
