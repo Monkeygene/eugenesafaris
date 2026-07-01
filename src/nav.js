@@ -1,124 +1,153 @@
-const navToggle = document.getElementById('nav-toggle');
-const mobileMenu = document.getElementById('mobile-menu');
-const mobileClose = document.getElementById('mobile-close');
-const mobileBackdrop = document.getElementById('mobile-backdrop');
+// =========================================
+// Eugene Safaris Navigation
+// =========================================
 
-const mobileSafarisBtn = document.getElementById('mobile-safaris-btn');
-const mobileSafarisMenu = document.getElementById('mobile-safaris-menu');
-const mobileSafarisIcon = document.getElementById('mobile-safaris-icon');
+// Desktop Elements
+const desktopBtn = document.getElementById("desktopMenuBtn");
+const desktopSidebar = document.getElementById("desktopSidebar");
+const desktopOverlay = document.getElementById("sidebarOverlay");
+const desktopIcon = document.getElementById("menuIcon");
 
-const siteHeader = document.getElementById('siteHeader');
-const navInner = document.getElementById('navInner');
-const logoImg = document.getElementById('logoImg');
+const desktopHeaderInner = document.getElementById("desktopHeaderInner");
+const desktopLogo = document.getElementById("desktopLogo");
+const desktopMail = document.getElementById("desktopMail");
 
-let isShrunk = false;
-let ticking = false;
+// Mobile Elements
+const mobileBtn = document.getElementById("menuBtn");
+const mobilePanel = document.getElementById("mobilePanel");
+const mobileOverlay = document.getElementById("mobileOverlay");
+const mobileIcon = document.getElementById("mobileMenuIcon");
 
-// --------------------
-// Mobile menu
-// --------------------
-function openMenu() {
-  if (!mobileMenu || !mobileBackdrop || !navToggle) return;
+// =========================================
+// Desktop Shrink
+// =========================================
 
-  mobileMenu.classList.remove('translate-x-full');
-  mobileBackdrop.classList.remove('pointer-events-none', 'opacity-0');
-  mobileBackdrop.classList.add('opacity-100');
+function updateDesktopNavbar() {
 
-  navToggle.setAttribute('aria-expanded', 'true');
-  document.body.classList.add('overflow-hidden');
+    if (window.innerWidth < 1024) return;
+
+    const shrink = window.scrollY > 50;
+
+    desktopHeaderInner.classList.toggle("h-24", !shrink);
+    desktopHeaderInner.classList.toggle("h-20", shrink);
+
+    desktopLogo.classList.toggle("h-12", !shrink);
+    desktopLogo.classList.toggle("h-9", shrink);
+
+    desktopMail.classList.toggle("h-10", !shrink);
+    desktopMail.classList.toggle("h-8", shrink);
+
+    desktopIcon.classList.toggle("h-8", !shrink);
+    desktopIcon.classList.toggle("h-7", shrink);
+
+    desktopSidebar.classList.toggle("pt-24", !shrink);
+    desktopSidebar.classList.toggle("pt-20", shrink);
+
 }
 
-function closeMenu() {
-  if (!mobileMenu || !mobileBackdrop || !navToggle) return;
+window.addEventListener("scroll", updateDesktopNavbar, { passive: true });
+window.addEventListener("resize", updateDesktopNavbar);
+window.addEventListener("load", updateDesktopNavbar);
 
-  mobileMenu.classList.add('translate-x-full');
-  mobileBackdrop.classList.remove('opacity-100');
-  mobileBackdrop.classList.add('opacity-0');
+// =========================================
+// Desktop Menu
+// =========================================
 
-  navToggle.setAttribute('aria-expanded', 'false');
-  document.body.classList.remove('overflow-hidden');
+function openDesktopMenu() {
 
-  setTimeout(() => {
-    mobileBackdrop.classList.add('pointer-events-none');
-  }, 300);
+    desktopSidebar.classList.remove("-translate-x-full");
+    desktopOverlay.classList.remove("hidden");
+    desktopIcon.src = "/images/navbar/hamburger-open.svg";
+
 }
 
-if (navToggle && mobileMenu && mobileClose && mobileBackdrop) {
-  navToggle.addEventListener('click', () => {
-    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
-    expanded ? closeMenu() : openMenu();
-  });
+function closeDesktopMenu() {
 
-  mobileClose.addEventListener('click', closeMenu);
-  mobileBackdrop.addEventListener('click', closeMenu);
+    desktopSidebar.classList.add("-translate-x-full");
+    desktopOverlay.classList.add("hidden");
+    desktopIcon.src = "/images/navbar/hamburger-closed.svg";
 
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeMenu();
-  });
-
-  mobileMenu.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', closeMenu);
-  });
 }
 
-// --------------------
-// Mobile submenu
-// --------------------
-if (mobileSafarisBtn && mobileSafarisMenu && mobileSafarisIcon) {
-  mobileSafarisBtn.addEventListener('click', () => {
-    const expanded = mobileSafarisBtn.getAttribute('aria-expanded') === 'true';
-    const nextState = !expanded;
+desktopBtn.addEventListener("click", () => {
 
-    mobileSafarisBtn.setAttribute('aria-expanded', String(nextState));
-    mobileSafarisMenu.classList.toggle('hidden');
-    mobileSafarisIcon.classList.toggle('rotate-180', nextState);
-  });
-}
+    if (desktopSidebar.classList.contains("-translate-x-full")) {
 
-// --------------------
-// Navbar shrink
-// --------------------
-function applyNavbarState(shrunk) {
-  if (shrunk) {
-    navInner.classList.remove('h-20');
-    navInner.classList.add('h-14');
+        openDesktopMenu();
 
-    logoImg.classList.remove('h-8', 'md:h-9');
-    logoImg.classList.add('h-6', 'md:h-7');
+    } else {
 
-    siteHeader.classList.add('shadow-sm', 'border-zinc-200');
-  } else {
-    navInner.classList.remove('h-14');
-    navInner.classList.add('h-20');
+        closeDesktopMenu();
 
-    logoImg.classList.remove('h-6', 'md:h-7');
-    logoImg.classList.add('h-8', 'md:h-9');
-
-    siteHeader.classList.remove('shadow-sm', 'border-zinc-200');
-  }
-}
-
-function handleNavbarScroll() {
-  if (ticking) return;
-
-  ticking = true;
-
-  window.requestAnimationFrame(() => {
-    const shouldShrink = window.scrollY > 40;
-
-    if (shouldShrink !== isShrunk) {
-      isShrunk = shouldShrink;
-      applyNavbarState(shouldShrink);
     }
 
-    ticking = false;
-  });
-}
-
-window.addEventListener('DOMContentLoaded', () => {
-  const shouldShrink = window.scrollY > 40;
-  isShrunk = shouldShrink;
-  applyNavbarState(shouldShrink);
 });
 
-window.addEventListener('scroll', handleNavbarScroll, { passive: true });
+desktopOverlay.addEventListener("click", closeDesktopMenu);
+
+// =========================================
+// Mobile Menu
+// =========================================
+
+function openMobileMenu() {
+
+    mobilePanel.classList.remove("-translate-x-full");
+
+    mobileOverlay.classList.remove("hidden");
+
+    mobileIcon.src = "/images/navbar/hamburger-open.svg";
+
+    document.body.classList.add("overflow-hidden");
+
+}
+
+function closeMobileMenu() {
+
+    mobilePanel.classList.add("-translate-x-full");
+
+    mobileOverlay.classList.add("hidden");
+
+    mobileIcon.src = "/images/navbar/hamburger-closed.svg";
+
+    document.body.classList.remove("overflow-hidden");
+
+}
+
+mobileBtn.addEventListener("click", () => {
+
+    if (mobilePanel.classList.contains("-translate-x-full")) {
+
+        openMobileMenu();
+
+    } else {
+
+        closeMobileMenu();
+
+    }
+
+});
+
+mobileOverlay.addEventListener("click", closeMobileMenu);
+
+// =========================================
+// Close on Escape
+// =========================================
+
+document.addEventListener("keydown", (e) => {
+
+    if (e.key !== "Escape") return;
+
+    closeDesktopMenu();
+    closeMobileMenu();
+
+});
+
+// =========================================
+// Close mobile when link clicked
+// =========================================
+
+mobilePanel.querySelectorAll("a").forEach(link => {
+
+    link.addEventListener("click", closeMobileMenu);
+
+});

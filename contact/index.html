@@ -59,175 +59,213 @@
 }
 </script>
 </head>
-<body>
-<header>
-  <nav
-   id="siteHeader"
-  class="fixed top-0 left-0 right-0 z-50 bg-linen border-b border-transparent transition-all duration-300 ease-in-out"
-  >
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
-      <div
-        id="navInner"
-        class="flex items-center justify-between h-20 transition-all duration-300 ease-in-out"
-      >
+<body class="antialiased">
+  <!-- Mobile Header -->
+<header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-[#f8f5ee]">
+
+    <div class="relative h-20">
+
+        <!-- Hamburger -->
+        <button
+            id="menuBtn"
+            class="absolute left-5 top-1/2 -translate-y-1/2">
+
+            <img
+                id="mobileMenuIcon"
+                src="/images/navbar/hamburger-closed.svg"
+                alt="Open menu"
+                class="h-8 w-auto">
+
+        </button>
+
         <!-- Logo -->
-        <a href="/" class="flex items-center shrink-0">
-       <img
-  id="logoImg"
-  src="/src/assets/images/logo/eugenesafaris.svg"
-  alt="Eugene Safaris Logo"
-  width="160"
-  height="44"
-  loading="eager"
-  class="h-8 md:h-9 w-auto origin-left transition-all duration-300 ease-in-out"
-/>
+        <a
+            href="/"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+
+            <img
+                src="/images/navbar/eugenesafaris.svg"
+                alt="Eugene Safaris"
+                class="h-8 w-auto">
+
         </a>
 
-        <!-- Desktop nav -->
-       <ul class="desktop-nav hidden md:flex items-center space-x-10">
-  <li class="relative group">
-    <button
-      type="button"
-      aria-haspopup="true"
-      aria-expanded="false"
-      aria-label="Open safari menu"
-      class="flex items-center gap-2 text-gray-800 hover:text-zinc-500 transition"
-    >
-      <span class="text-lg">Safaris</span>
+        <!-- Mail -->
+        <a
+            href="mailto:birdinglegend@gmail.com"
+            class="absolute right-5 top-1/2 -translate-y-1/2 group">
 
-      <svg
-        class="h-4 w-4 text-gray-600 transition-transform duration-200 ease-out group-hover:rotate-180"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-      </svg>
-    </button>
+            <img
+                src="/images/navbar/mail-letter-closed.svg"
+                class="block h-8">
 
-    <ul
-      class="absolute text-base left-0 top-full mt-0 py-3 w-64 bg-linen border border-zinc-200 shadow-lg opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out"
-    >
-    <li class="text-lg">
-        <a href="/kruger-national-park/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
-          Kruger National Park
         </a>
-      </li>
-      <li class="text-lg">
-        <a href="/kruger-national-park/all-inclusive-safaris/" class="block px-4 py-3 text-gray-800 hover:text-zinc-500 transition">
-          All Inclusive Safaris
-        </a>
-      </li>
-    </ul>
-  </li>
-  <li class="text-lg">
-    <a href="/about/" class="text-gray-800 hover:text-zinc-500 transition">
-      About
-    </a>
-  </li>
-  <li class="text-lg">
-    <a href="/blog/" class="text-gray-800 hover:text-zinc-500 transition">
-      Blog
-    </a>
-  </li>
-  <li class="text-lg">
-    <a href="/contact/" class="text-gray-800 hover:text-zinc-500 transition">
-      Contact
-    </a>
-  </li>
-   
+
+    </div>
+
+</header>
+<aside
+id="mobilePanel"
+class="
+fixed
+left-0
+top-20
+h-[calc(100vh-5rem)]
+w-72
+bg-[#f8f5ee]
+-transform
+-translate-x-full
+transition-transform
+duration-300
+z-50">
+<nav class="pt-10 px-8">
+
+<ul class="space-y-8 text-2xl font-bird">
+
+<li><a href="/">Home</a></li>
+
+<li><a href="/locations/">Locations</a></li>
+
+<li><a href="/channel-list/">Channel List</a></li>
+
+<li><a href="/contact/">Contact</a></li>
+
 </ul>
 
-        <!-- Mobile button -->
-        <button
-          id="nav-toggle"
-          aria-controls="mobile-menu"
-          aria-expanded="false"
-          aria-label="Toggle mobile menu"
-          class="md:hidden inline-flex items-center justify-center p-2 text-gray-800"
-        >
-          <svg
-            class="h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+</nav>
+</aside>
+<!-- Desktop Header -->
+<header
+    id="desktopHeader"
+    class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300">
+
+    <div
+        id="desktopHeaderInner"
+        class="relative h-24 transition-all duration-300">
+
+        <!-- Left -->
+            <button
+    id="desktopMenuBtn"
+    class="absolute left-28 top-1/2 -translate-y-1/2
+           transition-transform duration-150
+           hover:scale-105
+           active:scale-95">
+
+            <img
+                id="menuIcon"
+                src="/images/navbar/hamburger-closed.svg"
+                alt="Open menu"
+                class="h-8 w-auto transition-all duration-300">
+
         </button>
-      </div>
+
+        <!-- Center -->
+        <a
+            href="/"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+
+            <img
+                id="desktopLogo"
+                src="/images/navbar/eugenesafaris.svg"
+                alt="Eugene Safaris"
+                class="h-12 w-auto transition-all duration-300">
+
+        </a>
+
+     <!-- Right -->
+<div class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6">
+
+    <!-- Contact Button -->
+    <a
+        href="/contact/"
+        class="group relative flex items-center justify-center w-[110px] h-auto transition-transform duration-200 active:scale-95">
+
+        <!-- Ring -->
+        <img
+            src="/images/navbar/button-ring.svg"
+            alt=""
+            aria-hidden="true"
+            class="absolute w-[110px] h-auto opacity-0 scale-95
+                   transition-all duration-200
+                   group-hover:opacity-100
+                   group-hover:scale-100">
+
+        <!-- Button -->
+        <img
+            src="/images/navbar/button.svg"
+            alt=""
+            aria-hidden="true"
+            class="absolute w-[100px] h-auto">
+
+        <!-- Text -->
+        <span class="relative z-10 text-base font-bird">
+            Contact
+        </span>
+
+    </a>
+
+    <!-- Mail -->
+    <a href="mailto:birdinglegend@gmail.com">
+
+        <img
+            id="desktopMail"
+            src="/images/navbar/mail-letter-closed.svg"
+            class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6">
+
+    </a>
+
+</div>
+
     </div>
 
-   <!-- Backdrop -->
-<div
-  id="mobile-backdrop"
-  class="fixed inset-0 z-[60] bg-black/30 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out md:hidden"
-></div>
-
-    <!-- Mobile menu -->
-  <div
-  id="mobile-menu"
-  class="fixed top-0 right-0 z-[70] h-screen w-4/5 max-w-sm bg-linen shadow-xl translate-x-full transition-transform duration-300 ease-in-out md:hidden"
->
-      <div class="flex items-center justify-between px-6 h-20 border-b border-zinc-200">
-        <span class="text-base font-medium text-gray-900">Menu</span>
-        <button
-          id="mobile-close"
-          aria-label="Close mobile menu"
-          class="inline-flex items-center justify-center p-2 text-gray-800"
-        >
-          <svg
-            class="h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-
-      <nav class="px-6 py-6 space-y-5">
-        <div>
-          <button
-            id="mobile-safaris-btn"
-            aria-haspopup="true"
-            aria-expanded="false"
-            class="w-full flex items-center justify-between text-left text-gray-800 hover:text-zinc-500 transition"
-          >
-            <span>Safaris</span>
-            <svg
-              id="mobile-safaris-icon"
-              class="h-4 w-4 transition-transform duration-200"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-
-          <div id="mobile-safaris-menu" class="hidden mt-3 ml-4 space-y-3">
-             <a href="/kruger-national-park/" class="block text-gray-700 hover:text-zinc-500 transition">
-              Kruger National Park
-            </a>
-            <a href="/kruger-national-park/all-inclusive-safaris/" class="block text-gray-700 hover:text-zinc-500 transition">
-              All Inclusive Safaris
-            </a>
-          </div>
-        </div>
-        <a href="/about/" class="block text-gray-800 hover:text-zinc-500 transition">About</a>   
-        <a href="/blog/" class="block text-gray-800 hover:text-zinc-500 transition">Blog</a>
-        <a href="/contact/" class="block text-gray-800 hover:text-zinc-500 transition">Contact</a>
-      </nav>
-    </div>
-  </nav>
 </header>
-   <main class="pt-16">
+<div
+id="sidebarOverlay"
+class="hidden fixed inset-0 bg-black/10 z-40">
+
+</div>
+
+<aside
+id="desktopSidebar"
+class="
+fixed
+left-0
+top-0
+pt-24
+h-screen
+w-80
+bg-linen
+-transform
+-translate-x-full
+transition-all
+duration-300
+z-40">
+  
+
+    <nav class="pt-32 px-10">
+
+        <ul class="space-y-8 text-2xl font-bird">
+
+            
+
+            <li><a href="/kruger-national-park/all-inclusive-safaris/">All Inclusive Safaris</a></li>
+
+            <li><a href="/kruger-national-park/birding-safari/">Birding Safari</a></li>
+
+            <li><a href="/kruger-national-park/photographic-safari/">Photographic Safari</a></li>
+
+            <li><a href="/kruger-national-park/">Kruger National Park</a></li>
+
+            <li><a href="/blog/">Blog</a></li>
+
+            <li><a href="/contact/">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</aside>
+   <main class="pt-20">
     <!-- Breadcrumb Navigation -->
 <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
   <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">

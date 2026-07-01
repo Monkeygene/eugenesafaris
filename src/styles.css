@@ -117,3 +117,9 @@
 #mobile-menu span {
   font-family: "Crimson Text", Georgia, serif;
 }
+
+/* CUSTOM CSS */
+
+:root{
+    --desktop-header-height:96px;
+}
