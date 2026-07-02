@@ -123,3 +123,18 @@
 :root{
     --desktop-header-height:96px;
 }
+
+
+@font-face {
+    font-family: "EugeneSafaris";
+    src:
+        url("/fonts/Eugenesafaris-Regular.woff2") format("woff2"),
+        url("/fonts/Eugenesafaris-Regular.otf") format("opentype"),
+        url("/fonts/Eugenesafaris-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-eugene {
+    font-family: "EugeneSafaris", serif;
+}

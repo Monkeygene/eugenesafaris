@@ -7,6 +7,7 @@ const desktopBtn = document.getElementById("desktopMenuBtn");
 const desktopSidebar = document.getElementById("desktopSidebar");
 const desktopOverlay = document.getElementById("sidebarOverlay");
 const desktopIcon = document.getElementById("menuIcon");
+const contactButton = document.getElementById("contactButton");
 
 const desktopHeaderInner = document.getElementById("desktopHeaderInner");
 const desktopLogo = document.getElementById("desktopLogo");
@@ -31,8 +32,9 @@ function updateDesktopNavbar() {
     desktopHeaderInner.classList.toggle("h-24", !shrink);
     desktopHeaderInner.classList.toggle("h-20", shrink);
 
-    desktopLogo.classList.toggle("h-12", !shrink);
-    desktopLogo.classList.toggle("h-9", shrink);
+   desktopLogo.style.transform = shrink
+    ? "scale(0.78)"
+    : "scale(1)";
 
     desktopMail.classList.toggle("h-10", !shrink);
     desktopMail.classList.toggle("h-8", shrink);
@@ -42,6 +44,10 @@ function updateDesktopNavbar() {
 
     desktopSidebar.classList.toggle("pt-24", !shrink);
     desktopSidebar.classList.toggle("pt-20", shrink);
+
+    contactButton.style.transform = shrink
+    ? "scale(0.82)"
+    : "scale(1)";
 
 }
 
@@ -56,7 +62,10 @@ window.addEventListener("load", updateDesktopNavbar);
 function openDesktopMenu() {
 
     desktopSidebar.classList.remove("-translate-x-full");
-    desktopOverlay.classList.remove("hidden");
+
+    desktopOverlay.classList.remove("opacity-0", "pointer-events-none");
+    desktopOverlay.classList.add("opacity-100");
+
     desktopIcon.src = "/images/navbar/hamburger-open.svg";
 
 }
@@ -64,7 +73,10 @@ function openDesktopMenu() {
 function closeDesktopMenu() {
 
     desktopSidebar.classList.add("-translate-x-full");
-    desktopOverlay.classList.add("hidden");
+
+    desktopOverlay.classList.remove("opacity-100");
+    desktopOverlay.classList.add("opacity-0", "pointer-events-none");
+
     desktopIcon.src = "/images/navbar/hamburger-closed.svg";
 
 }
