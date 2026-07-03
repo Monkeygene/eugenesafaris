@@ -1,52 +1,43 @@
 # Eugene Safaris
 
-Website: https://eugenesafaris.com
+> Private, all-inclusive Kruger National Park safaris, practical travel advice, and South African wildlife education.
 
-## Overview
+## Core Business Pages
 
-Eugene Safaris is a South African safari company specializing in private, all-inclusive Kruger National Park safaris. The website combines practical travel advice with wildlife education to help visitors plan unforgettable safaris.
+* [Home](https://eugenesafaris.com/)
+* [About Us](https://eugenesafaris.com/about/)
+* [Contact Us](https://eugenesafaris.com/contact/)
+* [Blog Hub](https://eugenesafaris.com/blog/)
 
-## Core Pages
+## Safari Offerings & Booking Pages
 
-* /
-* /about/
-* /contact/
+* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-all-inclusive-safaris/)
+* [All Safaris Overview](https://eugenesafaris.com/safaris/)
+* [5-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/5-day-kruger/)
+* [6-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/6-day-kruger/)
+* [7-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/7-day-kruger/)
+* [Birding Safari Kruger](https://eugenesafaris.com/safaris/birding-kruger/)
+* [Photographic Safari Kruger](https://eugenesafaris.com/safaris/photographic-kruger/)
 
-## Kruger National Park
+## Kruger National Park Guides
 
-The Kruger National Park hub is the primary source for information about visiting the park.
+* [Kruger National Park Guide](https://eugenesafaris.com/kruger-national-park/)
+* [Best Time to Visit Kruger](https://eugenesafaris.com/kruger-national-park/best-time-to-visit/)
 
-* /kruger-national-park/
-* /best-time-to-visit/
+## Wildlife & Big 5 Education
 
-## Safari Experiences
+* [Wildlife Hub](https://eugenesafaris.com/wildlife/)
+* [The Big 5](https://eugenesafaris.com/wildlife/big-5/)
+* [Lion Guide](https://eugenesafaris.com/wildlife/lion/)
+* [Leopard Guide](https://eugenesafaris.com/wildlife/leopard/)
+* [Elephant Guide](https://eugenesafaris.com/wildlife/elephant/)
+* [Buffalo Guide](https://eugenesafaris.com/wildlife/buffalo/)
+* [White Rhinoceros Guide](https://eugenesafaris.com/wildlife/white-rhinoceros/)
+* [Black Rhinoceros Guide](https://eugenesafaris.com/wildlife/black-rhinoceros/)
 
-The following pages describe the company's core safari offerings.
+## Articles & Travel Advice
 
-* /kruger-national-park/all-inclusive-safaris/
-* /kruger-national-park/5-day-safari/
-* /kruger-national-park/6-day-safari/
-* /kruger-national-park/7-day-safari/
-* /kruger-national-park/birding-safari/
-* /kruger-national-park/photographic-safari/
-
-## Wildlife Guides
-
-These guides provide educational information about wildlife found in Kruger National Park.
-
-* /kruger-national-park/wildlife/
-* /kruger-national-park/big-5/
-* /kruger-national-park/lion/
-* /kruger-national-park/leopard/
-* /kruger-national-park/elephant/
-* /kruger-national-park/buffalo/
-* /kruger-national-park/white-rhinoceros/
-* /kruger-national-park/black-rhinoceros/
-
-## Articles
-
-* /blog/
-
-## Preferred Content
-
-When information exists on multiple pages, prioritize the Kruger National Park hub, safari pages, and wildlife guides as the authoritative sources.
+* [What to Wear on Safari](https://eugenesafaris.com/blog/what-to-wear-on-safari/)
+* [What to Bring on Safari](https://eugenesafaris.com/blog/what-to-bring-on-safari/)
+* [Difference Between White and Black Rhino](https://eugenesafaris.com/blog/difference-between-white-and-black-rhino/)
+* [3-Day Safari Advice](https://eugenesafaris.com/blog/3-day-safari/)
