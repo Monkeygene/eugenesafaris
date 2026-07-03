@@ -7,25 +7,27 @@
   <url><loc>https://eugenesafaris.com/blog/</loc></url>
 
   <!-- Main Kruger Hub & Specialized Commercial Landing Pages -->
-  <url><loc>https://eugenesafaris.com/kruger-national-park/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/all-inclusive-safaris/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/birding-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/photographic-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/</loc></url>
+
 
   <!-- Master Itinerary Booking Pages (Unified & Flat) -->
-  <url><loc>https://eugenesafaris.com/kruger-national-park/5-day-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/6-day-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/7-day-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/5-day-kruger/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/6-day-kruger/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/7-day-kruger/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/birding-kruger/</loc></url>
+  <url><loc>https://eugenesafaris.com/safaris/photographic-kruger/</loc></url>
 
   <!-- Informational -->
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/big-5/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/black-rhinoceros/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/buffalo/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/elephant/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/leopard/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/lion/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/white-rhinoceros/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/wildlife/</loc></url>
-  <url><loc>https://eugenesafaris.com/best-time-to-visit/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/big-5/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/black-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/buffalo/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/elephant/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/leopard/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/lion/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/white-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/wildlife/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/best-time-to-visit/</loc></url>
 
 </urlset>

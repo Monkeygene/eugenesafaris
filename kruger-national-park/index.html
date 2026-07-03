@@ -1,419 +1,425 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Title & Description -->
-  <title>Kruger National Park | Wildlife Guide</title>
-  <meta name="description" content="Explore the mammals of Kruger National Park, from the Big 5 to rare species. A complete wildlife guide to help you get more from your safari." />
-  <meta name="author" content="Eugene Booysen" />
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/" />
-<!-- Favicon & Apple Touch Icon -->
-  <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-  <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-  <!-- Robots -->
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-<!-- JSON-LD Kruger National Park Breadcrumb -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://eugenesafaris.com/"
-    },
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Title & Description -->
+    <title>Kruger National Park | Wildlife Guide</title>
+    <meta
+      name="description"
+      content="Explore the mammals of Kruger National Park, from the Big 5 to rare species. A complete wildlife guide to help you get more from your safari."
+    />
+    <meta name="author" content="Eugene Booysen" />
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://eugenesafaris.com/kruger-national-park/"
+    />
+    <!-- Favicon & Apple Touch Icon -->
+    <link
+      rel="icon"
+      href="/src/assets/images/logo/paw-print-lion.png"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/assets/images/logo/paw-print-lion.png"
+      type="image/png"
+    />
+    <!-- Robots -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow" />
+    <!-- JSON-LD Kruger National Park Breadcrumb -->
+    <script type="application/ld+json">
       {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Kruger National Park",
-      "item": "https://eugenesafaris.com/kruger-national-park/"
-    }
-    
-  ]
-}
-</script>
-</head>
-<body class="antialiased">
-  <!-- Mobile Header -->
-<header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
-
-    <div class="relative h-20">
-
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://eugenesafaris.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Kruger National Park",
+            "item": "https://eugenesafaris.com/kruger-national-park/"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="antialiased">
+    <!-- Mobile Header -->
+    <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
+      <div class="relative h-20">
         <!-- Hamburger -->
-        <button
-            id="menuBtn"
-            class="absolute left-5 top-1/2 -translate-y-1/2">
-
-            <img
-                id="mobileMenuIcon"
-                src="/images/navbar/hamburger-closed.svg"
-                alt="Open menu"
-                class="h-8 w-auto">
-
+        <button id="menuBtn" class="absolute left-5 top-1/2 -translate-y-1/2">
+          <img
+            id="mobileMenuIcon"
+            src="/images/navbar/hamburger-closed.svg"
+            alt="Open menu"
+            class="h-8 w-auto"
+          />
         </button>
 
         <!-- Logo -->
         <a
-            href="/"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-
-            <img
-                src="/images/navbar/eugenesafaris.svg"
-                alt="Eugene Safaris"
-                class="h-8 w-auto">
-
+          href="/"
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          <img
+            src="/images/navbar/eugenesafaris.svg"
+            alt="Eugene Safaris"
+            class="h-8 w-auto"
+          />
         </a>
 
         <!-- Mail -->
         <a
-            href="mailto:birdinglegend@gmail.com"
-            class="absolute right-5 top-1/2 -translate-y-1/2 group">
-
-            <img
-                src="/images/navbar/mail-letter-closed.svg"
-                class="block h-8">
-
+          href="mailto:birdinglegend@gmail.com"
+          class="absolute right-5 top-1/2 -translate-y-1/2 group"
+        >
+          <img src="/images/navbar/mail-letter-closed.svg" class="block h-8" />
         </a>
+      </div>
+    </header>
+    <aside
+      id="mobilePanel"
+      class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
+    >
+      <nav class="pt-10 px-8">
+        <ul class="space-y-8 text-2xl">
+          <li>
+            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+          </li>
 
-    </div>
+          <li>
+            <a href="/safaris/birding-kruger/">Birding Safari</a>
+          </li>
 
-</header>
-<aside
-id="mobilePanel"
-class="
-fixed
-left-0
-top-20
-h-[calc(100vh-5rem)]
-w-72
-bg-[#f8f5ee]
--transform
--translate-x-full
-transition-transform
-duration-300
-z-50">
-<nav class="pt-10 px-8">
+          <li>
+            <a href="/safaris/photographic-kruger/">Photographic Safari</a>
+          </li>
 
-<ul class="space-y-8 text-2xl font-bird">
+          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-  <li><a href="/kruger-national-park/all-inclusive-safaris/">All Inclusive Safaris</a></li>
+          <li><a href="/blog/">Blog</a></li>
 
-            <li><a href="/kruger-national-park/birding-safari/">Birding Safari</a></li>
-
-            <li><a href="/kruger-national-park/photographic-safari/">Photographic Safari</a></li>
-
-            <li><a href="/kruger-national-park/">Kruger National Park</a></li>
-
-            <li><a href="/blog/">Blog</a></li>
-
-            <li><a href="/contact/">Contact</a></li>
-
-</ul>
-
-</nav>
-</aside>
-<!-- Desktop Header -->
-<header
-    id="desktopHeader"
-    class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300">
-
-    <div
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- Desktop Header -->
+    <header
+      id="desktopHeader"
+      class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300"
+    >
+      <div
         id="desktopHeaderInner"
-        class="relative h-24 transition-all duration-300">
-
+        class="relative h-24 transition-all duration-300"
+      >
         <!-- Left -->
         <button
-    id="desktopMenuBtn"
-    class="absolute left-28 top-1/2 -translate-y-1/2
-           transition-transform duration-150
-           hover:scale-105
-           active:scale-95">
-
-            <img
-                id="menuIcon"
-                src="/images/navbar/hamburger-closed.svg"
-                alt="Open menu"
-                class="h-8 w-auto transition-all duration-200">
-
+          id="desktopMenuBtn"
+          class="absolute left-28 top-1/2 -translate-y-1/2 transition-transform duration-150 hover:scale-105 active:scale-95"
+        >
+          <img
+            id="menuIcon"
+            src="/images/navbar/hamburger-closed.svg"
+            alt="Open menu"
+            class="h-8 w-auto transition-all duration-200"
+          />
         </button>
 
         <!-- Center -->
         <a
-            href="/"
-            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          href="/"
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          <img
+            id="desktopLogo"
+            src="/images/navbar/eugenesafaris.svg"
+            alt="Eugene Safaris"
+            class="h-12 w-auto transition-all duration-300 ease-in-out"
+          />
+        </a>
 
+        <!-- Right -->
+        <div
+          class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6"
+        >
+          <!-- Contact Button -->
+          <a
+            id="contactButton"
+            href="/contact/"
+            class="group relative flex items-center justify-center w-[110px] h-auto transition-transform duration-200 active:scale-95"
+          >
+            <!-- Ring -->
             <img
-                id="desktopLogo"
-                src="/images/navbar/eugenesafaris.svg"
-                alt="Eugene Safaris"
-                class="h-12 w-auto">
+              src="/images/navbar/button-ring.svg"
+              alt=""
+              aria-hidden="true"
+              class="absolute w-[110px] h-auto opacity-0 scale-95 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100"
+            />
 
-        </a>
+            <!-- Button -->
+            <img
+              src="/images/navbar/button.svg"
+              alt=""
+              aria-hidden="true"
+              class="absolute w-[100px] h-auto"
+            />
 
-     <!-- Right -->
-<div class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6">
+            <!-- Text -->
+            <span class="relative z-10 text-xl font-black font-eugene">
+              CONTACT
+            </span>
+          </a>
 
-    <!-- Contact Button -->
-    <a
-        href="/contact/"
-        class="group relative flex items-center justify-center w-[110px] h-auto transition-transform duration-200 active:scale-95">
+          <!-- Mail -->
+          <a href="mailto:birdinglegend@gmail.com">
+            <img
+              id="desktopMail"
+              src="/images/navbar/mail-letter-closed.svg"
+              class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <div
+      id="sidebarOverlay"
+      class="fixed inset-0 bg-black/10 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
+    ></div>
+    <aside
+      id="desktopSidebar"
+      class="fixed left-0 top-0 pt-24 h-screen w-80 bg-linen -transform -translate-x-full transition-all duration-300 z-40"
+    >
+      <nav class="pt-32 px-10">
+        <ul class="space-y-8 text-2xl">
+          <li>
+            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+          </li>
 
-        <!-- Ring -->
-        <img
-            src="/images/navbar/button-ring.svg"
-            alt=""
-            aria-hidden="true"
-            class="absolute w-[110px] h-auto opacity-0 scale-95
-                   transition-all duration-200
-                   group-hover:opacity-100
-                   group-hover:scale-100">
+          <li>
+            <a href="/safaris/birding-kruger/">Birding Safari</a>
+          </li>
 
-        <!-- Button -->
-        <img
-            src="/images/navbar/button.svg"
-            alt=""
-            aria-hidden="true"
-            class="absolute w-[100px] h-auto">
+          <li>
+            <a href="/safaris/photographic-kruger/">Photographic Safari</a>
+          </li>
 
-        <!-- Text -->
-        <span class="relative z-10 text-base font-bird">
-            Contact
-        </span>
+          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-    </a>
+          <li><a href="/blog/">Blog</a></li>
 
-    <!-- Mail -->
-    <a href="mailto:birdinglegend@gmail.com">
-
-        <img
-            id="desktopMail"
-            src="/images/navbar/mail-letter-closed.svg"
-            class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6">
-
-    </a>
-
-</div>
-
-    </div>
-
-</header>
-<div
-id="sidebarOverlay"
-class="hidden fixed inset-0 bg-black/10 z-40">
-
-</div>
-
-<aside
-id="desktopSidebar"
-class="
-fixed
-left-0
-top-0
-pt-24
-h-screen
-w-80
-bg-linen
--transform
--translate-x-full
-transition-all
-duration-300
-z-40">
-  
-
-    <nav class="pt-32 px-10">
-
-        <ul class="space-y-8 text-2xl font-bird">
-
-            
-
-            <li><a href="/kruger-national-park/all-inclusive-safaris/">All Inclusive Safaris</a></li>
-
-            <li><a href="/kruger-national-park/birding-safari/">Birding Safari</a></li>
-
-            <li><a href="/kruger-national-park/photographic-safari/">Photographic Safari</a></li>
-
-            <li><a href="/kruger-national-park/">Kruger National Park</a></li>
-
-            <li><a href="/blog/">Blog</a></li>
-
-            <li><a href="/contact/">Contact</a></li>
-
+          <li><a href="/contact/">Contact</a></li>
         </ul>
+      </nav>
+    </aside>
+    <main class="pt-20">
+      <!-- End of Nav - Start of Breadcrumb Navigation -->
+      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
+        <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+          <li class="flex items-center">
+            <a href="/" class="hover:underline">Home</a>
+            <span class="mx-2">/</span>
+          </li>
 
-    </nav>
-
-</aside>
-<main class="pt-20">
-<!-- End of Nav - Start of Breadcrumb Navigation -->
-<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
-    <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
-      
-      <li class="flex items-center">
-        <a href="/" class="hover:underline">Home</a>
-        <span class="mx-2">/</span>
-      </li>
-
-      <li class="flex items-center text-gray-500">
-        Kruger National Park
-      </li>
-
-    </ol>
-  </nav>
-  <!-- End of Breadcrumb Navigation start of Main Content -->
-  <section class="max-w-3xl mx-auto py-12 md:py-24 px-4">
-  <div class="text-center">
-    
-    <h2 class="font-bold text-2xl md:text-3xl mb-6">
-    Kruger National Park
-    <span class="block text-xl">a Complete Safari Guide</span>
-    </h2>
-
-    <p class="mb-6">
-  A Kruger National Park private safari gives you the freedom to experience Africa's most famous wildlife destination on your own terms. With your own dedicated guide and private safari vehicle, there's no need to follow another group's schedule, rush through sightings, or compromise on what interests you most. Whether you're hoping to spend time with a leopard, focus on birdlife, or simply enjoy the bush at a slower pace, every safari is shaped around you.
- </p>
-  
-    <p class="mb-6">
-      Every Kruger National Park private safari we run is shaped entirely around the people in the vehicle. How long you sit with a leopard in a marula tree. Which roads you skip because the morning's already given you what you came for. Whether today turns into a birding day because the rollers are putting on a show. The park doesn't change for anyone. How you get to experience it does.
-    </p>
-  </div>
-</section>
-
-</main>
-<footer class="bg-linen text-gray-800 font-avenir">
-  <div class="max-w-6xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
-
-    <!-- Column 1: Contact Info -->
-    <div>
-      <h2 class="text-lg font-semibold mb-4">Contact</h2>
-      <ul class="text-sm space-y-2">
-        <li>
-          Cell:
-        <a
-  href="tel:+351964872495"
-  class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
->
-  +27 (062) 556-7936
-</a>
-        </li>
-        <li>
-          Email:
-          <a
-            href="mailto:eugene@eugenesafaris.com"
-            class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
-          >
-            eugene@eugenesafaris.com
-          </a>
-        </li>
-        <li>
-          Office Hours: Monday to Friday
-        </li>
-        <li>
-          <span>View us on </span>
-          <a
-            href="https://g.page/r/CT4xG6jMOpXmEBI"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
-          >
-            Google
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Column 2: Explore -->
-    <div>
-      <h2 class="text-lg font-semibold mb-4">Explore</h2>
-      <ul class="space-y-2 text-sm">
-        <li>
-          <a href="/" class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="/kruger-national-park/all-inclusive-safaris/" class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out">
-           All Inclusive Safari Packages
-          </a>
-        </li>
-        <li>
-        </li>
-        <li>
-          <a href="/about/" class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="/contact/" class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Column 3: Other Links -->
-    <div>
-      <h2 class="text-lg font-semibold mb-4">Safari Stuff and More</h2>
-      <ul class="space-y-2 text-sm">
-        <li>
-          <a href="/kruger-national-park/" class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out">
+          <li class="flex items-center text-gray-500">Kruger National Park</li>
+        </ol>
+      </nav>
+      <!-- End of Breadcrumb Navigation start of Main Content -->
+      <section class="max-w-3xl mx-auto py-12 md:py-24 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">
             Kruger National Park
-          </a>
-        </li>
-      </ul>
+            <span class="block text-xl">a Complete Safari Guide</span>
+          </h2>
 
-    </div>
+          <p class="mb-6">
+            A Kruger National Park private safari gives you the freedom to
+            experience Africa's most famous wildlife destination on your own
+            terms. With your own dedicated guide and private safari vehicle,
+            there's no need to follow another group's schedule, rush through
+            sightings, or compromise on what interests you most. Whether you're
+            hoping to spend time with a leopard, focus on birdlife, or simply
+            enjoy the bush at a slower pace, every safari is shaped around you.
+          </p>
 
-  </div>
+          <p class="mb-6">
+            Every Kruger National Park private safari we run is shaped entirely
+            around the people in the vehicle. How long you sit with a leopard in
+            a marula tree. Which roads you skip because the morning's already
+            given you what you came for. Whether today turns into a birding day
+            because the rollers are putting on a show. The park doesn't change
+            for anyone. How you get to experience it does.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-linen text-gray-800 font-avenir">
+      <div
+        class="max-w-6xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12"
+      >
+        <!-- Column 1: Contact Info -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Contact</h2>
+          <ul class="text-sm space-y-2">
+            <li>
+              Cell:
+              <a
+                href="tel:+351964872495"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                +27 (062) 556-7936
+              </a>
+            </li>
+            <li>
+              Email:
+              <a
+                href="mailto:eugene@eugenesafaris.com"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                eugene@eugenesafaris.com
+              </a>
+            </li>
+            <li>Office Hours: Monday to Friday</li>
+            <li>
+              <span>View us on </span>
+              <a
+                href="https://g.page/r/CT4xG6jMOpXmEBI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Google
+              </a>
+            </li>
+          </ul>
+        </div>
 
-  <div class="bg-white border-t border-gray-300 py-4">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-600">
+        <!-- Column 2: Explore -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Explore</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-all-inclusive-safaris/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                All Inclusive Safari Packages
+              </a>
+            </li>
+            <li></li>
+            <li>
+              <a
+                href="/about/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="text-center md:text-left">
-        &copy; 2026 Eugene Safaris. All rights reserved.
+        <!-- Column 3: Other Links -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Safari Stuff and More</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/kruger-national-park/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Kruger National Park
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0">
-        <a
-          href="https://www.facebook.com/eugenesafaris"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          aria-label="Facebook"
-          class="hover:opacity-70 transition"
+      <div class="bg-white border-t border-gray-300 py-4">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-600"
         >
-          <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5">
-        </a>
+          <div class="text-center md:text-left">
+            &copy; 2026 Eugene Safaris. All rights reserved.
+          </div>
 
-        <a
-          href="https://www.instagram.com/eugenesafaris/"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          aria-label="Instagram"
-          class="hover:opacity-70 transition"
-        >
-          <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-        </a>
+          <div
+            class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0"
+          >
+            <a
+              href="https://www.facebook.com/eugenesafaris"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Facebook"
+              class="hover:opacity-70 transition"
+            >
+              <img
+                src="/src/assets/images/logo/facebook.svg"
+                alt="Facebook"
+                class="w-5 h-5"
+              />
+            </a>
 
-        <a
-          href="https://www.youtube.com/@birdinglegend"
-          target="_blank"
-          rel="nofollow noopener noreferrer"
-          aria-label="YouTube"
-          class="hover:opacity-70 transition"
-        >
-          <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-        </a>
+            <a
+              href="https://www.instagram.com/eugenesafaris/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-70 transition"
+            >
+              <img
+                src="/src/assets/images/logo/instagram.svg"
+                alt="Instagram"
+                class="w-5 h-5"
+              />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@birdinglegend"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-70 transition"
+            >
+              <img
+                src="/src/assets/images/logo/youtube.svg"
+                alt="YouTube"
+                class="w-5 h-5"
+              />
+            </a>
+          </div>
+        </div>
       </div>
-
-    </div>
-  </div>
-</footer>
-<!-- Psalms 23:1–6 -->
-<script type="module" src="/src/main.js"></script>
-</body>
+    </footer>
+    <!-- Psalms 23:1–6 -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
