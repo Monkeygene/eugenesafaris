@@ -6,6 +6,10 @@
 
 # --- Wildlife Hub & Directory Redirects ---
 
+/kruger-national-park/wildlife/mammals/ /wildlife/ 301
+/kruger-national-park/wildlife/aardvark/ /wildlife/ 301
+/kruger-national-park/wildlife/reed-cormorant/ /wildlife/ 301
+
 /kruger-national-park/mammals/ /wildlife/ 301
 /kruger-national-park/birds/ /wildlife/ 301
 /kruger-national-park/reptiles/ /wildlife/ 301
@@ -17,6 +21,7 @@
 /kruger-national-park/mammals/lion/ /wildlife/lion/ 301
 /kruger-national-park/lion/ /wildlife/lion/ 301
 /kruger-national-park/wildlife/lion/ /wildlife/lion/ 301
+/lion/ /wildlife/lion/ 301
 
 # --- Elephant Redirects ---
 
