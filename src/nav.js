@@ -24,31 +24,25 @@ const mobileIcon = document.getElementById("mobileMenuIcon");
 // =========================================
 
 function updateDesktopNavbar() {
+  if (window.innerWidth < 1024) return;
 
-    if (window.innerWidth < 1024) return;
+  const shrink = window.scrollY > 50;
 
-    const shrink = window.scrollY > 50;
+  desktopHeaderInner.classList.toggle("h-24", !shrink);
+  desktopHeaderInner.classList.toggle("h-20", shrink);
 
-    desktopHeaderInner.classList.toggle("h-24", !shrink);
-    desktopHeaderInner.classList.toggle("h-20", shrink);
+  desktopLogo.style.transform = shrink ? "scale(0.78)" : "scale(1)";
 
-   desktopLogo.style.transform = shrink
-    ? "scale(0.78)"
-    : "scale(1)";
+  desktopMail.classList.toggle("h-10", !shrink);
+  desktopMail.classList.toggle("h-8", shrink);
 
-    desktopMail.classList.toggle("h-10", !shrink);
-    desktopMail.classList.toggle("h-8", shrink);
+  desktopIcon.classList.toggle("h-8", !shrink);
+  desktopIcon.classList.toggle("h-7", shrink);
 
-    desktopIcon.classList.toggle("h-8", !shrink);
-    desktopIcon.classList.toggle("h-7", shrink);
+  desktopSidebar.classList.toggle("pt-24", !shrink);
+  desktopSidebar.classList.toggle("pt-20", shrink);
 
-    desktopSidebar.classList.toggle("pt-24", !shrink);
-    desktopSidebar.classList.toggle("pt-20", shrink);
-
-    contactButton.style.transform = shrink
-    ? "scale(0.82)"
-    : "scale(1)";
-
+  contactButton.style.transform = shrink ? "scale(0.82)" : "scale(1)";
 }
 
 window.addEventListener("scroll", updateDesktopNavbar, { passive: true });
@@ -60,39 +54,29 @@ window.addEventListener("load", updateDesktopNavbar);
 // =========================================
 
 function openDesktopMenu() {
+  desktopSidebar.classList.remove("-translate-x-full");
 
-    desktopSidebar.classList.remove("-translate-x-full");
+  desktopOverlay.classList.remove("opacity-0", "pointer-events-none");
+  desktopOverlay.classList.add("opacity-100");
 
-    desktopOverlay.classList.remove("opacity-0", "pointer-events-none");
-    desktopOverlay.classList.add("opacity-100");
-
-    desktopIcon.src = "/images/navbar/hamburger-open.svg";
-
+  desktopIcon.src = "/images/navbar/hamburger-open.svg";
 }
 
 function closeDesktopMenu() {
+  desktopSidebar.classList.add("-translate-x-full");
 
-    desktopSidebar.classList.add("-translate-x-full");
+  desktopOverlay.classList.remove("opacity-100");
+  desktopOverlay.classList.add("opacity-0", "pointer-events-none");
 
-    desktopOverlay.classList.remove("opacity-100");
-    desktopOverlay.classList.add("opacity-0", "pointer-events-none");
-
-    desktopIcon.src = "/images/navbar/hamburger-closed.svg";
-
+  desktopIcon.src = "/images/navbar/hamburger-closed.svg";
 }
 
 desktopBtn.addEventListener("click", () => {
-
-    if (desktopSidebar.classList.contains("-translate-x-full")) {
-
-        openDesktopMenu();
-
-    } else {
-
-        closeDesktopMenu();
-
-    }
-
+  if (desktopSidebar.classList.contains("-translate-x-full")) {
+    openDesktopMenu();
+  } else {
+    closeDesktopMenu();
+  }
 });
 
 desktopOverlay.addEventListener("click", closeDesktopMenu);
@@ -102,41 +86,31 @@ desktopOverlay.addEventListener("click", closeDesktopMenu);
 // =========================================
 
 function openMobileMenu() {
+  mobilePanel.classList.remove("-translate-x-full");
 
-    mobilePanel.classList.remove("-translate-x-full");
+  mobileOverlay.classList.remove("hidden");
 
-    mobileOverlay.classList.remove("hidden");
+  mobileIcon.src = "/images/navbar/hamburger-open.svg";
 
-    mobileIcon.src = "/images/navbar/hamburger-open.svg";
-
-    document.body.classList.add("overflow-hidden");
-
+  document.body.classList.add("overflow-hidden");
 }
 
 function closeMobileMenu() {
+  mobilePanel.classList.add("-translate-x-full");
 
-    mobilePanel.classList.add("-translate-x-full");
+  mobileOverlay.classList.add("hidden");
 
-    mobileOverlay.classList.add("hidden");
+  mobileIcon.src = "/images/navbar/hamburger-closed.svg";
 
-    mobileIcon.src = "/images/navbar/hamburger-closed.svg";
-
-    document.body.classList.remove("overflow-hidden");
-
+  document.body.classList.remove("overflow-hidden");
 }
 
 mobileBtn.addEventListener("click", () => {
-
-    if (mobilePanel.classList.contains("-translate-x-full")) {
-
-        openMobileMenu();
-
-    } else {
-
-        closeMobileMenu();
-
-    }
-
+  if (mobilePanel.classList.contains("-translate-x-full")) {
+    openMobileMenu();
+  } else {
+    closeMobileMenu();
+  }
 });
 
 mobileOverlay.addEventListener("click", closeMobileMenu);
@@ -146,20 +120,16 @@ mobileOverlay.addEventListener("click", closeMobileMenu);
 // =========================================
 
 document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
 
-    if (e.key !== "Escape") return;
-
-    closeDesktopMenu();
-    closeMobileMenu();
-
+  closeDesktopMenu();
+  closeMobileMenu();
 });
 
 // =========================================
 // Close mobile when link clicked
 // =========================================
 
-mobilePanel.querySelectorAll("a").forEach(link => {
-
-    link.addEventListener("click", closeMobileMenu);
-
+mobilePanel.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", closeMobileMenu);
 });

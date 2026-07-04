@@ -33,7 +33,7 @@
 
     <link
       rel="preload"
-      href="/assets/CrimsonText-Regular-CaMLulTe.woff2"
+      href="/src/assets/fonts/crimson/CrimsonText-Regular.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -119,11 +119,11 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/main-mEpzEV2S.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-BN_B8AXI.css">
+    <script type="module" crossorigin src="/assets/main-BYPOqdME.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-DklfExG_.css">
   </head>
   <body class="antialiased">
-    <!-- Mobile Header -->
+    <!-- #region Mobile Header -->
     <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
       <div class="relative h-20">
         <!-- Hamburger -->
@@ -152,8 +152,13 @@
         <a
           href="mailto:birdinglegend@gmail.com"
           class="absolute right-5 top-1/2 -translate-y-1/2 group"
+          aria-label="Send email to Birding Legend"
         >
-          <img src="/images/navbar/mail-letter-closed.svg" class="block h-8" />
+          <img
+            src="/images/navbar/mail-letter-closed.svg"
+            class="block h-8"
+            alt="send email button"
+          />
         </a>
       </div>
     </header>
@@ -179,11 +184,14 @@
 
           <li><a href="/blog/">Blog</a></li>
 
+          <li><a href="/about/">About</a></li>
+
           <li><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
     </aside>
-    <!-- Desktop Header -->
+    <!-- #endregion -->
+    <!-- #region Desktop Header -->
     <header
       id="desktopHeader"
       class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300"
@@ -214,7 +222,7 @@
             id="desktopLogo"
             src="/images/navbar/eugenesafaris.svg"
             alt="Eugene Safaris"
-            class="h-12 w-auto transition-all duration-300 ease-in-out"
+            class="h-10 w-auto transition-all duration-300 ease-in-out"
           />
         </a>
 
@@ -287,10 +295,13 @@
 
           <li><a href="/blog/">Blog</a></li>
 
+          <li><a href="/about/">About</a></li>
+
           <li><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
     </aside>
+    <!-- #endregion -->
     <main class="pt-20">
       <nav
         aria-label="Breadcrumb"

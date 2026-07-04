@@ -1,46 +1,46 @@
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-Regular.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-Italic.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-SemiBold.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-SemiBoldItalic.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-SemiBoldItalic.woff2") format("woff2");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-Bold.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/crimson/CrimsonText-BoldItalic.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("./fonts/crimson/CrimsonText-BoldItalic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -53,7 +53,7 @@
 
 /* Global typography */
 @layer base {
-    ::selection {
+  ::selection {
     @apply bg-orange-100 text-stone-900;
   }
 
@@ -120,21 +120,20 @@
 
 /* CUSTOM CSS */
 
-:root{
-    --desktop-header-height:96px;
+:root {
+  --desktop-header-height: 96px;
 }
 
-
 @font-face {
-    font-family: "EugeneSafaris";
-    src:
-        url("/fonts/Eugenesafaris-Regular.woff2") format("woff2"),
-        url("/fonts/Eugenesafaris-Regular.otf") format("opentype"),
-        url("/fonts/Eugenesafaris-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "EugeneSafaris";
+  src:
+    url("/fonts/Eugenesafaris-Regular.woff2") format("woff2"),
+    url("/fonts/Eugenesafaris-Regular.otf") format("opentype"),
+    url("/fonts/Eugenesafaris-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .font-eugene {
-    font-family: "EugeneSafaris", serif;
+  font-family: "EugeneSafaris", serif;
 }
