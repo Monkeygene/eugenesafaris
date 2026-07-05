@@ -105,12 +105,15 @@
     <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
       <div class="relative h-20">
         <!-- Hamburger -->
-        <button id="menuBtn" class="absolute left-5 top-1/2 -translate-y-1/2">
+        <button
+          id="menuBtn"
+          class="absolute left-5 top-1/2 -translate-y-1/2 transition-transform duration-150 active:scale-95"
+        >
           <img
             id="mobileMenuIcon"
             src="/images/navbar/hamburger-closed.svg"
             alt="Open menu"
-            class="h-8 w-auto"
+            class="h-8 w-auto transition-transform duration-200"
             loading="eager"
           />
         </button>
@@ -143,6 +146,7 @@
         </a>
       </div>
     </header>
+    <div id="mobileOverlay" class="fixed inset-0 bg-black/30 hidden z-30"></div>
     <aside
       id="mobilePanel"
       class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
@@ -315,7 +319,7 @@
         <div class="relative z-10 flex items-center justify-center h-full">
           <div class="text-center text-white max-w-5xl px-6">
             <h1 class="text-3xl md:text-4xl">
-              Kruger National Park Private Safaris
+              a Private Kruger National Park Safari with Eugene Safaris
             </h1>
 
             <p class="text-xl py-2 md:py-4 text-white">
@@ -324,30 +328,50 @@
           </div>
         </div>
       </section>
+
+      <!-- INTRO SECTION -->
       <section class="max-w-3xl mx-auto py-12 md:py-32 px-4">
-        <div class="text-center">
-          <h2 class="font-bold text-2xl md:text-3xl mb-6">
-            Experience a Kruger National Park Private Safari
+        <div class="text-center text-neutral-800">
+          <!-- Changed to H2, styled beautifully to match the flow -->
+          <h2 class="font-bold text-2xl md:text-3xl mb-6 tracking-tight">
+            Experience Kruger National Park on a Private Safari
           </h2>
 
-          <p class="mb-6">
+          <p class="text-base md:text-lg leading-relaxed mb-6">
             A Kruger National Park private safari gives you the freedom to
-            experience Africa's most famous wildlife destination on your own
-            terms. With your own dedicated guide and private safari vehicle,
-            there's no need to follow another group's schedule, rush through
-            sightings, or compromise on what interests you most. Whether you're
-            hoping to spend time with a leopard, focus on birdlife, or simply
-            enjoy the bush at a slower pace, every safari is shaped around you.
+            experience South Africa's most famous wildlife destination in your
+            own way. With a dedicated guide equipped with a private safari
+            vehicle, there will be no need to follow another group's schedule or
+            rush through sightings. Every safari is shaped around your
+            interests.
           </p>
 
-          <p class="mb-6">
-            Every Kruger National Park private safari we run is shaped entirely
-            around the people in the vehicle. How long you sit with a leopard in
-            a marula tree. Which roads you skip because the morning's already
-            given you what you came for. Whether today turns into a birding day
-            because the rollers are putting on a show. The park doesn't change
-            for anyone. How you get to experience it does.
+          <p class="text-base md:text-lg leading-relaxed mb-6">
+            Every Private Kruger Safari we run focuses on the interests of the
+            people in the vehicle. It could be a photography safari, a bit of a
+            birding safari, or just a relaxed pace through the bush. The park
+            does not change for anyone, but how you get to experience it does.
           </p>
+          <!-- NEW: Clean, High-Converting CTA Actions Area -->
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-8"
+          >
+            <!-- Primary Link: Deeply emphasizes your most important tier -->
+            <a
+              href="/kruger-all-inclusive-safaris/"
+              class="w-full sm:w-auto px-8 py-4 bg-neutral-900 text-white font-medium rounded shadow-md hover:bg-neutral-800 transition duration-200 text-center"
+            >
+              View All-Inclusive Safaris
+            </a>
+
+            <!-- Secondary Link: Provides the flexible alternative naturally -->
+            <a
+              href="/safaris/#flexible"
+              class="w-full sm:w-auto px-8 py-4 bg-transparent border border-neutral-300 text-neutral-700 font-medium rounded hover:bg-neutral-50 transition duration-200 text-center"
+            >
+              Explore Flexible Tiers
+            </a>
+          </div>
         </div>
       </section>
 
@@ -366,7 +390,8 @@
             </div>
             <!-- Caption -->
             <p class="mt-1 text-xs text-center lg:text-left">
-              3 Cheetah scanning the area for prey
+              3 Cheetah scanning the area for prey, seen on a Private Kruger
+              National Park Safari with Eugene Safaris
             </p>
           </div>
         </div>

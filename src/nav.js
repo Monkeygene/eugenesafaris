@@ -93,6 +93,8 @@ function openMobileMenu() {
   mobileIcon.src = "/images/navbar/hamburger-open.svg";
 
   document.body.classList.add("overflow-hidden");
+
+  mobileIcon.style.transform = "rotate(90deg)";
 }
 
 function closeMobileMenu() {
@@ -103,6 +105,8 @@ function closeMobileMenu() {
   mobileIcon.src = "/images/navbar/hamburger-closed.svg";
 
   document.body.classList.remove("overflow-hidden");
+
+  mobileIcon.style.transform = "rotate(0deg)";
 }
 
 mobileBtn.addEventListener("click", () => {
@@ -113,7 +117,13 @@ mobileBtn.addEventListener("click", () => {
   }
 });
 
-mobileOverlay.addEventListener("click", closeMobileMenu);
+mobileOverlay.addEventListener("click", (e) => {
+  if (mobilePanel.contains(e.target)) return;
+
+  if (mobileBtn.contains(e.target)) return;
+
+  closeMobileMenu();
+});
 
 // =========================================
 // Close on Escape
