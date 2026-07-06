@@ -90,23 +90,31 @@ function openMobileMenu() {
 
   mobileOverlay.classList.remove("hidden");
 
+  mobileOverlay.classList.remove("opacity-0");
+  mobileOverlay.classList.add("opacity-100");
+
   mobileIcon.src = "/images/navbar/hamburger-open.svg";
 
-  document.body.classList.add("overflow-hidden");
+  mobileBtn.classList.add("scale-95");
 
-  mobileIcon.style.transform = "rotate(90deg)";
+  document.body.classList.add("overflow-hidden");
 }
 
 function closeMobileMenu() {
   mobilePanel.classList.add("-translate-x-full");
 
-  mobileOverlay.classList.add("hidden");
+  mobileOverlay.classList.remove("opacity-100");
+  mobileOverlay.classList.add("opacity-0");
+
+  setTimeout(() => {
+    mobileOverlay.classList.add("hidden");
+  }, 250);
 
   mobileIcon.src = "/images/navbar/hamburger-closed.svg";
 
-  document.body.classList.remove("overflow-hidden");
+  mobileBtn.classList.remove("scale-95");
 
-  mobileIcon.style.transform = "rotate(0deg)";
+  document.body.classList.remove("overflow-hidden");
 }
 
 mobileBtn.addEventListener("click", () => {
