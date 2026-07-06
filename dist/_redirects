@@ -72,8 +72,8 @@
 
 /kruger-national-park/safari-all-inclusive-packages/ /kruger-all-inclusive-safaris/ 301
 /kruger-national-park/all-inclusive-safari-packages/ /kruger-all-inclusive-safaris/ 301
-/kruger-national-park/classic-safari-packages/ / 301
-/kruger-national-park/safari-packages/ /safaris/ 301
+/kruger-national-park/classic-safari-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/safari-packages/ /kruger-all-inclusive-safaris/ 301
 /kruger-national-park/all-inclusive-safaris/ /kruger-all-inclusive-safaris/ 301
 /kruger-national-park/private-safaris/ / 301
 /kruger-national-park/safaris/ /kruger-all-inclusive-safaris/ 301
@@ -81,37 +81,42 @@
 
 # --- Photographic Safari Redirects ---
 
-/kruger-national-park/photographic-safari/ /safaris/photographic-kruger/ 301
+/kruger-national-park/photographic-safari/ /kruger-all-inclusive-safaris/photographic/ 301
+/safaris/photographic-kruger/ /kruger-all-inclusive-safaris/photographic/ 301
 
 # --- Birding Safari Redirects ---
 
-/birding/ /safaris/birding-kruger/ 301
-/birding/kruger-national-park/ /safaris/birding-kruger/ 301
-/birding/kruger-national-park/north-to-south/ /safaris/birding-kruger/ 301
-/kruger-national-park/birding-safari/ /safaris/birding-kruger/ 301
-/kruger-national-park/birding-safaris/ /safaris/birding-kruger/ 301
+/birding/ /kruger-all-inclusive-safaris/birding/ 301
+/birding/kruger-national-park/ /kruger-all-inclusive-safaris/birding/ 301
+/birding/kruger-national-park/north-to-south/ /kruger-all-inclusive-safaris/birding/ 301
+/kruger-national-park/birding-safari/ /kruger-all-inclusive-safaris/birding/ 301
+/kruger-national-park/birding-safaris/ /kruger-all-inclusive-safaris/birding/ 301
+/safaris/birding-kruger/ /kruger-all-inclusive-safaris/birding/ 301
 
 # 5-Day Itinerary Redirects
 
-/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/ /safaris/5-day-kruger/ 301
-/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/ /safaris/5-day-kruger/ 301
-/kruger-national-park/classic-safari-packages/5-day-private-safari/ /safaris/5-day-kruger/ 301
-/kruger-national-park/5-day-safari/ /safaris/5-day-kruger/ 301
+/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/ /kruger-all-inclusive-safaris/5-day/ 301
+/kruger-national-park/all-inclusive-safari-packages/5-day-private-safari/ /kruger-all-inclusive-safaris/5-day/ 301
+/kruger-national-park/classic-safari-packages/5-day-private-safari/ /kruger-all-inclusive-safaris/5-day/ 301
+/kruger-national-park/5-day-safari/ /kruger-all-inclusive-safaris/5-day/ 301
+/safaris/5-day-kruger/ /kruger-all-inclusive-safaris/5-day/ 301
 
 # 6-Day Itinerary Redirects
 
-/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/ /safaris/6-day-kruger/ 301
-/kruger-national-park/classic-safari-packages/6-day-private-safari/ /safaris/6-day-kruger/ 301
-/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/ /safaris/6-day-kruger/ 301
-/kruger-national-park/private-safaris/6-day/ /safaris/6-day-kruger/ 301
-/kruger-national-park/6-day-safari/ /safaris/6-day-kruger/ 301
+/kruger-national-park/all-inclusive-safari-packages/6-day-private-safari/ /kruger-all-inclusive-safaris/6-day/ 301
+/kruger-national-park/classic-safari-packages/6-day-private-safari/ /kruger-all-inclusive-safaris/6-day/ 301
+/kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/ /kruger-all-inclusive-safaris/6-day/ 301
+/kruger-national-park/private-safaris/6-day/ /kruger-all-inclusive-safaris/6-day/ 301
+/kruger-national-park/6-day-safari/ /kruger-all-inclusive-safaris/6-day/ 301
+/safaris/6-day-kruger/ /kruger-all-inclusive-safaris/6-day/ 301
 
 # 7-Day Itinerary Redirects
 
-/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/ /safaris/7-day-kruger/ 301
-/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/ /safaris/7-day-kruger/ 301
-/kruger-national-park/private-safaris/7-day/ /safaris/7-day-kruger/ 301
-/kruger-national-park/7-day-safari/ /safaris/7-day-kruger/ 301
+/kruger-national-park/safari-all-inclusive-packages/7-day-private-safari/ /kruger-all-inclusive-safaris/7-day/ 301
+/kruger-national-park/all-inclusive-safari-packages/7-day-private-safari/ /kruger-all-inclusive-safaris/7-day/ 301
+/kruger-national-park/private-safaris/7-day/ /kruger-all-inclusive-safaris/7-day/ 301
+/kruger-national-park/7-day-safari/ /kruger-all-inclusive-safaris/7-day/ 301
+/safaris/7-day-kruger/ /kruger-all-inclusive-safaris/7-day/ 301
 
 # --- Legacy Itineraries ---
 

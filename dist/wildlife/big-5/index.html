@@ -112,20 +112,23 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/main-BiSagGwB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-DjqVr3qa.css">
+    <script type="module" crossorigin src="/assets/main-DqbAtkrx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-Cpo5H1pC.css">
   </head>
   <body class="antialiased">
     <!-- #region Mobile Header -->
     <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
       <div class="relative h-20">
         <!-- Hamburger -->
-        <button id="menuBtn" class="absolute left-5 top-1/2 -translate-y-1/2">
+        <button
+          id="menuBtn"
+          class="absolute left-5 top-1/2 -translate-y-1/2 transition-transform duration-150 active:scale-95"
+        >
           <img
             id="mobileMenuIcon"
             src="/images/navbar/hamburger-closed.svg"
             alt="Open menu"
-            class="h-8 w-auto"
+            class="h-8 w-auto transition-transform duration-150"
             loading="eager"
           />
         </button>
@@ -145,7 +148,7 @@
 
         <!-- Mail -->
         <a
-          href="mailto:birdinglegend@gmail.com"
+          href="mailto:eugene@eugenesafaris.com"
           class="absolute right-5 top-1/2 -translate-y-1/2 group"
           aria-label="Send email to Birding Legend"
         >
@@ -158,6 +161,7 @@
         </a>
       </div>
     </header>
+    <div id="mobileOverlay" class="fixed inset-0 bg-black/30 hidden z-30"></div>
     <aside
       id="mobilePanel"
       class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
@@ -169,11 +173,13 @@
           </li>
 
           <li>
-            <a href="/safaris/birding-kruger/">Birding Safari</a>
+            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-all-inclusive-safaris/photographic-kruger/"
+              >Photographic Safari</a
+            >
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
@@ -249,6 +255,7 @@
               alt=""
               aria-hidden="true"
               class="absolute w-[100px] h-auto"
+              loading="eager"
             />
 
             <!-- Text -->
@@ -258,11 +265,16 @@
           </a>
 
           <!-- Mail -->
-          <a href="mailto:birdinglegend@gmail.com">
+          <a
+            href="mailto:eugene@eugenesafaris.com"
+            aria-label="Send email to Birding Legend"
+          >
             <img
               id="desktopMail"
               src="/images/navbar/mail-letter-closed.svg"
               class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6"
+              loading="eager"
+              alt="send email button"
             />
           </a>
         </div>
@@ -283,11 +295,13 @@
           </li>
 
           <li>
-            <a href="/safaris/birding-kruger/">Birding Safari</a>
+            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-all-inclusive-safaris/photographic-kruger/"
+              >Photographic Safari</a
+            >
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>

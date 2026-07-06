@@ -11,12 +11,11 @@
 
 
   <!-- Master Itinerary Booking Pages (Unified & Flat) -->
-  <url><loc>https://eugenesafaris.com/safaris/</loc></url>
-  <url><loc>https://eugenesafaris.com/safaris/5-day-kruger/</loc></url>
-  <url><loc>https://eugenesafaris.com/safaris/6-day-kruger/</loc></url>
-  <url><loc>https://eugenesafaris.com/safaris/7-day-kruger/</loc></url>
-  <url><loc>https://eugenesafaris.com/safaris/birding-kruger/</loc></url>
-  <url><loc>https://eugenesafaris.com/safaris/photographic-kruger/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/5-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/6-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/7-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/birding/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/photographic/</loc></url>
 
   <!-- Informational -->
   <url><loc>https://eugenesafaris.com/wildlife/big-5/</loc></url>

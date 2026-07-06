@@ -35,17 +35,25 @@ export default defineConfig({
           __dirname,
           "kruger-all-inclusive-safaris/index.html",
         ),
-        safaris: path.resolve(__dirname, "safaris/index.html"),
-        safaris5day: path.resolve(__dirname, "safaris/5-day-kruger/index.html"),
-        safaris6day: path.resolve(__dirname, "safaris/6-day-kruger/index.html"),
-        safaris7day: path.resolve(__dirname, "safaris/7-day-kruger/index.html"),
+        safaris5day: path.resolve(
+          __dirname,
+          "kruger-all-inclusive-safaris/5-day/index.html",
+        ),
+        safaris6day: path.resolve(
+          __dirname,
+          "kruger-all-inclusive-safaris/6-day/index.html",
+        ),
+        safaris7day: path.resolve(
+          __dirname,
+          "kruger-all-inclusive-safaris/7-day/index.html",
+        ),
         birdingkruger: path.resolve(
           __dirname,
-          "safaris/birding-kruger/index.html",
+          "kruger-all-inclusive-safaris/birding/index.html",
         ),
         photographickruger: path.resolve(
           __dirname,
-          "safaris/photographic-kruger/index.html",
+          "kruger-all-inclusive-safaris/photographic/index.html",
         ),
         about: path.resolve(__dirname, "about/index.html"),
         blog: path.resolve(__dirname, "blog/index.html"),
