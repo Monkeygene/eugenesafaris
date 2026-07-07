@@ -67,6 +67,10 @@
 /black-backed-jackal/ /wildlife/ 301
 /nyala/ /wildlife/ 301
 /hippopotamus/ /wildlife/ 301
+/kruger-national-park/mammals/african-wildcat/ /wildlife/ 301
+/kruger-national-park/mammals/dwarf-mongoose/ /wildlife/ 301
+/kruger-national-park/wildlife/ /wildlife/ 301
+/kruger-national-park/wildlife/klipspringer/ /wildlife/ 301
 
 # Flagship Commercial Hub Redirects
 
@@ -125,18 +129,17 @@
 
 # --- Travel Guides ---
 
-/best-time-to-visit-kruger-national-park/ / 301
-/kruger-national-park/malaria/ / 301
-/kruger-national-park/guide/malaria/ / 301
-/kruger-national-park/malaria-guide/ / 301
+/best-time-to-visit-kruger-national-park/ /kruger-national-park/malaria-guide/ 301
+/kruger-national-park/malaria/ /kruger-national-park/malaria-guide/ 301
+/kruger-national-park/guide/malaria/ /kruger-national-park/malaria-guide/ 301
 
-/kruger-national-park/airports/ / 301
-/kruger-national-park/airports/eastgate/ / 301
-/kruger-national-park/airports/kmia/ / 301
-/kruger-national-park/airports/skukuza/ / 301
-/kruger-national-park/guide/airports/kmia/ / 301
-/kruger-national-park/guide/airports/skukuza/ / 301
-/kruger-national-park/airports-guide/ / 301
+/kruger-national-park/airports/ /kruger-national-park/airports-guide/ 301
+/kruger-national-park/airports/eastgate/ /kruger-national-park/airports-guide/ 301
+/kruger-national-park/airports/kmia/ /kruger-national-park/airports-guide/ 301
+/kruger-national-park/airports/skukuza/ /kruger-national-park/airports-guide/ 301
+/kruger-national-park/guide/airports/kmia/ /kruger-national-park/airports-guide/ 301
+/kruger-national-park/guide/airports/skukuza/ /kruger-national-park/airports-guide/ 301
+
 
 /kruger-national-park/weather/ / 301
 /kruger-national-park/best-time-to-visit/ / 301
@@ -144,19 +147,19 @@
 
 # --- Weather Months ---
 
-/kruger-national-park/weather/january/ / 301
-/kruger-national-park/weather/february/ / 301
-/kruger-national-park/weather/march/ / 301
-/kruger-national-park/weather/april/ / 301
-/kruger-national-park/weather/may/ / 301
-/kruger-national-park/weather/june/ / 301
-/kruger-national-park/weather/july/ / 301
-/kruger-national-park/weather/august/ / 301
-/kruger-national-park/weather/september/ / 301
-/kruger-national-park/weather/october/ / 301
-/kruger-national-park/guide/weather/october/ / 301
-/kruger-national-park/weather/november/ / 301
-/kruger-national-park/weather/december/ / 301
+/kruger-national-park/weather/january/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/february/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/march/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/april/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/may/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/june/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/july/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/august/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/september/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/october/ /kruger-national-park/weather/ 301
+/kruger-national-park/guide/weather/october/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/november/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/december/ /kruger-national-park/weather/ 301
 
 # --- Rest Camps ---
 
