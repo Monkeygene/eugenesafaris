@@ -6,71 +6,74 @@
 
 # --- Wildlife Hub & Directory Redirects ---
 
-/kruger-national-park/wildlife/mammals/ /wildlife/ 301
-/kruger-national-park/wildlife/aardvark/ /wildlife/ 301
-/kruger-national-park/wildlife/reed-cormorant/ /wildlife/ 301
+/wildlife/ /kruger-national-park/wildlife/ 301
+/wildlife/big-5/ /kruger-national-park/wildlife/big-5/ 301
 
-/kruger-national-park/mammals/ /wildlife/ 301
-/kruger-national-park/birds/ /wildlife/ 301
-/kruger-national-park/reptiles/ /wildlife/ 301
-/kruger-national-park/guide/ /wildlife/ 301
-/kruger-national-park/wildlife/big-5/ /wildlife/big-5/ 301
+# Old category pages
+/wildlife/mammals/ /kruger-national-park/wildlife/ 301
+/wildlife/birds/ /kruger-national-park/wildlife/ 301
+/wildlife/reptiles/ /kruger-national-park/wildlife/ 301
+
 
 # --- Lion Redirects ---
 
-/kruger-national-park/mammals/lion/ /wildlife/lion/ 301
-/kruger-national-park/lion/ /wildlife/lion/ 301
-/kruger-national-park/wildlife/lion/ /wildlife/lion/ 301
-/lion/ /wildlife/lion/ 301
+/wildlife/lion/ /kruger-national-park/wildlife/lion/ 301
+/lion/ /kruger-national-park/wildlife/lion/ 301
+/kruger-national-park/lion/ /kruger-national-park/wildlife/lion/ 301
+/kruger-national-park/mammals/lion/ /kruger-national-park/wildlife/lion/ 301
+
 
 # --- Elephant Redirects ---
 
-/kruger-national-park/mammals/elephant/ /wildlife/elephant/ 301
-/kruger-national-park/wildlife/african-bush-elephant/ /wildlife/elephant/ 301
-/kruger-national-park/african-bush-elephant/ /wildlife/elephant/ 301
-/kruger-national-park/elephant/ /wildlife/elephant/ 301
+/wildlife/elephant/ /kruger-national-park/wildlife/elephant/ 301
+/elephant/ /kruger-national-park/wildlife/elephant/ 301
+/kruger-national-park/elephant/ /kruger-national-park/wildlife/elephant/ 301
+/kruger-national-park/mammals/elephant/ /kruger-national-park/wildlife/elephant/ 301
+/kruger-national-park/wildlife/african-bush-elephant/ /kruger-national-park/wildlife/elephant/ 301
+
 
 # --- Leopard Redirects ---
 
-/african-leopard/ /wildlife/leopard/ 301
-/kruger-national-park/mammals/leopard/ /wildlife/leopard/ 301
-/kruger-national-park/mammals/african-leopard/ /wildlife/leopard/ 301
-/kruger-national-park/leopard/ /wildlife/leopard/ 301
-/kruger-national-park/african-leopard/ /wildlife/leopard/ 301
-/kruger-national-park/wildlife/leopard/ /wildlife/leopard/ 301
+/wildlife/leopard/ /kruger-national-park/wildlife/leopard/ 301
+/leopard/ /kruger-national-park/wildlife/leopard/ 301
+/african-leopard/ /kruger-national-park/wildlife/leopard/ 301
+/kruger-national-park/leopard/ /kruger-national-park/wildlife/leopard/ 301
+/kruger-national-park/mammals/leopard/ /kruger-national-park/wildlife/leopard/ 301
+
 
 # --- Buffalo Redirects ---
 
-/kruger-national-park/mammals/african-buffalo/ /wildlife/buffalo/ 301
-/kruger-national-park/mammals/buffalo/ /wildlife/buffalo/ 301
-/kruger-national-park/wildlife/african-buffalo/ /wildlife/buffalo/ 301
-/kruger-national-park/african-buffalo/ /wildlife/buffalo/ 301
-/kruger-national-park/buffalo/ /wildlife/buffalo/ 301
-/kruger-national-park/wildlife/buffalo/ /wildlife/buffalo/ 301
+/wildlife/buffalo/ /kruger-national-park/wildlife/buffalo/ 301
+/buffalo/ /kruger-national-park/wildlife/buffalo/ 301
+/kruger-national-park/buffalo/ /kruger-national-park/wildlife/buffalo/ 301
+/kruger-national-park/mammals/buffalo/ /kruger-national-park/wildlife/buffalo/ 301
+/kruger-national-park/mammals/african-buffalo/ /kruger-national-park/wildlife/buffalo/ 301
+
 
 # --- Rhinoceros Redirects ---
 
-/kruger-national-park/black-rhinoceros/ /wildlife/black-rhinoceros/ 301
-/kruger-national-park/wildlife/black-rhinoceros/ /wildlife/black-rhinoceros/ 301
-/kruger-national-park/white-rhinoceros/ /wildlife/white-rhinoceros/ 301
-/kruger-national-park/wildlife/white-rhinoceros/ /wildlife/white-rhinoceros/ 301
+/wildlife/black-rhinoceros/ /kruger-national-park/wildlife/black-rhinoceros/ 301
+/wildlife/white-rhinoceros/ /kruger-national-park/wildlife/white-rhinoceros/ 301
+
+/black-rhinoceros/ /kruger-national-park/wildlife/black-rhinoceros/ 301
+/white-rhinoceros/ /kruger-national-park/wildlife/white-rhinoceros/ 301
 
 # --- Other Wildlife -> Main Wildlife Hub ---
 
-/kruger-national-park/mammals/cheetah/ /wildlife/ 301
-/kruger-national-park/mammals/honey-badger/ /wildlife/ 301
-/kruger-national-park/mammals/hippopotamus/ /wildlife/ 301
-/kruger-national-park/birds/white-faced-whistling-duck/ /wildlife/ 301
-/white-faced-whistling-duck/ /wildlife/ 301
-/kruger-national-park/birds/lilac-breasted-roller/ /wildlife/ 301
-/dwarf-mongoose/ /wildlife/ 301
-/black-backed-jackal/ /wildlife/ 301
-/nyala/ /wildlife/ 301
-/hippopotamus/ /wildlife/ 301
-/kruger-national-park/mammals/african-wildcat/ /wildlife/ 301
-/kruger-national-park/mammals/dwarf-mongoose/ /wildlife/ 301
-/kruger-national-park/wildlife/ /wildlife/ 301
-/kruger-national-park/wildlife/klipspringer/ /wildlife/ 301
+/kruger-national-park/mammals/cheetah/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/honey-badger/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/hippopotamus/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/birds/white-faced-whistling-duck/ /kruger-national-park/wildlife/ 301
+/white-faced-whistling-duck/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/birds/lilac-breasted-roller/ /kruger-national-park/wildlife/ 301
+/dwarf-mongoose/ /kruger-national-park/wildlife/ 301
+/black-backed-jackal/ /kruger-national-park/wildlife/ 301
+/nyala/ /kruger-national-park/wildlife/ 301
+/hippopotamus/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/african-wildcat/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/dwarf-mongoose/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/klipspringer/ /kruger-national-park/wildlife/ 301
 
 # Flagship Commercial Hub Redirects
 
