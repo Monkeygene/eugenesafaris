@@ -44,6 +44,12 @@
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Kruger National Park",
+            "item": "https://eugenesafaris.com/kruger-national-park/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
             "item": {
               "@id": "https://eugenesafaris.com/wildlife/",
               "name": "Wildlife"
@@ -51,10 +57,10 @@
           },
           {
             "@type": "ListItem",
-            "position": 3,
+            "position": 4,
             "item": {
               "@id": "https://eugenesafaris.com/wildlife/white-rhinoceros/",
-              "name": "White Rhinoceros"
+              "name": "White Rhino"
             }
           }
         ]
@@ -144,7 +150,10 @@
         </a>
       </div>
     </header>
-    <div id="mobileOverlay" class="fixed inset-0 bg-black/30 hidden z-30"></div>
+    <div
+      id="mobileOverlay"
+      class="fixed inset-0 bg-black/30 hidden opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-30"
+    ></div>
     <aside
       id="mobilePanel"
       class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
@@ -152,20 +161,20 @@
       <nav class="pt-10 px-8">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -247,7 +256,7 @@
     </header>
     <div
       id="sidebarOverlay"
-      class="fixed inset-0 bg-black/10 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
+      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
     ></div>
     <aside
       id="desktopSidebar"
@@ -256,20 +265,20 @@
       <nav class="pt-32 px-10">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -279,7 +288,7 @@
     </aside>
     <!-- #endregion -->
     <main class="pt-20">
-      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4 mb-6">
+      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-3 mt-4 mb-6">
         <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
           <li class="flex items-center">
             <a href="/" class="hover:underline">Home</a>
@@ -287,11 +296,16 @@
           </li>
 
           <li class="flex items-center">
-            <a href="/wildlife/" class="hover:underline"> Wildlife </a>
+            <a href="/kruger-national-park/" class="hover:underline"> Kruger </a>
             <span class="mx-2">/</span>
           </li>
 
-          <li class="flex items-center text-gray-500" aria-current="page">White Rhinoceros</li>
+          <li class="flex items-center">
+            <a href="/kruger-national-park/wildlife/" class="hover:underline"> Wildlife </a>
+            <span class="mx-2">/</span>
+          </li>
+
+          <li class="flex items-center text-gray-500" aria-current="page">White Rhino</li>
         </ol>
       </nav>
       <section class="px-4">
@@ -324,7 +338,7 @@
               Kruger National Park </a
             >. As part of Africa’s famous
             <a
-              href="/wildlife/big-5/"
+              href="/kruger-national-park/wildlife/big-5/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               Big 5 </a
@@ -342,21 +356,21 @@
             This guide covers identification, habitat, behaviour, diet, breeding, and how to find the white rhinoceros
             while exploring Kruger’s
             <a
-              href="/wildlife/"
+              href="/kruger-national-park/wildlife/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               wildlife </a
             >. If you are interested in how it differs from its more solitary and rarer counterpart, you can also
             explore the
             <a
-              href="/wildlife/black-rhinoceros/"
+              href="/kruger-national-park/wildlife/black-rhinoceros/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               black rhinoceros
             </a>
             or read a deeper comparison here:
             <a
-              href="/blog/difference-between-white-and-black-rhino/"
+              href="/kruger-guide/difference-between-white-and-black-rhino/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               difference between white and black rhino </a
@@ -372,7 +386,7 @@
             The white rhinoceros is the largest rhino species and one of the heaviest land mammals in Africa, second
             only to the
             <a
-              href="/wildlife/elephant/"
+              href="/kruger-national-park/wildlife/elephant/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               African bush elephant </a
@@ -384,7 +398,7 @@
             The most distinctive feature is its wide, square-shaped mouth, perfectly adapted for grazing. This
             “square-lipped” appearance is the easiest way to separate it from the
             <a
-              href="/wildlife/black-rhinoceros/"
+              href="/kruger-national-park/wildlife/black-rhinoceros/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               black rhinoceros </a
@@ -401,7 +415,7 @@
           <p>
             At a distance, white rhinos may sometimes be confused with large
             <a
-              href="/wildlife/buffalo/"
+              href="/kruger-national-park/wildlife/buffalo/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               African buffalo </a
@@ -431,7 +445,7 @@
             bushveld, and seasonal water sources create ideal conditions. White rhinos are rarely found in dense
             thickets, which are more suited to the
             <a
-              href="/wildlife/black-rhinoceros/"
+              href="/kruger-national-park/wildlife/black-rhinoceros/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               black rhinoceros </a
@@ -464,7 +478,7 @@
           <p class="mb-6">
             Unlike the more solitary
             <a
-              href="/wildlife/black-rhinoceros/"
+              href="/kruger-national-park/wildlife/black-rhinoceros/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               black rhinoceros </a
@@ -478,7 +492,7 @@
             language. Territorial males will often patrol their areas and leave clear signs of their presence. Calves
             remain close to their mothers for protection, especially in areas where large predators such as
             <a
-              href="/wildlife/lion/"
+              href="/kruger-national-park/wildlife/lion/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               lions
@@ -552,7 +566,7 @@
           <p class="mb-6">
             White rhinoceroses are among the more reliably seen members of the
             <a
-              href="/wildlife/big-5/"
+              href="/kruger-national-park/wildlife/big-5/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               Big 5 </a
@@ -576,7 +590,7 @@
           <p class="mb-6">
             Unlike more elusive predators such as the
             <a
-              href="/wildlife/leopard/"
+              href="/kruger-national-park/wildlife/leopard/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               African leopard </a
@@ -597,7 +611,7 @@
             </a>
             or browse
             <a
-              href="/kruger-all-inclusive-safaris/"
+              href="/kruger-safaris/all-inclusive-packages/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               all-inclusive safari packages
@@ -641,7 +655,7 @@
           <p>
             For many, a sighting of a white rhinoceros is not just about ticking off a member of the
             <a
-              href="/wildlife/big-5/"
+              href="/kruger-national-park/wildlife/big-5/"
               class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
             >
               Big 5 </a
@@ -660,7 +674,7 @@
           </p>
 
           <a
-            href="/kruger-all-inclusive-safaris/"
+            href="/kruger-safaris/all-inclusive-packages/"
             class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
           >
             View All Kruger Safari Packages
@@ -773,10 +787,10 @@
             </li>
             <li>
               <a
-                href="/kruger-all-inclusive-safaris/"
+                href="/kruger-guide/"
                 class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                All Inclusive Safari Packages
+                Kruger Gide
               </a>
             </li>
             <li></li>
@@ -801,8 +815,32 @@
 
         <!-- Column 3: Other Links -->
         <div>
-          <h2 class="text-lg font-semibold mb-4">Safari Stuff and More</h2>
+          <h2 class="text-lg font-semibold mb-4">Kruger Safaris & Info</h2>
           <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/kruger-safaris/all-inclusive-packages/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                All Inclusive Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/birding-tours/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Birding Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/photographic/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Photographic Safaris
+              </a>
+            </li>
             <li>
               <a
                 href="/kruger-national-park/"

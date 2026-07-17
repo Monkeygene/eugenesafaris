@@ -10,7 +10,7 @@
       content="Learn the difference between white and black rhinos, including size, behaviour, habitat and how to tell them apart in Kruger National Park."
     />
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://eugenesafaris.com/blog/difference-between-white-and-black-rhino/" />
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/" />
     <!-- Favicon & Apple Touch Icon -->
     <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
     <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
@@ -35,15 +35,15 @@
             "@type": "ListItem",
             "position": 2,
             "item": {
-              "@id": "https://eugenesafaris.com/blog/",
-              "name": "Blog"
+              "@id": "https://eugenesafaris.com/kruger-guide/",
+              "name": "Kruger Guide"
             }
           },
           {
             "@type": "ListItem",
             "position": 3,
             "item": {
-              "@id": "https://eugenesafaris.com/difference-between-white-and-black-rhino/",
+              "@id": "https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/",
               "name": "Difference Between White and Black Rhino"
             }
           }
@@ -132,7 +132,10 @@
         </a>
       </div>
     </header>
-    <div id="mobileOverlay" class="fixed inset-0 bg-black/30 hidden z-30"></div>
+    <div
+      id="mobileOverlay"
+      class="fixed inset-0 bg-black/30 hidden opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-30"
+    ></div>
     <aside
       id="mobilePanel"
       class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
@@ -140,20 +143,20 @@
       <nav class="pt-10 px-8">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -235,7 +238,7 @@
     </header>
     <div
       id="sidebarOverlay"
-      class="fixed inset-0 bg-black/10 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
+      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
     ></div>
     <aside
       id="desktopSidebar"
@@ -244,20 +247,20 @@
       <nav class="pt-32 px-10">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/">Photographic Safari</a>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -276,7 +279,7 @@
           </li>
 
           <li class="flex items-center">
-            <a href="/blog/" class="hover:underline">Blog</a>
+            <a href="/kruger-guide/" class="hover:underline">Kruger Guide</a>
             <span class="mx-2">/</span>
           </li>
 
@@ -728,10 +731,10 @@
             </li>
             <li>
               <a
-                href="/kruger-all-inclusive-safaris/"
+                href="/kruger-guide/"
                 class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                All Inclusive Safari Packages
+                Kruger Gide
               </a>
             </li>
             <li></li>
@@ -756,8 +759,32 @@
 
         <!-- Column 3: Other Links -->
         <div>
-          <h2 class="text-lg font-semibold mb-4">Safari Stuff and More</h2>
+          <h2 class="text-lg font-semibold mb-4">Kruger Safaris & Info</h2>
           <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/kruger-safaris/all-inclusive-packages/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                All Inclusive Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/birding-tours/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Birding Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/photographic/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Photographic Safaris
+              </a>
+            </li>
             <li>
               <a
                 href="/kruger-national-park/"

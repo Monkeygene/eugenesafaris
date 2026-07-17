@@ -12,26 +12,12 @@
     />
     <meta name="author" content="Eugene Booysen" />
     <!-- Canonical URL -->
-    <link
-      rel="canonical"
-      href="https://eugenesafaris.com/blog/what-to-wear-on-safari/"
-    />
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/" />
     <!-- Favicon & Apple Touch Icon -->
-    <link
-      rel="icon"
-      href="/src/assets/images/logo/paw-print-lion.png"
-      type="image/png"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="/src/assets/images/logo/paw-print-lion.png"
-      type="image/png"
-    />
+    <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
     <!-- Robots -->
-    <meta
-      name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
     <!-- JSON-LD Best Time to Visit Breadcrumb -->
     <script type="application/ld+json">
@@ -51,15 +37,15 @@
             "@type": "ListItem",
             "position": 2,
             "item": {
-              "@id": "https://eugenesafaris.com/blog/",
-              "name": "Blog"
+              "@id": "https://eugenesafaris.com/kruger-guide/",
+              "name": "Kruger Guide"
             }
           },
           {
             "@type": "ListItem",
             "position": 3,
             "item": {
-              "@id": "https://eugenesafaris.com/blog/what-to-wear-on-safari/",
+              "@id": "https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/",
               "name": "What to Wear on Safari"
             }
           }
@@ -86,16 +72,8 @@
         </button>
 
         <!-- Logo -->
-        <a
-          href="/"
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-        >
-          <img
-            src="/images/navbar/eugenesafaris.svg"
-            alt="Eugene Safaris"
-            class="h-8 w-auto"
-            loading="eager"
-          />
+        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <img src="/images/navbar/eugenesafaris.svg" alt="Eugene Safaris" class="h-8 w-auto" loading="eager" />
         </a>
 
         <!-- Mail -->
@@ -104,16 +82,14 @@
           class="absolute right-5 top-1/2 -translate-y-1/2 group"
           aria-label="Send email to Birding Legend"
         >
-          <img
-            src="/images/navbar/mail-letter-closed.svg"
-            class="block h-8"
-            alt="send email button"
-            loading="eager"
-          />
+          <img src="/images/navbar/mail-letter-closed.svg" class="block h-8" alt="send email button" loading="eager" />
         </a>
       </div>
     </header>
-    <div id="mobileOverlay" class="fixed inset-0 bg-black/30 hidden z-30"></div>
+    <div
+      id="mobileOverlay"
+      class="fixed inset-0 bg-black/30 hidden opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-30"
+    ></div>
     <aside
       id="mobilePanel"
       class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
@@ -121,22 +97,20 @@
       <nav class="pt-10 px-8">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/"
-              >Photographic Safari</a
-            >
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -146,14 +120,8 @@
     </aside>
     <!-- #endregion -->
     <!-- #region Desktop Header -->
-    <header
-      id="desktopHeader"
-      class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300"
-    >
-      <div
-        id="desktopHeaderInner"
-        class="relative h-24 transition-all duration-300"
-      >
+    <header id="desktopHeader" class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300">
+      <div id="desktopHeaderInner" class="relative h-24 transition-all duration-300">
         <!-- Left -->
         <button
           id="desktopMenuBtn"
@@ -169,10 +137,7 @@
         </button>
 
         <!-- Center -->
-        <a
-          href="/"
-          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-        >
+        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
             id="desktopLogo"
             src="/images/navbar/eugenesafaris.svg"
@@ -183,9 +148,7 @@
         </a>
 
         <!-- Right -->
-        <div
-          class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6"
-        >
+        <div class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6">
           <!-- Contact Button -->
           <a
             id="contactButton"
@@ -211,16 +174,11 @@
             />
 
             <!-- Text -->
-            <span class="relative z-10 text-xl font-black font-eugene">
-              CONTACT
-            </span>
+            <span class="relative z-10 text-xl font-black font-eugene"> CONTACT </span>
           </a>
 
           <!-- Mail -->
-          <a
-            href="mailto:eugene@eugenesafaris.com"
-            aria-label="Send email to Birding Legend"
-          >
+          <a href="mailto:eugene@eugenesafaris.com" aria-label="Send email to Birding Legend">
             <img
               id="desktopMail"
               src="/images/navbar/mail-letter-closed.svg"
@@ -234,7 +192,7 @@
     </header>
     <div
       id="sidebarOverlay"
-      class="fixed inset-0 bg-black/10 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
+      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
     ></div>
     <aside
       id="desktopSidebar"
@@ -243,22 +201,20 @@
       <nav class="pt-32 px-10">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
+            <a href="/kruger-safaris/all-inclusive-packages/">All Inclusive Safaris</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/birding/">Birding Safari</a>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
           </li>
 
           <li>
-            <a href="/kruger-all-inclusive-safaris/photographic-kruger/"
-              >Photographic Safari</a
-            >
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -277,37 +233,25 @@
           </li>
 
           <li class="flex items-center">
-            <a href="/blog/" class="hover:underline">Blog</a>
+            <a href="/kruger-guide/" class="hover:underline">Kruger Guide</a>
             <span class="mx-2">/</span>
           </li>
 
-          <li class="flex items-center text-gray-500" aria-current="page">
-            What to Wear on a Safari
-          </li>
+          <li class="flex items-center text-gray-500" aria-current="page">What to Wear on a Safari</li>
         </ol>
       </nav>
-      <header
-        class="relative pt-12 pb-16 lg:pt-16 lg:pb-24 max-w-7xl mx-auto px-6 overflow-hidden"
-      >
-        <div
-          class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center"
-        >
+      <header class="relative pt-12 pb-16 lg:pt-16 lg:pb-24 max-w-7xl mx-auto px-6 overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <!-- Text Content Column -->
           <div class="lg:col-span-7 flex flex-col justify-center">
             <!-- Main SEO H1 Title -->
-            <h1
-              class="text-4xl font-extrabold tracking-tight text-stone-900 sm:text-5xl mb-6 leading-tight"
-            >
+            <h1 class="text-4xl font-extrabold tracking-tight text-stone-900 sm:text-5xl mb-6 leading-tight">
               What to Wear on a Safari: <br class="hidden sm:inline" />
-              <span class="text-amber-800"
-                >The Ultimate Kruger Packing Guide</span
-              >
+              <span class="text-amber-800">The Ultimate Kruger Packing Guide</span>
             </h1>
 
             <!-- Author Bio Snippet for Authority (E-E-A-T) -->
-            <div
-              class="flex items-center gap-3 border-b border-stone-100 pb-5 mb-6"
-            >
+            <div class="flex items-center gap-3 border-b border-stone-100 pb-5 mb-6">
               <div
                 class="w-10 h-10 rounded-full bg-stone-100 flex items-center justify-center text-stone-600 font-bold text-sm border border-stone-200"
               >
@@ -315,36 +259,29 @@
               </div>
               <div>
                 <p class="text-sm text-stone-500">Published on 2nd July 2026</p>
-                <p class="text-sm font-semibold text-stone-800">
-                  By Eugene Booysen
-                </p>
+                <p class="text-sm font-semibold text-stone-800">By Eugene Booysen</p>
               </div>
             </div>
 
             <!-- Narrative Hook Content -->
             <div class="space-y-4 text-base leading-relaxed">
               <p>
-                Heading out on an African safari is the adventure of a lifetime.
-                But knowing what to wear on a safari is one of the most common
-                questions we hear from travelers preparing for the bush.
+                Heading out on an African safari is the adventure of a lifetime. But knowing what to wear on a safari is
+                one of the most common questions we hear from travelers preparing for the bush.
               </p>
               <p>
-                Dressing correctly isn’t about fashion; it’s about comfort,
-                safety, and blending into the environment so you can fully enjoy
-                the wildlife. As guides, we’ve seen everything from first-timers
-                decked out in brand-new, stiff tactical gear to folks in bright
-                city clothes that actively scare off the animals.
+                Dressing correctly isn’t about fashion; it’s about comfort, safety, and blending into the environment so
+                you can fully enjoy the wildlife. As guides, we’ve seen everything from first-timers decked out in
+                brand-new, stiff tactical gear to folks in bright city clothes that actively scare off the animals.
               </p>
               <p>
-                In this comprehensive guide, we’ll break down exactly what
-                clothes to wear on safari to ensure you pack smart, feel
-                prepared, and stay comfortable—whether you’re bumping along a
-                rugged dirt road at dawn or relaxing at the lodge at dusk.
+                In this comprehensive guide, we’ll break down exactly what clothes to wear on safari to ensure you pack
+                smart, feel prepared, and stay comfortable—whether you’re bumping along a rugged dirt road at dawn or
+                relaxing at the lodge at dusk.
               </p>
               <p>
-                While these tips apply across the continent, we'll keep a
-                special focus on Kruger National Park, where we host our
-                signature
+                While these tips apply across the continent, we'll keep a special focus on Kruger National Park, where
+                we host our signature
                 <a
                   href="/kruger-all-inclusive-safaris/"
                   class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
@@ -374,14 +311,10 @@
       <section class="my-16 max-w-5xl mx-auto px-6">
         <!-- Section Header -->
         <div class="mb-10 mx-auto text-center sm:text-left">
-          <h2 class="tracking-tight text-center mb-3">
-            What to Wear on an African Safari: Core Clothing Rules
-          </h2>
+          <h2 class="tracking-tight text-center mb-3">What to Wear on an African Safari: Core Clothing Rules</h2>
           <p class="text-base text-center leading-relaxed">
-            Before you start packing your bags, there are three golden rules
-            that dictate every piece of
-            <span class="font-medium text-stone-800">safari attire</span> you
-            should bring.
+            Before you start packing your bags, there are three golden rules that dictate every piece of
+            <span class="font-medium text-stone-800">safari attire</span> you should bring.
           </p>
         </div>
 
@@ -392,39 +325,22 @@
             class="bg-stone-50 rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm relative"
           >
             <div>
-              <div
-                class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none"
-              >
-                01
-              </div>
-              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">
-                Blend In with Earthy Neutrals
-              </h3>
+              <div class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none">01</div>
+              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">Blend In with Earthy Neutrals</h3>
               <p class="text-stone-600 text-sm leading-relaxed mb-4">
-                The best way to get close to wildlife is to avoid standing out.
-                Plan your wardrobe around neutral, earthy colors—olive greens,
-                browns, tans, and khaki.
+                The best way to get close to wildlife is to avoid standing out. Plan your wardrobe around neutral,
+                earthy colors—olive greens, browns, tans, and khaki.
               </p>
             </div>
             <div class="space-y-2 pt-4 border-t border-stone-200/60 text-xs">
               <div class="flex items-start gap-2">
-                <span
-                  class="font-bold text-rose-700 uppercase tracking-wider flex-shrink-0 w-14"
-                  >Avoid:</span
-                >
-                <span class="text-stone-600"
-                  >Bright colors or loud patterns that attract insects or alarm
-                  game.</span
-                >
+                <span class="font-bold text-rose-700 uppercase tracking-wider flex-shrink-0 w-14">Avoid:</span>
+                <span class="text-stone-600">Bright colors or loud patterns that attract insects or alarm game.</span>
               </div>
               <div class="flex items-start gap-2">
-                <span
-                  class="font-bold text-amber-800 uppercase tracking-wider flex-shrink-0 w-14"
-                  >Skip:</span
-                >
+                <span class="font-bold text-amber-800 uppercase tracking-wider flex-shrink-0 w-14">Skip:</span>
                 <span class="text-stone-600"
-                  >Pure white. It shows red bush dust instantly and increases
-                  your visibility.</span
+                  >Pure white. It shows red bush dust instantly and increases your visibility.</span
                 >
               </div>
             </div>
@@ -435,30 +351,17 @@
             class="bg-stone-50 rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm relative"
           >
             <div>
-              <div
-                class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none"
-              >
-                02
-              </div>
-              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">
-                Lightweight & Breathable
-              </h3>
+              <div class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none">02</div>
+              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">Lightweight & Breathable</h3>
               <p class="text-stone-600 text-sm leading-relaxed mb-4">
                 Kruger days frequently climb past
-                <span class="font-semibold text-stone-800">30°C (86°F)</span>.
-                Look for lightweight cotton, linen blends, ripstop, or quick-dry
-                synthetics that wick moisture while maximizing essential
-                airflow.
+                <span class="font-semibold text-stone-800">30°C (86°F)</span>. Look for lightweight cotton, linen
+                blends, ripstop, or quick-dry synthetics that wick moisture while maximizing essential airflow.
               </p>
             </div>
-            <div
-              class="bg-stone-200/40 p-3 rounded-xl text-xs text-stone-700 font-medium"
-            >
-              <span class="font-bold text-stone-900 block mb-0.5"
-                >Pro-Tip:</span
-              >
-              Long-sleeved utility shirts with collars protect your neck and
-              arms from intense afternoon UV rays.
+            <div class="bg-stone-200/40 p-3 rounded-xl text-xs text-stone-700 font-medium">
+              <span class="font-bold text-stone-900 block mb-0.5">Pro-Tip:</span>
+              Long-sleeved utility shirts with collars protect your neck and arms from intense afternoon UV rays.
             </div>
           </div>
 
@@ -467,35 +370,22 @@
             class="bg-stone-50 rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm relative"
           >
             <div>
-              <div
-                class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none"
-              >
-                03
-              </div>
-              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">
-                Dress in Strategic Layers
-              </h3>
+              <div class="absolute top-4 right-4 text-4xl font-black text-stone-200/70 select-none">03</div>
+              <h3 class="text-xl font-bold text-stone-900 mb-4 pr-8">Dress in Strategic Layers</h3>
               <p class="text-stone-600 text-sm leading-relaxed mb-4">
-                The bush has massive temperature swings. Winter mornings can
-                plummet to
-                <span class="font-semibold text-stone-800"
-                  >5–9°C (41–48°F)</span
-                >
+                The bush has massive temperature swings. Winter mornings can plummet to
+                <span class="font-semibold text-stone-800">5–9°C (41–48°F)</span>
                 in an open vehicle, warming up to a hot
                 <span class="font-semibold text-stone-800">25°C+ (77°F+)</span>
                 by midday.
               </p>
             </div>
             <div class="space-y-1.5 pt-3 border-t border-stone-200/60 text-xs">
-              <div
-                class="flex justify-between border-b border-stone-200/40 pb-1"
-              >
+              <div class="flex justify-between border-b border-stone-200/40 pb-1">
                 <span class="font-semibold text-stone-500">1. Base Layer</span>
                 <span class="text-stone-800">Breathable t-shirt / tank</span>
               </div>
-              <div
-                class="flex justify-between border-b border-stone-200/40 pb-1"
-              >
+              <div class="flex justify-between border-b border-stone-200/40 pb-1">
                 <span class="font-semibold text-stone-500">2. Mid Layer</span>
                 <span class="text-stone-800">Utility shirt / light fleece</span>
               </div>
@@ -509,21 +399,16 @@
       </section>
       <section class="my-12 py-8 px-6 max-w-3xl mx-auto">
         <!-- Section Header -->
-        <h2 class="font-bold tracking-tight text-center mb-3">
-          An African Safari Packing List: Head to Toe
-        </h2>
+        <h2 class="font-bold tracking-tight text-center mb-3">An African Safari Packing List: Head to Toe</h2>
         <p class="mb-8 max-w-2xl text-base leading-relaxed">
-          When deciding what to wear on a safari, breaking it down by category
-          ensures you don't leave the essentials behind. Use this checklist as
-          your packing baseline:
+          When deciding what to wear on a safari, breaking it down by category ensures you don't leave the essentials
+          behind. Use this checklist as your packing baseline:
         </p>
 
         <!-- Checklist Grid -->
         <div class="space-y-4">
           <!-- Item 1: Shirts -->
-          <div
-            class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100"
-          >
+          <div class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100">
             <div class="flex-shrink-0 mt-1">
               <svg
                 class="w-5 h-5 text-amber-700"
@@ -532,27 +417,20 @@
                 stroke-width="2.5"
                 stroke="currentColor"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
             <div>
               <h3 class="text-lg font-semibold text-stone-900 mb-1">Shirts</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                A mix of lightweight t-shirts and long-sleeve button-ups in
-                neutral tones. Long sleeves provide vital protection against
-                both UV rays and evening mosquitoes.
+                A mix of lightweight t-shirts and long-sleeve button-ups in neutral tones. Long sleeves provide vital
+                protection against both UV rays and evening mosquitoes.
               </p>
             </div>
           </div>
 
           <!-- Item 2: Trousers & Shorts -->
-          <div
-            class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100"
-          >
+          <div class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100">
             <div class="flex-shrink-0 mt-1">
               <svg
                 class="w-5 h-5 text-amber-700"
@@ -561,30 +439,21 @@
                 stroke-width="2.5"
                 stroke="currentColor"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
             <div>
-              <h3 class="text-lg font-semibold text-stone-900 mb-1">
-                Trousers & Shorts
-              </h3>
+              <h3 class="text-lg font-semibold text-stone-900 mb-1">Trousers & Shorts</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                Bring a mix of both. Convertible zip-off pants are incredibly
-                practical for transitioning from freezing dawns to hot
-                afternoons. Long trousers are a must if you plan on doing any
-                bush walks to protect your legs from thorns and ticks.
+                Bring a mix of both. Convertible zip-off pants are incredibly practical for transitioning from freezing
+                dawns to hot afternoons. Long trousers are a must if you plan on doing any bush walks to protect your
+                legs from thorns and ticks.
               </p>
             </div>
           </div>
 
           <!-- Item 3: Footwear -->
-          <div
-            class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100"
-          >
+          <div class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100">
             <div class="flex-shrink-0 mt-1">
               <svg
                 class="w-5 h-5 text-amber-700"
@@ -593,31 +462,21 @@
                 stroke-width="2.5"
                 stroke="currentColor"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
             <div>
-              <h3 class="text-lg font-semibold text-stone-900 mb-1">
-                Footwear
-              </h3>
+              <h3 class="text-lg font-semibold text-stone-900 mb-1">Footwear</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                You do not need heavy, rigid combat boots unless you are doing a
-                multi-day walking trail. A comfortable pair of trail runners or
-                broken-in light hiking shoes are perfect for game drives. Pack a
-                pair of sandals or flip-flops for relaxing around the lodge or
-                pool.
+                You do not need heavy, rigid combat boots unless you are doing a multi-day walking trail. A comfortable
+                pair of trail runners or broken-in light hiking shoes are perfect for game drives. Pack a pair of
+                sandals or flip-flops for relaxing around the lodge or pool.
               </p>
             </div>
           </div>
 
           <!-- Item 4: Hat & Sunglasses -->
-          <div
-            class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100"
-          >
+          <div class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100">
             <div class="flex-shrink-0 mt-1">
               <svg
                 class="w-5 h-5 text-amber-700"
@@ -626,30 +485,21 @@
                 stroke-width="2.5"
                 stroke="currentColor"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
             <div>
-              <h3 class="text-lg font-semibold text-stone-900 mb-1">
-                Hat & Sunglasses
-              </h3>
+              <h3 class="text-lg font-semibold text-stone-900 mb-1">Hat & Sunglasses</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                A wide-brimmed hat with a chin strap is essential (the wind in
-                an open safari vehicle will easily blow a loose cap away).
-                Polarized sunglasses are highly recommended to cut down the
-                intense glare and shield your eyes from dust.
+                A wide-brimmed hat with a chin strap is essential (the wind in an open safari vehicle will easily blow a
+                loose cap away). Polarized sunglasses are highly recommended to cut down the intense glare and shield
+                your eyes from dust.
               </p>
             </div>
           </div>
 
           <!-- Item 5: Socks & Accessories -->
-          <div
-            class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100"
-          >
+          <div class="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm border border-stone-100">
             <div class="flex-shrink-0 mt-1">
               <svg
                 class="w-5 h-5 text-amber-700"
@@ -658,22 +508,15 @@
                 stroke-width="2.5"
                 stroke="currentColor"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.5 12.75l6 6 9-13.5"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
             <div>
-              <h3 class="text-lg font-semibold text-stone-900 mb-1">
-                Socks & Accessories
-              </h3>
+              <h3 class="text-lg font-semibold text-stone-900 mb-1">Socks & Accessories</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                Moisture-wicking socks prevent blisters. Bring high socks to
-                protect your ankles from insect bites when sitting around the
-                evening fire. A lightweight buff or scarf is incredibly useful
-                for keeping dust out of your face on dry tracks.
+                Moisture-wicking socks prevent blisters. Bring high socks to protect your ankles from insect bites when
+                sitting around the evening fire. A lightweight buff or scarf is incredibly useful for keeping dust out
+                of your face on dry tracks.
               </p>
             </div>
           </div>
@@ -682,27 +525,20 @@
       <section class="my-16 max-w-5xl mx-auto px-6">
         <!-- Section Header -->
         <div class="mb-10 text-center sm:text-left">
-          <h2 class="font-bold tracking-tight text-center mb-3">
-            Kruger National Park Weather & Clothing Guide
-          </h2>
+          <h2 class="font-bold tracking-tight text-center mb-3">Kruger National Park Weather & Clothing Guide</h2>
           <p class="max-w-2xl text-base leading-relaxed">
-            Because weather patterns shift dramatically throughout the year,
-            what you wear depends heavily on when you visit our corner of South
-            Africa.
+            Because weather patterns shift dramatically throughout the year, what you wear depends heavily on when you
+            visit our corner of South Africa.
           </p>
         </div>
 
         <!-- Seasonal Comparison Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <!-- DRY WINTER CARD -->
-          <div
-            class="bg-white rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm"
-          >
+          <div class="bg-white rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm">
             <div>
               <!-- Badge & Title -->
-              <div
-                class="flex items-center justify-between border-b border-stone-200 pb-4 mb-4"
-              >
+              <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-4">
                 <div>
                   <span
                     class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-900 mb-1"
@@ -711,67 +547,45 @@
                   </span>
                   <h3 class="text-2xl font-bold text-stone-900">Dry Winter</h3>
                 </div>
-                <span
-                  class="text-sm font-medium text-stone-500 bg-stone-200/60 px-3 py-1 rounded-md"
-                >
+                <span class="text-sm font-medium text-stone-500 bg-stone-200/60 px-3 py-1 rounded-md">
                   May – August
                 </span>
               </div>
 
               <!-- Narrative Description -->
               <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                Expect crisp, clear skies. Mornings are freezing, but middays
-                are beautiful and dry. Vegetation is thin, making wildlife
-                tracking spectacular.
+                Expect crisp, clear skies. Mornings are freezing, but middays are beautiful and dry. Vegetation is thin,
+                making wildlife tracking spectacular.
               </p>
 
               <!-- Packing Specifics -->
               <div class="space-y-4">
                 <div class="flex flex-col gap-1">
-                  <span
-                    class="text-xs font-bold uppercase tracking-wider text-stone-400"
-                    >Morning Layers</span
-                  >
-                  <span class="text-sm font-medium text-stone-800"
-                    >Heavy fleece, warm jacket, beanie, & gloves</span
-                  >
+                  <span class="text-xs font-bold uppercase tracking-wider text-stone-400">Morning Layers</span>
+                  <span class="text-sm font-medium text-stone-800">Heavy fleece, warm jacket, beanie, & gloves</span>
                 </div>
 
                 <div class="flex flex-col gap-1">
-                  <span
-                    class="text-xs font-bold uppercase tracking-wider text-stone-400"
-                    >Midday Attire</span
-                  >
-                  <span class="text-sm font-medium text-stone-800"
-                    >Neutral tee, light trousers or shorts</span
-                  >
+                  <span class="text-xs font-bold uppercase tracking-wider text-stone-400">Midday Attire</span>
+                  <span class="text-sm font-medium text-stone-800">Neutral tee, light trousers or shorts</span>
                 </div>
               </div>
             </div>
 
             <!-- Essential Extra Gear Footer -->
-            <div
-              class="mt-6 pt-4 border-t border-stone-200/60 bg-amber-50/50 -mx-6 -mb-6 p-6 rounded-b-2xl"
-            >
-              <span
-                class="text-xs font-bold uppercase tracking-wider text-amber-800 block mb-1"
+            <div class="mt-6 pt-4 border-t border-stone-200/60 bg-amber-50/50 -mx-6 -mb-6 p-6 rounded-b-2xl">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-800 block mb-1"
                 >Essential Extra Gear</span
               >
-              <span class="text-sm font-semibold text-stone-800"
-                >Windbreaker shell & heavy-duty lip balm</span
-              >
+              <span class="text-sm font-semibold text-stone-800">Windbreaker shell & heavy-duty lip balm</span>
             </div>
           </div>
 
           <!-- WET SUMMER CARD -->
-          <div
-            class="bg-white rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm"
-          >
+          <div class="bg-white rounded-2xl border border-stone-200/80 p-6 flex flex-col justify-between shadow-sm">
             <div>
               <!-- Badge & Title -->
-              <div
-                class="flex items-center justify-between border-b border-stone-200 pb-4 mb-4"
-              >
+              <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-4">
                 <div>
                   <span
                     class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-900 mb-1"
@@ -780,50 +594,34 @@
                   </span>
                   <h3 class="text-2xl font-bold text-stone-900">Wet Summer</h3>
                 </div>
-                <span
-                  class="text-sm font-medium text-stone-500 bg-stone-200/60 px-3 py-1 rounded-md"
-                >
+                <span class="text-sm font-medium text-stone-500 bg-stone-200/60 px-3 py-1 rounded-md">
                   Nov – March
                 </span>
               </div>
 
               <!-- Narrative Description -->
               <p class="text-stone-600 text-sm leading-relaxed mb-6">
-                Expect vibrant green scenery, newborn animals, higher humidity,
-                and dramatic afternoon thunderstorms. Focus on lightweight,
-                fast-drying clothes.
+                Expect vibrant green scenery, newborn animals, higher humidity, and dramatic afternoon thunderstorms.
+                Focus on lightweight, fast-drying clothes.
               </p>
 
               <!-- Packing Specifics -->
               <div class="space-y-4">
                 <div class="flex flex-col gap-1">
-                  <span
-                    class="text-xs font-bold uppercase tracking-wider text-stone-400"
-                    >Morning Layers</span
-                  >
-                  <span class="text-sm font-medium text-stone-800"
-                    >Light, long-sleeve utility shirt</span
-                  >
+                  <span class="text-xs font-bold uppercase tracking-wider text-stone-400">Morning Layers</span>
+                  <span class="text-sm font-medium text-stone-800">Light, long-sleeve utility shirt</span>
                 </div>
 
                 <div class="flex flex-col gap-1">
-                  <span
-                    class="text-xs font-bold uppercase tracking-wider text-stone-400"
-                    >Midday Attire</span
-                  >
-                  <span class="text-sm font-medium text-stone-800"
-                    >Ultra-breathable shirts, shorts & tanks</span
-                  >
+                  <span class="text-xs font-bold uppercase tracking-wider text-stone-400">Midday Attire</span>
+                  <span class="text-sm font-medium text-stone-800">Ultra-breathable shirts, shorts & tanks</span>
                 </div>
               </div>
             </div>
 
             <!-- Essential Extra Gear Footer -->
-            <div
-              class="mt-6 pt-4 border-t border-stone-200/60 bg-emerald-50/40 -mx-6 -mb-6 p-6 rounded-b-2xl"
-            >
-              <span
-                class="text-xs font-bold uppercase tracking-wider text-emerald-800 block mb-1"
+            <div class="mt-6 pt-4 border-t border-stone-200/60 bg-emerald-50/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+              <span class="text-xs font-bold uppercase tracking-wider text-emerald-800 block mb-1"
                 >Essential Extra Gear</span
               >
               <span class="text-sm font-semibold text-stone-800"
@@ -836,9 +634,7 @@
       <section class="my-16 max-w-3xl mx-auto px-6">
         <!-- Section Header -->
         <div class="mb-10 text-center sm:text-left">
-          <h2
-            class="font-bold tracking-tight mb-3 flex items-center justify-center gap-3"
-          >
+          <h2 class="font-bold tracking-tight mb-3 flex items-center justify-center gap-3">
             <svg
               class="w-8 h-8 text-rose-600 flex-shrink-0"
               fill="none"
@@ -855,27 +651,18 @@
             What NOT to Wear on a Safari
           </h2>
           <p class="max-w-2xl text-base leading-relaxed">
-            To keep you safe and ensure you don't accidentally spook the
-            wildlife you traveled thousands of miles to see, strictly avoid
-            packing the following items:
+            To keep you safe and ensure you don't accidentally spook the wildlife you traveled thousands of miles to
+            see, strictly avoid packing the following items:
           </p>
         </div>
 
         <!-- Warnings Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Item 1: Camouflage -->
-          <div
-            class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4"
-          >
+          <div class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4">
             <div class="flex-shrink-0 mt-0.5">
               <div class="p-2 bg-rose-100 text-rose-700 rounded-lg">
-                <svg
-                  class="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2.5"
-                  stroke="currentColor"
-                >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -885,31 +672,19 @@
               </div>
             </div>
             <div>
-              <h3 class="text-lg font-bold text-stone-900 mb-1">
-                Camouflage Clothing
-              </h3>
+              <h3 class="text-lg font-bold text-stone-900 mb-1">Camouflage Clothing</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                In many African countries, military-style camouflage patterns
-                are legally reserved for the armed forces and anti-poaching
-                units. It is highly disrespectful and sometimes illegal for
-                civilians to wear it.
+                In many African countries, military-style camouflage patterns are legally reserved for the armed forces
+                and anti-poaching units. It is highly disrespectful and sometimes illegal for civilians to wear it.
               </p>
             </div>
           </div>
 
           <!-- Item 2: Dark Blue & Black -->
-          <div
-            class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4"
-          >
+          <div class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4">
             <div class="flex-shrink-0 mt-0.5">
               <div class="p-2 bg-rose-100 text-rose-700 rounded-lg">
-                <svg
-                  class="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2.5"
-                  stroke="currentColor"
-                >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -919,30 +694,19 @@
               </div>
             </div>
             <div>
-              <h3 class="text-lg font-bold text-stone-900 mb-1">
-                Dark Blue and Black
-              </h3>
+              <h3 class="text-lg font-bold text-stone-900 mb-1">Dark Blue and Black</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                These colors are known to attract biting tsetse flies (which can
-                carry sleeping sickness in certain regions) and they absorb
-                intense heat under the midday sun. Stick to lighter tones.
+                These colors are known to attract biting tsetse flies (which can carry sleeping sickness in certain
+                regions) and they absorb intense heat under the midday sun. Stick to lighter tones.
               </p>
             </div>
           </div>
 
           <!-- Item 3: Formal Attire -->
-          <div
-            class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4"
-          >
+          <div class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4">
             <div class="flex-shrink-0 mt-0.5">
               <div class="p-2 bg-rose-100 text-rose-700 rounded-lg">
-                <svg
-                  class="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2.5"
-                  stroke="currentColor"
-                >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -952,30 +716,19 @@
               </div>
             </div>
             <div>
-              <h3 class="text-lg font-bold text-stone-900 mb-1">
-                Formal Attire & High Heels
-              </h3>
+              <h3 class="text-lg font-bold text-stone-900 mb-1">Formal Attire & High Heels</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                The safari atmosphere is inherently relaxed and casual. Leave
-                the formal wear, delicate fabrics, and high heels at home;
-                comfort and utility are the absolute rules of the bush.
+                The safari atmosphere is inherently relaxed and casual. Leave the formal wear, delicate fabrics, and
+                high heels at home; comfort and utility are the absolute rules of the bush.
               </p>
             </div>
           </div>
 
           <!-- Item 4: Heavy Perfumes -->
-          <div
-            class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4"
-          >
+          <div class="bg-rose-50/40 rounded-2xl border border-rose-100 p-5 flex gap-4">
             <div class="flex-shrink-0 mt-0.5">
               <div class="p-2 bg-rose-100 text-rose-700 rounded-lg">
-                <svg
-                  class="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2.5"
-                  stroke="currentColor"
-                >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -985,13 +738,10 @@
               </div>
             </div>
             <div>
-              <h3 class="text-lg font-bold text-stone-900 mb-1">
-                Heavy Perfumes or Colognes
-              </h3>
+              <h3 class="text-lg font-bold text-stone-900 mb-1">Heavy Perfumes or Colognes</h3>
               <p class="text-stone-600 text-sm leading-relaxed">
-                Wild animals have an incredibly acute sense of smell. Strong
-                artificial scents alert them to your presence long before you
-                see them, causing them to retreat into thick brush.
+                Wild animals have an incredibly acute sense of smell. Strong artificial scents alert them to your
+                presence long before you see them, causing them to retreat into thick brush.
               </p>
             </div>
           </div>
@@ -1004,39 +754,28 @@
           <!-- Text Content Area -->
           <div class="p-8 sm:p-12 lg:col-span-7 flex flex-col justify-center">
             <!-- Accent Tag -->
-            <span
-              class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-3 block"
-            >
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-3 block">
               The Slow Safari Experience
             </span>
 
-            <h2
-              class="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-6"
-            >
+            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-6">
               Experience Kruger Right with Eugene Safaris
             </h2>
 
-            <div
-              class="space-y-4 text-stone-300 text-base leading-relaxed mb-8"
-            >
+            <div class="space-y-4 text-stone-300 text-base leading-relaxed mb-8">
               <p>
-                Packing the right wardrobe ensures that you can focus entirely
-                on the horizon rather than worrying about being too cold, too
-                hot, or getting bitten by bugs. At Eugene Safaris, we take that
-                philosophy of effortless comfort a step further.
+                Packing the right wardrobe ensures that you can focus entirely on the horizon rather than worrying about
+                being too cold, too hot, or getting bitten by bugs. At Eugene Safaris, we take that philosophy of
+                effortless comfort a step further.
               </p>
-              <p
-                class="border-l-2 border-amber-500/40 pl-4 italic text-stone-400"
-              >
-                We specialize in immersive, small-group photographic experiences
-                designed around a "slow safari" philosophy—giving you the time,
-                space, and expert guidance needed to truly connect with the
-                African bush.
+              <p class="border-l-2 border-amber-500/40 pl-4 italic text-stone-400">
+                We specialize in immersive, small-group photographic experiences designed around a "slow safari"
+                philosophy—giving you the time, space, and expert guidance needed to truly connect with the African
+                bush.
               </p>
               <p>
-                Ready to put your safari wardrobe to the test? Explore our
-                tailored itineraries or get in touch with us today to start
-                planning your ultimate bucket-list adventure.
+                Ready to put your safari wardrobe to the test? Explore our tailored itineraries or get in touch with us
+                today to start planning your ultimate bucket-list adventure.
               </p>
             </div>
 
@@ -1058,9 +797,7 @@
           </div>
 
           <!-- Right Image Showcase Panel -->
-          <div
-            class="relative min-h-[320px] lg:min-h-full lg:col-span-5 hidden sm:block"
-          >
+          <div class="relative min-h-[320px] lg:min-h-full lg:col-span-5 hidden sm:block">
             <img
               src="/src/assets/images/kruger-national-park/landscape/sabi-river.webp"
               alt="Open safari vehicle watching a lion pride in Kruger National Park"
@@ -1130,10 +867,10 @@
             </li>
             <li>
               <a
-                href="/kruger-all-inclusive-safaris/"
+                href="/kruger-guide/"
                 class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                All Inclusive Safari Packages
+                Kruger Gide
               </a>
             </li>
             <li></li>
@@ -1158,8 +895,32 @@
 
         <!-- Column 3: Other Links -->
         <div>
-          <h2 class="text-lg font-semibold mb-4">Safari Stuff and More</h2>
+          <h2 class="text-lg font-semibold mb-4">Kruger Safaris & Info</h2>
           <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/kruger-safaris/all-inclusive-packages/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                All Inclusive Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/birding-tours/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Birding Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/photographic/"
+                class="underline underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Photographic Safaris
+              </a>
+            </li>
             <li>
               <a
                 href="/kruger-national-park/"
@@ -1176,13 +937,9 @@
         <div
           class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-600"
         >
-          <div class="text-center md:text-left">
-            &copy; 2026 Eugene Safaris. All rights reserved.
-          </div>
+          <div class="text-center md:text-left">&copy; 2026 Eugene Safaris. All rights reserved.</div>
 
-          <div
-            class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0"
-          >
+          <div class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0">
             <a
               href="https://www.facebook.com/eugenesafaris"
               target="_blank"
@@ -1190,11 +947,7 @@
               aria-label="Facebook"
               class="hover:opacity-70 transition"
             >
-              <img
-                src="/src/assets/images/logo/facebook.svg"
-                alt="Facebook"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5" />
             </a>
 
             <a
@@ -1204,11 +957,7 @@
               aria-label="Instagram"
               class="hover:opacity-70 transition"
             >
-              <img
-                src="/src/assets/images/logo/instagram.svg"
-                alt="Instagram"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
             </a>
 
             <a
@@ -1218,11 +967,7 @@
               aria-label="YouTube"
               class="hover:opacity-70 transition"
             >
-              <img
-                src="/src/assets/images/logo/youtube.svg"
-                alt="YouTube"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
             </a>
           </div>
         </div>
