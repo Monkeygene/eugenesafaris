@@ -4,20 +4,17 @@
   <url><loc>https://eugenesafaris.com/</loc></url>
   <url><loc>https://eugenesafaris.com/about/</loc></url>
   <url><loc>https://eugenesafaris.com/contact/</loc></url>
-  <url><loc>https://eugenesafaris.com/blog/</loc></url>
 
-  <!-- Main Kruger Hub & Specialized Commercial Landing Pages -->
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/</loc></url>
+  <!-- Safari Hub -->
+  <url><loc>https://eugenesafaris.com/kruger-safaris/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/all-inclusive-packages/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/birding-tours/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/photographic/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/5-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/6-day/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-safaris/7-day/</loc></url>
 
-
-  <!-- Master Itinerary Booking Pages (Unified & Flat) -->
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/5-day/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/6-day/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/7-day/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/birding/</loc></url>
-  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/photographic/</loc></url>
-
-  <!-- Informational -->
+  <!-- Kruger Hub -->
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/big-5/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/black-rhinoceros/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/buffalo/</loc></url>
@@ -30,12 +27,12 @@
   <url><loc>https://eugenesafaris.com/kruger-national-park/airports-guide/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/best-time-to-visit/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/malaria-guide/</loc></url>
-  <!-- Weather -->
   <url><loc>https://eugenesafaris.com/kruger-national-park/weather/</loc></url>
-
-  <url><loc>https://eugenesafaris.com/blog/what-to-wear-on-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/blog/what-to-bring-on-safari/</loc></url>
-  <url><loc>https://eugenesafaris.com/blog/difference-between-white-and-black-rhino/</loc></url>
-  <url><loc>https://eugenesafaris.com/blog/3-day-safari/</loc></url>
+  <!-- Kruger Guide -->
+  <url><loc>https://eugenesafaris.com/kruger-guide/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/3-day-safari/</loc></url>
 
 </urlset>

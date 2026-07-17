@@ -7,17 +7,17 @@
 * [Home](https://eugenesafaris.com/)
 * [About Us](https://eugenesafaris.com/about/)
 * [Contact Us](https://eugenesafaris.com/contact/)
-* [Blog Hub](https://eugenesafaris.com/blog/)
+* [Kruger Guide Hub](https://eugenesafaris.com/kruger-guide/)
 
 ## Safari Offerings & Booking Pages
 
-* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-all-inclusive-safaris/)
-* [All Safaris Overview](https://eugenesafaris.com/safaris/)
-* [5-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/5-day-kruger/)
-* [6-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/6-day-kruger/)
-* [7-Day Kruger Safari Itinerary](https://eugenesafaris.com/safaris/7-day-kruger/)
-* [Birding Safari Kruger](https://eugenesafaris.com/safaris/birding-kruger/)
-* [Photographic Safari Kruger](https://eugenesafaris.com/safaris/photographic-kruger/)
+* [All Safaris Overview](https://eugenesafaris.com/kruger-safaris/)
+* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-safaris/all-inclusive-packages)
+* [5-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/5-day/)
+* [6-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/6-day/)
+* [7-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/7-day/)
+* [Birding Safari Kruger](https://eugenesafaris.com/kruger-safaris/birding-tours/)
+* [Photographic Safari Kruger](https://eugenesafaris.com/kruger-safaris/photographic/)
 
 ## Kruger National Park Guides
 
@@ -26,18 +26,18 @@
 
 ## Wildlife & Big 5 Education
 
-* [Wildlife Hub](https://eugenesafaris.com/wildlife/)
-* [The Big 5](https://eugenesafaris.com/wildlife/big-5/)
-* [Lion Guide](https://eugenesafaris.com/wildlife/lion/)
-* [Leopard Guide](https://eugenesafaris.com/wildlife/leopard/)
-* [Elephant Guide](https://eugenesafaris.com/wildlife/elephant/)
-* [Buffalo Guide](https://eugenesafaris.com/wildlife/buffalo/)
-* [White Rhinoceros Guide](https://eugenesafaris.com/wildlife/white-rhinoceros/)
-* [Black Rhinoceros Guide](https://eugenesafaris.com/wildlife/black-rhinoceros/)
+* [Wildlife Hub](https://eugenesafaris.com/kruger-national-park/wildlife/)
+* [The Big 5](https://eugenesafaris.com/kruger-national-park/wildlife/big-5/)
+* [Lion Guide](https://eugenesafaris.com/kruger-national-park/wildlife/lion/)
+* [Leopard Guide](https://eugenesafaris.com/kruger-national-park/wildlife/leopard/)
+* [Elephant Guide](https://eugenesafaris.com/kruger-national-park/wildlife/elephant/)
+* [Buffalo Guide](https://eugenesafaris.com/kruger-national-park/wildlife/buffalo/)
+* [White Rhinoceros Guide](https://eugenesafaris.com/kruger-national-park/wildlife/white-rhinoceros/)
+* [Black Rhinoceros Guide](https://eugenesafaris.com/kruger-national-park/wildlife/black-rhinoceros/)
 
 ## Articles & Travel Advice
 
-* [What to Wear on Safari](https://eugenesafaris.com/blog/what-to-wear-on-safari/)
-* [What to Bring on Safari](https://eugenesafaris.com/blog/what-to-bring-on-safari/)
-* [Difference Between White and Black Rhino](https://eugenesafaris.com/blog/difference-between-white-and-black-rhino/)
-* [3-Day Safari Advice](https://eugenesafaris.com/blog/3-day-safari/)
+* [What to Wear on Safari](https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/)
+* [What to Bring on Safari](https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/)
+* [Difference Between White and Black Rhino](https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/)
+* [3-Day Safari Advice](https://eugenesafaris.com/kruger-guide/3-day-safari/)
