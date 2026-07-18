@@ -1,13 +1,17 @@
 import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
   base: "/",
+
+  plugins: [tailwindcss()],
+
   build: {
     outDir: "dist",
+
     rollupOptions: {
       input: {
-        // Core
         main: path.resolve(__dirname, "index.html"),
         contact: path.resolve(__dirname, "contact/index.html"),
         about: path.resolve(__dirname, "about/index.html"),
@@ -26,13 +30,12 @@ export default defineConfig({
         krugerwildlife: path.resolve(__dirname, "kruger-national-park/wildlife/index.html"),
         // Safaris
         krugersafaris: path.resolve(__dirname, "kruger-safaris/index.html"),
-        allinclusivesafaris: path.resolve(__dirname, "kruger-safaris/all-inclusive-packages/index.html"),
+        allinclusivesafaris: path.resolve(__dirname, "kruger-safaris/all-inclusive/index.html"),
         safaris5day: path.resolve(__dirname, "kruger-safaris/5-day/index.html"),
         safaris6day: path.resolve(__dirname, "kruger-safaris/6-day/index.html"),
         safaris7day: path.resolve(__dirname, "kruger-safaris/7-day/index.html"),
         birdingkruger: path.resolve(__dirname, "kruger-safaris/birding-tours/index.html"),
         photographickruger: path.resolve(__dirname, "kruger-safaris/photographic/index.html"),
-
         // Kruger Guide
         krugerguide: path.resolve(__dirname, "kruger-guide/index.html"),
         whattowearonasafari: path.resolve(__dirname, "kruger-guide/what-to-wear-on-safari/index.html"),

@@ -1,3 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-linen: rgb(254, 252, 250);
+
+  --font-crimson: "Crimson Text", serif;
+}
+
 @font-face {
   font-family: "Crimson Text";
   src: url("/fonts/crimson/CrimsonText-Regular.woff2") format("woff2");
@@ -45,11 +53,6 @@
   font-style: italic;
   font-display: swap;
 }
-
-/* Tailwind */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Global typography */
 @layer base {

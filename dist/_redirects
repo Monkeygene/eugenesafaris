@@ -78,15 +78,15 @@
 
 # Flagship Commercial Hub Redirects
 
-/kruger-national-park/safari-all-inclusive-packages/ /kruger-safaris/all-inclusive-packages/ 301
-/kruger-national-park/all-inclusive-safari-packages/ /kruger-safaris/all-inclusive-packages/ 301
-/kruger-national-park/classic-safari-packages/ /kruger-safaris/all-inclusive-packages/ 301
+/kruger-national-park/safari-all-inclusive-packages/ /kruger-safaris/all-inclusive/ 301
+/kruger-national-park/all-inclusive-safari-packages/ /kruger-safaris/all-inclusive/ 301
+/kruger-national-park/classic-safari-packages/ /kruger-safaris/all-inclusive/ 301
 /kruger-national-park/safari-packages/ /kruger-safaris/ 301
-/kruger-national-park/all-inclusive-safaris/ /kruger-safaris/all-inclusive-packages/ 301
+/kruger-national-park/all-inclusive-safaris/ /kruger-safaris/all-inclusive/ 301
 /kruger-national-park/private-safaris/ / 301
-/kruger-national-park/safaris/ /kruger-safaris/all-inclusive-packages/ 301
-/kruger-national-park/standard-packages/ /kruger-safaris/all-inclusive-packages/ 301
-/kruger-all-inclusive-safaris/ /kruger-safaris/all-inclusive-packages/ 301
+/kruger-national-park/safaris/ /kruger-safaris/all-inclusive/ 301
+/kruger-national-park/standard-packages/ /kruger-safaris/all-inclusive/ 301
+/kruger-all-inclusive-safaris/ /kruger-safaris/all-inclusive/ 301
 
 # --- Photographic Safari Redirects ---
 

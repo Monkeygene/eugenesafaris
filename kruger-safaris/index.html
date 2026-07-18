@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title & Description -->
+    <title>Kruger National Park Safaris & Tours | Eugene Safaris</title>
+    <meta
+      name="description"
+      content="Explore Kruger National Park safari all-inclusive packages. Guided safaris with classic SANPark Kruger accommodation, meals, and open game drives included."
+    />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-safaris//" />
+
+    <!-- Favicon & Apple Touch Icon -->
+    <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Structured Data (Kruger All Inclusive Safaris) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "https://eugenesafaris.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://eugenesafaris.com/kruger-safaris/",
+              "name": "Kruger Safaris"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="antialiased">
+    <!-- #region Mobile Header -->
+    <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
+      <div class="relative h-20">
+        <!-- Hamburger -->
+        <button
+          id="menuBtn"
+          class="absolute left-5 top-1/2 -translate-y-1/2 transition-transform duration-150 hover:scale-105 active:scale-95"
+        >
+          <img
+            id="mobileMenuIcon"
+            src="/images/navbar/hamburger-closed.svg"
+            alt="Open menu"
+            class="h-8 w-auto transition-transform duration-150"
+            loading="eager"
+          />
+        </button>
+
+        <!-- Logo -->
+        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <img src="/images/navbar/eugenesafaris.svg" alt="Eugene Safaris" class="h-8 w-auto" loading="eager" />
+        </a>
+
+        <!-- Mail -->
+        <a
+          href="mailto:eugene@eugenesafaris.com"
+          class="absolute right-5 top-1/2 -translate-y-1/2 group"
+          aria-label="Send email to Birding Legend"
+        >
+          <img src="/images/navbar/mail-letter-closed.svg" class="block h-8" alt="send email button" loading="eager" />
+        </a>
+      </div>
+    </header>
+    <div
+      id="mobileOverlay"
+      class="fixed inset-0 bg-black/30 hidden opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-30"
+    ></div>
+    <aside
+      id="mobilePanel"
+      class="fixed left-0 top-20 h-[calc(100vh-5rem)] w-72 bg-linen -transform -translate-x-full transition-transform duration-300 z-40"
+    >
+      <nav class="pt-10 px-8">
+        <ul class="space-y-8 text-2xl">
+          <li>
+            <a href="/kruger-safaris/all-inclusive/">All Inclusive Safaris</a>
+          </li>
+
+          <li>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
+          </li>
+
+          <li>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
+          </li>
+
+          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
+
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
+
+          <li><a href="/about/">About</a></li>
+
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- #endregion -->
+    <!-- #region Desktop Header -->
+    <header id="desktopHeader" class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300">
+      <div id="desktopHeaderInner" class="relative h-24 transition-all duration-300">
+        <!-- Left -->
+        <button
+          id="desktopMenuBtn"
+          class="absolute left-28 top-1/2 -translate-y-1/2 transition-transform duration-150 hover:scale-105 active:scale-95"
+        >
+          <img
+            id="menuIcon"
+            src="/images/navbar/hamburger-closed.svg"
+            alt="Open menu"
+            class="h-8 w-auto transition-all duration-200"
+            loading="eager"
+          />
+        </button>
+
+        <!-- Center -->
+        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <img
+            id="desktopLogo"
+            src="/images/navbar/eugenesafaris.svg"
+            alt="Eugene Safaris"
+            class="h-10 w-auto transition-all duration-300 ease-in-out"
+            loading="eager"
+          />
+        </a>
+
+        <!-- Right -->
+        <div class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6">
+          <!-- Contact Button -->
+          <a
+            id="contactButton"
+            href="/contact/"
+            class="group relative flex items-center justify-center w-27.5 h-auto transition-transform duration-200 active:scale-95"
+          >
+            <!-- Ring -->
+            <img
+              src="/images/navbar/button-ring.svg"
+              alt=""
+              aria-hidden="true"
+              class="absolute w-27.5 h-auto opacity-0 scale-95 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100"
+              loading="eager"
+            />
+
+            <!-- Button -->
+            <img
+              src="/images/navbar/button.svg"
+              alt=""
+              aria-hidden="true"
+              class="absolute w-25 h-auto"
+              loading="eager"
+            />
+
+            <!-- Text -->
+            <span class="relative z-10 text-xl font-black font-eugene"> CONTACT </span>
+          </a>
+
+          <!-- Mail -->
+          <a href="mailto:eugene@eugenesafaris.com" aria-label="Send email to Birding Legend">
+            <img
+              id="desktopMail"
+              src="/images/navbar/mail-letter-closed.svg"
+              class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6"
+              loading="eager"
+              alt="send email button"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <div
+      id="sidebarOverlay"
+      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
+    ></div>
+    <aside
+      id="desktopSidebar"
+      class="fixed left-0 top-0 pt-24 h-screen w-80 bg-linen -transform -translate-x-full transition-all duration-300 z-40"
+    >
+      <nav class="pt-32 px-10">
+        <ul class="space-y-8 text-2xl">
+          <li>
+            <a href="/kruger-safaris/all-inclusive/">All Inclusive Safaris</a>
+          </li>
+
+          <li>
+            <a href="/kruger-safaris/birding-tours/">Birding Safari</a>
+          </li>
+
+          <li>
+            <a href="/kruger-safaris/photographic/">Photographic Safari</a>
+          </li>
+
+          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
+
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
+
+          <li><a href="/about/">About</a></li>
+
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- #endregion -->
+    <main class="pt-20">
+      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-3 mt-4">
+        <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+          <li class="flex items-center">
+            <a href="/" class="hover:underline">Home</a>
+            <span class="mx-2">/</span>
+          </li>
+
+          <li class="flex items-center text-gray-500" aria-current="page">Kruger Safaris</li>
+        </ol>
+      </nav>
+      <section class="relative overflow-hidden py-24 lg:py-32">
+        <div class="container mx-auto max-w-3xl px-4">
+          <div class="mx-auto max-w-4xl text-center">
+            <h1 class="font-bold text-2xl md:text-3xl mb-6 tracking-tight">Kruger National Park Safaris & Tours</h1>
+
+            <p class="text-base md:text-lg leading-relaxed mb-6">
+              Discover our range of Kruger National Park safaris and tours, from all-inclusive wildlife adventures and
+              specialist birding tours to private photographic safaris. Every trip is designed for guests who want to
+              experience Kruger at a slower pace and spend more time enjoying its remarkable wildlife.
+            </p>
+
+            <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href="/kruger-safaris/all-inclusive/"
+                class="rounded-full bg-black px-6 py-3 font-medium text-white transition hover:opacity-90"
+              >
+                View All Inclusive Safaris
+              </a>
+
+              <a
+                href="/contact/"
+                class="rounded-full border border-neutral-300 px-6 py-3 font-medium transition hover:bg-neutral-100"
+              >
+                Plan Your Safari
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container mx-auto max-w-7xl px-4">
+          <div class="mx-auto mb-12 max-w-3xl text-center">
+            <h2 class="mb-4">Choose Your Kruger Experience</h2>
+
+            <p class="text-neutral-600 leading-8">
+              Every safari offered by Eugene Safaris follows the same private model you'll find throughout this website.
+              Whether you're joining an all-inclusive safari, a specialist birding tour, or a photographic adventure,
+              you'll enjoy a slower pace, flexible game drives, and the opportunity to experience Kruger National Park
+              without the crowds.
+            </p>
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-3">
+            <!-- All Inclusive -->
+            <a
+              href="/kruger-safaris/all-inclusive/"
+              class="group rounded-2xl border border-neutral-200 p-8 transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <h3 class="mb-3">All Inclusive Safaris</h3>
+
+              <p class="mb-6 text-neutral-600">
+                Ideal for first-time visitors looking for a stress-free Kruger experience with accommodation, meals,
+                conservation fees, and private guiding included.
+              </p>
+
+              <span class="font-medium"> Explore All Inclusive Safaris → </span>
+            </a>
+
+            <!-- Birding -->
+            <a
+              href="/kruger-safaris/birding-tours/"
+              class="group rounded-2xl border border-neutral-200 p-8 transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <h3 class="mb-3">Birding Tours</h3>
+
+              <p class="mb-6 text-neutral-600">
+                Designed for bird enthusiasts hoping to discover Kruger's incredible avian diversity, from colourful
+                bee-eaters to sought-after specials such as Pel's Fishing Owl.
+              </p>
+
+              <span class="font-medium"> Discover Birding Tours → </span>
+            </a>
+
+            <!-- Photographic -->
+            <a
+              href="/kruger-safaris/photographic/"
+              class="group rounded-2xl border border-neutral-200 p-8 transition hover:-translate-y-1 hover:shadow-lg"
+            >
+              <h3 class="mb-3">Photographic Safaris</h3>
+
+              <p class="mb-6 text-neutral-600">
+                Spend more time at sightings and capture memorable images of Kruger's wildlife alongside a guide who
+                understands the needs of photographers.
+              </p>
+
+              <span class="font-medium"> View Photographic Safaris → </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="mx-auto mb-12 max-w-3xl text-center">
+          <h2 class="mb-4">Choose Your Kruger Experience</h2>
+
+          <p class="text-neutral-600 leading-8">
+            Every safari offered by Eugene Safaris is completely private and designed for guests who want to experience
+            Kruger National Park properly. Whether you're interested in wildlife, birding, or photography, each safari
+            follows the same relaxed approach that makes time to appreciate everything the park has to offer.
+          </p>
+        </div>
+      </section>
+      <section class="py-16 md:py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Intro -->
+        <div class="mb-10 text-center">
+          <h2 class="mb-3 font-bold">How Long Would You Like to Spend in Kruger?</h2>
+
+          <p class="mx-auto max-w-2xl">
+            Whether you have five days or a full week to spare, each all-inclusive safari is designed around
+            experiencing Kruger National Park at a comfortable pace. Explore the options below to find the itinerary
+            that best suits your travel plans.
+          </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- Card 1 -->
+          <a href="/kruger-safaris/5-day/" class="group block">
+            <article
+              class="bg-white rounded-md overflow-hidden flex flex-col h-full shadow-sm hover:shadow-lg transition duration-300"
+            >
+              <!-- Image -->
+              <div class="relative h-52 overflow-hidden">
+                <img
+                  src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/kudu-bull-browsing.webp"
+                  alt="5 Day Kruger National Park All Inclusive Safari"
+                  class="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                />
+
+                <!-- Price -->
+                <div
+                  class="absolute top-3 right-3 bg-white/95 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm"
+                >
+                  From R17,885 pp
+                </div>
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 flex flex-col grow">
+                <!-- Title -->
+                <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-amber-700 transition">
+                  5 Day Kruger Safari
+                </h3>
+
+                <!-- Route -->
+                <p class="text-sm font-medium text-amber-700 mb-4">Eastgate → Satara → Skukuza</p>
+
+                <!-- Highlights -->
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                  <li>✓ 4 nights inside Kruger National Park</li>
+                  <li>✓ Stay in Satara and Skukuza</li>
+                  <li>✓ Airport pickup and drop-off included</li>
+                  <li>✓ Daily guided game drives</li>
+                </ul>
+
+                <!-- Footer -->
+                <div class="mt-auto flex items-center justify-between pt-4 border-t border-neutral-200">
+                  <span class="text-sm font-semibold text-gray-900 group-hover:text-amber-700 transition">
+                    View Itinerary →
+                  </span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="/kruger-safaris/6-day/" class="group block">
+            <article
+              class="bg-white rounded-md overflow-hidden flex flex-col h-full shadow-sm hover:shadow-lg transition duration-300"
+            >
+              <!-- Image -->
+              <div class="relative h-52 overflow-hidden">
+                <!-- Most Popular Badge -->
+                <div
+                  class="absolute top-3 left-3 z-20 bg-amber-700 text-white px-3 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wide shadow"
+                >
+                  Most Popular
+                </div>
+
+                <img
+                  src="/src/assets/images/kruger-national-park/mammals/buffalo/image-box/mrbuffalo.webp"
+                  alt="6 Day Kruger National Park All Inclusive Safari"
+                  class="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                />
+
+                <!-- Price -->
+                <div
+                  class="absolute top-3 right-3 z-10 bg-white/95 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm"
+                >
+                  From R22,000 pp
+                </div>
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 flex flex-col grow">
+                <!-- Title -->
+                <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-amber-700 transition">
+                  6 Day Kruger Safari
+                </h3>
+
+                <!-- Route -->
+                <p class="text-sm font-medium text-amber-700 mb-4">Eastgate → Satara → Skukuza</p>
+
+                <!-- Highlights -->
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                  <li>✓ 5 nights inside Kruger National Park</li>
+                  <li>✓ Extra time in Satara or Skukuza</li>
+                  <li>✓ Airport pickup and drop-off included</li>
+                  <li>✓ Greater flexibility for wildlife viewing</li>
+                </ul>
+
+                <!-- Footer -->
+                <div class="mt-auto flex items-center justify-between pt-4 border-t border-neutral-200">
+                  <span class="text-sm font-semibold text-gray-900 group-hover:text-amber-700 transition">
+                    View Itinerary →
+                  </span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="/kruger-safaris/7-day/" class="group block">
+            <article
+              class="bg-white rounded-md overflow-hidden flex flex-col h-full shadow-sm hover:shadow-lg transition duration-300"
+            >
+              <!-- Image -->
+              <div class="relative h-52 overflow-hidden">
+                <img
+                  src="/src/assets/images/kruger-national-park/mammals/lion/image-box/african-lioness-in-tall-grass.webp"
+                  alt="7 Day Kruger National Park All Inclusive Safari"
+                  class="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                />
+
+                <!-- Price -->
+                <div
+                  class="absolute top-3 right-3 bg-white/95 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm"
+                >
+                  From R26,395 pp
+                </div>
+              </div>
+
+              <!-- Content -->
+              <div class="p-6 flex flex-col grow">
+                <!-- Title -->
+                <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-amber-700 transition">
+                  7 Day Kruger Safari
+                </h3>
+
+                <!-- Route -->
+                <p class="text-sm font-medium text-amber-700 mb-4">Satara → Skukuza → Berg-en-Dal</p>
+
+                <!-- Highlights -->
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                  <li>✓ 6 nights inside Kruger National Park</li>
+                  <li>✓ Stay in up to three rest camps</li>
+                  <li>✓ Covers central and southern Kruger</li>
+                  <li>✓ Maximum time for wildlife viewing</li>
+                </ul>
+
+                <!-- Footer -->
+                <div class="mt-auto flex items-center justify-between pt-4 border-t border-neutral-200">
+                  <span class="text-sm font-semibold text-gray-900 group-hover:text-amber-700 transition">
+                    View Itinerary →
+                  </span>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container mx-auto max-w-4xl px-4">
+          <div class="rounded-3xl px-8 py-12 text-center lg:px-16 lg:py-16">
+            <h2 class="mb-4">Ready to Experience Kruger National Park?</h2>
+
+            <p class="mx-auto mb-8 max-w-2xl leading-8 text-neutral-600">
+              Whether you're planning your first visit to Kruger National Park or returning in search of new wildlife
+              encounters, we'd love to help you plan the perfect private safari. Get in touch to discuss your dates,
+              interests, and the type of experience you're looking for.
+            </p>
+
+            <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href="/contact/"
+                class="rounded-full bg-black px-6 py-3 font-medium text-white transition hover:opacity-90"
+              >
+                Contact Eugene Safaris
+              </a>
+
+              <a
+                href="/kruger-safaris/all-inclusive/"
+                class="rounded-full border border-neutral-300 px-6 py-3 font-medium transition hover:bg-neutral-100"
+              >
+                View All Inclusive Safaris
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-linen text-gray-800 font-avenir">
+      <div
+        class="max-w-6xl mx-auto text-center md:text-start px-6 lg:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-12"
+      >
+        <!-- Column 1: Contact Info -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Contact</h2>
+          <ul class="text-sm space-y-2">
+            <li>
+              Cell:
+              <a
+                href="tel:+351964872495"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                +27 (062) 556-7936
+              </a>
+            </li>
+            <li>
+              Email:
+              <a
+                href="mailto:eugene@eugenesafaris.com"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                eugene@eugenesafaris.com
+              </a>
+            </li>
+            <li>Office Hours: Monday to Friday</li>
+            <li>
+              <span>View us on </span>
+              <a
+                href="https://g.page/r/CT4xG6jMOpXmEBI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Google
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Explore -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Explore</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-guide/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Guide
+              </a>
+            </li>
+            <li></li>
+            <li>
+              <a
+                href="/about/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Other Links -->
+        <div>
+          <h2 class="text-lg font-semibold mb-4">Kruger Safaris & Info</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a
+                href="/kruger-safaris/all-inclusive/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                All Inclusive Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/birding-tours/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Birding Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-safaris/photographic/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Photographic Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-national-park/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Kruger National Park
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-white border-t border-gray-300 py-4">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-600"
+        >
+          <div class="text-center md:text-left">&copy; 2026 Eugene Safaris. All rights reserved.</div>
+
+          <div class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0">
+            <a
+              href="https://www.facebook.com/eugenesafaris"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Facebook"
+              class="hover:opacity-70 transition"
+            >
+              <img src="/src/assets/images/logo/facebook.svg" alt="Facebook" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/eugenesafaris/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-70 transition"
+            >
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@birdinglegend"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-70 transition"
+            >
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Psalms 23:1–6 -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
