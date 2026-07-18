@@ -13,6 +13,10 @@
 /wildlife/mammals/ /kruger-national-park/wildlife/ 301
 /wildlife/birds/ /kruger-national-park/wildlife/ 301
 /wildlife/reptiles/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/mammals/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/birds/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/reptiles/ /kruger-national-park/wildlife/ 301
 
 
 # --- Lion Redirects ---
@@ -139,7 +143,7 @@
 
 # --- Travel Guides ---
 
-/best-time-to-visit-kruger-national-park/ /kruger-national-park/malaria-guide/ 301
+/best-time-to-visit-kruger-national-park/ /kruger-national-park/best-time-to-visit/ 301
 /kruger-national-park/malaria/ /kruger-national-park/malaria-guide/ 301
 /kruger-national-park/guide/malaria/ /kruger-national-park/malaria-guide/ 301
 
@@ -150,9 +154,6 @@
 /kruger-national-park/guide/airports/kmia/ /kruger-national-park/airports-guide/ 301
 /kruger-national-park/guide/airports/skukuza/ /kruger-national-park/airports-guide/ 301
 
-
-/kruger-national-park/weather/ / 301
-/kruger-national-park/best-time-to-visit/ / 301
 /kruger-national-park/worst-time-to-visit/ / 301
 
 # --- Weather Months ---

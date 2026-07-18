@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Title & Description -->
-    <title>Custom Kruger National Park Itineraries | Eugene Safaris</title>
-    <meta name="description" content="" />
-    <!-- Links -->
-    <link rel="canonical" href="https://eugenesafaris.com/kruger-safaris/custom-itineraries/" />
+    <title>Kruger National Park | Wildlife Guide</title>
+    <meta
+      name="description"
+      content="Explore the mammals of Kruger National Park, from the Big 5 to rare species. A complete wildlife guide to help you get more from your safari."
+    />
+    <meta name="author" content="Eugene Booysen" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/" />
     <!-- Favicon & Apple Touch Icon -->
     <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
     <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
     <!-- Robots -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
-    <!-- JSON-LD BreadcrumbList Photographic Safari Page -->
+    <!-- JSON-LD Kruger National Park Breadcrumb -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -24,26 +28,14 @@
           {
             "@type": "ListItem",
             "position": 1,
-            "item": {
-              "@id": "https://eugenesafaris.com/",
-              "name": "Home"
-            }
+            "name": "Home",
+            "item": "https://eugenesafaris.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@id": "https://eugenesafaris.com/kruger-safaris/",
-              "name": "Kruger Safaris"
-            }
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "item": {
-              "@id": "https://eugenesafaris.com/kruger-safaris/custom-itineraries/",
-              "name": "Custom Itineraries"
-            }
+            "name": "Kruger National Park",
+            "item": "https://eugenesafaris.com/kruger-national-park/"
           }
         ]
       }
@@ -221,101 +213,197 @@
     <!-- #endregion -->
     <main class="pt-20">
       <!-- End of Nav - Start of Breadcrumb Navigation -->
-      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-3 mt-4 mb-6">
+      <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-5 lg:px-1 mt-4">
         <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
           <li class="flex items-center">
             <a href="/" class="hover:underline">Home</a>
             <span class="mx-2">/</span>
           </li>
 
-          <li class="flex items-center">
-            <a href="/kruger-safaris/" class="hover:underline">Kruger Safaris</a>
-            <span class="mx-2">/</span>
-          </li>
-
-          <li class="flex items-center text-gray-500" aria-current="page">Custom Itineraries</li>
+          <li class="flex items-center text-gray-500">Kruger National Park</li>
         </ol>
       </nav>
-      <!-- Kruger National Park Photographic Safari-->
-      <section class="">
-        <div class="container mx-auto max-w-6xl px-4">
-          <!-- Section Title & Explanation -->
-          <div class="text-center">
-            <h1 class="font-bold text-3xl md:text-5xl leading-tight py-8">
-              Kruger National Park
-              <span
-                class="block text-amber-700 font-semibold font-sans tracking-wider uppercase text-sm md:text-xl mt-2"
-              >
-                Photographic Safari Packages
-              </span>
-            </h1>
-            <p class="text-md sm:text-base md:text-lg lg:text-lg text-gray-700 text-center py-4 lg:py-8">
-              If you're dreaming of a photographic safari in South Africa, there’s no better destination than the
-              legendary Kruger National Park. At Eugene Safaris, we offer private, tailored photographic safaris
-              designed for everyone from serious photographers to enthusiastic beginners — all with the guidance of an
-              expert local guide.
-            </p>
+      <div class="container mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-12 lg:grid-cols-12">
+        <!-- Sidebar -->
+        <aside class="lg:col-span-3">
+          <div class="sticky top-28 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-gray-500">Explore</p>
+
+            <h2 class="mb-6 text-xl font-bold text-gray-900">Kruger National Park</h2>
+
+            <!-- Planning -->
+            <div class="mb-8">
+              <h3 class="mb-3 text-sm font-bold uppercase text-gray-700">Plan Your Visit</h3>
+
+              <ul class="space-y-1 text-sm">
+                <li>
+                  <a
+                    href="/kruger-national-park/weather/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 transition hover:bg-gray-100 hover:text-black"
+                  >
+                    Weather & Seasons
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/airports-guide/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 transition hover:bg-gray-100 hover:text-black"
+                  >
+                    Airports Guide
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/gates/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 transition hover:bg-gray-100 hover:text-black"
+                  >
+                    Kruger Gates
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/costs/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 transition hover:bg-gray-100 hover:text-black"
+                  >
+                    Safari Costs
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Wildlife -->
+            <div class="mb-8">
+              <h3 class="mb-3 text-sm font-bold uppercase text-gray-700">Wildlife Guide</h3>
+
+              <ul class="space-y-1 text-sm">
+                <li>
+                  <a
+                    href="/kruger-national-park/mammals/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Mammals
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/birds/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Birds
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/trees/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Trees & Plants
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/reptiles/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Reptiles
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/insects/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Insects
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Areas -->
+            <div class="mb-8">
+              <h3 class="mb-3 text-sm font-bold uppercase text-gray-700">Explore Kruger</h3>
+
+              <ul class="space-y-1 text-sm">
+                <li>
+                  <a
+                    href="/kruger-national-park/northern-kruger/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Northern Kruger
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/central-kruger/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Central Kruger
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/kruger-national-park/southern-kruger/"
+                    class="block rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 hover:text-black"
+                  >
+                    Southern Kruger
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Safari -->
+            <div class="rounded-xl bg-gray-900 p-5 text-white">
+              <h3 class="mb-2 font-bold">Explore Safaris</h3>
+
+              <ul class="space-y-2 text-sm text-gray-300">
+                <li>
+                  <a href="/kruger-national-park/safaris/" class="hover:text-white"> Private Safaris </a>
+                </li>
+
+                <li>
+                  <a href="/kruger-national-park/safaris/all-inclusive-safari-packages/" class="hover:text-white">
+                    All Inclusive Safaris
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/kruger-national-park/safaris/photographic/" class="hover:text-white">
+                    Photography Safaris
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/kruger-national-park/safaris/birding/" class="hover:text-white"> Birding Safaris </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
-      <!-- 4 Vertical Images -->
-      <section class="py-20 px-4" style="content-visibility: auto">
-        <div class="max-w-6xl mx-auto">
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="relative aspect-[2/3] overflow-hidden">
-              <img
-                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/guinneafowl-in-mopane-foliage.webp"
-                alt="Guineafowl in Mopane Foliage in Kruger National Park Safari All Inclusive Packages"
-                width="800"
-                height="1200"
-                class="w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
-                fetchpriority="low"
-              />
-            </div>
+        </aside>
 
-            <div class="relative aspect-[2/3] overflow-hidden">
-              <img
-                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/zebra-posing-beautifully.webp"
-                alt="Zebra Posing Beautifully in Kruger National Park Safari All Inclusive Packages"
-                width="800"
-                height="1200"
-                class="w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
-                fetchpriority="low"
-              />
-            </div>
+        <!-- Main Content -->
+        <main class="lg:col-span-9">
+          <section class="max-w-3xl mx-auto py-12 md:py-24 px-4">
+            <div class="text-center">
+              <h2 class="font-bold text-2xl md:text-3xl mb-6">
+                Kruger National Park
+                <span class="block text-xl">a Complete Safari Guide</span>
+              </h2>
 
-            <div class="relative aspect-[2/3] overflow-hidden">
-              <img
-                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/dwarf-mongoose-on-boulder.webp"
-                alt="Dwarf Mongoose on a Boulder in Kruger National Park Safari All Inclusive Packages"
-                width="800"
-                height="1200"
-                class="w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
-                fetchpriority="low"
-              />
+              <p class="mb-6"></p>
             </div>
-
-            <div class="relative aspect-[2/3] overflow-hidden">
-              <img
-                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/lazy-lion.webp"
-                alt="Lazy Lion in Kruger National Park Safari All Inclusive Packages"
-                width="800"
-                height="1200"
-                class="w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
-                fetchpriority="low"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
+        </main>
+      </div>
+      <!-- End of Breadcrumb Navigation start of Main Content -->
     </main>
     <!-- Footer-->
     <footer class="bg-linen text-gray-800 font-avenir">
