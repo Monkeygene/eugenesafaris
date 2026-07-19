@@ -71,7 +71,7 @@ function closeDesktopMenu() {
   desktopIcon.src = "/images/navbar/hamburger-closed.svg";
 }
 
-desktopBtn.addEventListener("click", () => {
+desktopBtn.addEventListener("pointerdown", () => {
   if (desktopSidebar.classList.contains("-translate-x-full")) {
     openDesktopMenu();
   } else {
@@ -97,7 +97,7 @@ function openMobileMenu() {
 
   mobileBtn.classList.add("scale-95");
 
-  document.body.classList.add("overflow-hidden");
+  // document.body.classList.add("overflow-hidden");
 }
 
 function closeMobileMenu() {
@@ -114,10 +114,10 @@ function closeMobileMenu() {
 
   mobileBtn.classList.remove("scale-95");
 
-  document.body.classList.remove("overflow-hidden");
+  // document.body.classList.remove("overflow-hidden");
 }
 
-mobileBtn.addEventListener("click", () => {
+mobileBtn.addEventListener("pointerdown", () => {
   if (mobilePanel.classList.contains("-translate-x-full")) {
     openMobileMenu();
   } else {
@@ -125,7 +125,7 @@ mobileBtn.addEventListener("click", () => {
   }
 });
 
-mobileOverlay.addEventListener("click", (e) => {
+mobileOverlay.addEventListener("pointerdown", (e) => {
   if (mobilePanel.contains(e.target)) return;
 
   if (mobileBtn.contains(e.target)) return;
