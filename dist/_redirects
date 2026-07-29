@@ -79,6 +79,15 @@
 /kruger-national-park/mammals/dwarf-mongoose/ /kruger-national-park/wildlife/ 301
 /kruger-national-park/wildlife/ /kruger-national-park/wildlife/ 301
 /kruger-national-park/wildlife/klipspringer/ /kruger-national-park/wildlife/ 301
+/large-spotted-genet/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/large-spotted-genet/ /kruger-national-park/wildlife/ 301
+/african-wildcat/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/african-leopard/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/impala/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/black-backed-jackal/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/eland/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/wildlife/cape-porcupine/ /kruger-national-park/wildlife/ 301
+
 
 # Flagship Commercial Hub Redirects
 
@@ -91,6 +100,9 @@
 /kruger-national-park/safaris/ /kruger-safaris/all-inclusive/ 301
 /kruger-national-park/standard-packages/ /kruger-safaris/all-inclusive/ 301
 /kruger-all-inclusive-safaris/ /kruger-safaris/all-inclusive/ 301
+/safaris/ /kruger-safaris/ 301
+/kruger-safaris/all-inclusive-packages/ /kruger-safaris/all-inclusive/ 301
+
 
 # --- Photographic Safari Redirects ---
 
@@ -127,6 +139,7 @@
 /kruger-national-park/6-day-safari/ /kruger-safaris/6-day/ 301
 /safaris/6-day-kruger//kruger-safaris/6-day/ 301
 /kruger-all-inclusive-safaris/6-day/ /kruger-safaris/6-day/ 301
+/safaris/6-day-kruger/ /kruger-safaris/6-day/ 301
 
 # 7-Day Itinerary Redirects
 
