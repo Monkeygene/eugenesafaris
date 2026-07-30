@@ -65,19 +65,19 @@
   }
 
   body {
-    @apply bg-linen font-crimson text-base md:text-lg text-gray-900 leading-relaxed;
+    @apply bg-linen text-base md:text-lg text-gray-900 leading-relaxed;
   }
 
   h1 {
-    @apply font-bold text-xl md:text-2xl;
+    @apply font-crimson font-bold text-xl md:text-2xl;
   }
 
   h2 {
-    @apply font-bold text-lg md:text-xl;
+    @apply font-crimson font-bold text-lg md:text-xl;
   }
 
   h3 {
-    @apply text-lg;
+    @apply font-crimson text-lg;
   }
 
   h4 {
@@ -93,7 +93,25 @@
   }
 
   p {
-    @apply mb-4 text-base md:text-lg;
+    @apply font-crimson mb-4 text-base md:text-lg;
+  }
+}
+
+@layer components {
+  .breadcrumb-link {
+    @apply font-crimson text-xs;
+  }
+
+  .sidebar-link {
+    @apply font-crimson text-2xl;
+  }
+
+  .body-link {
+    @apply font-crimson underline;
+  }
+
+  .nav-link {
+    @apply font-crimson text-lg;
   }
 }
 
@@ -129,10 +147,11 @@
 
 @font-face {
   font-family: "EugeneSafaris";
-  src:
-    url("/fonts/Eugenesafaris-Regular.otf") format("opentype"),
-    url("/fonts/Eugenesafaris-Regular.ttf") format("truetype");
-  font-weight: normal;
+  src: url("/fonts/Eugenesafaris-Regular.woff2") format("woff2");
+
+  font-display: swap;
+
+  font-weight: 400;
   font-style: normal;
 }
 

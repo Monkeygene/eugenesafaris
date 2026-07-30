@@ -1,12 +1,7 @@
-const weatherContainer = document.querySelector("#weather-carousel");
-const errorBox = document.querySelector("#weather-error");
-const retryBtn = document.querySelector("#weather-retry");
-const locationLabel = document.querySelector("#weather-location");
-
+// ── Shared config (declared ONCE) ──────────────────────────────
 const LAT = -24.99;
 const LON = 31.59;
 
-// WMO weather codes -> label, icon key, and a tailwind gradient/accent pair
 const WEATHER_CODES = {
   0: { label: "Clear sky", icon: "sunny", accent: "amber" },
   1: { label: "Mostly clear", icon: "sunny", accent: "amber" },
@@ -38,15 +33,36 @@ const WEATHER_CODES = {
   99: { label: "Storm with hail", icon: "storm", accent: "violet" },
 };
 
+// Merged accent map — carousel needs bg/ring/text, hero card needs glow.
+// Combine both so one object serves both widgets.
 const ACCENTS = {
-  amber: { bg: "bg-amber-50", ring: "ring-amber-200", text: "text-amber-600", iconWrap: "bg-amber-100 text-amber-500" },
-  slate: { bg: "bg-slate-50", ring: "ring-slate-200", text: "text-slate-500", iconWrap: "bg-slate-100 text-slate-400" },
-  sky: { bg: "bg-sky-50", ring: "ring-sky-200", text: "text-sky-600", iconWrap: "bg-sky-100 text-sky-500" },
+  amber: {
+    bg: "bg-amber-50",
+    ring: "ring-amber-200",
+    text: "text-amber-600",
+    iconWrap: "bg-amber-100 text-amber-500",
+    glow: "bg-amber-200/50",
+  },
+  slate: {
+    bg: "bg-slate-50",
+    ring: "ring-slate-200",
+    text: "text-slate-500",
+    iconWrap: "bg-slate-100 text-slate-400",
+    glow: "bg-slate-300/50",
+  },
+  sky: {
+    bg: "bg-sky-50",
+    ring: "ring-sky-200",
+    text: "text-sky-600",
+    iconWrap: "bg-sky-100 text-sky-500",
+    glow: "bg-sky-200/50",
+  },
   violet: {
     bg: "bg-violet-50",
     ring: "ring-violet-200",
     text: "text-violet-600",
     iconWrap: "bg-violet-100 text-violet-500",
+    glow: "bg-violet-200/50",
   },
 };
 
@@ -103,6 +119,11 @@ function weatherIcon(kind) {
   }
 }
 
+// ── Forecast carousel ───────────────────────────────────────────
+const weatherContainer = document.querySelector("#weather-carousel");
+const errorBox = document.querySelector("#weather-error");
+const retryBtn = document.querySelector("#weather-retry");
+
 function skeletonCards(count = 7) {
   weatherContainer.innerHTML = "";
   for (let i = 0; i < count; i++) {
@@ -130,9 +151,7 @@ async function getWeather() {
     const response = await fetch(
       `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=7`,
     );
-
     if (!response.ok) throw new Error("Request failed");
-
     const data = await response.json();
     createCards(data);
   } catch (err) {
@@ -149,7 +168,6 @@ function createCards(data) {
   const maxTemps = data.daily.temperature_2m_max;
   const minTemps = data.daily.temperature_2m_min;
   const codes = data.daily.weather_code;
-
   const todayKey = new Date().toDateString();
 
   days.forEach((day, index) => {
@@ -168,28 +186,68 @@ function createCards(data) {
       <p class="text-center text-sm font-medium ${isToday ? palette.text : "text-gray-500"}">
         ${isToday ? "Today" : formatDate(day)}
       </p>
- 
       <div class="mx-auto my-3 flex h-12 w-12 items-center justify-center rounded-full ${palette.iconWrap}">
         ${weatherIcon(info.icon)}
       </div>
- 
       <p class="text-center text-4xl font-bold tabular-nums text-gray-900">${Math.round(maxTemps[index])}°</p>
       <p class="mt-1 text-center text-sm text-gray-500">${info.label}</p>
- 
       <div class="mt-4 flex items-center justify-center gap-3 border-t border-gray-100 pt-3 text-xs text-gray-500">
         <span class="flex items-center gap-1 text-rose-500">▲ ${Math.round(maxTemps[index])}°</span>
         <span class="flex items-center gap-1 text-sky-500">▼ ${Math.round(minTemps[index])}°</span>
       </div>
     `;
-
     weatherContainer.appendChild(card);
   });
 }
 
 function formatDate(date) {
-  return new Date(date).toLocaleDateString("en-US", { weekday: "long" });
+  return new Date(date).toLocaleDateString("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  });
 }
 
-retryBtn.addEventListener("click", getWeather);
+// ── Hero "today" card ───────────────────────────────────────────
+async function getTodayWeather() {
+  const dateEl = document.querySelector("#today-date");
+  dateEl.textContent = new Date().toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" });
 
+  try {
+    const response = await fetch(
+      `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}` +
+        `&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code` +
+        `&daily=temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=1`,
+    );
+    if (!response.ok) throw new Error("Request failed");
+    const data = await response.json();
+    renderToday(data);
+  } catch (err) {
+    document.querySelector("#today-label").textContent = "Unavailable";
+  }
+}
+
+function renderToday(data) {
+  const info = WEATHER_CODES[data.current.weather_code] ?? { label: "—", icon: "cloud", accent: "slate" };
+  const palette = ACCENTS[info.accent];
+
+  document.querySelector("#today-temp").textContent = `${Math.round(data.current.temperature_2m)}°`;
+  document.querySelector("#today-label").textContent = info.label;
+  document.querySelector("#today-feels").textContent = `${Math.round(data.current.apparent_temperature)}°`;
+  document.querySelector("#today-humidity").textContent = `${Math.round(data.current.relative_humidity_2m)}%`;
+  document.querySelector("#today-hilo").textContent =
+    `${Math.round(data.daily.temperature_2m_max[0])}°/${Math.round(data.daily.temperature_2m_min[0])}°`;
+
+  document.querySelector("#today-icon").innerHTML = weatherIcon(info.icon);
+
+  const iconWrap = document.querySelector("#today-icon-wrap");
+  iconWrap.className = `flex size-14 shrink-0 items-center justify-center rounded-2xl ${palette.iconWrap}`;
+
+  const glow = document.querySelector("#today-glow");
+  glow.className = `glow pointer-events-none absolute -right-8 -top-8 size-28 rounded-full ${palette.glow} blur-2xl`;
+}
+
+// ── Kick both off ───────────────────────────────────────────────
+retryBtn.addEventListener("click", getWeather);
 getWeather();
+getTodayWeather();
