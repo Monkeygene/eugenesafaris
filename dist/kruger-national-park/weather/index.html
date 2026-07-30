@@ -50,8 +50,86 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/main-CNEEgKsv.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-Cxdu7SMV.css">
+    <style>
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      @keyframes drift {
+        0%,
+        100% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(3px);
+        }
+      }
+      @keyframes bob {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-2px);
+        }
+      }
+      @keyframes fall {
+        0% {
+          transform: translateY(-2px);
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(6px);
+          opacity: 0;
+        }
+      }
+      @keyframes flicker {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.55;
+        }
+      }
+      .icon-sunny .sun-body {
+        animation: bob 3.5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .icon-cloud .cloud-back {
+        animation: drift 4s ease-in-out infinite;
+      }
+      .icon-rain .drop {
+        animation: fall 1.1s linear infinite;
+      }
+      .icon-rain .drop:nth-child(2) {
+        animation-delay: 0.35s;
+      }
+      .icon-rain .drop:nth-child(3) {
+        animation-delay: 0.7s;
+      }
+      .icon-storm .bolt {
+        animation: flicker 1.6s ease-in-out infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .icon-sunny .sun-body,
+        .icon-cloud .cloud-back,
+        .icon-rain .drop,
+        .icon-storm .bolt {
+          animation: none !important;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/main-fw-5lo5L.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-Bwdj626b.css">
   </head>
   <body class="antialiased">
     <!-- #region Mobile Header -->
@@ -240,21 +318,69 @@
         </ol>
       </nav>
       <!-- End of Breadcrumb -->
-      <section class="max-w-3xl mx-auto py-6 md:py-12 px-4">
+      <section class="max-w-3xl mx-auto px-4 py-6 md:py-12">
         <div class="text-center">
-          <h1 class="text-2xl md:text-3xl mb-6">Kruger National Park Weather Throughout the Year</h1>
-          <p>
-            Planning a safari starts with understanding the weather. While Kruger National Park is a year-round
-            destination, each season offers a completely different experience, from lush green landscapes and
-            spectacular birdlife during the summer rains to dry winter mornings when wildlife gathers around shrinking
-            water sources.
+          <p class="mb-3 text-sm font-medium uppercase tracking-wide text-amber-600">Safari Planning Guide</p>
+
+          <h1 class="text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">
+            Weather in Kruger National Park, South Africa
+          </h1>
+
+          <p class="mx-auto mt-5 max-w-prose text-balance">
+            Weather in Kruger National Park, South Africa, shifts dramatically by season — from lush, green landscapes
+            and prime birding during the summer rains, to dry winter mornings when wildlife gathers at shrinking
+            waterholes.
           </p>
-          <p>
-            This guide explains what to expect throughout the year, including temperatures, rainfall, seasonal wildlife
-            activity, and practical tips to help you decide when to visit. Whether you're hoping to photograph the Big
-            Five, enjoy exceptional birding, or simply experience Kruger at its best, understanding the weather will
-            help you make the most of your safari.
+
+          <p class="mx-auto mt-4 max-w-prose">
+            This guide breaks down temperatures, rainfall, and wildlife activity month by month, so you can plan your
+            safari around what matters most — whether that's photographing the Big Five, birding, or simply avoiding the
+            midday heat.
           </p>
+        </div>
+
+        <dl class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div class="rounded-xl border border-gray-200 bg-white px-4 py-3 text-center">
+            <dt class="text-xs text-gray-500">Dry season</dt>
+            <dd class="mt-1 text-sm font-semibold text-gray-900">May – Sep</dd>
+          </div>
+          <div class="rounded-xl border border-gray-200 bg-white px-4 py-3 text-center">
+            <dt class="text-xs text-gray-500">Wet season</dt>
+            <dd class="mt-1 text-sm font-semibold text-gray-900">Oct – Apr</dd>
+          </div>
+          <div class="rounded-xl border border-gray-200 bg-white px-4 py-3 text-center">
+            <dt class="text-xs text-gray-500">Avg. high</dt>
+            <dd class="mt-1 text-sm font-semibold text-gray-900">28–32°C</dd>
+          </div>
+          <div class="rounded-xl border border-gray-200 bg-white px-4 py-3 text-center">
+            <dt class="text-xs text-gray-500">Best for wildlife</dt>
+            <dd class="mt-1 text-sm font-semibold text-gray-900">Jul – Sep</dd>
+          </div>
+        </dl>
+      </section>
+      <section aria-labelledby="weather-forecast" class="max-w-6xl mx-auto px-4">
+        <div class="mb-6 flex items-end justify-between">
+          <h2 id="weather-forecast" class="text-2xl font-semibold text-center mx-auto tracking-tight text-gray-900">
+            7 Day Weather Forecast
+          </h2>
+          <p id="weather-location" class="text-sm text-gray-400"></p>
+        </div>
+
+        <div id="weather-carousel" class="scrollbar-hide flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4">
+          <!-- Cards injected by JS -->
+        </div>
+
+        <div
+          id="weather-error"
+          class="hidden items-center justify-between gap-4 rounded-2xl border border-red-100 bg-red-50 p-5 text-sm text-red-700"
+        >
+          <span>Couldn't load the forecast. Check your connection and try again.</span>
+          <button
+            id="weather-retry"
+            class="shrink-0 rounded-full bg-red-600 px-4 py-1.5 font-medium text-white transition hover:bg-red-700"
+          >
+            Retry
+          </button>
         </div>
       </section>
 
