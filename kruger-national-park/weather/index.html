@@ -2,22 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title & Description -->
-    <title>Kruger National Park Weather Guide</title>
+    <title>Weather in Kruger National Park : Month by Month Guide</title>
     <meta
       name="description"
-      content="Planning a safari? Discover what Kruger National Park weather is like by month. Get local expert insights on temperatures, rain, and wildlife visibility from January to December."
+      content="Planning a safari to Kruger? Discover what the weather in Kruger National Park is like, get local expert insights on temperatures, rain, and wildlife visibility from January to December."
     />
-    <meta name="author" content="Eugene Booysen" />
     <!-- Links -->
     <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/weather/" />
+    <!-- Navbar Icons -->
+    <link rel="preload" href="/images/navbar/hamburger-open.svg" as="image" />
+    <link rel="preload" href="/images/navbar/hamburger-closed.svg" as="image" />
+    <link rel="preload" href="/images/navbar/mail-letter-closed.svg" as="image" />
+    <!-- Fonts -->
     <!-- Favicon & Apple Touch Icon -->
-    <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+    <link rel="icon" href="/images/logo/paw-print-lion.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/images/logo/paw-print-lion.png" type="image/png" />
     <!-- Robots -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -50,168 +53,6 @@
         ]
       }
     </script>
-    <style>
-      .scrollbar-hide::-webkit-scrollbar {
-        display: none;
-      }
-      .scrollbar-hide {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-
-      @keyframes drift {
-        0%,
-        100% {
-          transform: translateX(0);
-        }
-        50% {
-          transform: translateX(3px);
-        }
-      }
-      @keyframes bob {
-        0%,
-        100% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-2px);
-        }
-      }
-      @keyframes fall {
-        0% {
-          transform: translateY(-2px);
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        100% {
-          transform: translateY(6px);
-          opacity: 0;
-        }
-      }
-      @keyframes flicker {
-        0%,
-        100% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0.55;
-        }
-      }
-      .icon-sunny .sun-body {
-        animation: bob 3.5s ease-in-out infinite;
-        transform-origin: center;
-      }
-      .icon-cloud .cloud-back {
-        animation: drift 4s ease-in-out infinite;
-      }
-      .icon-rain .drop {
-        animation: fall 1.1s linear infinite;
-      }
-      .icon-rain .drop:nth-child(2) {
-        animation-delay: 0.35s;
-      }
-      .icon-rain .drop:nth-child(3) {
-        animation-delay: 0.7s;
-      }
-      .icon-storm .bolt {
-        animation: flicker 1.6s ease-in-out infinite;
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        .icon-sunny .sun-body,
-        .icon-cloud .cloud-back,
-        .icon-rain .drop,
-        .icon-storm .bolt {
-          animation: none !important;
-        }
-      }
-    </style>
-    <style>
-      @keyframes bob {
-        0%,
-        100% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-3px);
-        }
-      }
-      @keyframes drift {
-        0%,
-        100% {
-          transform: translateX(0);
-        }
-        50% {
-          transform: translateX(3px);
-        }
-      }
-      @keyframes fall {
-        0% {
-          transform: translateY(-2px);
-          opacity: 0;
-        }
-        30% {
-          opacity: 1;
-        }
-        100% {
-          transform: translateY(6px);
-          opacity: 0;
-        }
-      }
-      @keyframes pulse-dot {
-        0%,
-        100% {
-          opacity: 1;
-        }
-        50% {
-          opacity: 0.35;
-        }
-      }
-      @keyframes float-glow {
-        0%,
-        100% {
-          transform: translate(0, 0) scale(1);
-        }
-        50% {
-          transform: translate(6px, -6px) scale(1.05);
-        }
-      }
-
-      .icon-sunny .sun-body {
-        animation: bob 3.5s ease-in-out infinite;
-        transform-origin: center;
-      }
-      .icon-cloud .cloud-back {
-        animation: drift 4s ease-in-out infinite;
-      }
-      .icon-rain .drop {
-        animation: fall 1.1s linear infinite;
-      }
-      .icon-rain .drop:nth-child(2) {
-        animation-delay: 0.35s;
-      }
-      .icon-rain .drop:nth-child(3) {
-        animation-delay: 0.7s;
-      }
-      .live-dot {
-        animation: pulse-dot 1.8s ease-in-out infinite;
-      }
-      .glow {
-        animation: float-glow 6s ease-in-out infinite;
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        .icon-sunny .sun-body,
-        .icon-cloud .cloud-back,
-        .icon-rain .drop,
-        .live-dot,
-        .glow {
-          animation: none !important;
-        }
-      }
-    </style>
   </head>
   <body class="antialiased">
     <!-- #region Mobile Header -->
@@ -405,20 +246,27 @@
         <div class="flex flex-col-reverse gap-8 md:flex-row md:items-center md:justify-between md:gap-10">
           <!-- Intro copy -->
           <div class="text-center md:text-left">
-            <p class="mb-3 text-sm font-medium uppercase tracking-wide text-amber-600">Safari Planning Guide</p>
+            <p class="mb-3 text-sm font-medium uppercase tracking-wide text-amber-600">Weather Guide</p>
 
             <h1 class="text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">
               Weather in Kruger National Park
             </h1>
 
-            <p class="mx-auto mt-5 max-w-prose text-balance text-lg text-gray-700 md:mx-0">
-              Kruger National Park weather shifts dramatically by season — from lush, green landscapes and prime birding
-              during the summer rains, to dry winter mornings when wildlife gathers at shrinking waterholes.
+            <p class="mx-auto mt-5 max-w-prose text-balance md:mx-0">
+              The Weather in Kruger National Park can shift dramatically by season, from lush, greenly painted
+              landscapes and incredible birding during the summer rains, to dry winter mornings where wildlife gather at
+              shrinking waterholes.
             </p>
 
-            <p class="mx-auto mt-4 max-w-prose text-gray-600 md:mx-0">
-              This guide breaks down temperatures, rainfall, and wildlife activity month by month, so you can plan your
-              safari around what matters most.
+            <p class="mx-auto mt-4 max-w-prose md:mx-0">
+              In this
+              <a
+                href="/kruger-national-park/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Kruger National Park</a
+              >
+              weather guide you will find out about temperatures, rainfall, and how these affect wildlife month by
+              month, so you can plan your safari around what matters to you.
             </p>
           </div>
 

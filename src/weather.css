@@ -1,0 +1,159 @@
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-2px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+}
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+.icon-sunny .sun-body {
+  animation: bob 3.5s ease-in-out infinite;
+  transform-origin: center;
+}
+.icon-cloud .cloud-back {
+  animation: drift 4s ease-in-out infinite;
+}
+.icon-rain .drop {
+  animation: fall 1.1s linear infinite;
+}
+.icon-rain .drop:nth-child(2) {
+  animation-delay: 0.35s;
+}
+.icon-rain .drop:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.icon-storm .bolt {
+  animation: flicker 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon-sunny .sun-body,
+  .icon-cloud .cloud-back,
+  .icon-rain .drop,
+  .icon-storm .bolt {
+    animation: none !important;
+  }
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
+@keyframes fall {
+  0% {
+    transform: translateY(-2px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+@keyframes float-glow {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(6px, -6px) scale(1.05);
+  }
+}
+
+.icon-sunny .sun-body {
+  animation: bob 3.5s ease-in-out infinite;
+  transform-origin: center;
+}
+.icon-cloud .cloud-back {
+  animation: drift 4s ease-in-out infinite;
+}
+.icon-rain .drop {
+  animation: fall 1.1s linear infinite;
+}
+.icon-rain .drop:nth-child(2) {
+  animation-delay: 0.35s;
+}
+.icon-rain .drop:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.live-dot {
+  animation: pulse-dot 1.8s ease-in-out infinite;
+}
+.glow {
+  animation: float-glow 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon-sunny .sun-body,
+  .icon-cloud .cloud-back,
+  .icon-rain .drop,
+  .live-dot,
+  .glow {
+    animation: none !important;
+  }
+}
