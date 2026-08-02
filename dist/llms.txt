@@ -7,17 +7,17 @@
 * [Home](https://eugenesafaris.com/)
 * [About Us](https://eugenesafaris.com/about/)
 * [Contact Us](https://eugenesafaris.com/contact/)
-* [Kruger Guide Hub](https://eugenesafaris.com/kruger-guide/)
+* [Kruger Guide Hub](https://eugenesafaris.com/kruger-national-park/)
 
 ## Safari Offerings & Booking Pages
 
-* [All Safaris Overview](https://eugenesafaris.com/kruger-safaris/)
-* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-safaris/all-inclusive-packages)
-* [5-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/5-day/)
-* [6-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/6-day/)
-* [7-Day Kruger Safari Itinerary](https://eugenesafaris.com/kruger-safaris/7-day/)
-* [Birding Safari Kruger](https://eugenesafaris.com/kruger-safaris/birding-tours/)
-* [Photographic Safari Kruger](https://eugenesafaris.com/kruger-safaris/photographic/)
+* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-all-inclusive-safaris)
+* [5-Day Kruger All-Inclusive Safari Itinerary](https://eugenesafaris.com/kruger-all-inclusive-safaris/5-day/)
+* [6-Day Kruger All-Inclusive Safari Itinerary](https://eugenesafaris.com/kruger-all-inclusive-safaris/6-day/)
+* [7-Day Kruger All-Inclusive Safari Itinerary](https://eugenesafaris.com/kruger-all-inclusive-safaris/7-day/)
+* [Custom Kruger All-Inclusive Safari Itinerary](https://eugenesafaris.com/kruger-all-inclusive-safaris/7-day/)
+* [Birding Safari Kruger](https://eugenesafaris.com/kruger-birding-tour/)
+* [Photographic Safari Kruger](https://eugenesafaris.com/kruger-photographic-safari/)
 
 ## Kruger National Park Guides
 

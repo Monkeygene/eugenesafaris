@@ -92,17 +92,18 @@
 
 # Flagship Commercial Hub Redirects
 
-/kruger-national-park/safari-all-inclusive-packages/ /kruger-safaris/all-inclusive/ 301
-/kruger-national-park/all-inclusive-safari-packages/ /kruger-safaris/all-inclusive/ 301
-/kruger-national-park/classic-safari-packages/ /kruger-safaris/all-inclusive/ 301
-/kruger-national-park/safari-packages/ /kruger-safaris/ 301
-/kruger-national-park/all-inclusive-safaris/ /kruger-safaris/all-inclusive/ 301
+/kruger-national-park/safari-all-inclusive-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/all-inclusive-safari-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/classic-safari-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/safari-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/all-inclusive-safaris/ /kruger-all-inclusive-safaris/ 301
 /kruger-national-park/private-safaris/ / 301
-/kruger-national-park/safaris/ /kruger-safaris/all-inclusive/ 301
-/kruger-national-park/standard-packages/ /kruger-safaris/all-inclusive/ 301
-/kruger-all-inclusive-safaris/ /kruger-safaris/all-inclusive/ 301
-/safaris/ /kruger-safaris/ 301
-/kruger-safaris/all-inclusive-packages/ /kruger-safaris/all-inclusive/ 301
+/kruger-national-park/safaris/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/standard-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-safaris/all-inclusive/ /kruger-all-inclusive-safaris/ 301
+/safaris/ /kruger-all-inclusive-safaris/ 301
+/kruger-safaris/all-inclusive-packages/ /kruger-all-inclusive-safaris/ 301
+/kruger-safaris/ /kruger-all-inclusive-safaris/ 301
 
 
 # --- Photographic Safari Redirects ---
@@ -138,7 +139,7 @@
 /kruger-national-park/safari-all-inclusive-packages/6-day-private-safari/ /kruger-safaris/6-day/ 301
 /kruger-national-park/private-safaris/6-day/ /kruger-safaris/6-day/ 301
 /kruger-national-park/6-day-safari/ /kruger-safaris/6-day/ 301
-/safaris/6-day-kruger//kruger-safaris/6-day/ 301
+/safaris/6-day-kruger/ /kruger-safaris/6-day/ 301
 /kruger-all-inclusive-safaris/6-day/ /kruger-safaris/6-day/ 301
 /safaris/6-day-kruger/ /kruger-safaris/6-day/ 301
 
