@@ -125,6 +125,11 @@
 /kruger-all-inclusive-safaris/birding/ /kruger-birding-tour/ 301
 /kruger-safaris/birding-tours/ /kruger-birding-tour/ 301
 
+# 3-Day Redicrects
+/kruger-guide/3-day-safari/ /kruger-all-inclusive-safaris/ 301
+/blog/3-day-safari/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/3-day-safari/ /kruger-all-inclusive-safaris/ 301
+
 # 5-Day Itinerary Redirects
 
 /kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/ /kruger-all-inclusive-safaris/5-day/ 301
@@ -156,7 +161,7 @@
 
 # --- Legacy Itineraries ---
 
-/kruger-national-park/3-day-safari/ / 301
+
 
 # --- Travel Guides ---
 

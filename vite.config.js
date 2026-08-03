@@ -40,7 +40,7 @@ export default defineConfig({
         whattowearonasafari: path.resolve(__dirname, "kruger-guide/what-to-wear-on-safari/index.html"),
         whitevsblackrhino: path.resolve(__dirname, "kruger-guide/difference-between-white-and-black-rhino/index.html"),
         whattobringonsafariblog: path.resolve(__dirname, "kruger-guide/what-to-bring-on-safari/index.html"),
-        day3safari: path.resolve(__dirname, "kruger-guide/3-day-safari/index.html"),
+
         malariaguide: path.resolve(__dirname, "kruger-national-park/malaria-guide/index.html"),
       },
     },
