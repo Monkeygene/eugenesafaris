@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eugenesafaris.com/sitemap.xml
+Sitemap: https://eugenesafaris.com/sitemap_index.xml
