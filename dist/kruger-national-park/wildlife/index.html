@@ -2,41 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About | Eugene Safaris</title>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title & Description -->
+    <title>Wildlife in Kruger National Park</title>
     <meta
       name="description"
-      content="Learn about Eugene Safaris, safari company led by experienced local guide Eugene Booysen. Discover our story and passion for immersive wildlife experiences."
+      content="Wildlife in Kruger National Park is extremely diverse, from birds to mammals, reptiles and insects, come and try your luck to find them!"
     />
-
-    <meta name="author" content="Eugene Booysen" />
-
-    <link rel="canonical" href="https://eugenesafaris.com/about/" />
-
+    <!-- Links -->
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/wildlife/" />
+    <!-- Favicon & Apple Touch Icon -->
+    <link rel="icon" href="/assets/paw-print-lion-JzsOO6JR.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/paw-print-lion-JzsOO6JR.png" type="image/png" />
+    <!-- Robots -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-
-    <meta name="theme-color" content="#ffffff" />
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="About Eugene Safaris | Private Kruger Safari Specialists" />
-    <meta
-      property="og:description"
-      content="Meet Eugene Safaris, a private Kruger National Park safari company offering immersive wildlife experiences."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://eugenesafaris.com/about/" />
-    <meta property="og:image" content="https://eugenesafaris.com/images/about-eugene.jpg" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About Eugene Safaris | Private Kruger Safari Specialists" />
-    <meta name="twitter:description" content="Learn about Eugene Safaris and our immersive Kruger experiences." />
-    <meta name="twitter:image" content="https://eugenesafaris.com/images/about-eugene.jpg" />
-    <link rel="icon" href="/images/logo/paw-print-lion.png" type="image/png" />
-    <link rel="apple-touch-icon" href="/images/logo/paw-print-lion.png" type="image/png" />
-
-    <!-- JSON-LD About Breadcrumb -->
+    <meta name="googlebot" content="index, follow" />
+    <!-- JSON-LD BreadcrumbList Wildlife -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -50,12 +32,20 @@
               "name": "Home"
             }
           },
+
           {
             "@type": "ListItem",
             "position": 2,
+            "name": "Kruger National Park",
+            "item": "https://eugenesafaris.com/kruger-national-park/"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 3,
             "item": {
-              "@id": "https://eugenesafaris.com/about/",
-              "name": "About"
+              "@id": "https://eugenesafaris.com/kruger-national-park/wildlife/",
+              "name": "Wildlife"
             }
           }
         ]
@@ -108,7 +98,7 @@
       <nav class="pt-10 px-8 sidebar-link">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">Kruger All Inclusive Safari</a>
+            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
           </li>
 
           <li>
@@ -120,6 +110,8 @@
           </li>
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
+
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
 
           <li><a href="/about/">About</a></li>
 
@@ -210,7 +202,7 @@
       <nav class="pt-32 px-10 sidebar-link">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">Kruger All Inclusive Safari</a>
+            <a href="/kruger-all-inclusive-safaris/">All Inclusive Safaris</a>
           </li>
 
           <li>
@@ -223,6 +215,8 @@
 
           <li><a href="/kruger-national-park/">Kruger National Park</a></li>
 
+          <li><a href="/kruger-guide/">Kruger Guide</a></li>
+
           <li><a href="/about/">About</a></li>
 
           <li><a href="/contact/">Contact</a></li>
@@ -231,199 +225,295 @@
     </aside>
     <!-- #endregion -->
     <main class="pt-20">
-      <!-- End of Nav - Start of Breadcrumb Navigation -->
-      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-3 mt-4">
+      <!-- Start of Breadcrumb -->
+      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-3 mt-4 mb-6">
         <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
           <li class="flex items-center">
             <a href="/" class="hover:underline">Home</a>
             <span class="mx-2">/</span>
           </li>
 
-          <li class="flex items-center text-gray-500">About</li>
+          <li class="flex items-center">
+            <a href="/kruger-national-park/" class="hover:underline"> Kruger National Park </a>
+            <span class="mx-2">/</span>
+          </li>
+
+          <li class="flex items-center text-gray-500" aria-current="page">Wildlife</li>
         </ol>
       </nav>
-
-      <!-- End of Breadcrumb Navigation start of Main Content -->
-      <section class="max-w-4xl mx-auto text-center px-6 pt-8 md:pt-16 pb-0 md:pb-16">
-        <h1 class="text-center font-semibold pb-8 md:pb-12">Eugene Safaris</h1>
-        <p>
-          The Kruger National Park has been part of my life since I could even remember. Early morings usually ending
-          with my dad starting the car and all of us rushing not to miss the days outing. We lived about an hour from
-          Phalaborwa gate. I always got the middle seat, so when we had a sighting I had to climb over everyone to have
-          a good look. It was that longing that got me to the window seat, the front seat of the game viewer.
-        </p>
-      </section>
-      <!-- Eugene Booysen -->
-      <section class="py-12 md:py-24">
-        <div class="container mx-auto max-w-4xl px-4 flex flex-col md:flex-row items-center justify-center">
-          <!-- Image Section -->
-          <div class="md:w-1/2 p-4">
-            <img
-              src="/images/about/eugene-with-guests-in-the-vehicle.webp"
-              alt="Eugene Booysen guiding on safari"
-              class="w-full aspect-4/5 object-cover"
-              loading="lazy"
-            />
-          </div>
-
-          <!-- Text Content -->
-          <div class="md:w-1/2 p-4">
-            <div class="max-w-4xl lg:max-w-5xl">
-              <h2 class="py-4 md:text-left">Eugene Booysen</h2>
-              <p class="mt-2 text-center md:text-left">
-                I am Eugene Booysen, the guide and owner of Eugene Safaris. I'm a passionate safari guide and birding
-                enthusiast and over the years, working in many famous safari destiations have honed my guiding expertise
-                and knowledge in the safari industry. Growing up near South Africa's famous Kruger National Park, I've
-                always felt a deep connection to the natural world. I embody expertise and professionalism in the field,
-                understanding the importance of adhering to ethics. My time hasn't only been spent getting to know the
-                natural kingdom; I'm also a videographer and photographer. So, rest assured, you'll be in great hands
-                with me, on safari in Kruger National Park.
-              </p>
-            </div>
-          </div>
+      <!-- End of Breadcrumb -->
+      <section class="max-w-4xl mx-auto py-10 md:py-12 mt-10 md:mt-0 px-4 md:px-0">
+        <div class="text-center">
+          <h1 class="font-bold leading-tight text-3xl md:text-4xl py-8">Kruger National Park Wildlife</h1>
+          <p class="mb-6">
+            Kruger National Park wildlife is among the most diverse and spectacular on Earth. Covering nearly 20,000
+            square kilometers of protected wilderness in northeastern South Africa, the park is home to an extraordinary
+            variety of animals, birds, reptiles, and ecosystems. Visitors from around the world travel here to
+            experience classic African safaris and encounter wildlife in its natural habitat.
+          </p>
+          <p class="mb-6">
+            The incredible biodiversity is what makes
+            <a
+              href="/kruger-national-park/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >Kruger National Park</a
+            >
+            such a legendary destination. The park supports roughly 147 mammal species, over 500 bird species, more than
+            110 reptile species, and dozens of fish species, making it one of the richest wildlife reserves in Africa.
+          </p>
+          <p>
+            Whether you are hoping to see the famous Big Five or simply enjoy the rhythm of the African bush, Kruger
+            National Park wildlife offers unforgettable encounters at every turn.
+          </p>
         </div>
       </section>
-      <section class="max-w-4xl mx-auto text-center px-6 pt-8 md:pt-16 pb-0 md:pb-16">
-        <h2 class="text-center font-semibold pb-8 md:pb-12">Why Kruger National Park</h2>
-        <p>
-          Why do I choose to do safaris in Kruger National Park? It is one of the best safari destinations in Africa to
-          spot the big 5 and is not too expensive. There are many great National parks throughout Africa, and having
-          travelled to many of them myself, Kruger still hits differently. For first time safari goers and even aged
-          safari goers, the Krugers infrastructure makes safari comfortable and safe.
-        </p>
-      </section>
-      <!-- 2 Horizontal Images -->
-      <section class="py-20 px-4 bg-linen">
-        <div class="max-w-5xl mx-auto">
-          <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
-            <div class="relative overflow-hidden">
-              <img
-                src="/images/about/lioness-crossing-road-on-watergat-road-kruger-national-park.webp"
-                alt=""
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
-
-            <div class="relative overflow-hidden">
-              <img
-                src="/images/about/eugene-driving-and-searching-for-animals.webp"
-                alt=""
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
-          </div>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-4xl px-4">
+          <h2 class="mb-2 md:mb-5">The Big Five of Kruger National Park Wildlife</h2>
+          <p class="mb-6">
+            When people think about Kruger National Park wildlife, the
+            <a
+              href="/kruger-national-park/wildlife/big-5/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >Big Five</a
+            >
+            usually come to mind first. These iconic animals —
+            <a
+              href="/kruger-national-park/wildlife/lion/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >lion</a
+            >,
+            <a
+              href="/kruger-national-park/wildlife/leopard/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >leopard</a
+            >,
+            <a
+              href="/kruger-national-park/wildlife/elephant/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >elephant</a
+            >,
+            <a
+              href="/kruger-national-park/wildlife/white-rhinoceros/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >rhinoceros</a
+            >, and
+            <a
+              href="/kruger-national-park/wildlife/buffalo/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >buffalo</a
+            >
+            — were originally known as the most dangerous animals to hunt on foot, but today they are the most
+            sought-after sightings on safari.
+          </p>
+          <p class="mb-6">
+            Kruger National Park is one of the best places in Africa to see all five species on a single
+            <a
+              href="/kruger-all-inclusive-safaris/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >private safari package</a
+            >. Large populations of elephants and buffalo roam the savanna, while lions dominate open grasslands and
+            leopards patrol riverine forests. Both white and black rhinoceros still occur in the park, although they are
+            increasingly rare and carefully protected.
+          </p>
+          <p>
+            While the Big Five are spectacular, focusing only on them would overlook the incredible diversity of Kruger
+            National Park wildlife.
+          </p>
         </div>
       </section>
-      <section class="max-w-4xl mx-auto text-center px-6 pt-8 md:pt-16 pb-0 md:pb-16">
-        <h2 class="text-center font-semibold pb-8 md:pb-12">Wildlife, videography and photography</h2>
-        <p>
-          Coming on safari, you have interests that follow you on your journey. On safari it can be photography, birding
-          or just to see the animals and connect with the wide open landscapes of Africa. I love it all, so if you want
-          to learn more about trees or grasses or anything that sparks your interest, let me know. We can delve deeper
-          into photography or even making a Kruger National Park vlog for youtube for your family to see your trip.
-        </p>
-      </section>
-      <!-- 2 Horizontal Images -->
-      <section class="py-20 px-4 bg-linen">
-        <div class="max-w-5xl mx-auto">
-          <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
-            <div class="relative overflow-hidden">
-              <img
-                src="/images/about/rhino-about-to-cross-the-tarred-road-in-kruger-park.webp"
-                alt=""
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
-
-            <div class="relative overflow-hidden">
-              <img
-                src="/images/about/rhino-sighting-with-lucky-charm-in-kruger-national-park.webp"
-                alt=""
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
-          </div>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Mammals of Kruger National Park</h2>
+          <p class="mb-6">
+            Kruger National Park supports more large mammal species than any other African game reserve. In addition to
+            the Big Five, visitors can expect to see a wide variety of herbivores, predators, and smaller mammals.
+          </p>
+          <p class="mb-6">
+            Common herbivores include: Impala, Blue wildebeest, Plains zebra, Giraffe, Kudu, Waterbuck and Warthog
+          </p>
+          <p class="mb-6">
+            These species form the backbone of the ecosystem and are often seen grazing in large numbers across the
+            park. Impala, in particular, are abundant and play a key role as prey for many predators.
+          </p>
+          <p class="mb-6">
+            Kruger National Park wildlife also includes impressive predators such as: Cheetah, African wild dog, Spotted
+            hyena, Jackal, Serval, Caracal,
+          </p>
+          <p class="mb-6">
+            The African wild dog is especially noteworthy, as Kruger supports one of the most important populations of
+            this endangered species in South Africa.
+          </p>
+          <p>
+            Smaller mammals add even more diversity, including mongoose, civets, genets, bush babies, and numerous
+            rodent species. Many of these animals are nocturnal, making night drives an exciting way to experience
+            Kruger National Park wildlife.
+          </p>
         </div>
       </section>
-      <section class="max-w-4xl mx-auto text-center px-6 pt-8 md:pt-16 pb-0 md:pb-16">
-        <h2 class="text-center font-semibold pb-8 md:pb-12">Last message</h2>
-        <p>
-          Safari can be a once in a lifetime trip or even a recurring journey that you make part of your life. There is
-          always more to see and learn in the African bush, and I would love to be apart of that journey.
-        </p>
-      </section>
-      <section class="py-20 px-4 md:px-0">
-        <div class="max-w-3xl mx-auto">
-          <div class="relative overflow-hidden">
-            <img
-              src="/images/about/black-collared-barbet-pretoriuskop-rest-camp.webp"
-              alt="Beautiful horizontal shot"
-              class="w-full h-full object-cover"
-              loading="lazy"
-            />
-          </div>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Birdlife in Kruger National Park</h2>
+          <p class="mb-6">
+            Birding is another major highlight of Kruger National Park wildlife. The park boasts over 500 recorded bird
+            species, making it one of the best birding destinations in Africa.
+          </p>
+          <p class="mb-6">
+            Birdlife ranges from massive ground birds to colorful woodland species. Some of the most sought-after
+            sightings include: Martial Eagle, Saddle-billed Stork, Ground Hornbill, Lappet-faced Vulture, Kori Bustard,
+            Pel’s Fishing Owl
+          </p>
+          <p class="mb-6">
+            Raptors are particularly well represented, and visitors often see eagles perched in trees overlooking open
+            savanna. Waterbirds are also abundant along rivers, dams, and seasonal pans.
+          </p>
+          <p class="mb-6">
+            The northern regions of the park, especially around Pafuri, are renowned for rare and regional bird species,
+            attracting birders from across the globe.
+          </p>
         </div>
       </section>
-      <section class="max-w-4xl mx-auto text-center px-6 pt-8 md:pt-16 pb-0 md:pb-16">
-        <h2 class="text-center font-semibold pb-8 md:pb-12">Contact me</h2>
-        <p class="mb-10">
-          Send me a message so that we may start creating that dream safari of yours in Kruger National Park, my game
-          drives are fully private meaning it is just you and your love ones on the vehicle to give you maximum time to
-          enjoy the Kruger National Park and all safaris are
-          <a
-            href="/kruger-private-safari/"
-            class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-            >fully inclusive</a
-          >.
-        </p>
-        <a
-          href="mailto:eugene@eugenesafaris.com"
-          class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2 text-gray-900"
-        >
-          eugene@eugenesafaris.com
-        </a>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Reptiles and Other Wildlife</h2>
+          <p class="mb-6">
+            Kruger National Park wildlife extends far beyond mammals and birds. The park is home to over 110 reptile
+            species, including snakes, lizards, tortoises, and crocodiles.
+          </p>
+          <p class="mb-6">
+            Common reptiles include: Nile crocodile, Leopard tortoise, Monitor lizard, African rock python, Black mamba,
+            Puff adder
+          </p>
+          <p class="mb-6">
+            Rivers such as the Sabie, Crocodile, and Olifants support large populations of crocodiles and hippos,
+            offering dramatic wildlife viewing opportunities.
+          </p>
+          <p class="mb-6">
+            In addition, Kruger’s rivers contain nearly 50 fish species, and countless insects and amphibians contribute
+            to the overall biodiversity of the ecosystem.
+          </p>
+        </div>
       </section>
-      <!-- 4 Vertical Shots-->
-      <section class="py-20 px-4">
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Wildlife Habitats in Kruger National Park</h2>
+          <p class="mb-6">
+            One reason Kruger National Park wildlife is so diverse is the variety of habitats within the park. These
+            include: Open grasslands, Riverine forests, Mopane woodland, Granite hills, Seasonal wetlands, Bushveld
+            savanna
+          </p>
+          <p class="mb-6">
+            Different animals prefer different habitats. For example, open plains in central Kruger attract zebra,
+            wildebeest, and lions, while riverine forests are ideal for leopards and bushbuck. Northern mopane woodlands
+            support species like roan antelope and tsessebe, which are less commonly seen elsewhere.
+          </p>
+          <p>
+            This habitat diversity ensures that wildlife viewing varies dramatically across the park, making each region
+            unique.
+          </p>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Best Time to See Kruger National Park Wildlife</h2>
+          <p class="mb-6">
+            Kruger National Park wildlife can be seen year-round, but the dry winter months from June to September are
+            generally considered the best for game viewing. During this period, vegetation is thinner and animals
+            concentrate around water sources, making sightings easier.
+          </p>
+          <p>
+            Summer months bring lush greenery and excellent birding, as migratory species arrive and many animals give
+            birth. Although wildlife may be slightly harder to spot in thick vegetation, the scenery and activity levels
+            are spectacular.
+          </p>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Why Kruger National Park Wildlife is So Special</h2>
+          <p class="mb-6">
+            Few places in the world rival the sheer variety of Kruger National Park wildlife. From massive elephant
+            herds to tiny dung beetles, every species plays a role in maintaining the balance of this ecosystem.
+          </p>
+          <p class="mb-6">
+            The park’s size, conservation history, and habitat diversity allow animals to move freely and behave
+            naturally. This creates authentic safari experiences where visitors witness real predator-prey interactions,
+            seasonal migrations, and complex animal behavior.
+          </p>
+          <p>
+            Whether you are searching for the Big Five, photographing birds, or simply enjoying the bushveld, Kruger
+            National Park wildlife offers something unforgettable for every visitor.
+          </p>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container text-center mx-auto max-w-3xl px-4">
+          <h2 class="mb-2 md:mb-5">Experience Kruger National Park Wildlife</h2>
+          <p class="mb-6">
+            Exploring Kruger National Park wildlife is best done slowly. Early morning drives, quiet afternoons at
+            waterholes, and sunset game drives all reveal different aspects of the ecosystem. Every outing offers new
+            sightings and surprises.
+          </p>
+          <p>
+            From the roar of lions at dawn to elephants crossing dusty roads at sunset, the wildlife of Kruger National
+            Park captures the true spirit of Africa. It is this diversity and abundance that continues to make Kruger
+            one of the world’s greatest safari destinations.
+          </p>
+        </div>
+      </section>
+      <!-- 4 Vertical Images -->
+      <section class="py-20 px-4" style="content-visibility: auto">
         <div class="max-w-6xl mx-auto">
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="relative aspect-2/3 overflow-hidden">
               <img
-                src="/images/about/black-backed-jackal-about-to-run-away-in-kruger-national-park.webp"
-                alt="Beautiful horizontal shot"
+                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/guinneafowl-in-mopane-foliage.webp"
+                alt="Guineafowl in Mopane Foliage in Kruger National Park wildlife"
+                width="800"
+                height="1200"
                 class="w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
 
             <div class="relative aspect-2/3 overflow-hidden">
               <img
-                src="/images/about/rhino-about-to-drink-some-water.webp"
-                alt=""
+                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/zebra-posing-beautifully.webp"
+                alt="Zebra Posing Beautifully in Kruger National Park"
+                width="800"
+                height="1200"
                 class="w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
 
             <div class="relative aspect-2/3 overflow-hidden">
               <img
-                src="/images/about/leopard-walking-down-the-road-in-kruger.webp"
-                alt=""
+                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/dwarf-mongoose-on-boulder.webp"
+                alt="Dwarf Mongoose on a Boulder in Kruger National Park"
+                width="800"
+                height="1200"
                 class="w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
 
             <div class="relative aspect-2/3 overflow-hidden">
               <img
-                src="/images/about/giant-kingfisher-sitting-on-bridge-waiting-for-a-snack.webp"
-                alt=""
+                src="/src/assets/images/kruger-national-park/all-inclusive-safari-packages/lazy-lion.webp"
+                alt="Lazy Lion in Kruger National Park wildlife"
+                width="800"
+                height="1200"
                 class="w-full h-full object-cover"
                 loading="lazy"
+                decoding="async"
+                fetchpriority="low"
               />
             </div>
           </div>
@@ -484,8 +574,22 @@
                 Home
               </a>
             </li>
-            <li></li>
-            <li></li>
+            <li>
+              <a
+                href="/kruger-all-inclusive-safaris/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-guide/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Guide
+              </a>
+            </li>
             <li></li>
             <li>
               <a
@@ -503,27 +607,19 @@
                 Contact
               </a>
             </li>
-            <li>
-              <a
-                href="/kruger-national-park/"
-                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
-              >
-                Kruger National Park
-              </a>
-            </li>
           </ul>
         </div>
 
         <!-- Column 3: Other Links -->
         <div>
-          <h2 class="text-lg font-semibold mb-4">Kruger Park Safaris</h2>
+          <h2 class="text-lg font-semibold mb-4">Kruger Safaris & Info</h2>
           <ul class="space-y-2 text-sm">
             <li>
               <a
                 href="/kruger-all-inclusive-safaris/"
                 class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                Kruger Private Safari
+                All Inclusive Safaris
               </a>
             </li>
             <li>
@@ -531,7 +627,7 @@
                 href="/kruger-birding-tour/"
                 class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                Kruger Birding Tours
+                Birding Safaris
               </a>
             </li>
             <li>
@@ -539,7 +635,15 @@
                 href="/kruger-photographic-safari/"
                 class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
               >
-                Kruger Photographic Safaris
+                Photographic Safaris
+              </a>
+            </li>
+            <li>
+              <a
+                href="/kruger-national-park/"
+                class="hover:underline hover:underline-offset-[3px] decoration-amber-600 decoration-1 hover:decoration-2 transition-all duration-300 ease-out"
+              >
+                Kruger National Park
               </a>
             </li>
           </ul>

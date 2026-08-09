@@ -103,7 +103,7 @@
       <nav class="pt-10 px-8 sidebar-link">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">Kruger Private Safari</a>
+            <a href="/kruger-all-inclusive-safaris/">Kruger All Inclusive Safari</a>
           </li>
 
           <li>
@@ -205,7 +205,7 @@
       <nav class="pt-32 px-10 sidebar-link">
         <ul class="space-y-8 text-2xl">
           <li>
-            <a href="/kruger-all-inclusive-safaris/">Kruger Private Safari</a>
+            <a href="/kruger-all-inclusive-safaris/">Kruger All Inclusive Safari</a>
           </li>
 
           <li>
@@ -226,47 +226,154 @@
     </aside>
     <!-- #endregion -->
     <main class="pt-20">
-      <section class="relative h-[calc(100vh-80px)] w-full overflow-hidden bg-black">
-        <video
-          id="heroVideo"
-          class="absolute inset-0 w-full h-full object-cover"
-          autoplay
-          muted
-          loop
-          playsinline
-          preload="metadata"
-          poster="/images/video-thumbnail/private-kruger-safari-thumbnail.webp"
-          aria-label="Guided safari with Eugene Safaris showing elephants crossing a river and game drive scenes."
-        >
-          <source src="/videos/guided-safari-showreel-video.mp4" type="video/mp4" />
-        </video>
+      <section class="relative min-h-[calc(100vh-80px)] w-full overflow-hidden bg-black">
+        <!-- Video -->
+        <div class="relative h-screen w-full overflow-hidden">
+          <video
+            id="heroVideo"
+            class="absolute inset-0 h-full w-full object-cover"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="/images/video-thumbnail/private-kruger-safari-thumbnail.webp"
+            aria-label="Guided safari with Eugene Safaris showing elephants crossing a river and game drive scenes."
+          >
+            <source src="/videos/guided-safari-showreel-video.mp4" type="video/mp4" />
+          </video>
+
+          <!-- Dark overlay -->
+          <div class="absolute inset-0 bg-black/20"></div>
+
+          <!-- Hero text -->
+          <div class="absolute inset-0 z-10 flex items-center justify-center px-6 text-center">
+            <div class="max-w-4xl text-white">
+              <h1 class="mb-6 text-3xl font-bold lg:text-5xl">A slower, more personal Kruger safari</h1>
+
+              <p class="mx-auto max-w-2xl text-lg leading-relaxed md:text-xl">
+                Experience Kruger National Park at a different pace. I personally guide every safari, taking the time to
+                listen, track, and let the bush unfold around us, so you can slow down, connect with nature, and
+                experience Kruger for what it truly is.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Cards -->
+        <div class="relative z-20 grid min-h-[35vh] grid-cols-1 md:grid-cols-3">
+          <!-- All Inclusive -->
+          <a
+            href="/kruger-all-inclusive-safaris/"
+            class="group relative flex min-h-65 items-center justify-center overflow-hidden p-8 text-center text-white"
+          >
+            <!-- Background image -->
+            <img
+              src="/images/home/sabi-river.webp"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
+            />
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/45 transition duration-500 group-hover:bg-black/30"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 max-w-sm">
+              <p class="mb-3 text-sm uppercase tracking-[0.2em] opacity-80">The Complete Safari</p>
+
+              <h2 class="mb-4 text-3xl font-bold">All-Inclusive Safari</h2>
+
+              <p class="leading-relaxed opacity-90">
+                A private Kruger experience with guiding, accommodation, game drives and everything taken care of.
+              </p>
+
+              <span class="mt-6 inline-block text-sm font-semibold"> Explore → </span>
+            </div>
+          </a>
+
+          <!-- Birding -->
+          <a
+            href="/kruger-birding-tour/"
+            class="group relative flex min-h-65 items-center justify-center overflow-hidden p-8 text-center text-white"
+          >
+            <!-- Background image -->
+            <img
+              src="/images/home/black-collared-barbet-pretoriuskop-rest-camp.webp"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
+            />
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/45 transition duration-500 group-hover:bg-black/30"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 max-w-sm">
+              <p class="mb-3 text-sm uppercase tracking-[0.2em] opacity-80">Look Beyond the Big Five</p>
+
+              <h2 class="mb-4 text-3xl font-bold">Birding Safari</h2>
+
+              <p class="leading-relaxed opacity-90">
+                Discover Kruger's extraordinary birdlife with a guide who knows where to look and what to listen for.
+              </p>
+
+              <span class="mt-6 inline-block text-sm font-semibold"> Explore → </span>
+            </div>
+          </a>
+
+          <!-- Photography -->
+          <a
+            href="/kruger-photographic-safari/"
+            class="group relative flex min-h-65 items-center justify-center overflow-hidden p-8 text-center text-white"
+          >
+            <!-- Background image -->
+            <img
+              src="/images/home/leopard-walking-road-card.webp"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105"
+            />
+
+            <!-- Dark overlay -->
+            <div class="absolute inset-0 bg-black/45 transition duration-500 group-hover:bg-black/30"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 max-w-sm">
+              <p class="mb-3 text-sm uppercase tracking-[0.2em] opacity-80">See Kruger Differently</p>
+
+              <h2 class="mb-4 text-3xl font-bold">Photographic Safari</h2>
+
+              <p class="leading-relaxed opacity-90">
+                Take your time, find the light and create meaningful wildlife images without rushing from sighting to
+                sighting.
+              </p>
+
+              <span class="mt-6 inline-block text-sm font-semibold"> Explore → </span>
+            </div>
+          </a>
+        </div>
       </section>
 
       <!-- INTRO SECTION -->
       <section class="max-w-3xl mx-auto py-12 md:py-32 px-4">
         <div class="text-center text-neutral-800">
-          <h1 class="font-bold text-2xl md:text-3xl mb-6 tracking-tight">Guided Safaris in Kruger National Park</h1>
+          <h2 class="font-bold text-2xl md:text-3xl mb-6 tracking-tight">My way of experiencing Kruger</h2>
 
           <p>
-            Welcome to Eugene Safaris, here you will find all the information needed to book your safari in
-            <a
-              href="/kruger-national-park/"
-              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-              >Kruger National Park</a
-            >. I feel the best safaris are built around a simple philosophy, the slow safari, take your time, there is
-            no rush.
+            I don't believe a good safari is about how many animals you can find in a day, or how many times you can say
+            you've seen the Big Five.
           </p>
-
           <p>
-            The best safaris in Kruger National Park is ones where of course you have a bit of say in how your day goes,
-            at Eugene Safaris we do
-            <a
-              href="/kruger-private-safari/"
-              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-              >private kruger safaris</a
-            >
-            and this means the booking is exclusive to you and those who join you. Making the safari more personal and
-            enjoyable.
+            For me, it's about slowing down and paying attention to what is happening around you. Listening to the
+            birds, reading tracks in the road, watching the behaviour of an animal, or simply sitting quietly and seeing
+            what comes our way.
+          </p>
+          <p>
+            I don't want to spend a game drive chasing reports of a leopard or lion because someone else has seen one. I
+            want to use my knowledge of Kruger, read the signs and make the most of the time we have in the bush.
+          </p>
+          <p>
+            The Big Five are certainly part of the experience, but they are not what defines it. My job as your guide is
+            to make the drive enjoyable, give you the time and space to experience Kruger in your own way, and hopefully
+            leave you feeling that you have truly connected with the bush.
           </p>
 
           <!-- Clean, High-Converting CTA Actions Area -->
@@ -305,7 +412,7 @@
             </div>
             <!-- Caption -->
             <p class="mt-1 text-xs text-center lg:text-left">
-              3 Cheetah scanning the area for prey, seen on a Private Kruger National Park Safari with Eugene Safaris
+              3 Cheetah scanning the area for prey, seen on a Kruger Safari with Eugene Safaris
             </p>
           </div>
         </div>
@@ -313,122 +420,66 @@
 
       <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
         <div class="text-center">
-          <h2 class="font-bold text-2xl md:text-3xl mb-6">Why We Believe in Slow Safaris</h2>
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">A lifetime connected to Kruger</h2>
 
           <p class="mb-6">
-            At
-            <a
-              href="/about/"
-              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-              >Eugene Safaris</a
-            >, we believe the best wildlife encounters can't be rushed. Rather than chasing a checklist of sightings, we
-            slow down, observe, and let nature unfold at its own pace. It's often in those quiet moments that Kruger's
-            most memorable experiences happen.
+            I grew up close to Kruger National Park, and throughout my life I kept coming back to the bush. Over the
+            years, that grew into a deep love for living things and for the natural world in general. Kruger isn't
+            simply a place I work — it has become a part of me.
           </p>
 
           <p class="mb-6">
-            Spending twenty minutes watching a leopard rest in a marula tree, following a family of elephants as they
-            interact around a waterhole, or waiting patiently while alarm calls reveal a hidden predator often creates
-            memories that last far longer than simply driving to the next sighting.
+            My time working at lodges and in other parts of Africa also shaped the way I think about guiding and
+            hospitality. I learned that giving people time and allowing them to experience things in their own way can
+            be just as important as finding the animals themselves.
           </p>
 
           <p class="mb-6">
-            Every safari is owner-guided by Eugene, allowing each day to adapt naturally to the wildlife, the
-            conditions, and your interests. Whether your passion is mammals, birds, photography, or simply experiencing
-            the African bush, the journey is never dictated by a fixed schedule.
+            That is what eventually led me to start Eugene Safaris. I wanted to share Kruger in my own way: slower, more
+            personal, and focused on the experience as a whole.
           </p>
 
           <p>
-            If you're looking for a private safari built around this philosophy, explore our
-            <a href="/kruger-private-safari/">Private Kruger Safaris</a>.
+            As your guide, I want you to feel that you have time to look, listen and enjoy the bush without feeling
+            rushed. If we don't find a lion or a leopard, that's okay. There is always something else connecting the
+            dots — the birds, the tracks, the changing light, the sounds around us, and the small moments that make a
+            day in Kruger special.
           </p>
+          <p>I get to come out into the bush every day, and I want to share that excitement with you.</p>
         </div>
       </section>
-      <!-- HOMEPAGE REPLACEMENT SECTION (Replaces the 3 Pricing Cards) -->
-      <section class="py-16 px-4">
-        <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-3xl font-bold text-neutral-900 mb-4">Choose Your Safari Experience</h2>
-          <p class="text-lg text-neutral-600 mb-12 max-w-2xl mx-auto">
-            Every safari is owner-guided and tailored around your interests. Whether you're looking for a classic
-            private safari, a dedicated birding tour, or a photographic adventure, you'll enjoy the same slow safari
-            philosophy and exclusive guiding experience.
-          </p>
 
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Category 1: All-Inclusive -->
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-neutral-200 flex flex-col justify-between">
-              <div>
-                <h3 class="text-xl font-bold mb-2 text-neutral-900">Kruger Private Safari</h3>
-                <p class="text-sm text-neutral-600 mb-6">
-                  Enjoy an owner-guided safari designed around your pace. Every journey is exclusive to your booking and
-                  can be tailored to suit your interests.
-                </p>
-              </div>
-              <a
-                href="/kruger-private-safari/"
-                class="w-full py-3 bg-neutral-900 text-white text-sm font-medium rounded hover:bg-neutral-800 transition"
-              >
-                Explore Private Safari
-              </a>
-            </div>
-
-            <!-- Category 2: Photographic -->
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-neutral-200 flex flex-col justify-between">
-              <div>
-                <h3 class="text-xl font-bold mb-2 text-neutral-900">Photographic Safaris</h3>
-                <p class="text-sm text-neutral-600 mb-6">
-                  Slow-paced game drives designed around wildlife behaviour, beautiful light, and giving photographers
-                  the time they need for unforgettable images.
-                </p>
-              </div>
-              <a
-                href="/kruger-photographic-safari/"
-                class="w-full py-3 bg-neutral-900 text-white text-sm font-medium rounded hover:bg-neutral-800 transition"
-              >
-                Explore Photo Safari
-              </a>
-            </div>
-
-            <!-- Category 3: Birding -->
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-neutral-200 flex flex-col justify-between">
-              <div>
-                <h3 class="text-xl font-bold mb-2 text-neutral-900">Birding Tours</h3>
-                <p class="text-sm text-neutral-600 mb-6">
-                  Explore Kruger's remarkable birdlife with patient, owner-guided safaris focused on finding both iconic
-                  and elusive species.
-                </p>
-              </div>
-              <a
-                href="/kruger-birding-tour/"
-                class="w-full py-3 bg-neutral-900 text-white text-sm font-medium rounded hover:bg-neutral-800 transition"
-              >
-                Explore Birding Tour
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
         <div class="text-center">
-          <h2 class="font-bold text-2xl md:text-3xl mb-6">Wildlife on Nature's Terms</h2>
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">A day in the Kruger</h2>
 
           <p class="mb-6">
-            The most memorable moments in Kruger National Park rarely happen on a schedule. They happen when you're
-            willing to slow down, stay a little longer, and allow nature to unfold in its own time.
+            Our day starts early, with a coffee and a rusk as we sit quietly and listen to the bush waking up around us.
           </p>
 
           <p class="mb-6">
-            We don't measure a safari by the number of kilometres driven or the length of a sightings list. Instead, we
-            focus on the moments that many visitors drive straight past — elephants greeting one another at a waterhole,
-            a leopard resting high in a marula tree, or the alarm calls that quietly reveal a predator hidden nearby.
+            If lions were roaring during the night, we might follow the direction of those calls and see where the
+            morning takes us. We leave camp early and take our time, driving through Kruger without trying to force the
+            day into a checklist.
           </p>
           <p>
-            Every day is shaped by the wildlife, the conditions, and your interests. That's the philosophy behind every
-            safari with Eugene Safaris.
+            The mornings are some of the most important hours in the bush. The light is beautiful, the animals are
+            active and, by staying inside the park, we can make the most of those early hours before the outside crowds
+            arrive.
+          </p>
+          <p>
+            As the day warms up, we look for animals, read tracks and pay attention to the smaller details that are easy
+            to miss when you're rushing from one sighting to the next.
+          </p>
+          <p>
+            Around 11 o'clock, we'll find a quiet place to stop for a picnic and take a break before continuing our day.
+          </p>
+          <p>
+            There is no need to know exactly what we will find. That's part of the excitement. We listen, we look, we
+            track, and we see what Kruger brings us.
           </p>
         </div>
       </section>
-
       <section class="py-20 px-4">
         <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
           <!-- Left: Portrait -->
@@ -456,6 +507,144 @@
               class="w-full h-auto aspect-video lg:aspect-3/4 object-cover"
             />
           </div>
+        </div>
+      </section>
+      <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">Why staying inside Kruger matters</h2>
+
+          <p class="mb-6">For me, staying inside Kruger is about more than simply having a place to sleep.</p>
+
+          <p class="mb-6">
+            It gives us more time in the park and, most importantly, access to the bush before the outside crowds
+            arrive. We can wake up early, have our coffee and rusk, listen to what happened during the night and be
+            ready to go as soon as the gates open.
+          </p>
+          <p>
+            Those first hours of the morning are incredibly valuable. Animals are often active, the temperatures are
+            cooler and the bush is coming alive. Instead of spending part of the morning travelling to the park, we are
+            already there.
+          </p>
+          <p>
+            It also means we don't have to rush. We have the time to follow tracks, investigate a call in the distance,
+            stop for something interesting, or simply sit quietly and see what happens.
+          </p>
+          <p>That extra time changes the experience.</p>
+          <p>
+            It allows us to experience Kruger at its own pace rather than trying to fit the park into a few hours
+            between opening and closing.
+          </p>
+        </div>
+      </section>
+      <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">Two ways to experience Kruger</h2>
+
+          <p class="mb-6">
+            However you choose to experience Kruger, the idea stays the same: a private, personal safari with your own
+            guide and the time to enjoy the bush without feeling rushed.
+          </p>
+          <h3>Stay inside Kruger</h3>
+          <p class="mb-6">
+            Our all-inclusive private safaris are designed for guests who want to immerse themselves in the park. We
+            stay inside Kruger, giving us more time in the bush and the opportunity to make the most of the early
+            mornings and late afternoons.
+          </p>
+          <p>
+            With your accommodation, meals, game drives and guiding included, you can simply settle into the rhythm of
+            Kruger and enjoy the experience.
+          </p>
+          <h3>Visit Kruger from outside</h3>
+          <p>
+            If you are already staying at a lodge, hotel or other accommodation outside the park, you can still
+            experience Kruger with me on a private day safari.
+          </p>
+          <p>
+            I'll collect you from your accommodation, and we'll spend the day exploring the park together before
+            returning in the afternoon.
+          </p>
+          <p>
+            You still get the same personal guiding and slower approach — you simply have your own accommodation outside
+            the park.
+          </p>
+        </div>
+      </section>
+      <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">The Big Five are part of the story, not the whole story</h2>
+
+          <p class="mb-6">
+            Of course, we want to see lions, leopards, elephants, rhinos and buffalo. Finding them is exciting, and I
+            understand why they are such an important part of coming to Kruger.
+          </p>
+
+          <p class="mb-6">But I don't believe a safari should be measured by a checklist.</p>
+          <p>
+            I don't want to spend the day on my phone looking for reports of where somebody else has seen a leopard,
+            then race across the park to try and find it. That's not how I want to experience Kruger, and it's not how I
+            want my guests to experience it either.
+          </p>
+
+          <p>
+            A good guide should be able to use his wits, read the signs and make the most of the conditions around him.
+            Sometimes that means following tracks. Sometimes it's listening to alarm calls or birds. Sometimes it's
+            knowing when to stay somewhere a little longer and simply see what happens.
+          </p>
+          <p>And when we do find the Big Five, we'll enjoy it. But if we don't find all of them, that's okay too.</p>
+          <p>
+            Because a safari is about everything that connects the dots — the animals, the birds, the tracks, the
+            sounds, the landscape, the light and those unexpected moments that you couldn't have planned for.
+          </p>
+          <p>The Big Five are part of the experience. They are not the experience itself.</p>
+        </div>
+      </section>
+      <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">Your guide, Eugene</h2>
+
+          <p class="mb-6">I'm Eugene, and I'll be the person behind the wheel and beside you throughout your safari.</p>
+
+          <p class="mb-6">
+            I grew up close to Kruger National Park, and the bush has been part of my life for as long as I can
+            remember. Over the years, that developed into a deep curiosity about wildlife and a love for the smaller
+            details that can easily be missed when you're simply looking for the next big sighting.
+          </p>
+          <p>
+            I've also spent time working at lodges and in other parts of Africa, where I developed my own approach to
+            guiding and hospitality. I believe guests should have the freedom to enjoy the bush in their own way,
+            without feeling like they are being rushed from one sighting to the next.
+          </p>
+
+          <p>
+            My role is to guide you, read the bush, make the decisions when we need to, and hopefully share some of the
+            excitement I still feel every time I head out into Kruger.
+          </p>
+          <p>I'm not here to promise you a checklist.</p>
+          <p>
+            I'm here to share a place that has become a part of me, and hopefully leave you with a feeling that you've
+            connected with Kruger too.
+          </p>
+        </div>
+      </section>
+      <section class="max-w-3xl mx-auto py-12 md:py-20 px-4">
+        <div class="text-center">
+          <h2 class="font-bold text-2xl md:text-3xl mb-6">Come experience Kruger with me</h2>
+
+          <p class="mb-6">Kruger has never been just about ticking animals off a list for me.</p>
+
+          <p class="mb-6">
+            It is the feeling of being out early in the morning, listening to the bush wake up. It is following a set of
+            tracks and wondering where they might lead. It is sitting quietly when something unexpected appears. It is
+            the excitement of not knowing exactly what the day will bring.
+          </p>
+          <p>I want to share that feeling with you.</p>
+
+          <p>
+            Whether you stay inside the park with me or join me for a private day safari from outside, you'll have your
+            own guide, your own time and the freedom to experience Kruger without feeling rushed.
+          </p>
+          <p>If this sounds like the kind of safari you've been looking for, I'd love to take you out into the bush.</p>
+          <p>Come slow down. Listen. Look. Track. And see what Kruger brings us.</p>
         </div>
       </section>
 

@@ -17,10 +17,13 @@ export default defineConfig({
         about: path.resolve(__dirname, "about/index.html"),
         // Safaris
         allinclusivesafaris: path.resolve(__dirname, "kruger-all-inclusive-safaris/index.html"),
+        privatesafaris: path.resolve(__dirname, "kruger-all-inclusive-safaris/index.html"),
         birdingkrugertour: path.resolve(__dirname, "kruger-birding-tour/index.html"),
         photographickruger: path.resolve(__dirname, "kruger-photographic-safari/index.html"),
         // Kruger National Park Guide
         krugernationalpark: path.resolve(__dirname, "kruger-national-park/index.html"),
+        wildlife: path.resolve(__dirname, "kruger-national-park/wildlife/index.html"),
+        lionsinkruger: path.resolve(__dirname, "kruger-national-park/wildlife/lion/index.html"),
       },
     },
   },
