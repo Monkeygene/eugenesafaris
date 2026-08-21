@@ -2,22 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Title & Description -->
-    <title>Kruger National Park | Eugene Safaris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta -->
+    <title>Private Kruger Safari from Marloth Park | Eugene Safaris</title>
+
     <meta
       name="description"
-      content="Explore the mammals of Kruger National Park, from the Big 5 to rare species. A complete wildlife guide to help you get more from your safari."
+      content="Explore Kruger National Park on a private safari from Hoedspruit. Enjoy your own vehicle and guide, a relaxed game drive, and a personal Kruger experience."
     />
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://eugenesafaris.com/kruger-national-park/" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-private-safari/marloth-park/" />
     <!-- Favicon & Apple Touch Icon -->
     <link rel="icon" href="/images/logo/paw-print-lion.png" type="image/png" />
     <link rel="apple-touch-icon" href="/images/logo/paw-print-lion.png" type="image/png" />
+
     <!-- Robots -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <!-- JSON-LD Kruger National Park Breadcrumb -->
+
+    <!-- Structured Data (Kruger Private Safaris) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -26,20 +28,33 @@
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Home",
-            "item": "https://eugenesafaris.com/"
+            "item": {
+              "@id": "https://eugenesafaris.com/",
+              "name": "Home"
+            }
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Kruger National Park",
-            "item": "https://eugenesafaris.com/kruger-national-park/"
+            "item": {
+              "@id": "https://eugenesafaris.com/kruger-private-safari/",
+              "name": "Kruger Private Safaris"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://eugenesafaris.com/kruger-private-safari/marloth-park/",
+              "name": "Marloth Park"
+            }
           }
         ]
       }
     </script>
   </head>
-  <body class="antialiased">
+  <body>
+<body class="antialiased">
     <!-- #region Mobile Header -->
     <header class="lg:hidden fixed top-0 inset-x-0 z-50 bg-linen">
       <div class="relative h-20">
@@ -214,37 +229,36 @@
     </aside>
     <!-- #endregion -->
     <main class="pt-20">
-      <!-- End of Nav - Start of Breadcrumb Navigation -->
-      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-1 mt-4">
+      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-3 mt-4">
         <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
           <li class="flex items-center">
             <a href="/" class="hover:underline">Home</a>
             <span class="mx-2">/</span>
           </li>
 
-          <li class="flex items-center text-gray-500">Kruger National Park</li>
+          <li class="flex items-center">
+            <a href="/kruger-private-safari/" class="hover:underline"> Kruger Private Safaris </a>
+            <span class="mx-2">/</span>
+          </li>
+
+          <li class="flex items-center text-gray-500" aria-current="page">Marloth Park</li>
         </ol>
       </nav>
-      <!-- End of Breadcrumb Navigation start of Main Content -->
-      <section class="mx-auto max-w-4xl px-6 py-8 text-center">
-        <div class="text-center">
-          <p
-            class="mb-4 flex items-center justify-center gap-4 text-xs font-medium uppercase tracking-[0.4em] text-gray-600"
-          >
-            <span class="h-px w-4 bg-gray-400"></span>
-            GUIDE & INFORMATION
-            <span class="h-px w-4 bg-gray-400"></span>
-          </p>
+          <!-- HERO SECTION -->
+    <section class="max-w-3xl text-center mx-auto py-12">
+      <div class="container px-4">
+        <!-- Clean, high-converting H1 aligned with transactional intent -->
+        <h1 class="font-bold py-8">Private Kruger Day Safari from Marloth Park</h1>
 
-          <h1 class="mb-6 text-2xl font-bold tracking-tight text-gray-900 md:text-4xl">Kruger National Park</h1>
-
-          <p class="mx-auto max-w-3xl text-lg leading-relaxed text-gray-700">
-            Discover Kruger National Park, rest camps, picnic sites, scenic routes and travel guides to help you plan an
-            unforgettable safari experience in South Africa's most iconic national park.
-          </p>
-        </div>
-      </section>
+        <p>
+          Spend a private day exploring Kruger National Park with your own guide and vehicle, returning to Marloth Park
+          after your safari.
+        </p>
+      </div>
+    </section>
     </main>
+
+  </body>
     <!-- Footer-->
     <footer class="bg-linen text-gray-800 font-avenir">
       <div
@@ -401,7 +415,6 @@
         </div>
       </div>
     </footer>
-    <!-- Psalms 23:1–6 -->
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  <!-- Psalms 23:1–6 -->
+  <script type="module" src="/src/main.js"></script>
 </html>

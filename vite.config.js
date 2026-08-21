@@ -17,7 +17,8 @@ export default defineConfig({
         about: path.resolve(__dirname, "about/index.html"),
         // Safaris
         allinclusivesafaris: path.resolve(__dirname, "kruger-all-inclusive-safaris/index.html"),
-        privatesafaris: path.resolve(__dirname, "kruger-all-inclusive-safaris/index.html"),
+        privatesafaris: path.resolve(__dirname, "kruger-private-safari/index.html"),
+        privatesafarismarloth: path.resolve(__dirname, "kruger-private-safari/marloth-park/index.html"),
         birdingkrugertour: path.resolve(__dirname, "kruger-birding-tour/index.html"),
         photographickruger: path.resolve(__dirname, "kruger-photographic-safari/index.html"),
         // Blog

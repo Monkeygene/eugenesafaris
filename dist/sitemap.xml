@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://eugenesafaris.com/sitemap-core.xml</loc>
-    <lastmod>2026-08-08</lastmod>
-  </sitemap>
-    <sitemap>
-    <loc>https://eugenesafaris.com/sitemap-knp-info.xml</loc>
-    <lastmod>2026-08-08</lastmod>
-  </sitemap>
-
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Business Pages -->
+  <url><loc>https://eugenesafaris.com/</loc></url>
+  <url><loc>https://eugenesafaris.com/about/</loc></url>
+  <url><loc>https://eugenesafaris.com/contact/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-all-inclusive-safaris/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-private-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-private-safari/marloth-park/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-birding-tour/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-photographic-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/airports-guide/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/best-time-to-visit/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/malaria-guide/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/weather/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/big-5/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/black-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/buffalo/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/elephant/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/leopard/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/lion/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/white-rhinoceros/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/</loc></url>
+  <url><loc>https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/</loc></url>
+</urlset>

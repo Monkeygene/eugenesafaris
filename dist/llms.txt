@@ -1,20 +1,44 @@
 # Eugene Safaris
 
-> Private, all-inclusive Kruger National Park safaris, practical travel advice, and South African wildlife education.
+> Private, all-inclusive Kruger National Park safaris personally guided by Eugene, with a focus on slower, more personal wildlife experiences, practical Kruger travel advice, and South African wildlife education.
 
 ## Core Business Pages
 
 * [Home](https://eugenesafaris.com/)
-* [About Us](https://eugenesafaris.com/about/)
-* [Contact Us](https://eugenesafaris.com/contact/)
+* [About Eugene](https://eugenesafaris.com/about/)
+* [Contact](https://eugenesafaris.com/contact/)
 
+## Safari Experiences
 
-## Safari Offerings & Booking Pages
+* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-all-inclusive-safaris/)
+* [Private Kruger Safari](https://eugenesafaris.com/kruger-private-safari/)
+* [Private Kruger Safari from Marloth Park](https://eugenesafaris.com/kruger-private-safari/marloth-park/)
 
-* [Kruger All-Inclusive Safaris](https://eugenesafaris.com/kruger-private-safari)
-* [Birding Safari Kruger](https://eugenesafaris.com/kruger-birding-tour/)
-* [Photographic Safari Kruger](https://eugenesafaris.com/kruger-photographic-safari/)
+* [Kruger Birding Safari](https://eugenesafaris.com/kruger-birding-tour/)
+* [Kruger Photographic Safari](https://eugenesafaris.com/kruger-photographic-safari/)
 
-## Kruger National Park Guides
+## Kruger National Park Guide
+
 * [Kruger National Park Guide](https://eugenesafaris.com/kruger-national-park/)
+* [Kruger National Park Airports Guide](https://eugenesafaris.com/kruger-national-park/airports-guide/)
+* [Best Time to Visit Kruger National Park](https://eugenesafaris.com/kruger-national-park/best-time-to-visit/)
+* [Kruger National Park Malaria Guide](https://eugenesafaris.com/kruger-national-park/malaria-guide/)
+* [Kruger National Park Weather](https://eugenesafaris.com/kruger-national-park/weather/)
 
+## Kruger Wildlife
+
+* [Kruger National Park Wildlife](https://eugenesafaris.com/kruger-national-park/wildlife/)
+* [Kruger Big Five](https://eugenesafaris.com/kruger-national-park/wildlife/big-5/)
+* [Black Rhinoceros](https://eugenesafaris.com/kruger-national-park/wildlife/black-rhinoceros/)
+* [African Buffalo](https://eugenesafaris.com/kruger-national-park/wildlife/buffalo/)
+* [African Elephant](https://eugenesafaris.com/kruger-national-park/wildlife/elephant/)
+* [Leopard](https://eugenesafaris.com/kruger-national-park/wildlife/leopard/)
+* [Lion](https://eugenesafaris.com/kruger-national-park/wildlife/lion/)
+* [White Rhinoceros](https://eugenesafaris.com/kruger-national-park/wildlife/white-rhinoceros/)
+
+## Safari Planning & Advice
+
+* [Kruger Safari Guide](https://eugenesafaris.com/kruger-guide/)
+* [What to Bring on Safari](https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/)
+* [What to Wear on Safari](https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/)
+* [Difference Between White and Black Rhino](https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/)
