@@ -24,6 +24,7 @@
 # Old itinerary/package pages
 /private-kruger-safaris/3-day/ /kruger-all-inclusive-safaris/ 301
 /private-kruger-safaris/5-day/ /kruger-all-inclusive-safaris/ 301
+/kruger-national-park/safari-all-inclusive-packages/5-day-private-safari/ /kruger-all-inclusive-safaris/ 301
 /private-kruger-safaris/6-day/ /kruger-all-inclusive-safaris/ 301
 /private-kruger-safaris/7-day/ /kruger-all-inclusive-safaris/ 301
 
@@ -34,7 +35,6 @@
 
 /blog/3-day-safari/ /kruger-all-inclusive-safaris/ 301
 /kruger-guide/3-day-safari/ /kruger-all-inclusive-safaris/ 301
-/kruger-private-safari/ /kruger-all-inclusive-safaris/ 301
 
 
 # ===========================================================
@@ -46,6 +46,7 @@
 
 /lion/                                                 /kruger-national-park/wildlife/lion/ 301
 /leopard/                                              /kruger-national-park/wildlife/leopard/ 301
+/wildlife/leopard/ /kruger-national-park/wildlife/leopard/ 301
 /elephant/                                             /kruger-national-park/wildlife/elephant/ 301
 /buffalo/                                              /kruger-national-park/wildlife/buffalo/ 301
 /white-rhinoceros/                                     /kruger-national-park/wildlife/white-rhinoceros/ 301
@@ -55,6 +56,9 @@
 /kruger-guide/what-to-bring-on-safari/                 /kruger-national-park/ 301
 /kruger-guide/what-to-wear-on-safari/                  /kruger-national-park/ 301
 /kruger-guide/difference-between-white-and-black-rhino/ /kruger-national-park/ 301
+/kruger-national-park/wildlife/mammals/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/dwarf-mongoose/ /kruger-national-park/wildlife/ 301
+/kruger-national-park/mammals/cheetah/ /kruger-national-park/wildlife/ 301
 
 /blog/                                                 /kruger-national-park/ 301
 /blog/what-to-bring-on-a-safari/                       /kruger-national-park/ 301
