@@ -41,52 +41,6 @@
 # KRUGER NATIONAL PARK HUB
 # ===========================================================
 
-/wildlife/                                             /kruger-national-park/wildlife/big-5/ 301
-/wildlife/big-5/                                       /kruger-national-park/wildlife/big-5/ 301
-
-/lion/                                                 /kruger-national-park/wildlife/lion/ 301
-/leopard/                                              /kruger-national-park/wildlife/leopard/ 301
-/wildlife/leopard/ /kruger-national-park/wildlife/leopard/ 301
-/elephant/                                             /kruger-national-park/wildlife/elephant/ 301
-/buffalo/                                              /kruger-national-park/wildlife/buffalo/ 301
-/white-rhinoceros/                                     /kruger-national-park/wildlife/white-rhinoceros/ 301
-/black-rhinoceros/                                     /kruger-national-park/wildlife/black-rhinoceros/ 301
-
-/kruger-guide/                                         /kruger-national-park/ 301
-/kruger-guide/what-to-bring-on-safari/                 /kruger-national-park/ 301
-/kruger-guide/what-to-wear-on-safari/                  /kruger-national-park/ 301
-/kruger-guide/difference-between-white-and-black-rhino/ /kruger-national-park/ 301
-/kruger-national-park/wildlife/mammals/ /kruger-national-park/wildlife/ 301
-/kruger-national-park/mammals/dwarf-mongoose/ /kruger-national-park/wildlife/ 301
-/kruger-national-park/mammals/cheetah/ /kruger-national-park/wildlife/ 301
-
-/blog/                                                 /kruger-national-park/ 301
-/blog/what-to-bring-on-a-safari/                       /kruger-national-park/ 301
-/blog/what-to-wear-on-a-safari/                        /kruger-national-park/ 301
-/blog/what-to-bring-on-safari/                         /kruger-national-park/ 301
-/blog/what-to-wear-on-safari/                          /kruger-national-park/ 301
-/blog/difference-between-white-and-black-rhino/        /kruger-national-park/ 301
-
-/kruger-national-park/weather/                         /kruger-national-park/ 301
-/kruger-national-park/malaria-guide/                   /kruger-national-park/ 301
-/kruger-national-park/malaria/                         /kruger-national-park/ 301
-/kruger-national-park/guide/malaria/                   /kruger-national-park/ 301
-
-/kruger-national-park/airports/                        /kruger-national-park/ 301
-/kruger-national-park/airports-guide/                  /kruger-national-park/ 301
-/kruger-national-park/airports/eastgate/               /kruger-national-park/ 301
-/kruger-national-park/airports/kmia/                   /kruger-national-park/ 301
-/kruger-national-park/airports/skukuza/                /kruger-national-park/ 301
-
-/kruger-national-park/best-time-to-visit/              /kruger-national-park/ 301
-/best-time-to-visit-kruger-national-park/              /kruger-national-park/ 301
-
-/kruger-national-park/rest-camps/                      /kruger-national-park/ 301
-/kruger-national-park/rest-camps/punda-maria/          /kruger-national-park/ 301
-
-/kruger-national-park/safari-on-film/                  /kruger-national-park/ 301
-/kruger-national-park/worst-time-to-visit/             /kruger-national-park/ 301
-
 
 # ===========================================================
 # BIRDING
