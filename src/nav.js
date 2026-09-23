@@ -88,16 +88,11 @@ desktopOverlay.addEventListener("click", closeDesktopMenu);
 function openMobileMenu() {
   mobilePanel.classList.remove("-translate-x-full");
 
-  mobileOverlay.classList.remove("hidden");
-
-  mobileOverlay.classList.remove("opacity-0");
+  mobileOverlay.classList.remove("hidden", "opacity-0");
   mobileOverlay.classList.add("opacity-100");
 
   mobileIcon.src = "/images/navbar/hamburger-open.svg";
-
   mobileBtn.classList.add("scale-95");
-
-  // document.body.classList.add("overflow-hidden");
 }
 
 function closeMobileMenu() {
@@ -111,13 +106,12 @@ function closeMobileMenu() {
   }, 250);
 
   mobileIcon.src = "/images/navbar/hamburger-closed.svg";
-
   mobileBtn.classList.remove("scale-95");
-
-  // document.body.classList.remove("overflow-hidden");
 }
 
-mobileBtn.addEventListener("pointerdown", () => {
+mobileBtn.addEventListener("pointerdown", (e) => {
+  e.stopPropagation();
+
   if (mobilePanel.classList.contains("-translate-x-full")) {
     openMobileMenu();
   } else {
@@ -125,11 +119,12 @@ mobileBtn.addEventListener("pointerdown", () => {
   }
 });
 
+// Click/tap anywhere on the overlay closes the menu
 mobileOverlay.addEventListener("pointerdown", (e) => {
+  // If the click is inside the menu panel, do nothing
   if (mobilePanel.contains(e.target)) return;
 
-  if (mobileBtn.contains(e.target)) return;
-
+  // Otherwise, clicking anywhere outside the panel closes it
   closeMobileMenu();
 });
 
