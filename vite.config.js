@@ -1,6 +1,10 @@
 import { defineConfig } from "vite";
+import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
+
+const root = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
   base: "/",
@@ -48,6 +52,9 @@ export default defineConfig({
         whiterhino: path.resolve(__dirname, "kruger-national-park/wildlife/white-rhinoceros/index.html"),
         // Rest Camps
         restcamps: path.resolve(__dirname, "kruger-national-park/rest-camps/index.html"),
+        // Other Pages
+        404: resolve(root, "404.html"),
+        410: resolve(root, "410.html"),
       },
     },
   },
