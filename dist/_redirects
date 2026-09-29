@@ -2,15 +2,17 @@
 # EUGENE SAFARIS - REDIRECTS
 # ===========================================================
 
+/blog/ /410.html 410
+
 # ===========================================================
 # SAFARI PAGES
 # ===========================================================
 
-/safaris/ /kruger-inclusive-safaris/ 301
-/kruger-safaris/ /kruger-inclusive-safaris/ 301
-/kruger-safaris/all-inclusive/ /kruger-inclusive-safaris/ 301
-/kruger-safaris/all-inclusive-packages/ /kruger-inclusive-safaris/ 301
-/kruger-all-inclusive-safaris/ /kruger-inclusive-safaris/ 301
+/safaris/ /410.html 410
+/kruger-safaris/ /410.html 410
+/kruger-safaris/all-inclusive/ /410.html 410
+/kruger-safaris/all-inclusive-packages/ /410.html 410
+/kruger-all-inclusive-safaris/ /410.html 410
 
 /kruger-national-park/safaris/ /kruger-inclusive-safaris/ 301
 /kruger-national-park/private-safaris/ /kruger-inclusive-safaris/ 301
@@ -65,7 +67,6 @@
 /kruger-national-park/mammals/honey-badger/ /kruger-national-park/wildlife/ 301
 /white-faced-whistling-duck/ /kruger-national-park/wildlife/ 301
 /kruger-national-park/mammals/african-buffalo/ /kruger-national-park/wildlife/buffalo/ 301
-/kruger-national-park/mammals/hippopotamus/ /kruger-national-park/wildlife/ 301
 /kruger-national-park/mammals/african-leopard/ /kruger-national-park/wildlife/leopard/
 /kruger-national-park/lion/ /kruger-national-park/wildlife/lion/ 301
 /kruger-national-park/mammals/lion/ /kruger-national-park/wildlife/lion/ 301
@@ -82,43 +83,67 @@
 /kruger-national-park/airports-guide/ /kruger-national-park/airports/ 301
 /kruger-national-park/malaria-guide/ /kruger-national-park/malaria/ 301
 
-/kruger-national-park/weather/november/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/december/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/august/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/february/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/january/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/march/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/june/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/october/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/september/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/may/ /kruger-national-park/weather/ 301
-/kruger-national-park/weather/july/ /kruger-national-park/weather/ 301
+/kruger-national-park/weather/november/ /410.html 410
+/kruger-national-park/weather/december/ /410.html 410
+/kruger-national-park/weather/august/ /410.html 410
+/kruger-national-park/weather/february/ /410.html 410
+/kruger-national-park/weather/january/ /410.html 410
+/kruger-national-park/weather/march/ /410.html 410
+/kruger-national-park/weather/june/ /410.html 410
+/kruger-national-park/weather/october/ /410.html 410
+/kruger-national-park/weather/september/ /410.html 410
+/kruger-national-park/weather/may/ /410.html 410
+/kruger-national-park/weather/july/ /410.html 410
+/kruger-national-park/weather/april/ /410.html 410
+
+# ===========================================================
+# MAMMALS
+# ===========================================================
+
+/kruger-national-park/wildlife/aardvark/ /410.html 410
+/kruger-national-park/mammals/ /410.html 410
+/kruger-national-park/mammals/african-wildcat/ /410.html 410
+/black-backed-jackal/ /410.html 410
+/kruger-national-park/wildlife/black-backed-jackal/ /410.html 410
+/kruger-national-park/mammals/dwarf-mongoose/ /410.html 410
+/nyala/ /410.html 410
+/hippopotamus/ /410.html 410
+/kruger-national-park/mammals/hippopotamus/ /410.html 410
+/difference-between-white-and-black-rhino/ /410.html 410
+/kruger-national-park/black-rhinoceros/ /410.html 410
+
+# ===========================================================
+# BIRDS
+# ===========================================================
+
+/kruger-national-park/birds/white-faced-whistling-duck/ /410.html 410
 
 
 # ===========================================================
 # BIRDING
 # ===========================================================
 
-/birding/                                              /kruger-birding-tour/ 301
-/birding/kruger-national-park/                         /kruger-birding-tour/ 301
-/birding/kruger-national-park/north-to-south/          /kruger-birding-tour/ 301
-/kruger-national-park/birding-safari/                  /kruger-birding-tour/ 301
-/kruger-national-park/birding-safaris/                 /kruger-birding-tour/ 301
-/safaris/birding-kruger/                               /kruger-birding-tour/ 301
-/kruger-safaris/birding-tours/                         /kruger-birding-tour/ 301
-/kruger-all-inclusive-safaris/birding/                 /kruger-birding-tour/ 301
+/birding/                                              /410.html 410
+/birding/kruger-national-park/                         /410.html 410
+/birding/kruger-national-park/north-to-south/          /410.html 410
+/kruger-national-park/birding-safari/                  /410.html 410
+/kruger-national-park/birding-safaris/                 /410.html 410
+/safaris/birding-kruger/                               /410.html 410
+/kruger-safaris/birding-tours/                         /410.html 410
+/kruger-all-inclusive-safaris/birding/                 /410.html 410
 
 
 # ===========================================================
 # PHOTOGRAPHY
 # ===========================================================
 
-/kruger-national-park/photographic-safari/             /kruger-photographic-safari/ 301
-/safaris/photographic-kruger/                          /kruger-photographic-safari/ 301
-/kruger-safaris/photographic/                          /kruger-photographic-safari/ 301
-/kruger-all-inclusive-safaris/photographic/            /kruger-photographic-safari/ 301
-/kruger-all-inclusive-safaris/photographic-kruger/     /kruger-photographic-safari/ 301
-/kruger-photographic-safaris/                          /kruger-photographic-safari/ 301
+/kruger-national-park/photographic-safari/             /410.html 410
+/safaris/photographic-kruger/                          /410.html 410
+/kruger-safaris/photographic/                          /410.html 410
+/kruger-all-inclusive-safaris/photographic/            /410.html 410
+/kruger-all-inclusive-safaris/photographic-kruger/     /410.html 410
+/kruger-photographic-safaris/                          /410.html 410
+/kruger-national-park/safari-on-film/ /410.html 410
 
 
 # ===========================================================
