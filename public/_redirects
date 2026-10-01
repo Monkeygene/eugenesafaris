@@ -166,3 +166,4 @@
 # ===========================================================
 
 http://eugenesafaris.com/*  https://eugenesafaris.com/:splat 301!
+/sitemap_index.xml /410.html 410
