@@ -10,16 +10,14 @@
 
 /safaris/ /410.html 410
 /kruger-safaris/ /410.html 410
-/kruger-safaris/all-inclusive/ /410.html 410
-/kruger-safaris/all-inclusive-packages/ /410.html 410
-/kruger-all-inclusive-safaris/ /410.html 410
+/kruger-safaris/all-inclusive/ /kruger-national-park/safari-all-inclusive-packages/ 301
+/kruger-safaris/all-inclusive-packages/ /kruger-national-park/safari-all-inclusive-packages/ 301
+/kruger-all-inclusive-safaris/ /kruger-national-park/safari-all-inclusive-packages/ 301
 
 /kruger-national-park/safaris/ /410.html 410
-/kruger-national-park/private-safaris/ /410.html 410
 /kruger-national-park/safari-packages/ /410.html 410
-/kruger-national-park/all-inclusive-safaris/ /410.html 410
-/kruger-national-park/all-inclusive-safari-packages/ /410.html 410
-/kruger-national-park/safari-all-inclusive-packages/ /410.html 410
+/kruger-national-park/all-inclusive-safaris/ /kruger-national-park/safari-all-inclusive-packages/ 301
+/kruger-national-park/all-inclusive-safari-packages/ /kruger-national-park/safari-all-inclusive-packages/ 301
 /kruger-national-park/classic-safari-packages/ /410.html 410
 /kruger-national-park/standard-packages/ /410.html 410
 
@@ -138,27 +136,27 @@
 # BIRDING
 # ===========================================================
 
-/birding/                                              /410.html 410
-/birding/kruger-national-park/                         /410.html 410
-/birding/kruger-national-park/north-to-south/          /410.html 410
-/kruger-national-park/birding-safari/                  /410.html 410
-/kruger-national-park/birding-safaris/                 /410.html 410
-/safaris/birding-kruger/                               /410.html 410
-/kruger-safaris/birding-tours/                         /410.html 410
-/kruger-all-inclusive-safaris/birding/                 /410.html 410
+/birding/ /kruger-national-park/bird-watching-safari/ 301                                            
+/birding/kruger-national-park/ /kruger-national-park/bird-watching-safari/ 301  
+/birding/kruger-national-park/north-to-south/  /kruger-national-park/bird-watching-safari/ 301  
+/kruger-national-park/birding-safari/ /kruger-national-park/bird-watching-safari/ 301  
+/kruger-national-park/birding-safaris/ /kruger-national-park/bird-watching-safari/ 301  
+/safaris/birding-kruger/ /kruger-national-park/bird-watching-safari/ 301  
+/kruger-safaris/birding-tours/  /kruger-national-park/bird-watching-safari/ 301  
+/kruger-all-inclusive-safaris/birding/ /kruger-national-park/bird-watching-safari/ 301  
 
 
 # ===========================================================
 # PHOTOGRAPHY
 # ===========================================================
 
-/kruger-national-park/photographic-safari/             /410.html 410
-/safaris/photographic-kruger/                          /410.html 410
-/kruger-safaris/photographic/                          /410.html 410
-/kruger-all-inclusive-safaris/photographic/            /410.html 410
-/kruger-all-inclusive-safaris/photographic-kruger/     /410.html 410
-/kruger-photographic-safaris/                          /410.html 410
-/kruger-national-park/safari-on-film/ /410.html 410
+/kruger-national-park/photographic-safari/ /kruger-national-park/photographic-safari/ 301
+/safaris/photographic-kruger/ /kruger-national-park/photographic-safari/ 301
+/kruger-safaris/photographic/  /kruger-national-park/photographic-safari/ 301
+/kruger-all-inclusive-safaris/photographic/ /kruger-national-park/photographic-safari/ 301
+/kruger-all-inclusive-safaris/photographic-kruger/ /kruger-national-park/photographic-safari/ 301
+/kruger-photographic-safaris/ /kruger-national-park/photographic-safari/ 301
+/kruger-national-park/safari-on-film/ /kruger-national-park/photographic-safari/ 301
 
 
 # ===========================================================
