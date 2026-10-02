@@ -20,12 +20,12 @@ export default defineConfig({
         contact: path.resolve(__dirname, "contact/index.html"),
         about: path.resolve(__dirname, "about/index.html"),
         // Safaris
-        inclusivesafaris: path.resolve(__dirname, "kruger-inclusive-safaris/index.html"),
-        privatesafaris: path.resolve(__dirname, "kruger-private-safari/index.html"),
-        privatesafarishoedspruit: path.resolve(__dirname, "kruger-private-safari/hoedspruit/index.html"),
-        privatesafarismarloth: path.resolve(__dirname, "kruger-private-safari/marloth-park/index.html"),
-        birdingkrugertour: path.resolve(__dirname, "kruger-birding-tour/index.html"),
-        photographickruger: path.resolve(__dirname, "kruger-photographic-safari/index.html"),
+        inclusivesafaris: path.resolve(__dirname, "kruger-national-park/safari-all-inclusive-packages/index.html"),
+        privatesafaris: path.resolve(__dirname, "kruger-national-park/private-safari/index.html"),
+        privatesafarishoedspruit: path.resolve(__dirname, "kruger-national-park/private-safari/hoedspruit/index.html"),
+        privatesafarismarloth: path.resolve(__dirname, "kruger-national-park/private-safari/marloth-park/index.html"),
+        birdingkrugertour: path.resolve(__dirname, "kruger-national-park/bird-watching-safari/index.html"),
+        photographickruger: path.resolve(__dirname, "kruger-national-park/photographic-safari/index.html"),
         // Kruger Guides
         krugerguide: path.resolve(__dirname, "kruger-guide/index.html"),
         differencebetweenbandwrhino: path.resolve(
