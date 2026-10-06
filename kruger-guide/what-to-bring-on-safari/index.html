@@ -1,437 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Title & Description -->
-  <title>What to bring on a Safari | Eugene Safaris</title>
-  <meta name="description" content="a guide on what to bring on a safari in Kruger National Park, camera, binoculars, sunscreen, hat etc."/>
-  <meta name="author" content="Eugene Booysen"/>
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/"/>
-  <!-- Favicon & Apple Touch Icon -->
-  <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-  <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
-  <!-- Robots -->
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-<!-- JSON-LD Best Time to Visit Breadcrumb -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@id": "https://eugenesafaris.com/",
-        "name": "Home"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-guide/",
-        "name": "Kruger Guide"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@id": "https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/",
-        "name": "What to Bring on Safari"
-      }
-    }
-  ]
-}
-</script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Title & Description -->
+    <title>What to bring on a Safari | Eugene Safaris</title>
+    <meta
+      name="description"
+      content="a guide on what to bring on a safari in Kruger National Park, camera, binoculars, sunscreen, hat etc."
+    />
+    <meta name="author" content="Eugene Booysen" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/" />
+    <!-- Favicon & Apple Touch Icon -->
+    <link rel="icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/paw-print-lion.png" type="image/png" />
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  </head>
   <body class="antialiased">
-    <!-- #region Mobile Header -->
-    <header class="lg:hidden fixed top-0 inset-x-0 z-60 bg-linen">
-      <div class="relative h-20">
-        <!-- Hamburger -->
+    <!-- #region Navbar -->
+    <header class="absolute inset-x-0 top-0 z-50 h-24">
+      <nav
+        class="mx-auto grid h-full max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center px-6 md:px-10"
+        aria-label="Main"
+      >
+        <!-- Left: hamburger / close toggle -->
         <button
-          id="menuBtn"
-          class="absolute left-5 top-1/2 -translate-y-1/2 transition-transform duration-150 hover:scale-105 active:scale-95"
+          id="menu-toggle"
+          type="button"
+          class="col-start-3 row-start-1 justify-self-end rounded-md p-2 text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white transition-transform duration-150 hover:scale-105 active:scale-95 md:col-start-1 md:justify-self-start lg:cursor-pointer"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="side-menu"
         >
           <img
-            id="mobileMenuIcon"
+            id="menu-icon"
             src="/images/navbar/hamburger-closed.svg"
-            alt="Open menu"
-            class="h-8 w-auto transition-transform duration-150"
-            loading="eager"
+            data-closed="/images/navbar/hamburger-closed.svg"
+            data-open="/images/navbar/hamburger-open.svg"
+            alt=""
+            class="h-7 lg:h-8 w-auto transition-transform duration-150"
           />
         </button>
 
-        <!-- Logo -->
-        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          <img src="/images/navbar/eugenesafaris.svg" alt="Eugene Safaris" class="h-8 w-auto" loading="eager" />
-        </a>
-
-        <!-- Mail -->
+        <!-- Center: logo -->
         <a
-          href="mailto:eugene@eugenesafaris.com"
-          class="absolute right-5 top-1/2 -translate-y-1/2 group"
-          aria-label="Send email to Birding Legend"
+          href="/"
+          class="col-start-2 row-start-1 justify-self-center focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+          aria-label="Home"
         >
-          <img src="/images/navbar/mail-letter-closed.svg" class="block h-8" alt="send email button" loading="eager" />
-        </a>
-      </div>
-    </header>
-    <!-- Mobile overlay -->
-    <div
-      id="mobileOverlay"
-      class="fixed inset-0 z-40 hidden bg-black/40 opacity-0 transition-opacity duration-300"
-    ></div>
-    <!-- Mobile side panel -->
-    <aside
-      id="mobilePanel"
-      class="fixed left-0 top-0 z-50 h-full w-[75%] -translate-x-full bg-linen shadow-2xl transition-transform duration-300"
-    >
-      <nav class="pt-28 px-8 sidebar-link">
-        <ul class="space-y-8 text-2xl">
-          <li>
-            <a href="/kruger-national-park/safari-all-inclusive-packages/">Kruger Inclusive Safari</a>
-          </li>
-
-          <li>
-            <a href="/kruger-national-park/bird-watching-safari/">Birding Safari</a>
-          </li>
-
-          <li>
-            <a href="/kruger-national-park/photographic-safari/">Photographic Safari</a>
-          </li>
-
-          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
-
-          <li><a href="/about/">About</a></li>
-
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </aside>
-    <!-- #endregion -->
-    <!-- #region Desktop Header -->
-    <header id="desktopHeader" class="hidden lg:block fixed top-0 inset-x-0 z-50 bg-linen transition-all duration-300">
-      <div id="desktopHeaderInner" class="relative h-24 transition-all duration-300">
-        <!-- Left -->
-        <button
-          id="desktopMenuBtn"
-          class="absolute left-28 top-1/2 -translate-y-1/2 transition-transform cursor-pointer duration-150 hover:scale-105 active:scale-95"
-        >
-          <img
-            id="menuIcon"
-            src="/images/navbar/hamburger-closed.svg"
-            alt="Open menu"
-            class="h-8 w-auto transition-all duration-200"
-            loading="eager"
-          />
-        </button>
-
-        <!-- Center -->
-        <a href="/" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          <img
-            id="desktopLogo"
-            src="/images/navbar/eugenesafaris.svg"
-            alt="Eugene Safaris"
-            class="h-10 w-auto transition-all duration-300 ease-in-out"
-            loading="eager"
-          />
+          <img src="/images/navbar/eugenesafaris.svg" alt="Your brand" class="h-6 w-auto max-w-none lg:h-10" />
         </a>
 
-        <!-- Right -->
-        <div class="absolute right-28 top-1/2 -translate-y-1/2 flex items-center gap-6">
-          <!-- Contact Button -->
-          <a
-            id="contactButton"
-            href="/contact/"
-            class="group relative flex items-center justify-center w-27.5 h-auto transition-transform duration-200 active:scale-95"
-          >
-            <!-- Ring -->
+        <!-- Right: support button -->
+
+        <div class="col-start-3 row-start-1 hidden justify-self-end relative md:block">
+          <a href="/contact/" class="group relative inline-block">
+            <span class="sr-only">contact</span>
             <img
-              src="/images/navbar/button-ring.svg"
+              src="/images/navbar/contact-eugenesafaris.svg"
               alt=""
+              class="w-full max-w-md h-4"
+              loading="lazy"
               aria-hidden="true"
-              class="absolute w-27.5 h-auto opacity-0 scale-95 transition-all duration-200 group-hover:opacity-100 group-hover:scale-100"
-              loading="eager"
             />
-
-            <!-- Button -->
+            <!-- Custom Hover Line -->
             <img
-              src="/images/navbar/button.svg"
+              src="/images/navbar/contact-eugenesafaris-hover.svg"
               alt=""
+              class="absolute left-1/2 -translate-x-1/2 -bottom-2 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+              loading="lazy"
               aria-hidden="true"
-              class="absolute w-25 h-auto"
-              loading="eager"
-            />
-
-            <!-- Text -->
-            <span class="relative z-10 text-xl font-black font-eugene"> CONTACT </span>
-          </a>
-
-          <!-- Mail -->
-          <a href="mailto:eugene@eugenesafaris.com" aria-label="Send email to Birding Legend">
-            <img
-              id="desktopMail"
-              src="/images/navbar/mail-letter-closed.svg"
-              class="h-10 w-auto transition-all duration-300 hover:scale-105 hover:-rotate-6"
-              loading="eager"
-              alt="send email button"
+              decoding="async"
             />
           </a>
         </div>
-      </div>
-    </header>
-    <div
-      id="sidebarOverlay"
-      class="fixed inset-0 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out z-40"
-    ></div>
-    <aside
-      id="desktopSidebar"
-      class="fixed left-0 top-0 pt-24 h-screen w-80 bg-linen -transform -translate-x-full transition-all duration-300 z-40"
-    >
-      <nav class="pt-32 px-10 sidebar-link">
-        <ul class="space-y-8 text-2xl">
-          <li>
-            <a href="/kruger-national-park/safari-all-inclusive-packages/">Kruger Inclusive Safari</a>
-          </li>
-
-          <li>
-            <a href="/kruger-national-park/bird-watching-safari/">Birding Safari</a>
-          </li>
-
-          <li>
-            <a href="/kruger-national-park/photographic-safari/">Photographic Safari</a>
-          </li>
-
-          <li><a href="/kruger-national-park/">Kruger National Park</a></li>
-
-          <li><a href="/about/">About</a></li>
-
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
       </nav>
+    </header>
+
+    <!-- Dim overlay: sits under the header, over the page -->
+    <div
+      id="menu-overlay"
+      class="pointer-events-none fixed inset-0 z-30 bg-black/30 opacity-0 transition-opacity duration-300 motion-reduce:transition-none data-open:pointer-events-auto data-open:opacity-100"
+      aria-hidden="true"
+    ></div>
+
+    <!-- Side menu: slides in from the left, under the header so the toggle stays visible -->
+    <aside
+      id="side-menu"
+      inert
+      class="fixed inset-y-0 left-0 z-40 w-[85%] max-w-sm -translate-x-full bg-linen pt-25 shadow-2xl transition-transform duration-300 ease-out motion-reduce:transition-none max-md:left-auto max-md:right-0 max-md:translate-x-full data-open:translate-x-0"
+      aria-label="Site menu"
+    >
+      <ul class="flex flex-col gap-2 px-6 py-6 md:px-10 font-crimson">
+        <li>
+          <a
+            href="/kruger-national-park/safari-all-inclusive-packages/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Kruger Inclusive Safari</a
+          >
+        </li>
+        <li>
+          <a
+            href="/kruger-national-park/bird-watching-safari/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Birding Safari</a
+          >
+        </li>
+        <li>
+          <a
+            href="/kruger-national-park/photographic-safari/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Photographic Safari</a
+          >
+        </li>
+        <li>
+          <a
+            href="/kruger-national-park/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Kruger National Park</a
+          >
+        </li>
+        <li>
+          <a
+            href="/about/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="/contact/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Contact</a
+          >
+        </li>
+      </ul>
     </aside>
     <!-- #endregion -->
-    <main class="pt-20">
-  <!-- Breadcrumb Navigation -->
-<nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-0 mt-4">
-  <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline">Home</a>
-      <span class="mx-2">/</span>
-    </li>
+    <main class="pt-24">
+      <!-- Breadcrumb Navigation -->
+      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-0 mt-4">
+        <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
+          <li class="flex items-center">
+            <a href="/" class="hover:underline">Home</a>
+            <span class="mx-2">/</span>
+          </li>
 
-    <li class="flex items-center">
-      <a href="/kruger-guide/" class="hover:underline">Kruger Guide</a>
-      <span class="mx-2">/</span>
-    </li>
+          <li class="flex items-center">
+            <a href="/kruger-guide/" class="hover:underline">Kruger Guide</a>
+            <span class="mx-2">/</span>
+          </li>
 
-    <li class="flex items-center text-gray-500" aria-current="page">
-      What to Bring on a Safari
-    </li>
-  </ol>
-</nav>
-  <section class="max-w-5xl mx-auto">
-  <div class="container px-4">
-    <!-- Section Title & Explanation -->
-    <div class="text-center">
-     <h1 class="font-bold leading-tight text-xl md:text-3xl py-8">
-  What to bring on a Safari
-</h1>
-<div class="max-w-4xl mx-auto text-center">
-  <p class="mb-6">
- Deciding what to bring on a safari can sometimes feel overwhelming, especially if you are travelling far or it’s your first time. You want to stay light and comfortable, but still be prepared for the activities you have planned. In this article, I share my recommendations on what to bring on a safari, based on my experience as a safari guide in <a href="/kruger-national-park/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Kruger National Park</a>. I cover the essentials for those interested in photography, birding, or simply wanting to be comfortable and fully enjoy the experience.
-  </p>
-
-</div>
-     
-    </div>
-    </div>
-    </section>
-
-      <section class="py-16 px-4">
-  <div class="max-w-6xl text-center mx-auto">
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <!-- Image 1 -->
-      <div class="overflow-hidden">
-        <img 
-          src="/src/assets/images/worst-time-to-visit-kruger-national-park/kruger-gravel-road.webp" 
-          alt="Gravel road showing the worst time to visit kruger national park"
-          loading="lazy"
-          class="w-full h-full object-cover"
-        >
-      </div>
-
-      <!-- Image 2 -->
-      <div class="overflow-hidden">
-        <img 
-          src="/src/assets/images/worst-time-to-visit-kruger-national-park/goliath-heron-in-river.webp" 
-          alt="worst time to visit kruger national park goliath heron in river"
-          loading="lazy"
-          class="w-full h-full object-cover"
-        >
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<section class="pt-8 md:pt-16 pb-0 md:pb-16">
-  <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10 md:gap-16">
-    
-    <!-- Text Content -->
-<div class="w-full md:w-1/2 text-center md:text-left">
-  <h2 class="pb-4 md:pb-6">
-    What to bring on a safari : The essentials
-  </h2>
-
-  <p class="mb-6 leading-relaxed">
-   Knowing what to bring on a safari is essential for a smooth and enjoyable experience, and this starts even before arriving. When travelling to South Africa, you will need a valid passport (make sure you have enough blank pages). Check whether you need a visa for South Africa, and if so, apply in advance. It is also a good idea to have travel insurance that covers medical emergencies as well as your equipment.
-  </p>
-
-  <p class="leading-relaxed mb-6">
-    When packing, it’s important to bring your bank cards, travel cards, and some local currency. While cards are widely accepted, having a small amount of cash in South African Rand is useful for tips, small purchases, or places that may not accept cards. Make sure you also pack your phone, as this helps you keep time and stay in touch with your guide and the rest of your group. An eSIM or local SIM card can be very helpful for staying connected, especially when travelling between destinations.
-  </p>
-  <p>
-Don’t forget your charger and an adapter for South Africa. You can buy these locally, but I also carry a few spares, so just let me know if you need one. If you take any medication, make sure you bring enough for the duration of your trip, along with a copy of your prescription if needed. It’s always better to have this with you, especially when travelling internationally.
-  </p>
-</div>
-
-<!-- Image -->
-<div class="w-full md:w-1/2 mt-10 md:mt-0">
-  <img
-    src="/src/assets/images/punda-maria-rest-camp/punda-maria-reception-area-vertical.webp"
-    alt="Punda Maria Rest Camp Reception Area"
-    class="w-full h-full object-cover"
-    loading="lazy"
-    width="380"
-    height="253"
-  />
-</div>
-
-  </div>
-</section>
-   <section class="max-w-5xl mx-auto mb-8">
-  <div class="container px-4">
-    <!-- Section Title & Explanation -->
-    <div class="text-center">
-      <h2 class="mb-10">
-        What to bring on a safari : The Weather
-      </h2>
-<h3>
-  Packing
-</h3>
-<div class="max-w-4xl mx-auto text-center">
-       <p class="mb-6">
- Essentials are key when deciding what to bring on a safari. You want to be prepared for anything, but still stay light and comfortable. Let’s start with the basics: weather. <a href="/kruger-national-park/weather/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Weather in Kruger National Park</a> can be quite extreme, even if you don’t feel it at the time. Mornings in the dry season can be chilly, while afternoons can be hot. Even if the sun does not feel like it’s burning your skin, it most likely is, as on safari you will be exposed to the sun for long periods.
-      </p>
-    <p>
-A good hat and sunscreen are therefore a must, along with a fleece or light jacket for the early morning to keep you warm. In the wet season, you will need a rain jacket or a poncho. I also carry a few ponchos if you did not bring one, just to keep us dry when a rainstorm hits. The worst time to visit Kruger National Park is during the wet season, as the rain can be heavy and persistent, but the sun can also be quite intense, so it's good to be prepared for both.
-    </p>
-</div>
-     
-    </div>
-    </div>
-    </section>
-    <section class="max-w-5xl mx-auto">
-  <div class="container px-4">
-    <!-- Section Title & Explanation -->
-    <div class="text-center">
-<h3>
-  Clothing
-</h3>
-<div class="max-w-4xl mx-auto text-center mb-8">
-       <p class="mb-6">
-When deciding <a href="/kruger-guide/what-to-wear-on-safari/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">what to wear on a safari</a>, the general rule of thumb is to stick to neutral colours like khaki, olive, tan, or brown. If you are not planning on doing a walking safari, colourful clothing is generally accepted, but it’s still best not to stand out too much and rather blend in with the vehicle and surroundings. Bright whites and vivid colours can sometimes be picked up more easily by animals.
-      </p>
-    <p>
-Lightweight and breathable fabrics are best, especially in the hot summer months. Long sleeves can help protect against sunburn and insect bites, while layers are essential for the cooler mornings, particularly when driving in open safari vehicles. Comfortable closed shoes are ideal for game drives, but we are not walking long distances. If you are comfortable in sandals or flip flops, that is generally accepted as well.
-    </p>
-</div>
-<h3>
-  Accessories
-</h3>
-<div class="max-w-4xl mx-auto text-center">
-       <p class="mb-6">
-It’s good to have a small backpack or daypack to carry your essentials on game drives, such as your camera, binoculars, water bottle, and other items. Most people travel with a phone these days, which is useful for communication and keeping your trip running smoothly. Make sure you bring a charger and an adapter for South Africa. You can buy these locally, and I also carry a few spares, so just let me know if you need one.
-      </p>
-    <p class="mb-6">
-A headlamp or flashlight is also very useful, especially in Kruger National Park. There are often small critters moving around at night, and it’s always better to see where you are stepping.
-    </p>
-     <p>
-Binoculars are key for a successful safari, and I always recommend bringing your own. The vehicles are open, so it is easy to use them while on a game drive. Its most likely that we will encounter animals at a distance, especially predators and in the dry season, so having them ready is good for your safari.
-    </p>
-</div>
-     
-    </div>
-    </div>
-    </section>
-      <section class="py-24 px-4">
-  <div class="max-w-6xl text-center mx-auto">
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <!-- Image 1 -->
-      <div class="overflow-hidden">
-        <img 
-          src="/src/assets/images/worst-time-to-visit-kruger-national-park/kruger-gravel-road.webp" 
-          alt="Gravel road showing the worst time to visit kruger national park"
-          loading="lazy"
-          class="w-full h-full object-cover"
-        >
-      </div>
-
-      <!-- Image 2 -->
-      <div class="overflow-hidden">
-        <img 
-          src="/src/assets/images/worst-time-to-visit-kruger-national-park/goliath-heron-in-river.webp" 
-          alt="worst time to visit kruger national park goliath heron in river"
-          loading="lazy"
-          class="w-full h-full object-cover"
-        >
-      </div>
-
-    </div>
-
-  </div>
-</section>
- <section class="max-w-5xl mx-auto mb-8">
-  <div class="container px-4">
-    <!-- Section Title & Explanation -->
-    <div class="text-center">
-     <h2 class="font-bold leading-tight py-8">
-  What to bring on a safari : Cameras Gear
-<h3>
-  Camera
-</h3>
-<div class="max-w-4xl mx-auto text-center">
-       <p class="mb-6">
-This section is for those planning to do a little photographic safari and knowing what to bring on a safari in terms of camera gear. Let's start with a good camera backpack if you are bringing lenses and other accessories. A good camera backpack will protect your gear — roads can get bumpy — and make it easier to carry. It also gives you quick access to your camera when that great shot moment arises.
-      </p>
-    <p class="mb-6">
-If you are a photographer, I don’t need to tell you about cameras, you already have your setup. Bringing a zoom lens is a good idea, as most animals keep a safe distance from vehicles. A zoom lens will allow for close-up shots without disturbing the animals. A lens in the 200–400mm range is ideal for most wildlife photography. There are also times, especially with predators, where they walk right up to the vehicle. In these moments, a wide-angle lens or a standard zoom can be very useful to capture the full scene.
-    </p>
-    <p class="mb-6">
-   A small bean bag is also very useful on safari. You can rest your lens on the side of the vehicle for extra stability, especially when using heavier zoom lenses. Camera cleaning gear is important as well. The dry season can be very dusty, and you want to make sure your camera and lenses stay clean to get the best shots. 
-    </p>
-    <p>
-      Extra batteries and memory cards are a must. You don’t want to run out of space or battery when the action starts. A simple rain cover or even a plastic bag can also help protect your gear during unexpected showers.
-    </p>
-</div>
-     
-    </div>
-    </div>
-    </section>
-
-</main>
+          <li class="flex items-center text-gray-500" aria-current="page">What to Bring on a Safari</li>
+        </ol>
+      </nav>
+    </main>
     <!-- Footer-->
     <footer class="bg-linen text-gray-800 font-avenir">
       <div
@@ -596,7 +322,7 @@ If you are a photographer, I don’t need to tell you about cameras, you already
         </div>
       </div>
     </footer>
-<!-- Psalms 23:1–6 -->
-<script type="module" src="/src/main.js"></script>
+    <!-- Psalms 23:1–6 -->
+    <script type="module" src="/src/main.js"></script>
   </body>
-  </html>
+</html>

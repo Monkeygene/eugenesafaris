@@ -61,7 +61,8 @@
   }
 
   html {
-    @apply scroll-smooth;
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
   }
 
   body {
