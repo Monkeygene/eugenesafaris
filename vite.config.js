@@ -21,6 +21,7 @@ export default defineConfig({
         about: path.resolve(__dirname, "about/index.html"),
         // Safaris
         inclusivesafaris: path.resolve(__dirname, "kruger-national-park/safari-all-inclusive-packages/index.html"),
+        selfdriveafaris: path.resolve(__dirname, "kruger-national-park/self-drive-safari/index.html"),
         privatesafaris: path.resolve(__dirname, "kruger-national-park/private-safari/index.html"),
         privatesafarishoedspruit: path.resolve(__dirname, "kruger-national-park/private-safari/hoedspruit/index.html"),
         privatesafarismarloth: path.resolve(__dirname, "kruger-national-park/private-safari/marloth-park/index.html"),
@@ -28,6 +29,7 @@ export default defineConfig({
         photographickruger: path.resolve(__dirname, "kruger-national-park/photographic-safari/index.html"),
         // Kruger Guides
         krugerguide: path.resolve(__dirname, "kruger-guide/index.html"),
+        selfdrivevsguided: path.resolve(__dirname, "kruger-guide/self-drive-vs-guided-safari/index.html"),
         differencebetweenbandwrhino: path.resolve(
           __dirname,
           "kruger-guide/difference-between-white-and-black-rhino/index.html",

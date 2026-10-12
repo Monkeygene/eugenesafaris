@@ -54,8 +54,8 @@
     </script>
 
     <!-- #endregion -->
-    <script type="module" crossorigin src="/assets/main-DSOwoApt.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-CCW6hTNi.css">
+    <script type="module" crossorigin src="/assets/main-DpRu1Eft.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-BcBecJw8.css">
   </head>
   <body class="antialiased">
     <!-- #region Navbar -->
@@ -92,7 +92,7 @@
           <img src="/images/navbar/eugenesafaris.svg" alt="Your brand" class="h-9 lg:h-10 w-auto max-w-none" />
         </a>
 
-        <!-- Right: support button -->
+        <!-- Right: contact button -->
 
         <div class="col-start-3 row-start-1 hidden justify-self-end relative md:block">
           <a href="/contact/" class="group relative inline-block">
@@ -134,31 +134,70 @@
     >
       <ul class="flex flex-col gap-2 px-6 py-6 md:px-10 font-crimson">
         <li>
-          <a
-            href="/kruger-national-park/safari-all-inclusive-packages/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Kruger Inclusive Safari</a
-          >
-        </li>
-        <li>
-          <a
-            href="/kruger-national-park/bird-watching-safari/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Birding Safari</a
-          >
-        </li>
-        <li>
-          <a
-            href="/kruger-national-park/photographic-safari/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Photographic Safari</a
-          >
+          <details class="group">
+            <summary
+              class="flex cursor-pointer list-none items-center justify-between rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black [&::-webkit-details-marker]:hidden"
+            >
+              Safaris
+              <svg
+                class="size-5 transition-transform duration-200 group-open:rotate-180"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </summary>
+
+            <ul class="mt-1 mb-2 ml-2 flex flex-col gap-1 border-l border-black/20 pl-4">
+              <li>
+                <a
+                  href="/kruger-national-park/safari-all-inclusive-packages/"
+                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >Kruger Inclusive Safari</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/kruger-national-park/bird-watching-safari/"
+                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >Birding Safari</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/kruger-national-park/photographic-safari/"
+                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >Photographic Safari</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/kruger-national-park/self-drive-safari/"
+                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >Self-drive Safari</a
+                >
+              </li>
+            </ul>
+          </details>
         </li>
         <li>
           <a
             href="/kruger-national-park/"
             class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >Kruger National Park</a
+          >
+        </li>
+        <li>
+          <a
+            href="/kruger-guide/"
+            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >Kruger Guide</a
           >
         </li>
         <li>
@@ -226,7 +265,12 @@
           </h2>
 
           <p>
-            I have been going on safari in Kruger National Park ever since my mind came to be, I've done selfdriving
+            I have been going on safari in Kruger National Park ever since my mind came to be, I've done
+            <a
+              href="/kruger-national-park/self-drive-safari/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >selfdriving</a
+            >
             with the parents, I guided in Kruger for some time and even joined a few safaris. And from them all, the
             best experiences were the trips where we stayed inside Kruger National Park
             <a
@@ -724,7 +768,20 @@
         <div
           class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col-reverse md:flex-row items-center justify-between text-xs text-gray-600"
         >
-          <div class="text-center md:text-left">&copy; 2026 Eugene Safaris. All rights reserved.</div>
+          <div class="flex flex-col sm:flex-row items-center gap-1 sm:gap-4 text-center md:text-left">
+            <div>&copy; 2026 Eugene Safaris. All rights reserved.</div>
+
+            <span class="hidden sm:block text-gray-300">|</span>
+
+            <a
+              href="https://jambula.co.za"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-400 hover:text-gray-600 transition"
+            >
+              Powered by Jambula
+            </a>
+          </div>
 
           <div class="flex space-x-4 justify-center md:justify-end mt-4 md:mt-0 mb-4 md:mb-0">
             <a

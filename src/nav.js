@@ -13,6 +13,7 @@ function setMenu(open) {
   icon.src = open ? icon.dataset.open : icon.dataset.closed;
 
   document.documentElement.classList.toggle("overflow-hidden", open); // lock page scroll
+  if (!open) panel.querySelectorAll("details").forEach((d) => (d.open = false));
 }
 
 const isOpen = () => panel.hasAttribute("data-open");

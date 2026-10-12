@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Business Pages -->
-  <url><loc>https://eugenesafaris.com/</loc></url>
+<url>
+ <loc>https://eugenesafaris.com/</loc>
+ <lastmod>2026-10-12</lastmod>
+ <changefreq>monthly</changefreq>
+ <priority>1.0</priority>
+</url>
   <url><loc>https://eugenesafaris.com/about/</loc></url>
   <url><loc>https://eugenesafaris.com/contact/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/safari-all-inclusive-packages/</loc></url>
@@ -24,6 +29,12 @@
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/lion/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-national-park/wildlife/white-rhinoceros/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-guide/</loc></url>
+  <url>
+   <loc>https://eugenesafaris.com/kruger-guide/self-drive-vs-guided-safari/</loc>
+   <lastmod>2026-10-12</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+  </url>
   <url><loc>https://eugenesafaris.com/kruger-guide/difference-between-white-and-black-rhino/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-guide/what-to-bring-on-safari/</loc></url>
   <url><loc>https://eugenesafaris.com/kruger-guide/what-to-wear-on-safari/</loc></url>
