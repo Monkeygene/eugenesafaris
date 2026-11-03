@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @theme {
+  --font-navbar: "Barlow Condensed", sans-serif;
+}
+
+@theme {
   --color-linen: rgb(254, 252, 250);
 
   --font-crimson: "Crimson Text", serif;
@@ -158,4 +162,20 @@
 
 .font-eugene {
   font-family: "EugeneSafaris", serif;
+}
+
+/* Subtle shadow for white text over photography */
+.text-shadow-soft {
+  text-shadow: 0 1px 8px rgb(0 0 0 / 0.35); /* your existing value */
+  transition: text-shadow 200ms;
+}
+
+#site-header[data-scrolled="true"] .text-shadow-soft {
+  text-shadow: none;
+}
+
+@theme {
+  --color-charcoal: #2b2b2b;
+  --color-linen: #f5f0e8;
+  --color-mist-700: #4a5a52;
 }
