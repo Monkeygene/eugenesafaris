@@ -7,11 +7,12 @@
 # SAFARI PAGES - 301 REDIRECTS (Active Destinations)
 # ===========================================================
 
-/kruger-safaris/all-inclusive/ /kruger-national-park/safari-all-inclusive-packages/ 301
-/kruger-safaris/all-inclusive-packages/ /kruger-national-park/safari-all-inclusive-packages/ 301
-/kruger-all-inclusive-safaris/ /kruger-national-park/safari-all-inclusive-packages/ 301
-/kruger-national-park/all-inclusive-safaris/ /kruger-national-park/safari-all-inclusive-packages/ 301
-/kruger-national-park/all-inclusive-safari-packages/ /kruger-national-park/safari-all-inclusive-packages/ 301
+/kruger-safaris/all-inclusive/ /410.html 410
+/kruger-safaris/all-inclusive-packages/ /410.html 410
+/kruger-all-inclusive-safaris/ /410.html 410
+/kruger-national-park/all-inclusive-safaris/ /410.html 410
+/kruger-national-park/all-inclusive-safari-packages/ /410.html 410
+/kruger-national-park/safari-all-inclusive-packages/ /410.html 410
 
 # ===========================================================
 # SAFARI PAGES - 410 GONE (Removed Content)
