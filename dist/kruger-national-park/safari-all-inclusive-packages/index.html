@@ -97,216 +97,23 @@
     </script>
 
     <!-- #endregion -->
-    <script type="module" crossorigin src="/assets/main-CO98xXzo.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-1JZWsd0Q.css">
+    <script type="module" crossorigin src="/assets/main-L23ZYt2W.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-CGSuEMsb.css">
   </head>
   <body class="antialiased">
     <!-- #region Navbar -->
-    <header class="absolute inset-x-0 top-0 z-50 h-24">
-      <nav
-        class="mx-auto grid h-full max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center px-6 md:px-10"
-        aria-label="Main"
-      >
-        <!-- Left: hamburger / close toggle -->
-        <button
-          id="menu-toggle"
-          type="button"
-          class="col-start-3 row-start-1 justify-self-end rounded-md p-2 text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white transition-transform duration-150 hover:scale-105 active:scale-95 md:col-start-1 md:justify-self-start lg:cursor-pointer"
-          aria-label="Open menu"
-          aria-expanded="false"
-          aria-controls="side-menu"
-        >
-          <img
-            id="menu-icon"
-            src="/images/navbar/hamburger-closed.svg"
-            data-closed="/images/navbar/hamburger-closed.svg"
-            data-open="/images/navbar/hamburger-open.svg"
-            alt=""
-            class="h-7 lg:h-8 w-auto transition-transform duration-150"
-          />
-        </button>
-
-        <!-- Center: logo -->
-        <a
-          href="/"
-          class="col-start-2 row-start-1 justify-self-center focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-          aria-label="Home"
-        >
-          <img src="/images/navbar/eugenesafaris.svg" alt="Your brand" class="h-9 lg:h-10 w-auto max-w-none" />
-        </a>
-
-        <!-- Right: contact button -->
-
-        <div class="col-start-3 row-start-1 hidden justify-self-end relative md:block">
-          <a href="/contact/" class="group relative inline-block">
-            <span class="sr-only">contact</span>
-            <img
-              src="/images/navbar/contact-eugenesafaris.svg"
-              alt=""
-              class="w-full max-w-md h-4"
-              loading="lazy"
-              aria-hidden="true"
-            />
-            <!-- Custom Hover Line -->
-            <img
-              src="/images/navbar/contact-eugenesafaris-hover.svg"
-              alt=""
-              class="absolute left-1/2 -translate-x-1/2 -bottom-2 w-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"
-              loading="lazy"
-              aria-hidden="true"
-              decoding="async"
-            />
-          </a>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Dim overlay: sits under the header, over the page -->
-    <div
-      id="menu-overlay"
-      class="pointer-events-none fixed inset-0 z-30 bg-black/30 opacity-0 transition-opacity duration-300 motion-reduce:transition-none data-open:pointer-events-auto data-open:opacity-100"
-      aria-hidden="true"
-    ></div>
-
-    <!-- Side menu: slides in from the left, under the header so the toggle stays visible -->
-    <aside
-      id="side-menu"
-      inert
-      class="fixed inset-y-0 left-0 z-40 w-[85%] max-w-sm -translate-x-full bg-linen pt-25 shadow-2xl transition-transform duration-300 ease-out motion-reduce:transition-none max-md:left-auto max-md:right-0 max-md:translate-x-full data-open:translate-x-0"
-      aria-label="Site menu"
-    >
-      <ul class="flex flex-col gap-2 px-6 py-6 md:px-10 font-crimson">
-        <li>
-          <details class="group">
-            <summary
-              class="flex cursor-pointer list-none items-center justify-between rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black [&::-webkit-details-marker]:hidden"
-            >
-              Safaris
-              <svg
-                class="size-5 transition-transform duration-200 group-open:rotate-180"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </summary>
-
-            <ul class="mt-1 mb-2 ml-2 flex flex-col gap-1 border-l border-black/20 pl-4">
-              <li>
-                <a
-                  href="/kruger-national-park/safari-all-inclusive-packages/"
-                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >Kruger Inclusive Safari</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/kruger-national-park/bird-watching-safari/"
-                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >Birdwatching Safari</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/kruger-national-park/photographic-safari/"
-                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >Photographic Safari</a
-                >
-              </li>
-              <li>
-                <a
-                  href="/kruger-national-park/self-drive-safari/"
-                  class="block rounded-md px-2 py-2 text-xl text-black/80 transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >Self-drive Safari</a
-                >
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <a
-            href="/kruger-national-park/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Kruger National Park</a
-          >
-        </li>
-        <li>
-          <a
-            href="/kruger-guide/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Kruger Guide</a
-          >
-        </li>
-        <li>
-          <a
-            href="/about/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >About</a
-          >
-        </li>
-        <li>
-          <a
-            href="/contact/"
-            class="block rounded-md px-2 py-3 text-2xl font-medium text-black transition-colors hover:text-mist-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-            >Contact</a
-          >
-        </li>
-      </ul>
-    </aside>
-    <!-- #region Navbar -->
     <header
       id="site-header"
-      data-header-theme="solid"
-      data-scrolled="true"
-      class="group sticky top-0 z-50 h-20 md:h-24 border-b border-transparent bg-transparent transition-colors duration-200 data-[header-theme=photo]:-mb-20 md:data-[header-theme=photo]:-mb-24 data-[scrolled=true]:border-black/10 data-[scrolled=true]:bg-linen"
+      data-header-theme="photo"
+      data-scrolled="false"
+      data-elevated="false"
+      class="group sticky top-0 z-50 h-20 md:h-24 border-b border-transparent bg-transparent transition-colors duration-200 data-[header-theme=photo]:-mb-20 md:data-[header-theme=photo]:-mb-24 data-[scrolled=true]:bg-linen data-[elevated=true]:border-black/10"
     >
       <nav
-        class="relative mx-auto grid h-full max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center px-5 md:px-10 lg:grid-cols-[auto_1fr_auto]"
+        class="relative mx-auto flex h-full max-w-[1600px] items-center justify-between px-5 md:px-10"
         aria-label="Main navigation"
       >
-        <!-- Mobile menu toggle -->
-        <button
-          id="menu-toggle"
-          type="button"
-          class="col-start-1 row-start-1 flex size-11 items-center justify-center justify-self-start rounded-md text-white transition-colors duration-200 hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
-          aria-label="Open navigation menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            id="menu-open-icon"
-            class="size-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            aria-hidden="true"
-          >
-            <path d="M4 7h16M4 12h16M4 17h16" />
-          </svg>
-
-          <svg
-            id="menu-close-icon"
-            class="hidden size-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            aria-hidden="true"
-          >
-            <path d="m6 6 12 12M18 6 6 18" />
-          </svg>
-        </button>
-
-        <!-- Logo -->
+        <!-- Logo (left) -->
         <a href="/" class="inline-flex items-center" aria-label="Eugene Safaris home">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -345,22 +152,20 @@
           </svg>
         </a>
 
-        <!-- Desktop navigation -->
-        <div class="col-start-2 row-start-1 hidden items-center justify-center gap-7 lg:flex xl:gap-9">
-          <!-- Safaris dropdown -->
+        <!-- Desktop links (right) -->
+        <div class="hidden items-center gap-7 lg:flex xl:gap-9 font-barlow">
           <div id="safaris-dropdown-wrapper" class="relative">
             <button
               id="safaris-dropdown-toggle"
               type="button"
-              class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+              class="text-shadow-soft flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
               aria-expanded="false"
               aria-controls="safaris-dropdown"
             >
               SAFARIS
-
               <svg
-                class="size-3.5 transition-transform duration-200"
                 id="safaris-chevron"
+                class="size-3.5 transition-transform duration-200"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -373,7 +178,6 @@
               </svg>
             </button>
 
-            <!-- Dropdown -->
             <div
               id="safaris-dropdown"
               class="invisible absolute left-0 top-full z-50 mt-2 w-72 translate-y-2 rounded-md border border-black/10 bg-linen p-2 opacity-0 shadow-lg transition-all duration-150 data-[open=true]:visible data-[open=true]:translate-y-0 data-[open=true]:opacity-100"
@@ -382,64 +186,70 @@
             >
               <a
                 href="/kruger-national-park/private-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >PRIVATE DAILY SAFARIS</a
               >
-                PRIVATE DAILY SAFARIS
-              </a>
-
               <a
                 href="/kruger-national-park/safari-all-inclusive-packages/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >ALL-INCLUSIVE SAFARIS</a
               >
-                ALL-INCLUSIVE SAFARIS
-              </a>
-
               <a
                 href="/kruger-national-park/bird-watching-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >BIRDWATCHING IN KRUGER</a
               >
-                BIRDWATCHING IN KRUGER
-              </a>
-
               <a
                 href="/kruger-national-park/photographic-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >PHOTOGRAPHIC SAFARIS</a
               >
-                PHOTOGRAPHIC SAFARIS
-              </a>
             </div>
           </div>
 
-          <!-- Main navigation links -->
           <a
             href="/kruger-national-park/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >KRUGER NATIONAL PARK</a
           >
-            KRUGER NATIONAL PARK
-          </a>
-
           <a
             href="/kruger-guide/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >KRUGER GUIDES</a
           >
-            KRUGER GUIDES
-          </a>
-
           <a
             href="/about/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >ABOUT</a
           >
-            ABOUT
-          </a>
+          <a
+            href="/contact/"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >CONTACT</a
+          >
         </div>
-        <!-- Enquiry CTA -->
-        <a
-          href="/contact/"
-          class="col-start-3 font-crimson row-start-1 inline-flex h-10 items-center justify-center justify-self-end rounded-sm bg-amber-800 px-3.5 text-sm font-medium text-white transition-colors hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mist-700 shadow-[0_0_12px_rgba(146,64,14,0.18)] md:px-5"
+
+        <!-- Mobile menu toggle (right) -->
+        <button
+          id="menu-toggle"
+          type="button"
+          class="group/burger flex size-11 items-center justify-center text-white transition-colors duration-200 [-webkit-tap-highlight-color:transparent] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
         >
-          <span class="hidden sm:inline">PLAN YOUR SAFARI</span>
-          <span class="sm:hidden">Enquire</span>
-        </a>
+          <span class="relative block size-6" aria-hidden="true">
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 -translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:rotate-45"
+            ></span>
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 rounded-full bg-current transition-all duration-200 ease-out motion-reduce:transition-none group-aria-expanded/burger:scale-x-0 group-aria-expanded/burger:opacity-0"
+            ></span>
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:-rotate-45"
+            ></span>
+          </span>
+        </button>
       </nav>
     </header>
 
@@ -451,27 +261,23 @@
       aria-hidden="true"
     ></div>
 
-    <!-- Mobile navigation drawer -->
+    <!-- Mobile drawer (slides in from the right) -->
     <aside
       id="mobile-menu"
-      class="invisible fixed inset-y-0 left-0 z-40 w-[88%] max-w-sm -translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[transform,visibility] duration-250 ease-out data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden"
+      class="font-barlow group/drawer invisible fixed inset-y-0 right-0 z-40 w-[88%] max-w-sm translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[translate,visibility] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden"
       data-open="false"
       aria-label="Mobile navigation"
       aria-hidden="true"
       inert
     >
-      <div class="flex min-h-full flex-col px-6 pb-8 md:px-10">
-        <div class="mb-5 border-b border-black/10 pb-4">
-          <span class="font-crimson text-sm uppercase tracking-widest text-black/50"> Explore Eugene Safaris </span>
-        </div>
-
-        <!-- Safaris -->
+      <div
+        class="flex min-h-full flex-col px-6 pb-8 opacity-0 translate-x-4 transition-[opacity,translate] duration-300 motion-reduce:transition-none group-data-[open=true]/drawer:translate-x-0 group-data-[open=true]/drawer:opacity-100 group-data-[open=true]/drawer:delay-100 md:px-10"
+      >
         <details class="group border-b border-black/10">
           <summary
             class="flex min-h-14 cursor-pointer list-none items-center justify-between py-3 text-xl font-medium text-charcoal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 [&::-webkit-details-marker]:hidden"
           >
-            Safaris
-
+            SAFARIS
             <svg
               class="size-4 transition-transform duration-200 group-open:rotate-180"
               viewBox="0 0 24 24"
@@ -485,98 +291,99 @@
               <path d="m6 9 6 6 6-6" />
             </svg>
           </summary>
-
           <div class="mb-4 ml-2 flex flex-col gap-1 border-l border-black/20 pl-4">
             <a
-              href="/kruger-private-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              href="/kruger-national-park/private-safari/"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >PRIVATE DAILY SAFARIS</a
             >
-              Private Guided Kruger Safari
-            </a>
-
             <a
               href="/kruger-national-park/safari-all-inclusive-packages/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >ALL-INCLUSIVE SAFARIS</a
             >
-              All-Inclusive Safaris
-            </a>
-
             <a
               href="/kruger-national-park/bird-watching-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >BIRDWATCHING IN KRUGER</a
             >
-              Birdwatching Safaris
-            </a>
-
             <a
               href="/kruger-national-park/photographic-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl font-medium text-black/75 transition-colors hover:text-mist-700"
+              >PHOTOGRAPHIC SAFARIS</a
             >
-              Photographic Safaris
-            </a>
           </div>
         </details>
 
-        <!-- Main links -->
         <a
           href="/kruger-national-park/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >KRUGER NATIONAL PARK</a
         >
-          Kruger National Park
-        </a>
-
         <a
           href="/kruger-guide/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >KRUGER GUIDES</a
         >
-          Kruger Guide
-        </a>
-
         <a
           href="/about/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >ABOUT</a
         >
-          About
-        </a>
-
         <a
           href="/contact/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >CONTACT</a
         >
-          Contact
-        </a>
 
-        <!-- Bottom CTA -->
         <div class="mt-auto pt-8">
-          <a
-            href="/contact/"
-            class="flex min-h-12 w-full items-center justify-center rounded-sm bg-[#344C3B] px-6 py-3 text-base font-medium text-white transition-colors hover:bg-[#263B2E] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mist-700"
-          >
-            Plan your safari
-          </a>
-
-          <p class="mt-4 text-center font-crimson text-sm text-black/50">
+          <p class="mt-4 text-center font-crimson text-xs text-black/50">
             Personally guided experiences in Kruger National Park.
           </p>
         </div>
       </div>
     </aside>
-
     <!-- #endregion -->
     <main>
-      <nav aria-label="Breadcrumb" class="breadcrumb-link max-w-7xl mx-auto px-5 lg:px-3 mt-4">
-        <ol class="flex items-center text-[0.65rem] lg:text-xs text-gray-700">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline">Home</a>
-            <span class="mx-2">/</span>
-          </li>
-          <li class="flex items-center">
-            <a href="/kruger-national-park/" class="hover:underline">Kruger Park</a>
-            <span class="mx-2">/</span>
-          </li>
-          <li class="flex items-center text-gray-500" aria-current="page">Inclusive Safaris</li>
-        </ol>
-      </nav>
+      <section
+        class="relative isolate flex min-h-112.5 h-[65vh] max-h-212.5 flex-col overflow-hidden"
+        aria-labelledby="page-title"
+      >
+        <!-- Background image -->
+        <picture class="absolute inset-0 -z-20">
+          <img
+            src="/images/inclusive-safari/lion-sleeping-road.jpg"
+            alt="Black-collared barbet in Kruger National Park."
+            width="5840"
+            height="4672"
+            class="h-full w-full object-cover object-center"
+            fetchpriority="high"
+            loading="eager"
+          />
+        </picture>
+
+        <!-- Dark overlay -->
+        <div class="absolute inset-0 -z-10 bg-black/20"></div>
+
+        <!-- Breadcrumb navigation -->
+        <div class="mx-auto w-full max-w-7xl px-5 pt-18 lg:pt-24 lg:px-3 font-barlow">
+          <nav aria-label="Breadcrumb">
+            <ol class="flex flex-wrap items-center justify-center font-normal text-white lg:justify-start lg:text-md">
+              <li class="flex items-center">
+                <a href="/" class="transition-colors hover:text-mist-300"> HOME </a>
+                <span class="mx-2 text-white/50">/</span>
+              </li>
+
+              <li class="flex items-center">
+                <a href="/kruger-national-park/" class="transition-colors hover:text-mist-300"> KRUGER PARK </a>
+                <span class="mx-2 text-white/50">/</span>
+              </li>
+
+              <li class="text-white underline underline-offset-2" aria-current="page">ALL-INCLUSIVE SAFARIS</li>
+            </ol>
+          </nav>
+        </div>
+      </section>
       <!-- HERO SECTION -->
       <section class="mx-auto max-w-4xl px-6 py-8 text-center">
         <div class="text-center">
@@ -589,7 +396,8 @@
           </p>
 
           <h1 class="mb-6 text-2xl font-bold tracking-tight text-gray-900 md:text-4xl">
-            Kruger National Park All-Inclusive Safari Packages
+            Kruger National Park <br />
+            All-Inclusive Safari Packages
           </h1>
 
           <p class="mx-auto max-w-3xl leading-relaxed">
@@ -621,6 +429,103 @@
           </p>
         </div>
       </section>
+
+      <section class="mx-auto max-w-3xl px-5 py-20 text-center sm:px-8 lg:py-28">
+        <div class="mx-auto mb-10 max-w-2xl">
+          <span class="font-crimson text-sm uppercase tracking-[0.16em] text-amber-800">
+            Explore Kruger differently
+          </span>
+
+          <h2 class="mt-3 font-crimson text-2xl text-stone-900 sm:text-3xl">all-inclusive, more niche</h2>
+
+          <p class="mx-auto mt-4 max-w-xl text-base leading-relaxed text-stone-600">
+            Whether you enjoy watching birds or photographing wildlife, experience Kruger National Park at your own pace
+            with a private guide.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <!-- Birdwatching card -->
+          <a
+            href="/kruger-national-park/bird-watching-safari/"
+            class="group relative isolate flex aspect-3/4 flex-col justify-end overflow-hidden rounded-lg border border-stone-300/70 bg-stone-900 text-left transition-shadow duration-300 hover:shadow-lg hover:shadow-stone-900/15 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-stone-900"
+          >
+            <img
+              src="/images/home/black-collared-barbet-pretoriuskop-rest-camp.webp"
+              alt="Black-collared barbet in Kruger National Park"
+              class="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="absolute inset-0 -z-10 bg-linear-to-t from-black/90 via-black/35 to-transparent"></div>
+
+            <span
+              class="pointer-events-none absolute inset-1.25 z-20 rounded-md border border-white/60"
+              aria-hidden="true"
+            ></span>
+
+            <div class="relative z-10 p-6 sm:p-8">
+              <span class="font-crimson text-xs uppercase tracking-[0.16em] text-white/80"> For bird enthusiasts </span>
+
+              <h3 class="mt-2 font-crimson text-3xl text-white sm:text-4xl">Birdwatching Tours</h3>
+
+              <p class="mt-3 text-sm leading-relaxed text-white/85">
+                Discover Kruger's incredible birdlife, from familiar garden visitors to the species hidden in the bush.
+              </p>
+
+              <span
+                class="pointer-events-none mt-5 inline-flex items-center gap-2 border border-black bg-white px-5 py-2.5 text-sm font-medium text-stone-900 transition-colors duration-200 group-hover:bg-stone-100"
+              >
+                Explore birdwatching tours
+                <span>→</span>
+              </span>
+            </div>
+          </a>
+
+          <!-- Photography card -->
+          <a
+            href="/kruger-national-park/photographic-safari/"
+            class="group relative isolate flex aspect-3/4 flex-col justify-end overflow-hidden rounded-lg border border-stone-300/70 bg-stone-900 text-left transition-shadow duration-300 hover:shadow-lg hover:shadow-stone-900/15 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-stone-900"
+          >
+            <img
+              src="/images/home/leopard-walking-road-card.webp"
+              alt="Leopard walking along a road in Kruger National Park"
+              class="absolute inset-0 -z-20 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.035]"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <div class="absolute inset-0 -z-10 bg-linear-to-t from-black/90 via-black/35 to-transparent"></div>
+
+            <span
+              class="pointer-events-none absolute inset-1.25 z-20 rounded-md border border-white/60"
+              aria-hidden="true"
+            ></span>
+
+            <div class="relative z-10 p-6 sm:p-8">
+              <span class="font-crimson text-xs uppercase tracking-[0.16em] text-white/80">
+                For wildlife photographers
+              </span>
+
+              <h3 class="mt-2 font-crimson text-3xl text-white sm:text-4xl">Photographic Safaris</h3>
+
+              <p class="mt-3 text-sm leading-relaxed text-white/85">
+                Spend more time with wildlife, observe interesting behaviour and make the most of photographic
+                opportunities in the park.
+              </p>
+
+              <span
+                class="pointer-events-none mt-5 inline-flex items-center gap-2 border border-black bg-white px-5 py-2.5 text-sm font-medium text-stone-900 transition-colors duration-200 group-hover:bg-stone-100"
+              >
+                Explore photographic safaris
+                <span>→</span>
+              </span>
+            </div>
+          </a>
+        </div>
+      </section>
+
       <section class="mx-auto max-w-5xl px-4 py-16 text-center text-black">
         <h2 class="font-serif text-3xl font-semibold sm:text-4xl">Pricing</h2>
         <p class="mx-auto mt-3 max-w-prose text-black/70">

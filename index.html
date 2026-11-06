@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Eugene Safaris</title>
-    <meta name="description" content="Owner guided safaris in Africa, " />
+    <meta
+      name="description"
+      content="Private guided safaris in Kruger National Park, South Africa. Personal game drives, all-inclusive safari packages, birding tours and photographic safaris led by experienced guide Eugene Booysen. "
+    />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <!-- GEO -->
     <meta name="geo.region" content="ZA" />
     <meta name="geo.placename" content="Kruger National Park" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+
     <!-- Canonical and Naviconss-->
     <link rel="canonical" href="https://eugenesafaris.com/" />
     <link rel="icon" href="/images/logo/paw-print-lion.png" type="image/png" />
@@ -53,9 +51,36 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Eugene Safaris",
-        "url": "https://eugenesafaris.com/"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://eugenesafaris.com/#website",
+            "url": "https://eugenesafaris.com/",
+            "name": "Eugene Safaris",
+            "publisher": { "@id": "https://eugenesafaris.com/#organization" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": ["Organization", "TravelAgency"],
+            "@id": "https://eugenesafaris.com/#organization",
+            "name": "Eugene Safaris",
+            "url": "https://eugenesafaris.com/",
+            "description": "Eugene Safaris offers private guided safaris in Kruger National Park, South Africa. Led by Eugene Booysen, experiences include private game drives, all-inclusive safari packages, birding tours and photographic safaris.",
+            "founder": { "@id": "https://eugenesafaris.com/#eugene-booysen" },
+            "areaServed": {
+              "@type": "Place",
+              "name": "Kruger National Park, South Africa"
+            },
+            "sameAs": ["https://g.page/r/CT4xG6jMOpXmEBI"]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://eugenesafaris.com/#eugene-booysen",
+            "name": "Eugene Booysen",
+            "jobTitle": "Safari Guide",
+            "worksFor": { "@id": "https://eugenesafaris.com/#organization" }
+          }
+        ]
       }
     </script>
 
@@ -67,49 +92,14 @@
       id="site-header"
       data-header-theme="photo"
       data-scrolled="false"
-      class="group sticky top-0 z-50 h-20 md:h-24 border-b border-transparent bg-transparent transition-colors duration-200 data-[header-theme=photo]:-mb-20 md:data-[header-theme=photo]:-mb-24 data-[scrolled=true]:border-black/10 data-[scrolled=true]:bg-linen"
+      data-elevated="false"
+      class="group sticky top-0 z-50 h-20 md:h-24 border-b border-transparent bg-transparent transition-colors duration-200 data-[header-theme=photo]:-mb-20 md:data-[header-theme=photo]:-mb-24 data-[scrolled=true]:bg-linen data-[elevated=true]:border-black/10"
     >
       <nav
-        class="relative mx-auto grid h-full max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center px-5 md:px-10 lg:grid-cols-[auto_1fr_auto]"
+        class="relative mx-auto flex h-full max-w-[1600px] items-center justify-between px-5 md:px-10"
         aria-label="Main navigation"
       >
-        <!-- Mobile menu toggle -->
-        <button
-          id="menu-toggle"
-          type="button"
-          class="col-start-1 row-start-1 flex size-11 items-center justify-center justify-self-start rounded-md text-white transition-colors duration-200 hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
-          aria-label="Open navigation menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            id="menu-open-icon"
-            class="size-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            aria-hidden="true"
-          >
-            <path d="M4 7h16M4 12h16M4 17h16" />
-          </svg>
-
-          <svg
-            id="menu-close-icon"
-            class="hidden size-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            aria-hidden="true"
-          >
-            <path d="m6 6 12 12M18 6 6 18" />
-          </svg>
-        </button>
-
-        <!-- Logo -->
+        <!-- Logo (left) -->
         <a href="/" class="inline-flex items-center" aria-label="Eugene Safaris home">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -148,22 +138,20 @@
           </svg>
         </a>
 
-        <!-- Desktop navigation -->
-        <div class="col-start-2 row-start-1 hidden items-center justify-center gap-7 lg:flex xl:gap-9">
-          <!-- Safaris dropdown -->
+        <!-- Desktop links (right) -->
+        <div class="hidden font-barlow items-center gap-7 lg:flex xl:gap-9">
           <div id="safaris-dropdown-wrapper" class="relative">
             <button
               id="safaris-dropdown-toggle"
               type="button"
-              class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+              class="text-shadow-soft flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
               aria-expanded="false"
               aria-controls="safaris-dropdown"
             >
               SAFARIS
-
               <svg
-                class="size-3.5 transition-transform duration-200"
                 id="safaris-chevron"
+                class="size-3.5 transition-transform duration-200"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -176,7 +164,6 @@
               </svg>
             </button>
 
-            <!-- Dropdown -->
             <div
               id="safaris-dropdown"
               class="invisible absolute left-0 top-full z-50 mt-2 w-72 translate-y-2 rounded-md border border-black/10 bg-linen p-2 opacity-0 shadow-lg transition-all duration-150 data-[open=true]:visible data-[open=true]:translate-y-0 data-[open=true]:opacity-100"
@@ -185,65 +172,70 @@
             >
               <a
                 href="/kruger-national-park/private-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >PRIVATE DAILY SAFARIS</a
               >
-                PRIVATE DAILY SAFARIS
-              </a>
-
               <a
                 href="/kruger-national-park/safari-all-inclusive-packages/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >ALL-INCLUSIVE SAFARIS</a
               >
-                ALL-INCLUSIVE SAFARIS
-              </a>
-
               <a
                 href="/kruger-national-park/bird-watching-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >BIRDWATCHING IN KRUGER</a
               >
-                BIRDWATCHING IN KRUGER
-              </a>
-
               <a
                 href="/kruger-national-park/photographic-safari/"
-                class="font-navbar block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                >PHOTOGRAPHIC SAFARIS</a
               >
-                PHOTOGRAPHIC SAFARIS
-              </a>
             </div>
           </div>
 
-          <!-- Main navigation links -->
           <a
             href="/kruger-national-park/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >KRUGER NATIONAL PARK</a
           >
-            KRUGER NATIONAL PARK
-          </a>
-
           <a
             href="/kruger-guide/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >KRUGER GUIDES</a
           >
-            KRUGER GUIDES
-          </a>
-
           <a
             href="/about/"
-            class="font-navbar text-shadow-soft group-data-[scrolled=true]:text-shadow-none py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >ABOUT</a
           >
-            ABOUT
-          </a>
+          <a
+            href="/contact/"
+            class="text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            >CONTACT</a
+          >
         </div>
 
-        <!-- Enquiry CTA -->
-        <a
-          href="/contact/"
-          class="col-start-3 font-crimson row-start-1 inline-flex h-10 items-center justify-center justify-self-end rounded-sm bg-amber-800 px-3.5 text-sm font-medium text-white transition-colors hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mist-700 shadow-[0_0_12px_rgba(146,64,14,0.18)] md:px-5"
+        <!-- Mobile menu toggle (right) -->
+        <button
+          id="menu-toggle"
+          type="button"
+          class="group/burger flex size-11 items-center justify-center text-white transition-colors duration-200 [-webkit-tap-highlight-color:transparent] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
         >
-          <span class="hidden sm:inline">PLAN YOUR SAFARI</span>
-          <span class="sm:hidden">Enquire</span>
-        </a>
+          <span class="relative block size-6" aria-hidden="true">
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 -translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:rotate-45"
+            ></span>
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 rounded-full bg-current transition-all duration-200 ease-out motion-reduce:transition-none group-aria-expanded/burger:scale-x-0 group-aria-expanded/burger:opacity-0"
+            ></span>
+            <span
+              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:-rotate-45"
+            ></span>
+          </span>
+        </button>
       </nav>
     </header>
 
@@ -255,27 +247,23 @@
       aria-hidden="true"
     ></div>
 
-    <!-- Mobile navigation drawer -->
+    <!-- Mobile drawer (slides in from the right) -->
     <aside
       id="mobile-menu"
-      class="invisible fixed inset-y-0 left-0 z-40 w-[88%] max-w-sm -translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[transform,visibility] duration-250 ease-out data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden"
+      class="font-barlow group/drawer invisible fixed inset-y-0 right-0 z-40 w-[88%] max-w-sm translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[translate,visibility] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden"
       data-open="false"
       aria-label="Mobile navigation"
       aria-hidden="true"
       inert
     >
-      <div class="flex min-h-full flex-col px-6 pb-8 md:px-10">
-        <div class="mb-5 border-b border-black/10 pb-4">
-          <span class="font-crimson text-sm uppercase tracking-widest text-black/50"> Explore Eugene Safaris </span>
-        </div>
-
-        <!-- Safaris -->
+      <div
+        class="flex min-h-full flex-col px-6 pb-8 opacity-0 translate-x-4 transition-[opacity,translate] duration-300 motion-reduce:transition-none group-data-[open=true]/drawer:translate-x-0 group-data-[open=true]/drawer:opacity-100 group-data-[open=true]/drawer:delay-100 md:px-10"
+      >
         <details class="group border-b border-black/10">
           <summary
             class="flex min-h-14 cursor-pointer list-none items-center justify-between py-3 text-xl font-medium text-charcoal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 [&::-webkit-details-marker]:hidden"
           >
-            Safaris
-
+            SAFARIS
             <svg
               class="size-4 transition-transform duration-200 group-open:rotate-180"
               viewBox="0 0 24 24"
@@ -289,86 +277,61 @@
               <path d="m6 9 6 6 6-6" />
             </svg>
           </summary>
-
           <div class="mb-4 ml-2 flex flex-col gap-1 border-l border-black/20 pl-4">
             <a
-              href="/kruger-private-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              href="/kruger-national-park/private-safari/"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >PRIVATE DAILY SAFARIS</a
             >
-              Private Guided Kruger Safari
-            </a>
-
             <a
               href="/kruger-national-park/safari-all-inclusive-packages/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >ALL-INCLUSIVE SAFARIS</a
             >
-              All-Inclusive Safaris
-            </a>
-
             <a
               href="/kruger-national-park/bird-watching-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
+              >BIRDWATCHING IN KRUGER</a
             >
-              Birdwatching Safaris
-            </a>
-
             <a
               href="/kruger-national-park/photographic-safari/"
-              class="flex min-h-11 items-center text-base text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl font-medium text-black/75 transition-colors hover:text-mist-700"
+              >PHOTOGRAPHIC SAFARIS</a
             >
-              Photographic Safaris
-            </a>
           </div>
         </details>
 
-        <!-- Main links -->
         <a
           href="/kruger-national-park/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >KRUGER NATIONAL PARK</a
         >
-          Kruger National Park
-        </a>
-
         <a
           href="/kruger-guide/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >KRUGER GUIDES</a
         >
-          Kruger Guide
-        </a>
-
         <a
           href="/about/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >ABOUT</a
         >
-          About
-        </a>
-
         <a
           href="/contact/"
           class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          >CONTACT</a
         >
-          Contact
-        </a>
 
-        <!-- Bottom CTA -->
         <div class="mt-auto pt-8">
-          <a
-            href="/contact/"
-            class="flex min-h-12 w-full items-center justify-center rounded-sm bg-[#344C3B] px-6 py-3 text-base font-medium text-white transition-colors hover:bg-[#263B2E] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mist-700"
-          >
-            Plan your safari
-          </a>
-
-          <p class="mt-4 text-center font-crimson text-sm text-black/50">
+          <p class="mt-4 text-center font-crimson text-xs text-black/50">
             Personally guided experiences in Kruger National Park.
           </p>
         </div>
       </div>
     </aside>
-
     <!-- #endregion -->
     <main>
-      <section class="relative min-h-[calc(100vh-80px)] w-full overflow-hidden bg-black">
+      <section class="relative min-h-[calc(100vh-200px)] w-full overflow-hidden bg-black">
         <!-- Video -->
         <div class="relative h-screen w-full overflow-hidden">
           <video
@@ -453,14 +416,14 @@
           <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a
               href="/kruger-national-park/safari-all-inclusive-packages/"
-              class="px-6 py-3 border border-black rounded-full hover:bg-black hover:text-white transition"
+              class="px-6 py-3 border border-black rounded-xs hover:bg-black hover:text-white transition"
             >
               View Inclusive Safari
             </a>
 
             <a
               href="/contact/"
-              class="px-6 py-3 border border-black rounded-full hover:bg-black hover:text-white transition"
+              class="px-6 py-3 border border-black rounded-xs hover:bg-black hover:text-white transition"
             >
               Contact
             </a>
@@ -575,99 +538,306 @@
       </section>
 
       <section class="py-20 md:py-24">
-        <div class="max-w-5xl mx-auto px-4 relative">
+        <div class="max-w-7xl mx-auto px-5 lg:px-8">
           <!-- Header -->
           <div class="text-center mb-12">
-            <span class="text-amber-700 font-semibold tracking-[0.18em] uppercase text-sm"> Guest Experiences </span>
-            <h2 class="text-2xl font-bold text-gray-900 mt-3">What Guests Say</h2>
+            <span class="text-amber-800 font-semibold tracking-[0.18em] uppercase text-xs"> Guest Experiences </span>
+
+            <h2 class="font-serif text-3xl md:text-4xl text-gray-900 mt-3">What Guests Say</h2>
+
             <p class="max-w-2xl mx-auto mt-4 text-gray-600 leading-relaxed">
               Thoughtful guiding, a relaxed pace, and the kind of safari moments that stay with you long after Kruger.
             </p>
-          </div>
 
-          <!-- Slider -->
-          <div id="testimonialSlider" class="overflow-hidden">
-            <div id="testimonialTrack" class="flex transition-transform duration-500 ease-in-out">
-              <!-- Testimonial -->
-              <div class="min-w-full flex justify-center">
-                <div class="max-w-3xl w-full px-8 py-10 md:px-12 md:py-14 text-center">
-                  <h3 class="font-playfair text-2xl mb-3 text-gray-900">Nicole</h3>
-                  <div class="mx-auto mb-6 w-10 h-0.5 bg-amber-700"></div>
-                  <p class="text-gray-700 leading-8 text-lg">
-                    A trip of a lifetime that exceeded all our expectations! Our personalized tour guide, Eugene, has
-                    extensive knowledge of animals and Kruger. This allowed us to explore quieter roads and enjoy
-                    sightings where we were often the only vehicle.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Testimonial -->
-              <div class="min-w-full flex justify-center">
-                <div class="max-w-3xl w-full px-8 py-10 md:px-12 md:py-14 text-center">
-                  <h3 class="font-playfair text-2xl mb-3 text-gray-900">Isla</h3>
-                  <div class="mx-auto mb-6 w-10 h-0.5 bg-amber-700"></div>
-                  <p class="text-gray-700 leading-8 text-lg">
-                    Eugene was amazing! We saw the Big 5 before 9am on our first morning. He was incredibly
-                    knowledgeable about the wildlife and knew all the routes like the back of his hand. We also loved
-                    our evening braais. Thanks so much for a fantastic safari experience!
-                  </p>
-                </div>
-              </div>
-
-              <!-- Testimonial -->
-              <div class="min-w-full flex justify-center">
-                <div class="max-w-3xl w-full px-8 py-10 md:px-12 md:py-14 text-center">
-                  <h3 class="font-playfair text-2xl mb-3 text-gray-900">Henry</h3>
-                  <div class="mx-auto mb-6 w-10 h-0.5 bg-amber-700"></div>
-                  <p class="text-gray-700 leading-8 text-lg">
-                    We had an amazing time on safari with Eugene guiding us. He was super knowledgeable about all the
-                    animals and birds – we saw the Big 5 and more. He was always up before us preparing the vehicle and
-                    finished the day with incredible braais. Highly recommended for anyone wanting an expert guide with
-                    relaxed vibes!
-                  </p>
-                </div>
-              </div>
+            <div class="flex items-center justify-center gap-2 mt-5 text-sm">
+              <span class="text-amber-700 tracking-wider">★★★★★</span>
+              <span class="text-gray-700 font-medium">5.0</span>
+              <span class="text-gray-500">from 5 Google reviews</span>
             </div>
           </div>
 
-          <!-- Arrows -->
-          <div class="flex justify-center items-center gap-6 mt-8">
-            <button
-              onclick="moveSlide(-1)"
-              aria-label="Previous testimonial"
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 text-gray-600 hover:text-black hover:border-gray-500 transition"
+          <!-- Review cards -->
+          <div class="relative">
+            <div
+              id="testimonialTrack"
+              class="flex items-stretch gap-4 md:gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth overscroll-x-contain -mx-5 px-5 scroll-pl-5 lg:mx-0 lg:px-0 lg:scroll-pl-0 pb-4 scrollbar-none [&::-webkit-scrollbar]:hidden"
+              aria-label="Guest reviews"
+              tabindex="0"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5"
+              <!-- Mama -->
+              <article
+                class="review-card shrink-0 w-[88%] sm:w-[65%] lg:w-[calc(33.333%-0.85rem)] snap-start snap-always"
               >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-              </svg>
-            </button>
+                <div class="h-full flex flex-col bg-white/80 border border-stone-200 rounded-xl p-7 md:p-8">
+                  <div class="text-amber-700 tracking-wider text-sm mb-5" aria-label="5 out of 5 stars">★★★★★</div>
 
-            <button
-              onclick="moveSlide(1)"
-              aria-label="Next testimonial"
-              class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 text-gray-600 hover:text-black hover:border-gray-500 transition"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5"
+                  <h3 class="font-serif text-2xl text-gray-900 mb-4">An unforgettable experience</h3>
+
+                  <p class="text-gray-700 leading-7">
+                    “Our vacation to South Africa was truly an unforgettable experience! Kruger National Park was
+                    everything we had hoped for and so much more. This was our second trip with Eugene. And he, again,
+                    delivered everything we could ask for and more.”
+                  </p>
+
+                  <details class="mt-4 text-sm">
+                    <summary class="cursor-pointer text-amber-800 font-medium hover:text-amber-950">
+                      Read full review
+                    </summary>
+                    <p class="text-gray-600 leading-7 mt-3">
+                      Our vacation to South Africa was truly an unforgettable experience! Kruger National Park was
+                      everything we had hoped for and so much more. This was our second trip with Eugene. And he, again,
+                      delivered everything we could ask for and more. From the moment he picked us from the airport to
+                      the moment he dropped his off, he was pleasant, knowledgeable, friendly and just so very
+                      welcoming. He is a wonder at spotting the animals in their natural habitat and so so
+                      knowledgeable. Every trip out tino the bush was something different. Our days were well planned
+                      out but with the option to change anything as we wanted. The food was spectacular. An absolutely
+                      amazing trip! South Africa, you stole our hearts (again). We can't wait to come back! ❤️🦁🐘🌍 PS
+                      these were photos taken by my pixel phone. In real life, everything is obviously so much more!
+                    </p>
+                  </details>
+
+                  <div class="mt-auto pt-7">
+                    <div class="border-t border-stone-200 pt-5 flex items-end justify-between gap-3">
+                      <div>
+                        <p class="font-semibold text-gray-900">Mama</p>
+                        <p class="text-sm text-gray-500">6 November 2026</p>
+                      </div>
+                      <a
+                        href="https://maps.app.goo.gl/AHUNDsLRBCC2opku7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-sm text-amber-800 hover:text-amber-950 underline underline-offset-4"
+                      >
+                        Google review
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Mark -->
+              <article
+                class="review-card shrink-0 w-[88%] sm:w-[65%] lg:w-[calc(33.333%-0.85rem)] snap-start snap-always"
               >
-                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-              </svg>
-            </button>
+                <div class="h-full flex flex-col bg-white/80 border border-stone-200 rounded-xl p-7 md:p-8">
+                  <div class="text-amber-700 tracking-wider text-sm mb-5" aria-label="5 out of 5 stars">★★★★★</div>
+
+                  <h3 class="font-serif text-2xl text-gray-900 mb-4">A few rare sightings</h3>
+
+                  <p class="text-gray-700 leading-7">
+                    “Had a great time in Kruger with Eugene. His keen eye and instincts meant we were first at many
+                    sightings. Saw the Big 5 +. Not one but two separate pangolin sightings and one serval sighting.”
+                  </p>
+
+                  <p class="text-gray-700 leading-7 mt-3">
+                    “Things I never expected to actually see in Kruger. He was very flexible with our drives and let us
+                    take things at our own pace.”
+                  </p>
+
+                  <div class="mt-auto pt-7">
+                    <div class="border-t border-stone-200 pt-5 flex items-end justify-between gap-3">
+                      <div>
+                        <p class="font-semibold text-gray-900">Mark Dumont</p>
+                        <p class="text-sm text-gray-500">5 November 2026</p>
+                      </div>
+                      <a
+                        href="https://maps.app.goo.gl/AiYkaQfvxi3G3v5S8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-sm text-amber-800 hover:text-amber-950 underline underline-offset-4"
+                      >
+                        Google review
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Nic -->
+              <article
+                class="review-card shrink-0 w-[88%] sm:w-[65%] lg:w-[calc(33.333%-0.85rem)] snap-start snap-always"
+              >
+                <div class="h-full flex flex-col bg-white/80 border border-stone-200 rounded-xl p-7 md:p-8">
+                  <div class="text-amber-700 tracking-wider text-sm mb-5" aria-label="5 out of 5 stars">★★★★★</div>
+
+                  <h3 class="font-serif text-2xl text-gray-900 mb-4">Two weeks in the bush</h3>
+
+                  <p class="text-gray-700 leading-7">
+                    “Spending two weeks exploring Kruger on a private safari was truly the trip of a lifetime. Eugene
+                    has an incredible connection with the bush and an amazing eye for spotting wildlife.”
+                  </p>
+
+                  <details class="mt-4 text-sm">
+                    <summary class="cursor-pointer text-amber-800 font-medium hover:text-amber-950">
+                      Read full review
+                    </summary>
+                    <p class="text-gray-600 leading-7 mt-3">
+                      We had another absolutely amazing experience with Eugene and his team! Spending two weeks
+                      exploring Kruger on a private safari was truly the trip of a lifetime. Eugene has an incredible
+                      connection with the bush and an amazing eye for spotting wildlife. We were lucky enough to see not
+                      only the Big 5, but also some incredibly rare sightings, including pangolins in two different
+                      areas and a serval cat! Some of our favorite moments were being the only vehicle around, giving us
+                      the chance to take it all in and enjoy these unforgettable encounters without the crowds. And the
+                      experience didn’t end when we returned to camp. Every evening, Eugene’s team treated us to
+                      incredible gourmet meals that were the perfect ending to each day. You know the food is something
+                      special when you’re out on your morning game drive already wondering what’s on the dinner menu! If
+                      you’re considering a private safari in Kruger, I can’t recommend Eugene and his team enough.
+                      Having all the accommodations, meals, and transfers taken care of made everything so easy and
+                      seamless. Eugene is also incredibly responsive, helpful, and happy to answer any questions along
+                      the way. This was an unforgettable experience filled with incredible wildlife, amazing food, and
+                      memories we’ll cherish forever. We would absolutely recommend Eugene to anyone looking for a truly
+                      special Kruger safari!
+                    </p>
+                  </details>
+
+                  <div class="mt-auto pt-7">
+                    <div class="border-t border-stone-200 pt-5 flex items-end justify-between gap-3">
+                      <div>
+                        <p class="font-semibold text-gray-900">Nic Burgueno</p>
+                        <p class="text-sm text-gray-500">19 October 2026</p>
+                      </div>
+                      <a
+                        href="https://maps.app.goo.gl/7GKbmgbQJimHiwDq6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-sm text-amber-800 hover:text-amber-950 underline underline-offset-4"
+                      >
+                        Google review
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Henry -->
+              <article
+                class="review-card shrink-0 w-[88%] sm:w-[65%] lg:w-[calc(33.333%-0.85rem)] snap-start snap-always"
+              >
+                <div class="h-full flex flex-col bg-white/80 border border-stone-200 rounded-xl p-7 md:p-8">
+                  <div class="text-amber-700 tracking-wider text-sm mb-5" aria-label="5 out of 5 stars">★★★★★</div>
+
+                  <h3 class="font-serif text-2xl text-gray-900 mb-4">Relaxed safari vibes</h3>
+
+                  <p class="text-gray-700 leading-7">
+                    “We had an amazing time on safari with Eugene guiding us. He was super knowledgeable about all the
+                    animals and birds – we saw all of the Big 5 and more.”
+                  </p>
+
+                  <details class="mt-4 text-sm">
+                    <summary class="cursor-pointer text-amber-800 font-medium hover:text-amber-950">
+                      Read full review
+                    </summary>
+                    <p class="text-gray-600 leading-7 mt-3">
+                      We had an amazing time on safari with Eugene guiding us. He was super knowledgeable about all the
+                      animals and birds - we saw all of the big 5 and more. He was always up before us checking the
+                      vehicle and went to bed after us clearing up the amazing braai he cooked (lots of fillet steak,
+                      chicken and boerewors). I would recommend Eugene to anyone looking for an expert guide who handles
+                      the whole experience with chilled vibes!
+                    </p>
+                  </details>
+
+                  <div class="mt-auto pt-7">
+                    <div class="border-t border-stone-200 pt-5 flex items-end justify-between gap-3">
+                      <div>
+                        <p class="font-semibold text-gray-900">Henry Binning</p>
+                        <p class="text-sm text-gray-500">1 January 2026</p>
+                      </div>
+                      <a
+                        href="https://maps.app.goo.gl/cY9HhFMrJfGa3Dhz6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-sm text-amber-800 hover:text-amber-950 underline underline-offset-4"
+                      >
+                        Google review
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Isla -->
+              <article
+                class="review-card shrink-0 w-[88%] sm:w-[65%] lg:w-[calc(33.333%-0.85rem)] snap-start snap-always"
+              >
+                <div class="h-full flex flex-col bg-white/80 border border-stone-200 rounded-xl p-7 md:p-8">
+                  <div class="text-amber-700 tracking-wider text-sm mb-5" aria-label="5 out of 5 stars">★★★★★</div>
+
+                  <h3 class="font-serif text-2xl text-gray-900 mb-4">The Big 5 before 9am</h3>
+
+                  <p class="text-gray-700 leading-7">
+                    “Eugene was amazing! We saw the big 5 before 9am on our first morning there. He was so knowledgeable
+                    about the wildlife and he knew all the routes like the back of his hand.”
+                  </p>
+
+                  <p class="text-gray-700 leading-7 mt-3">
+                    “We also loved his evening Brais. Thanks so much for a fab safari experience!”
+                  </p>
+
+                  <div class="mt-auto pt-7">
+                    <div class="border-t border-stone-200 pt-5 flex items-end justify-between gap-3">
+                      <div>
+                        <p class="font-semibold text-gray-900">Isla Rustrick</p>
+                        <p class="text-sm text-gray-500">29 December 2025</p>
+                      </div>
+                      <a
+                        href="https://maps.app.goo.gl/RUm6qRu3AQ44ECQw8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-sm text-amber-800 hover:text-amber-950 underline underline-offset-4"
+                      >
+                        Google review
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Swipe hint -->
+            <p class="text-center text-xs text-gray-500 mt-2 md:hidden">Swipe to read more reviews</p>
+
+            <!-- Navigation -->
+            <div class="hidden md:flex justify-center items-center gap-4 mt-8">
+              <button
+                id="testimonialPrev"
+                type="button"
+                aria-label="Scroll to previous reviews"
+                class="inline-flex items-center justify-center w-11 h-11 rounded-full border border-stone-300 text-gray-700 hover:border-amber-800 hover:text-amber-800 transition focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-amber-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+              </button>
+
+              <button
+                id="testimonialNext"
+                type="button"
+                aria-label="Scroll to next reviews"
+                class="inline-flex items-center justify-center w-11 h-11 rounded-full border border-stone-300 text-gray-700 hover:border-amber-800 hover:text-amber-800 transition focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-amber-800"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </section>
+
       <!-- Image box -->
       <section class="max-w-4xl mx-auto py-16">
         <div class="flex justify-center items-center w-full px-4 py-4">
@@ -987,48 +1157,29 @@
         });
       });
     </script>
+
     <script>
       const track = document.getElementById("testimonialTrack");
-      const slider = document.getElementById("testimonialSlider");
+      const prevButton = document.getElementById("testimonialPrev");
+      const nextButton = document.getElementById("testimonialNext");
 
-      if (track && slider) {
-        let currentSlide = 0;
-        const totalSlides = track.children.length;
+      if (track && prevButton && nextButton) {
+        function scrollReviews(direction) {
+          const card = track.querySelector(".review-card");
 
-        function updateSlide() {
-          track.style.transform = `translateX(-${currentSlide * 100}%)`;
+          if (!card) return;
+
+          const cardWidth = card.getBoundingClientRect().width;
+          const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+
+          track.scrollBy({
+            left: direction * (cardWidth + gap),
+            behavior: "smooth",
+          });
         }
 
-        window.moveSlide = function (direction) {
-          currentSlide += direction;
-
-          if (currentSlide < 0) currentSlide = totalSlides - 1;
-          if (currentSlide >= totalSlides) currentSlide = 0;
-
-          updateSlide();
-        };
-
-        let startX = 0;
-        let endX = 0;
-
-        slider.addEventListener("touchstart", (e) => {
-          startX = e.touches[0].clientX;
-        });
-
-        slider.addEventListener("touchend", (e) => {
-          endX = e.changedTouches[0].clientX;
-          handleSwipe();
-        });
-
-        function handleSwipe() {
-          const threshold = 50;
-
-          if (startX - endX > threshold) {
-            moveSlide(1);
-          } else if (endX - startX > threshold) {
-            moveSlide(-1);
-          }
-        }
+        prevButton.addEventListener("click", () => scrollReviews(-1));
+        nextButton.addEventListener("click", () => scrollReviews(1));
       }
     </script>
 

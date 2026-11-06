@@ -8,9 +8,6 @@ const menuToggle = document.querySelector("#menu-toggle");
 const mobileMenu = document.querySelector("#mobile-menu");
 const menuOverlay = document.querySelector("#menu-overlay");
 
-const menuOpenIcon = document.querySelector("#menu-open-icon");
-const menuCloseIcon = document.querySelector("#menu-close-icon");
-
 const dropdownToggle = document.querySelector("#safaris-dropdown-toggle");
 const dropdown = document.querySelector("#safaris-dropdown");
 const dropdownWrapper = document.querySelector("#safaris-dropdown-wrapper");
@@ -27,9 +24,14 @@ let mobileMenuOpen = false;
 let scrollTicking = false;
 
 const updateHeader = () => {
-  // Solid whenever: not a photo page, scrolled down, or mobile menu open.
-  const solid = !isPhotoHeader || window.scrollY > 12 || mobileMenuOpen;
-  header.dataset.scrolled = String(solid);
+  const pastTop = window.scrollY > 12;
+
+  // Colours: solid on non-photo pages, after scrolling, or while the mobile menu is open.
+  header.dataset.scrolled = String(!isPhotoHeader || pastTop || mobileMenuOpen);
+
+  // Border: only once the user has actually scrolled.
+  header.dataset.elevated = String(pastTop);
+
   scrollTicking = false;
 };
 
@@ -92,9 +94,6 @@ const setMobileMenu = (open, { returnFocus = false } = {}) => {
   menuOverlay.dataset.open = String(open);
   mobileMenu.setAttribute("aria-hidden", String(!open));
   mobileMenu.inert = !open;
-
-  menuOpenIcon.classList.toggle("hidden", open);
-  menuCloseIcon.classList.toggle("hidden", !open);
 
   document.body.style.overflow = open ? "hidden" : "";
 

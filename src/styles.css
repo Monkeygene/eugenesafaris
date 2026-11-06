@@ -1,13 +1,43 @@
 @import "tailwindcss";
 
 @theme {
-  --font-navbar: "Barlow Condensed", sans-serif;
-}
-
-@theme {
   --color-linen: rgb(254, 252, 250);
 
   --font-crimson: "Crimson Text", serif;
+
+  --font-barlow: "Barlow Condensed", sans-serif;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/fonts/barlow/BarlowCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/fonts/barlow/BarlowCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/fonts/barlow/BarlowCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/fonts/barlow/BarlowCondensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -102,66 +132,10 @@
   }
 }
 
-@layer components {
-  .breadcrumb-link {
-    @apply font-crimson text-xs;
-  }
-
-  .sidebar-link {
-    @apply font-crimson text-2xl;
-  }
-
-  .body-link {
-    @apply font-crimson underline;
-  }
-
-  .nav-link {
-    @apply font-crimson text-lg;
-  }
-}
-
-.nav-transition {
-  @apply transition-all duration-300 ease-in-out;
-}
-
-/* Explicit utilities (safe with Vite) */
-@layer utilities {
-  .font-crimson {
-    font-family: "Crimson Text", serif;
-  }
-}
-
-#siteHeader .desktop-nav,
-#mobile-menu {
-  font-family: "Crimson Text", Georgia, serif;
-}
-
-#siteHeader .desktop-nav a,
-#siteHeader .desktop-nav button,
-#mobile-menu a,
-#mobile-menu button,
-#mobile-menu span {
-  font-family: "Crimson Text", Georgia, serif;
-}
-
 /* CUSTOM CSS */
 
 :root {
   --desktop-header-height: 96px;
-}
-
-@font-face {
-  font-family: "EugeneSafaris";
-  src: url("/fonts/Eugenesafaris-Regular.woff2") format("woff2");
-
-  font-display: swap;
-
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font-eugene {
-  font-family: "EugeneSafaris", serif;
 }
 
 /* Subtle shadow for white text over photography */
@@ -178,4 +152,13 @@
   --color-charcoal: #2b2b2b;
   --color-linen: #f5f0e8;
   --color-mist-700: #4a5a52;
+}
+
+#testimonialTrack {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#testimonialTrack::-webkit-scrollbar {
+  display: none;
 }
