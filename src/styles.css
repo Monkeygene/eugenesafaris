@@ -5,47 +5,49 @@
 
   --font-crimson: "Crimson Text", serif;
 
-  --font-barlow: "Barlow Condensed", sans-serif;
+  --font-barlow: "Barlow Condensed", "Barlow Condensed Fallback", sans-serif;
 }
 
+/* barlow-condensed-300 - latin */
 @font-face {
-  font-family: "Barlow Condensed";
-  src: url("/fonts/barlow/BarlowCondensed-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
   font-display: swap;
-}
-
-@font-face {
   font-family: "Barlow Condensed";
-  src: url("/fonts/barlow/BarlowCondensed-SemiBold.woff2") format("woff2");
-  font-weight: 600;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Barlow Condensed";
-  src: url("/fonts/barlow/BarlowCondensed-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Barlow Condensed";
-  src: url("/fonts/barlow/BarlowCondensed-Light.woff2") format("woff2");
   font-weight: 300;
-  font-style: normal;
+  src: url("/fonts/barlow/barlow-condensed-v13-latin-300.woff2") format("woff2");
+}
+/* barlow-condensed-regular - latin */
+@font-face {
   font-display: swap;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/barlow/barlow-condensed-v13-latin-regular.woff2") format("woff2");
+}
+/* barlow-condensed-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/barlow/barlow-condensed-v13-latin-500.woff2") format("woff2");
+}
+/* barlow-condensed-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/barlow/barlow-condensed-v13-latin-600.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Barlow Condensed Fallback";
+  src: local("Arial");
+  size-adjust: 85%;
+  ascent-override: 100%;
+  descent-override: 25%;
+  line-gap-override: 0%;
 }
 
 @font-face {
