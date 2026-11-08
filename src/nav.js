@@ -92,6 +92,7 @@ const setMobileMenu = (open, { returnFocus = false } = {}) => {
 
   mobileMenu.dataset.open = String(open);
   menuOverlay.dataset.open = String(open);
+
   mobileMenu.setAttribute("aria-hidden", String(!open));
   mobileMenu.inert = !open;
 
@@ -102,9 +103,17 @@ const setMobileMenu = (open, { returnFocus = false } = {}) => {
 
   if (open) {
     closeDropdown();
-    requestAnimationFrame(() => mobileMenu.querySelector("summary")?.focus());
+
+    // Move focus only if the drawer is still open.
+    requestAnimationFrame(() => {
+      if (mobileMenuOpen) {
+        mobileMenu.querySelector("summary")?.focus({
+          preventScroll: true,
+        });
+      }
+    });
   } else if (returnFocus) {
-    menuToggle.focus();
+    menuToggle.focus({ preventScroll: true });
   }
 };
 

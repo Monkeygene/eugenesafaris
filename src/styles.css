@@ -164,3 +164,15 @@
 #testimonialTrack::-webkit-scrollbar {
   display: none;
 }
+
+/* Mobile Menu */
+/* Mobile navigation: prevent unwanted browser tap outlines */
+#mobile-menu,
+#mobile-menu summary,
+#mobile-menu a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#mobile-menu:focus {
+  outline: none;
+}
