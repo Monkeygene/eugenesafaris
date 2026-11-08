@@ -104,13 +104,9 @@ const setMobileMenu = (open, { returnFocus = false } = {}) => {
   if (open) {
     closeDropdown();
 
-    // Move focus only if the drawer is still open.
+    // Focus the drawer itself (tabindex="-1", outline: none) so no focus ring appears.
     requestAnimationFrame(() => {
-      if (mobileMenuOpen) {
-        mobileMenu.querySelector("summary")?.focus({
-          preventScroll: true,
-        });
-      }
+      if (mobileMenuOpen) mobileMenu.focus({ preventScroll: true });
     });
   } else if (returnFocus) {
     menuToggle.focus({ preventScroll: true });
@@ -152,11 +148,12 @@ document.addEventListener("keydown", (event) => {
 
     const first = focusable[0];
     const last = focusable[focusable.length - 1];
+    const active = document.activeElement;
 
-    if (event.shiftKey && document.activeElement === first) {
+    if (event.shiftKey && (active === first || active === mobileMenu)) {
       event.preventDefault();
       last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
+    } else if (!event.shiftKey && active === last) {
       event.preventDefault();
       first.focus();
     }
