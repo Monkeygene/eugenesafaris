@@ -3,11 +3,52 @@
 @theme {
   --color-linen: rgb(254, 252, 250);
 
-  --font-crimson: "Crimson Text", serif;
+  /* Gelasio: body font. Also remaps Tailwind's font-serif so existing font-serif classes use it. */
+  --font-gelasio: "Gelasio", Georgia, "Times New Roman", serif;
+  --font-serif: "Gelasio", Georgia, "Times New Roman", serif;
 
   --font-barlow: "Barlow Condensed", "Barlow Condensed Fallback", sans-serif;
 }
 
+/* Gelasio becomes the default font for the whole site */
+@layer base {
+  body {
+    font-family: var(--font-gelasio);
+  }
+}
+
+/* ---------- Gelasio ---------- */
+/* Only keep the weights you actually use. Adjust filenames to match what you downloaded. */
+@font-face {
+  font-display: swap;
+  font-family: "Gelasio";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/gelasio/gelasio-v14-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Gelasio";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/gelasio/gelasio-v14-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Gelasio";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/gelasio/gelasio-v14-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Gelasio";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/gelasio/gelasio-v14-latin-italic.woff2") format("woff2");
+}
+
+/* ---------- Barlow Condensed (unchanged) ---------- */
 /* barlow-condensed-300 - latin */
 @font-face {
   font-display: swap;
@@ -49,47 +90,6 @@
   descent-override: 25%;
   line-gap-override: 0%;
 }
-
-@font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-SemiBoldItalic.woff2") format("woff2");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Crimson Text";
-  src: url("/fonts/crimson/CrimsonText-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
 /* Global typography */
 @layer base {
   ::selection {
@@ -106,31 +106,31 @@
   }
 
   h1 {
-    @apply font-crimson font-bold text-xl md:text-2xl;
+    @apply text-xl md:text-2xl;
   }
 
   h2 {
-    @apply font-crimson font-bold text-lg md:text-xl;
+    @apply font-bold text-lg md:text-xl;
   }
 
   h3 {
-    @apply font-crimson text-lg;
+    @apply text-lg;
   }
 
   h4 {
-    @apply font-crimson text-base font-medium;
+    @apply text-base font-medium;
   }
 
   h5 {
-    @apply font-crimson text-sm font-medium;
+    @apply text-sm font-medium;
   }
 
   h6 {
-    @apply font-crimson text-sm;
+    @appl text-sm;
   }
 
   p {
-    @apply font-crimson mb-4 text-base md:text-lg;
+    @apply mb-4 text-lg;
   }
 }
 

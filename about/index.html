@@ -129,7 +129,7 @@
             <button
               id="safaris-dropdown-toggle"
               type="button"
-              class="font-barlow text-shadow-soft flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+              class="font-barlow text-shadow-soft flex cursor-pointer items-center gap-1.5 py-3 text-[19px] font-normal text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
               aria-expanded="false"
               aria-controls="safaris-dropdown"
             >
@@ -157,22 +157,22 @@
             >
               <a
                 href="/kruger-national-park/private-safari/"
-                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-normal text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
                 >PRIVATE DAILY SAFARIS</a
               >
               <a
                 href="/kruger-national-park/safari-all-inclusive-packages/"
-                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-normal text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
                 >ALL-INCLUSIVE SAFARIS</a
               >
               <a
                 href="/kruger-national-park/bird-watching-safari/"
-                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-normal text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
                 >BIRDWATCHING IN KRUGER</a
               >
               <a
                 href="/kruger-national-park/photographic-safari/"
-                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-light text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
+                class="font-barlow block rounded-sm px-4 py-3 text-[19px] font-normal text-charcoal transition-colors hover:bg-black/5 hover:text-mist-700"
                 >PHOTOGRAPHIC SAFARIS</a
               >
             </div>
@@ -180,44 +180,50 @@
 
           <a
             href="/kruger-national-park/"
-            class="font-barlow text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="font-barlow text-shadow-soft py-3 text-[19px] font-normal text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
             >KRUGER NATIONAL PARK</a
           >
           <a
             href="/kruger-guide/"
-            class="font-barlow text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="font-barlow text-shadow-soft py-3 text-[19px] font-normal text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
             >KRUGER GUIDES</a
           >
           <a
             href="/about/"
-            class="font-barlow text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="font-barlow text-shadow-soft py-3 text-[19px] font-normal text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
             >ABOUT</a
           >
           <a
             href="/contact/"
-            class="font-barlow text-shadow-soft py-3 text-[19px] font-light text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
+            class="font-barlow text-shadow-soft py-3 text-[19px] font-normal text-white transition-colors duration-200 hover:text-white/70 group-data-[scrolled=true]:text-charcoal group-data-[scrolled=true]:hover:text-mist-700"
             >CONTACT</a
           >
         </div>
 
         <!-- Mobile menu toggle (right) -->
+
         <button
           id="menu-toggle"
           type="button"
-          class="group/burger flex size-11 items-center justify-center text-white transition-colors duration-200 [-webkit-tap-highlight-color:transparent] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
+          class="group/burger relative flex size-11 items-center justify-center rounded-full text-white transition-[color,background-color] duration-200 [-webkit-tap-highlight-color:transparent] hover:bg-black/5 active:bg-black/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 group-data-[scrolled=true]:text-charcoal lg:hidden"
           aria-label="Open navigation menu"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
           <span class="relative block size-6" aria-hidden="true">
+            <!-- Top line -->
             <span
-              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 -translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:rotate-45"
+              class="absolute left-1/2 top-1/2 block h-0.5 w-6 -translate-x-1/2 -translate-y-1.75 rounded-full bg-current transition-[transform,width] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:rotate-45"
             ></span>
+
+            <!-- Middle line -->
             <span
-              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 rounded-full bg-current transition-all duration-200 ease-out motion-reduce:transition-none group-aria-expanded/burger:scale-x-0 group-aria-expanded/burger:opacity-0"
+              class="absolute left-1/2 top-1/2 block h-0.5 w-4 -translate-x-1/2 translate-y-0 rounded-full bg-current transition-[opacity,transform] duration-200 ease-out motion-reduce:transition-none group-aria-expanded/burger:scale-x-0 group-aria-expanded/burger:opacity-0"
             ></span>
+
+            <!-- Bottom line -->
             <span
-              class="absolute left-1/2 top-1/2 -ml-3 -mt-px block h-0.5 w-6 translate-y-1.75 rounded-full bg-current transition-all duration-300 ease-out motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:-rotate-45"
+              class="absolute left-1/2 top-1/2 block h-0.5 w-6 -translate-x-1/2 translate-y-1.75 rounded-full bg-current transition-[transform,width] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none group-aria-expanded/burger:translate-y-0 group-aria-expanded/burger:-rotate-45"
             ></span>
           </span>
         </button>
@@ -235,7 +241,8 @@
     <!-- Mobile drawer (slides in from the right) -->
     <aside
       id="mobile-menu"
-      class="font-barlow group/drawer invisible fixed inset-y-0 right-0 z-40 w-[88%] max-w-sm translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[translate,visibility] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden"
+      tabindex="-1"
+      class="font-barlow font-normal group/drawer invisible fixed inset-y-0 right-0 z-40 w-[88%] max-w-sm translate-x-full overflow-y-auto bg-linen pt-20 shadow-xl transition-[translate,visibility] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none data-[open=true]:visible data-[open=true]:translate-x-0 md:pt-24 lg:hidden [outline:none] [-webkit-tap-highlight-color:transparent]"
       data-open="false"
       aria-label="Mobile navigation"
       aria-hidden="true"
@@ -246,7 +253,7 @@
       >
         <details class="group border-b border-black/10">
           <summary
-            class="flex min-h-14 cursor-pointer list-none items-center justify-between py-3 text-xl font-medium text-charcoal focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-mist-700 [&::-webkit-details-marker]:hidden"
+            class="flex min-h-14 cursor-pointer list-none items-center justify-between py-3 text-xl text-charcoal [-webkit-tap-highlight-color:transparent] [&::-webkit-details-marker]:hidden focus:outline-none md:focus-visible:outline-2 md:focus-visible:outline-offset-2 md:focus-visible:outline-mist-700"
           >
             SAFARIS
             <svg
@@ -280,7 +287,7 @@
             >
             <a
               href="/kruger-national-park/photographic-safari/"
-              class="flex min-h-11 items-center text-xl font-medium text-black/75 transition-colors hover:text-mist-700"
+              class="flex min-h-11 items-center text-xl text-black/75 transition-colors hover:text-mist-700"
               >PHOTOGRAPHIC SAFARIS</a
             >
           </div>
@@ -288,22 +295,22 @@
 
         <a
           href="/kruger-national-park/"
-          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl text-charcoal transition-colors hover:text-mist-700"
           >KRUGER NATIONAL PARK</a
         >
         <a
           href="/kruger-guide/"
-          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl text-charcoal transition-colors hover:text-mist-700"
           >KRUGER GUIDES</a
         >
         <a
           href="/about/"
-          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl text-charcoal transition-colors hover:text-mist-700"
           >ABOUT</a
         >
         <a
           href="/contact/"
-          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl font-medium text-charcoal transition-colors hover:text-mist-700"
+          class="flex min-h-14 items-center border-b border-black/10 py-3 text-xl text-charcoal transition-colors hover:text-mist-700"
           >CONTACT</a
         >
 
