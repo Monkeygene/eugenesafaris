@@ -96,8 +96,26 @@
     </script>
 
     <!-- #endregion -->
-    <script type="module" crossorigin src="/assets/main-m3l7EA6j.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/main-C96CoOFB.css">
+    <style>
+      .underline-squiggle {
+        position: relative;
+        display: inline-block;
+      }
+
+      .underline-squiggle::after {
+        content: "";
+        position: absolute;
+        left: -3%;
+        bottom: -0.12em;
+        width: 106%;
+        height: 0.25em;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6 Q12 1 23 5 Q34 9 45 5 Q57 1 68 5 Q80 9 98 4' fill='none' stroke='%23fbbf24' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E")
+          no-repeat center / 100% 100%;
+        pointer-events: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/main-ClEwcm43.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-BpXV-2Xj.css">
   </head>
   <body class="antialiased">
     <!-- #region Navbar -->
@@ -368,18 +386,13 @@
           <!-- Hero text -->
           <div class="absolute inset-0 z-10 flex items-center justify-center px-6 text-center">
             <div class="max-w-4xl text-white">
-              <h1 class="mb-6 text-3xl font-barlow font-light lg:text-4xl">
-                A SLOWER, MORE PERSONAL SAFARI EXPERIENCE
+              <h1 class="mb-6 text-3xl font-gelasio font-light lg:text-4xl">
+                A Slower, more personal <span class="underline-squiggle">Kruger</span> safari experience
               </h1>
 
-              <p class="mx-auto max-w-2xl leading-relaxed">
-                Experience a Kruger National Park safari with a true Krugerholic. Your
-                <a
-                  href="/kruger-national-park/safari-all-inclusive-packages/"
-                  class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-                  >inclusive Kruger safari</a
-                >
-                booking is exclusive to you and to those who join you.
+              <p class="mx-auto text-lg max-w-2xl leading-relaxed">
+                Experience a Kruger National Park safari with a true Krugerholic. All safari bookings is exclusive to
+                you and to those who join you.
               </p>
             </div>
           </div>
@@ -389,17 +402,14 @@
       <!-- INTRO SECTION -->
       <section class="max-w-3xl mx-auto py-12 md:py-32 px-4">
         <div class="text-center text-neutral-800">
-          <h2 class="font-semibold text-2xl md:text-3xl mb-8 tracking-tight">
-            The <span class="font-bold text-4xl">KRUGER</span> Experience
+          <h2 class="font-cinzel font-medium text-2xl md:text-3xl mb-8 tracking-tight">
+            The
+            <span class="font-semibold text-4xl">KRUGER</span>
+            Experience
           </h2>
 
           <p>
-            I have been going on safari in Kruger National Park ever since my mind came to be, I've done
-            <a
-              href="/kruger-national-park/self-drive-safari/"
-              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
-              >selfdriving</a
-            >
+            I have been going on safari in Kruger National Park ever since my mind came to be, I've done selfdriving
             with the parents, I guided in Kruger for some time and even joined a few safaris. And from them all, the
             best experiences were the trips where we stayed inside Kruger National Park
             <a
@@ -432,16 +442,16 @@
           <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a
               href="/kruger-national-park/safari-all-inclusive-packages/"
-              class="px-6 py-3 border border-black rounded-xs hover:bg-black hover:text-white transition"
+              class="font-barlow font-medium px-6 py-3 border border-black rounded-sm hover:bg-black hover:text-white transition"
             >
-              View Inclusive Safari
+              INCLUSIVE SAFARI
             </a>
 
             <a
               href="/contact/"
-              class="px-6 py-3 border border-black rounded-xs hover:bg-black hover:text-white transition"
+              class="font-barlow font-medium px-6 py-3 border border-black rounded-sm hover:bg-black hover:text-white transition"
             >
-              Contact
+              CONTACT
             </a>
           </div>
         </div>
